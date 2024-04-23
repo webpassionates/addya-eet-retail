@@ -1,0 +1,43 @@
+main {
+    font-size: 1.2rem;
+    max-width: 70%;
+    margin: 12rem auto 0;
+    
+    article {
+      border-bottom: 1px solid #a6a6a6;
+
+      .article_image {
+        width: 100%;
+
+        /* &:hover {
+            width: 20%;
+        } */
+      }
+    }
+    
+    .share-buttons {
+      width: max-content;
+      margin: 2rem auto;
+      
+      a {
+        text-decoration: none;
+        color: #fdc500;
+        margin: 1rem;
+        position: relative;
+        
+        &::before {
+          content:'';
+          position: absolute;
+          background: darkblue;
+          width: 3rem;
+          height: 3rem;
+          display: inline-block;
+          border-radius: 50%;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          transform: translate(-32%, -32%);
+        }
+      }
+    }
+  }
