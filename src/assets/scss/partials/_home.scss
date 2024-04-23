@@ -12,12 +12,14 @@
   font-style: bold;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
 // Use custom fonts
 body {
   font-size: 16px;
   margin: 0;
   padding: 0;
+  font-family: 'Mulish';
 }
 
 
@@ -28,7 +30,7 @@ body {
 }
 
 .background {
-  border: 1px solid black;
+  // border: 1px solid black;
   background-image: url(../images/Hero_1.png);
   background-size: cover;
   background-position: center;
@@ -42,9 +44,53 @@ body {
   padding-top: 10px;
 
   header{
-    border: 1px solid red;
+    // border: 1px solid red;
     width: 100%;
   }
+
+  .OnImage_Content{
+    // border: 1px solid blue;
+    width: 90%;
+    padding-left: 10%;
+    padding-top: 10%;
+
+    h1{
+      font-family: "JosefinSans-Bold";
+      font-size: 72px;
+      font-weight: 700;
+      line-height: 82.8px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      color: #FFFFFF;
+    }
+    p{
+      //styleName: Heading / H5 / Semibold / Desktop;
+      font-family: "JosefinSans-Bold";
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      color: #FFFFFF;
+    }
+    button{
+      border: 2px solid white;
+      font-family: "JosefinSans-Bold";
+      opacity: 1;
+      background: transparent;
+      color: white;
+      padding: 10px 30px;
+      border-radius:  20px 0px  20px 0px;
+      cursor: pointer;
+      transition: opacity 0.3s ease;
+      font-size: 1rem;  
+
+      &:hover{
+        background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+      }
+    }
+  }
+
 }
 
 
@@ -54,6 +100,8 @@ body {
   align-items: center;
   // width: 100%;
   padding: 20px;
+  padding-left: 10%;
+  padding-right: 10%;
 
   .logo {
       img {
@@ -63,7 +111,7 @@ body {
   }
   
   .header-content-section{
-    border: 1px solid black;
+    // border: 1px solid black;
     // width: 60%;
     display: flex;
     align-items: center;
@@ -80,9 +128,9 @@ body {
           // border: 1px solid white;
           display: inline-block;
           margin-right: 20px; 
-          font-family:'Mulish-Bold';
+          font-family:'Mulish';
           font-size: 1.125rem;
-          font-weight: 700;
+          font-weight: 800;
           line-height: 28px;
           letter-spacing: -0.01em;
           text-align: center;
@@ -123,10 +171,16 @@ body {
           background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);      color: white;
           border: none;
           padding: 10px 30px;
-          border-radius: 4px;
+          border-radius:0px 20px 0px 20px;
           cursor: pointer;
           transition: opacity 0.3s ease;
           font-size: 1rem;
+
+          &:hover{
+            border: 2px solid white;
+            background: transparent;
+            transition: 0.9s ease-in-out;
+          }
         }
       }
 
