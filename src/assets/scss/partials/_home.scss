@@ -130,10 +130,22 @@ body {
           margin-right: 20px; 
           font-family:'Mulish';
           font-size: 1.125rem;
-          font-weight: 800;
+          font-weight: 700;
           line-height: 28px;
           letter-spacing: -0.01em;
           text-align: center;
+
+          a {
+            color: #fff;
+            text-decoration: none;
+
+            &:hover {
+              /* background: -webkit-linear-gradient(#eee, #333); */
+              background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+              -webkit-background-clip: text;
+              -webkit-text-fill-color: transparent;
+            }
+          }
 
           &:last-child {
             margin-right: 0; 
