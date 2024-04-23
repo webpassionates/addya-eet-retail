@@ -4,6 +4,7 @@ const cleanCSS = require('gulp-clean-css');
 const concat = require('gulp-concat');
 const uglify = require('gulp-uglify');
 const rename = require('gulp-rename');
+const fs = require('fs-extra');
 
 // Compile Sass to CSS
 function compileSass() {
@@ -32,11 +33,24 @@ function bundleJs() {
     .pipe(gulp.dest('dist/js')); // Output the bundle to the dist/js directory
 }
 
+//function copyImages() {
+//  return gulp.src('src/assets/images/**/*', { base: 'src/assets', buffer: false })
+//    .pipe(gulp.dest('dist/images'));
+//}
 function copyImages() {
-  return gulp.src('src/assets/images/**/*')
-    .pipe(gulp.dest('dist/images'));
-}
-
+    return new Promise((resolve, reject) => {
+      fs.copy('src/assets/images', 'dist/images', (err) => {
+        if (err) {
+          console.error('Error copying images:', err);
+          reject(err);
+        } else {
+          console.log('Images copied successfully!');
+          resolve();
+        }
+      });
+    });
+  }
+  
 function copyFonts() {
   return gulp.src('src/assets/fonts/**/*')
     .pipe(gulp.dest('dist/fonts'));
