@@ -1,3 +1,16 @@
+@font-face {
+  font-family: 'JosefinSans-Bold';
+  src: url('../fonts/static/JosefinSans-Bold.ttf') format('ttf');
+  font-weight: bold;
+  font-style: bold;
+}
+
+// Use custom fonts
+body {
+  font-family: 'JosefinSans-Bold', sans-serif;
+  font-size: 16px;
+}
+
 main {
     font-size: 1.2rem;
     max-width: 70%;
