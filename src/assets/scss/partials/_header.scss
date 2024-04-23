@@ -2,6 +2,7 @@ header {
     max-width: 100vw;
     position: relative;
     background: url(https://source.unsplash.com/1600x900/?people);
+    // background: url(../images/Hero_1.png);
     background-size: cover;
     padding-top: 45%;
     
@@ -16,7 +17,7 @@ header {
       width: 70%;
       box-shadow: 4px 4px 10px #001900;
       .title-container {
-        background-color: blue;
+        background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
         h1 {
             color: white;
         }

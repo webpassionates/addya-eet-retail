@@ -1,4 +1,4 @@
 $(document).ready(function() {
     // jQuery code here
-    alert("Hello Home page");
+    // alert("Hello Home page");
   });
