@@ -5,5 +5,14 @@ footer {
     
     .footer-content-container {
       text-align: center;
+
+      p {
+        font-size: 16px;
+      }
+    }
+
+    .footer-images {
+      max-width: 100%;
+      display: flex;
     }
   }
