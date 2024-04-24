@@ -1,0 +1,146 @@
+.Loan_Agree_Main_Continer{
+    // border: 1px solid red;
+    height: 986px;
+    margin: 20px;
+    border-radius: 64px ;
+    background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+
+    .Loan_Agree_Container_firstDiv{
+        // border: 1px solid red;
+        width: 100%;
+        display: flex;
+        flex-direction: row; 
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .Loan_Agree_SubParent_div{
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 60px;
+
+            .Loan_Agree_horizontal_line{
+                background-color: #D1D5DB;
+                height: 1.5px;
+                width: 60%;
+                margin-left: 20px;
+            }
+
+            p{
+                font-size: 0.875rem;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 2px;
+                text-align: left;
+                color: #ffffff;
+            }
+    
+        }
+              
+ 
+       
+    }
+
+    .Loan_Agree_Heading{
+        // border: 1px solid red;
+        padding-left: 14%;
+        padding-right: 14%;
+
+        h1{
+            font-size: 60px;
+            font-weight: 600;
+            line-height: 69px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            color: #FFFFFF;
+        }
+    }
+      
+    .Loan_Agree_DivSection{
+    //    border: 1px solid black;
+       width: 85%;
+       margin: auto;
+       display: flex;
+       justify-content: space-evenly;
+       align-items: center;
+    //    padding-left: 14%;
+    //    padding-right: 14%;
+
+            .Loan_Agree_box {
+                width: 350px;
+                height: 450px;
+                background-color: #f0f0f0;
+                text-align: center;
+                padding: 20px;
+                position: relative;
+                border-radius: 35px;
+
+                // background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+
+
+                .Loan_Agree_DivOne {
+                    // border: 1px solid red;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+
+                    .Loan_Agree_DivOne_Heading{
+                        // border: 1px solid red;
+                        text-align: left;
+                        color: #4B5563;
+
+                        h2{
+                          font-size: 1.75rem;
+                          font-weight: 700;
+                          line-height: 20px;
+                          letter-spacing: -0.02em;
+                          text-align: left;
+                        }
+                        p{
+                            font-size: 0.875rem;
+                            font-weight: 500;
+                            line-height: 28px;
+                            letter-spacing: -0.01em;
+                            text-align: left;
+                        }
+                    }
+                    
+                }
+                .Loan_Agree_DivTwo {
+                    // border: 1px solid red;
+                    position: absolute;
+                    bottom: 5px; 
+                    left: 0;
+                    width: 100%;
+                    transition: bottom 0.3s ease; 
+                    img {
+                        width: 100%;
+                        border-radius: 30px;
+                    }
+                }
+                #arrow {
+                    // position: absolute;
+                    // bottom: 5px;
+                    // left: 50%;
+                    transform: translateX(-50%);
+                    // background-color: #99C152;
+                    color: black;
+                    display: none;
+                    transition: bottom 0.5s ease;
+                }
+                &:hover {
+                    .Loan_Agree_DivTwo {
+                        bottom: 0;
+                    }
+                    // #arrow {
+                    //     bottom: 20px; 
+                    //     display: block;
+                    // }
+                }
+            }
+    }
+      
+      
+}

@@ -1,25 +1,4 @@
-$(document).ready(function() {
-    // jQuery code here
-    // alert("Hello Home page");
-  });
-
-  // document.addEventListener('DOMContentLoaded', function() {
-  //   const dropdowns = document.querySelectorAll('.dropdown');
-  //   console.log(dropdowns,"akash");
-    
-  //   dropdowns.forEach(dropdown => {
-  //     const link = dropdown.querySelector('a');
-  //     const menu = dropdown.querySelector('.dropdown-menu');
-      
-  //     link.addEventListener('click', function(event) {
-  //       event.preventDefault();
-  //       menu.classList.toggle('open');
-  //     });
-  //   });
-  // });
-  
-
-  document.addEventListener("DOMContentLoaded", function() {
+ document.addEventListener("DOMContentLoaded", function() {
     var dropdownToggle = document.querySelector('.dropdown-toggle');
     var dropdownMenu = document.querySelector('.dropdown-menu');
 
@@ -42,5 +21,41 @@ $(document).ready(function() {
         });
     } else {
         console.error('Dropdown toggle or dropdown menu not found');
+    }
+});
+
+
+
+// for the  button silder js
+
+document.addEventListener('DOMContentLoaded', function () {
+    var akashBtn = document.getElementById('akashBtn');
+    var buntyBtn = document.getElementById('buntyBtn');
+    var slides = document.querySelectorAll('.slide');
+
+    akashBtn.addEventListener('click', function () {
+        switchSlide('akash');
+    });
+
+    buntyBtn.addEventListener('click', function () {
+        switchSlide('bunty');
+    });
+
+    var currentIndex = 0;
+    var slideInterval = setInterval(autoSwitch, 5000);
+
+    function autoSwitch() {
+        switchSlide(currentIndex % 2 === 0 ? 'akash' : 'bunty');
+        currentIndex++;
+    }
+
+    function switchSlide(slideName) {
+        slides.forEach(function (slide) {
+            if (slide.classList.contains(slideName)) {
+                slide.style.opacity = '1';
+            } else {
+                slide.style.opacity = '0';
+            }
+        });
     }
 });
