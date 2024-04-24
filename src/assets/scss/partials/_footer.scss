@@ -1,6 +1,21 @@
+ // background-color: #20559a;
+  // color: #ffffff;
+  // width: 100%;
+  // height: auto;
+  // display: flex;
+  // flex-wrap: wrap;
+  // justify-content: center; // Center the columns horizontally
+  // padding-top: 10%;
+  // padding-bottom: 5%;
+
+  // .column {
+  //   width: 80%; // Set each column width to 80% of the container width
+  //   max-width: 200px; // Optionally, set a maximum width for each column
+  //   padding: 0 5%; // Add left and right padding to each column
+  //   margin: 0 auto; // Center the columns horizontally
+
 
 .footer {
-  // border: 1px solid red;
   background-color: #20559a;
   color: #ffffff;
   width: 100%;
@@ -12,123 +27,102 @@
   padding-top: 10%;
   padding-bottom: 5%;
 
-}
 
-.column {
-  // border: 1px solid red;
-  flex: 1;
-  align-items: flex-start; 
-  padding: 10px; 
+  .column {
+    flex: 1;
+    align-items: flex-start; 
+    padding: 10px; 
+ 
 
-  .row_Logo{
-    // border: 1px solid black;
-    width: 80%;
-    margin: auto;
-    padding-bottom: 10px;
-    // img{
-    //   border: 1px solid black;
-    // }
-  }
+    .row_Logo {
+      width: 80%;
+      margin: auto;
+      padding-bottom: 10px;
+    }
 
-  p{
-    // border: 1px solid black;
-    text-align: left;
-    font-family:'Mulish-Bold';
-    font-size: 0.75rem;
-    font-weight: 600;
-    line-height: 18px;
-    letter-spacing: -0.01em;
-  }
-}
-
-.row {
-  // border: 1px solid white;
-  width: 80%;
-  margin: auto;
-  margin-bottom: 10px; 
-  text-align: center;
-  
-  h3{
-    // border: 1px solid red;
-    margin-bottom: 0px; 
-    margin-top: 0px;
-    font-family: 'JosefinSans-Bold';
-    font-size: 1rem;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: -0.01em;
-  }
-  .row_sub{
-    // border: 1px solid red;
-    width: 80%;
-    margin: auto;
-    p{
-      font-family:'Mulish-Bold';
+    p {
+      text-align: left;
       font-size: 0.75rem;
       font-weight: 600;
       line-height: 18px;
       letter-spacing: -0.01em;
-      text-align: center;
+    }
+
+    .row {
+      width: 80%;
       margin: auto;
+      margin-bottom: 10px; 
+      text-align: left;
+      
+      h3 {
+        margin-bottom: 0px; 
+        margin-top: 0px;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+      }
+
+      .row_sub {
+        width: 80%;
+        margin: auto;
+        p {
+          font-size: 0.75rem;
+          font-weight: 600;
+          line-height: 18px;
+          letter-spacing: -0.01em;
+          text-align: left;
+          margin: auto;
+        }
+      }
+    }
+
+    .NavigateTo_EarthGlobe {
+      width: 80%;
+      margin: auto;
+      display: flex;
+      justify-content: flex-start;
+      gap: 10px;
+      align-items: center;
+
+      img {}
+
+      p {}
+    }
+
+    .row_LastColum {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 10px;
+
+      h3 {
+        margin-top: 0px;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+      }
+    }
+
+    .row_Social_logo {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+
+    .row_QrLogo {
+      width: 80%;
+      margin: auto;
+      margin-bottom: 10px;
     }
   }
 }
 
-.NavigateTo_EarthGlobe{
-  // border: 1px solid red;
-  width: 80%;
-  margin: auto;
-  display: flex;
-  justify-content: flex-start;
-  gap: 10px;
-  align-items: center;
-  img{
-    // border: 1px solid red;
-
-  }
-  p{
-    // border: 1px solid red;
-
-  }
-}
-
-.row_LastColum{
-  // border: 1px solid red;
-  width: 80%;
-  margin: auto;
-  margin-bottom: 10px;
-  h3{
-    margin-top: 0px;
-    font-family:'Mulish-Bold';
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 24px;
-    letter-spacing: -0.01em;
-  }
-}
-.row_Social_logo{
-  width: 80%;
-  margin: auto;
-  margin-bottom: 10px;
-
-}
-.row_QrLogo{
-  width: 80%;
-  margin: auto;
-  margin-bottom: 10px;
-}
-
-
-/* Additional styling for specific elements like logos, headings, etc. */
-
-
 .footer-content-container {
   border: 1px solid #20559a;
   width: 100%;
-  // height: 50px;
   background-color: #20559a;
   color: #ffffff;
-
 
   p {
     text-align: center;
