@@ -94,6 +94,8 @@
 
         /* Styles for the carousel container */
     .carousel {
+        width: 100%; /* Ensure full width */
+        height: auto;
         padding-top: 3%;
         // $carousel-background: #f2f2f2;
         $slide-background: #ffffff;
