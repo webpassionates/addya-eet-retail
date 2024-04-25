@@ -94,7 +94,23 @@
             outline: none;
             border: none;
             margin-top: 25px;
+            display: flex;
+            align-items: center;
+            gap: 20px;
+
+            svg {
+                display: none; 
+              }
+            
+              &:hover { 
+                svg {
+                  display: block; 
+                  padding-top: 2px;
+                }
+              }
         }
+
+
         
 
     }

@@ -3,7 +3,7 @@
     // border: 1px solid red;
     width: 100%;
     height: auto;
-    padding: 110px 0px 110px 0px;
+    padding: 100px 0px 250px 0px;
 
     .ExploreNews_firstDiv{
         // border: 1px solid red;
@@ -15,7 +15,7 @@
         align-items: flex-start;
 
         .ExploreNews_SubParent_div{
-            width: 80%;
+            width: 100%;
             // border: 1px solid red;
             display: flex;
             justify-content: center;
@@ -51,7 +51,8 @@
         align-items: center;
         width: 75%;
         margin: auto;
-        margin-top: 25px;
+        margin-top: 0px;
+        margin-bottom: 60px;
 
     
       h1{
@@ -79,8 +80,10 @@
         -webkit-text-fill-color: transparent;
         padding: 16px 22.5px 16px 22.5px;
         border-radius: 0 20px 0 20px;
-    outline: none;
-
+        border-image: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) 30;
+        border-width: 2px;
+        border-style: solid;
+        border-image-slice: 1;
 
       }
         

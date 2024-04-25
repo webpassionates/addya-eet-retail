@@ -24,6 +24,7 @@ body {
 
 
 .container {
+  // border: 1px solid red;
   position: relative;
   max-width: 100%; 
   margin: 0 auto; 
@@ -73,25 +74,59 @@ body {
       text-align: left;
       color: #FFFFFF;
     }
-    button{
+    // button{
+    //   border: 2px solid white;
+    //   font-family: "JosefinSans-Bold";
+    //   opacity: 1;
+    //   background: transparent;
+    //   color: white;
+    //   padding: 10px 30px;
+    //   border-radius:  20px 0px  20px 0px;
+    //   cursor: pointer;
+    //   transition: opacity 0.3s ease;
+    //   font-size: 1rem;  
+
+    //   &:hover{
+    //     // background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+    //     background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+    //     -webkit-background-clip: text;
+    //     -webkit-text-fill-color: transparent;
+    //   }
+    // }
+
+    button {
       border: 2px solid white;
       font-family: "JosefinSans-Bold";
       opacity: 1;
       background: transparent;
       color: white;
       padding: 10px 30px;
-      border-radius:  20px 0px  20px 0px;
+      border-radius: 20px 0px 20px 0px;
       cursor: pointer;
       transition: opacity 0.3s ease;
-      font-size: 1rem;  
-
-      &:hover{
-        // background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+      font-size: 1rem;
+      position: relative; // Add position relative to the button container
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      
+      svg {
+        display: none; // Hide the SVG by default
+      }
+    
+      &:hover {
         background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
+    
+        svg {
+          display: block; // Show the SVG on hover
+        }
       }
     }
+    
+
+    
   }
 
 }
