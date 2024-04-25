@@ -29,23 +29,23 @@
 // for the  button silder js
 
 document.addEventListener('DOMContentLoaded', function () {
-    var akashBtn = document.getElementById('akashBtn');
-    var buntyBtn = document.getElementById('buntyBtn');
+    var bgOneBtn = document.getElementById('bgOneBtn');
+    var bgTwoBtn = document.getElementById('bgTwoBtn');
     var slides = document.querySelectorAll('.slide');
 
-    akashBtn.addEventListener('click', function () {
-        switchSlide('akash');
+    bgOneBtn.addEventListener('click', function () {
+        switchSlide('bgOne');
     });
 
-    buntyBtn.addEventListener('click', function () {
-        switchSlide('bunty');
+    bgTwoBtn.addEventListener('click', function () {
+        switchSlide('bgTwo');
     });
 
     var currentIndex = 0;
     var slideInterval = setInterval(autoSwitch, 5000);
 
     function autoSwitch() {
-        switchSlide(currentIndex % 2 === 0 ? 'akash' : 'bunty');
+        switchSlide(currentIndex % 2 === 0 ? 'bgOne' : 'bgTwo');
         currentIndex++;
     }
 
@@ -59,3 +59,43 @@ document.addEventListener('DOMContentLoaded', function () {
         });
     }
 });
+
+
+$(document).ready(function(){
+    $('.slider').slick({
+        slidesToShow: 1,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 10000, // 10 seconds autoplay
+        arrows: false,
+        dots: false,
+        pauseOnHover: false,
+        pauseOnFocus: false,
+        rtl: true, // Right to left slide direction
+        adaptiveHeight: true // Automatically adjust height
+    });
+
+    // Custom function to adjust slide on button click
+    $('#bgOneBtn').click(function(){
+        $('.slider').slick('slickGoTo', 0);
+    });
+
+    $('#bgTwoBtn').click(function(){
+        $('.slider').slick('slickGoTo', 1);
+    });
+});
+
+
+function switchSlide(slideName) {
+    slides.forEach(function (slide) {
+        if (slide.classList.contains(slideName)) {
+            slide.style.opacity = '1';
+            slide.style.transform = 'translateX(0)'; // Move slide to initial position
+        } else {
+            slide.style.opacity = '0';
+            slide.style.transform = 'translateX(100%)'; // Move slide out of view
+        }
+    });
+}
+
+

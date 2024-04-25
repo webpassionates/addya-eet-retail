@@ -21,6 +21,7 @@
     "sass": "^1.75.0"
   },
   "dependencies": {
-    "fs-extra": "^11.2.0"
+    "fs-extra": "^11.2.0",
+    "slick-carousel": "^1.8.1"
   }
 }

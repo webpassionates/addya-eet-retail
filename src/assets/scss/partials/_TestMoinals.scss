@@ -1,0 +1,140 @@
+.TestMoinals_Container{
+    // border: 1px solid red;
+    width: 100%;
+    height: auto;
+    padding: 110px 0px 110px 0px;
+    border-radius: 64px ;
+    background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0%, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
+    margin-bottom: 50px;
+
+    .TestMoinals_firstDiv{
+        width: 75%;
+        margin: auto;
+        display: flex;
+        flex-direction: row; // Added
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .TestMoinals_SubParent_div{
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .TestMoinals_horizontal_line{
+                background-color: rgba(209, 213, 219, 1);
+                height: 1.5px;
+                width: 100%;
+                margin-left: 20px;
+            }
+
+            p{
+                // font-family: Mulish;
+                font-size: 0.875rem;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 2px;
+                text-align: left;
+                background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                text-transform: uppercase;
+            }
+    
+        }
+    }
+     
+    .NexTAndPrev_Button{
+        // border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 75%;
+        margin: auto;
+        margin-top: 25px;
+
+    
+        h1{
+            //styleName: Heading/H1/Semibold/Desktop;
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 48px;
+            letter-spacing: -0.02em;
+            text-align: left;
+    
+            span{
+                background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+          }
+        .NextAndPrevBtns{
+            // border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .PrevBtn{
+            // border: 1px solid red;
+            width: 18px;
+            height: 18px;
+            padding: 16px;
+            border-radius: 0px 25px  0px 25px;
+            // background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+            // border-width: 2px;
+            // border-style: solid;
+            // border-image: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+            }
+        }
+        
+    }
+
+
+        /* Styles for the carousel container */
+    .carousel {
+        padding-top: 3%;
+        // $carousel-background: #f2f2f2;
+        $slide-background: #ffffff;
+        $slide-border: 1px solid #dddddd;
+        $slide-gap: 20px;
+        $slide-height: 322px;
+        $slide-padding: 20px; 
+        $slide-border-radius: 25px;
+
+
+        // .carousel {
+        //     background-color: $carousel-background;
+        //     // Add any other styles you need
+        //   }
+
+        .slide {
+            background-color: $slide-background;
+            border: $slide-border;
+            width: calc(1110px - #{$slide-gap * 2}); 
+            height: $slide-height;
+            margin: 0 $slide-gap; 
+            padding: $slide-padding; 
+            border-radius: $slide-border-radius;  
+            
+            p{
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                letter-spacing: -0.01em;
+                text-align: left;
+            }
+
+            .TestMoinals_Slide_Headig{
+                // border: 1px solid red;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 100px;
+            
+            }
+        }
+    }
+    
+}

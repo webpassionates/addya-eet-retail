@@ -6,345 +6,360 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../dist/css/style.min.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="node_modules/slick-carousel/slick/slick.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css">
     <title>EET Retail</title>
   </head>
   <body>
-    <!-- <header>
-      <div class="page-info">
+    <div class="container">
+       <!-- Header Section -->
+        <div class="background">
+            <header>
+              <div class="header-content">
+                <div class="logo">
+                  <img src="./assets/images/EET_Retail_Logo_T.png" alt="Your Logo">
+                </div>
+                <div class="header-content-section">
+                  <nav class="navigation">
+                    <ul>
+                      <li><a href="#">Who We Are</a></li>
+                      <li class="dropdown">
+                        <a href="#" class="dropdown-toggle">Our Locations 
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down" >
+                              <polyline points="6 9 12 15 18 9"></polyline>
+                          </svg>
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Location 1</a></li>
+                            <li><a href="#">Location 2</a></li>
+                            <li><a href="#">Location 3</a></li>
+                        </ul>
+                    </li>
+                      <li><a href="#">Customer Offers</a></li>
+                      <li><a href="#">Our Locations</a></li>
+                      <li><a href="#">News</a></li>
+                      <button class="search-btn">Speak To Us</button>
 
-        <div class="title-container">
-          <h1>Lorem ipsum dolor sit amet</h1>
-          <h2>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem esse
-            voluptatem impedit, sit illo, itaque pariatur voluptatibus eligendi ex
-            doloremque quod nobis minus necessitatibus similique dolores, at
-            iusto. Molestiae, eligendi?
-          </h2>
-        </div>
-        <div class="author-container">
-          <img src="https://robohash.org/the_author.png" alt="author pic" />
-          <div class="name-time">
-            <h3>The Author</h3>
-            <time datetime="2021-03-28">2021-03-28</time>
-          </div>
-          <div class="tag">
-            <a href="#">Coding</a>
-          </div>
-        </div>
-      </div>
-    </header>
-    <main>
-      <article>
-        <img src="https://robohash.org/the_author.png" class="article_image" alt="author pic" />
-        <p>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer
-          convallis vestibulum libero at dapibus. Phasellus leo quam, elementum
-          a arcu at, tempor ullamcorper purus. Aliquam bibendum diam vel nibh
-          hendrerit, cursus placerat tortor varius. Suspendisse finibus aliquet
-          luctus. Maecenas sagittis suscipit libero, at fringilla augue
-          facilisis et. Fusce mauris enim, sagittis vel dui iaculis, consequat
-          ornare quam. Nunc pellentesque semper feugiat. Proin vitae hendrerit
-          justo. Fusce sit amet facilisis urna. Maecenas accumsan nisi et
-          venenatis vehicula. Cras ullamcorper ante lorem, non bibendum erat
-          semper id. Quisque interdum turpis eu erat aliquam, vel fermentum
-          ipsum finibus. Orci varius natoque penatibus et magnis dis parturient
-          montes, nascetur ridiculus mus. Phasellus a rutrum erat. Duis pretium
-          condimentum tellus eget semper. In id egestas arcu, eu faucibus
-          sapien.
-        </p>
-        <p>
-          Pellentesque semper ultricies ex, nec pellentesque diam facilisis non.
-          Etiam sed libero quis ex laoreet vehicula. Mauris commodo vel neque ac
-          imperdiet. Nullam pulvinar placerat ligula, non rhoncus libero
-          hendrerit non. Nam hendrerit lobortis leo, ut hendrerit nisl luctus
-          sit amet. Cras nunc urna, venenatis eget a, tristique efficitur erat.
-          Mauris at magna cursus, eleifend nunc in, faucibus ex. Cras lorem
-          nunc, condimentum sagittis elit faucibus, scelerisque dictum lorem.
-          Phasellus congue feugiat metus, a posuere arcu rutrum vel. Quisque
-          cursus commodo lobortis. Vivamus ornare lectus a dui feugiat, a
-          bibendum lectus dignissim.
-        </p>
-        <p>
-          Aliquam id interdum odio, ut consequat libero. Duis euismod congue
-          suscipit. Duis vel hendrerit leo. Nulla nisl erat, fringilla quis
-          lorem sit amet, convallis dapibus leo. Duis sed ipsum tempus, lobortis
-          leo in, efficitur leo. Suspendisse potenti. Sed luctus diam eu erat
-          vulputate pulvinar. Vivamus eget mauris diam. Ut euismod mauris nec
-          lacus blandit, ac facilisis nibh lobortis. Sed gravida, odio id cursus
-          pellentesque, erat mi finibus eros, id consequat nisi metus in nulla.
-          Vivamus est eros, condimentum sed venenatis at, porttitor tempus leo.
-          Donec ac fermentum odio, at molestie sapien. Ut dictum vehicula elit,
-          in pulvinar mi consectetur id.
-        </p>
-        <p>
-          Nulla mattis sit amet magna et scelerisque. Praesent dolor lacus,
-          porttitor in dapibus malesuada, tincidunt et mauris. Aenean
-          condimentum augue nunc, eget sodales felis commodo ut. Nunc nibh
-          ipsum, posuere sit amet nisi eu, vestibulum ultricies dolor. Aliquam
-          ornare ante purus, in vehicula ipsum consequat vitae. Praesent viverra
-          risus gravida leo venenatis posuere. In elementum, eros convallis
-          fringilla facilisis, lectus nunc mollis nisi, quis consectetur quam
-          lacus maximus mi. Aliquam consequat nec neque eget imperdiet. Donec
-          hendrerit felis at malesuada pharetra. Class aptent taciti sociosqu ad
-          litora torquent per conubia nostra, per inceptos himenaeos. Donec
-          ullamcorper dictum mauris quis dapibus. Quisque sodales volutpat
-          viverra. Cras vel purus lorem.
-        </p>
-        <p>
-          Pellentesque lobortis odio ex, eu porttitor urna feugiat eget. Vivamus
-          sed porttitor magna. Aenean sed urna leo. Mauris eu lacus id urna
-          pulvinar molestie. Sed interdum, nisl et malesuada convallis, turpis
-          massa blandit quam, non convallis sem massa in dolor. Aenean elementum
-          libero ac nibh elementum interdum. Aliquam auctor urna id elit varius
-          porta. Curabitur auctor, nisi tempus molestie accumsan, massa lectus
-          auctor felis, vitae fringilla leo tellus malesuada dui. Phasellus urna
-          diam, pulvinar in ante eget, aliquet mollis mi. Vestibulum a lectus in
-          dolor tincidunt condimentum in interdum ligula. Suspendisse potenti.
-        </p>
-      </article>
-      <div class="share-buttons">
-        <a href="#" target="_blank" class="button twitter"><i class="fab fa-twitter"></i></a>
-        <a href="#" target="_blank" class="button facebook"><i class="fab fa-facebook"></i></a>
-        <a href="#"><i class="fas fa-rss"></i></a>
-        <a href="#"><i class="fas fa-link"></i></a>
-      </div>
-    </main>
-    <footer>
-      <div class="footer-content-container">
-        <p>CopyRight &#169 TheKinng96</p>
-      </div>
-    </footer> -->
-
-<div class="container">
-    <div class="background">
-        <header>
-          <div class="header-content">
-            <div class="logo">
-              <img src="./assets/images/EET_Retail_Logo_T.png" alt="Your Logo">
-            </div>
-            <div class="header-content-section">
-              <nav class="navigation">
-                <ul>
-                  <li><a href="#">Who We Are</a></li>
-                  <li class="dropdown">
-                    <a href="#" class="dropdown-toggle">Our Locations 
-                      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-down" >
-                          <polyline points="6 9 12 15 18 9"></polyline>
-                      </svg>
-                    </a>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">Location 1</a></li>
-                        <li><a href="#">Location 2</a></li>
-                        <li><a href="#">Location 3</a></li>
                     </ul>
-                </li>
-                  <li><a href="#">Customer Offers</a></li>
-                  <li><a href="#">Our Locations</a></li>
-                  <li><a href="#">News</a></li>
-                  <button class="search-btn">Speak To Us</button>
-
-                </ul>
-              </nav>
-              <div class="search-box">
-                <input type="text" class="search-input" placeholder="Search">
-                <button class="search-icon"><i class="fa fa-search"></i></button>
+                  </nav>
+                  <div class="search-box">
+                    <input type="text" class="search-input" placeholder="Search">
+                    <button class="search-icon"><i class="fa fa-search"></i></button>
+                  </div>
+                </div>
               </div>
+            </header>
+            <div class="OnImage_Content">
+              <h1>Welcome to  <br>  the future of <br> forecourt trading</h1>
+              <p>Discover the opportunities available for you</p>
+              <button>Speak To Us</button>
             </div>
-          </div>
-        </header>
-        <div class="OnImage_Content">
-          <h1>Welcome to  <br>  the future of <br> forecourt trading</h1>
-          <p>Discover the opportunities available for you</p>
-          <button>Speak To Us</button>
         </div>
-    </div>
 
-    <!-- Refienry Section -->
-     <section>
-        <div class="Refinery_Container">
-          <div class="Refinery_Container_firstDiv">
-              <div class="SubParent_div">
-                <p>Discover who we are</p>
-                <div class="Refinery_horizontal_line"></div>
-              </div>
-          </div>
-          <div class="Refinery_Container_SecondDiv">
-              <h2>From refinery to <br><span>forecourt</span></h2>
-              <p>EET Fuels stands at a unique crossroads of capability and innovation. We are a leading fuels manufacturer, distributor, and retailer and possess an unparalleled ability to meet the needs of the UK fuel retailers.</p>
-              <button class="button">Find out more</button>
-          </div>
-      </div>
-     </section>
-
-     <!-- Slider Section -->
-     <section>
-         <div class="Home_Slider">
-            <div class="Home_Slider_Cntainer">
-              <div class="Home_slide"><img src="./assets/images/Slide_1.png" alt="Image 1"></div>
-              <div class="Home_slide"><img src="./assets/images/Slide_1.png" alt="Image 2"></div>
-              <div class="Home_slide"><img src="./assets/images/Slide_1.png" alt="Image 3"></div>
-              <div class="Home_slide"><img src="./assets/images/Slide_1.png" alt="Image 1"></div>
-              <div class="Home_slide"><img src="./assets/images/Slide_1.png" alt="Image 2"></div>
-              <div class="Home_slide"><img src="./assets/images/Slide_1.png" alt="Image 3"></div>
-            </div>
-          </div>
-     </section>
-
-     <!-- Long Term Aggrement -->
-     <section> 
-        <div class="Loan_Agree_Main_Continer">
-          <div class="Loan_Agree_Container_firstDiv">
-            <div class="Loan_Agree_SubParent_div">
-                <p>Discover who we are</p>
-                <div class="Loan_Agree_horizontal_line"></div>
-            </div>
-          </div>
-          <div class="Loan_Agree_Heading">
-            <h1>Long-term agreements, <br>designed to deliver greater value</h1>
-          </div>
-          <div class="Loan_Agree_DivSection">
-            <div class="Loan_Agree_box" id="box">
-              <div class="Loan_Agree_DivOne">
-                <div class="Loan_Agree_DivOne_Heading">
-                  <h2>Leasing Offer</h2>
-                  <p>Competitive and long-term rental return</p>
-                </div>
-                <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow" id="arrow">
-                <!-- <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M15.1541 15.8069C14.7922 15.8069 14.4637 15.6602 14.2261 15.4227C13.9885 15.1851 13.8418 14.8566 13.8418 14.4946L13.8418 4.67039L2.28071 16.2315C1.76843 16.7438 0.937831 16.7447 0.424623 16.2315C-0.0885864 15.7183 -0.0876576 14.8877 0.424623 14.3754L11.9857 2.8143L2.16151 2.8143C1.43578 2.8143 0.849196 2.22772 0.849196 1.50199C0.849196 0.776255 1.43578 0.189672 2.16151 0.189672L15.1523 0.189672C15.3249 0.189672 15.4947 0.223904 15.6562 0.290723C15.9764 0.423434 16.2327 0.679723 16.3654 0.999898C16.4322 1.16138 16.4665 1.33118 16.4665 1.5038L16.4665 14.4946C16.4665 15.2203 15.8799 15.8069 15.1541 15.8069Z" fill="url(#paint0_linear_11135_810)"/>
-                    <defs>
-                    <linearGradient id="paint0_linear_11135_810" x1="8.65649" y1="-6.84961" x2="23.4757" y2="9.44167" gradientUnits="userSpaceOnUse">
-                    <stop stop-color="#5F8AC7"/>
-                    <stop offset="0.175334" stop-color="#5F8AC7"/>
-                    <stop offset="0.487847" stop-color="#78A293"/>
-                    <stop offset="0.82" stop-color="#99C152"/>
-                    <stop offset="1" stop-color="#A6CE39"/>
-                    </linearGradient>
-                    </defs>
-                  </svg> -->
-              </div>
-              <div class="Loan_Agree_DivTwo">
-                <img src="./assets/images/Loan_agree_image1.png" alt="Fuel Pump">
-              </div>
-            </div>
-
-            <div class="Loan_Agree_box" id="box">
-              <div class="Loan_Agree_DivOne">
-                <div class="Loan_Agree_DivOne_Heading">
-                  <h2>Contract Manager Offer</h2>
-                  <p>The platform and support you need</p>
-                </div>
-                <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow" id="arrow">
-              </div>
-              <div class="Loan_Agree_DivTwo">
-                <img src="./assets/images/Loan_agree_image3.png" alt="Contract MAnager">
-              </div>
-            </div>
-
-            <div class="Loan_Agree_box" id="box">
-              <div class="Loan_Agree_DivOne">
-                <div class="Loan_Agree_DivOne_Heading">
-                  <h2>Dealer Offer</h2>
-                  <p>Our network built around the needs of your business</p>
-                </div>
-                <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow" id="arrow">
-              </div>
-              <div class="Loan_Agree_DivTwo">
-                <img src="./assets/images/Loan_agree_image2.png" alt="Fuel Truck">
-              </div>
-            </div>
-
-            
-          </div>
-        </div>
-     </section>
-
-     <!-- Explore Customer  Offer -->
-     <!-- <section>
-         <div class="Explore_Cusomer_Offer_Containar">
-             <div class="Explore_Cusomer_Offer_Heading">
-                <div class="Explore_Cusomer_Offer_firstDiv">
-                  <div class="Explore_Cusomer_Offer_SubParentDiv">
+        <!-- Refienry Section -->
+        <section>
+            <div class="Refinery_Container">
+              <div class="Refinery_Container_firstDiv">
+                  <div class="SubParent_div">
                     <p>Discover who we are</p>
-                    <div class="Explore_Cusomer_Offer_horizontal_line"></div>
+                    <div class="Refinery_horizontal_line"></div>
+                  </div>
+              </div>
+              <div class="Refinery_Container_SecondDiv">
+                  <h2>From refinery to <br><span>forecourt</span></h2>
+                  <p>EET Fuels stands at a unique crossroads of capability and innovation. We are a leading fuels manufacturer, distributor, and retailer and possess an unparalleled ability to meet the needs of the UK fuel retailers.</p>
+                  <button class="button">Find out more</button>
+              </div>
+          </div>
+        </section>
+
+        <!-- Slider Section -->
+        <section>
+            <div class="Home_Slider">
+                <div class="Home_Slider_Cntainer">
+                  <div class="Home_slide"><img src="./assets/images/Slide_1.png" alt="Image 1"></div>
+                  <div class="Home_slide"><img src="./assets/images/Slide_1.png" alt="Image 2"></div>
+                  <div class="Home_slide"><img src="./assets/images/Slide_1.png" alt="Image 3"></div>
+                  <div class="Home_slide"><img src="./assets/images/Slide_1.png" alt="Image 1"></div>
+                  <div class="Home_slide"><img src="./assets/images/Slide_1.png" alt="Image 2"></div>
+                  <div class="Home_slide"><img src="./assets/images/Slide_1.png" alt="Image 3"></div>
                 </div>
+              </div>
+        </section>
+
+        <!-- Long Term Aggrement -->
+        <section> 
+            <div class="Loan_Agree_Main_Continer">
+              <div class="Loan_Agree_Container_firstDiv">
+                <div class="Loan_Agree_SubParent_div">
+                    <p>Discover who we are</p>
+                    <div class="Loan_Agree_horizontal_line"></div>
                 </div>
-                <div class="Explore_Cusomer_Offer_SecondDiv">
-                  <h2>A fresh approach to <br><span>forecourt convenience</span></h2>
+              </div>
+              <div class="Loan_Agree_Heading">
+                <h1>Long-term agreements, <br>designed to deliver greater value</h1>
+              </div>
+              <div class="Loan_Agree_DivSection">
+                <div class="Loan_Agree_box" id="box">
+                  <div class="Loan_Agree_DivOne">
+                    <div class="Loan_Agree_DivOne_Heading">
+                      <h2>Leasing Offer</h2>
+                      <p>Competitive and long-term rental return</p>
+                    </div>
+                    <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow" id="arrow">
+                    <!-- <svg width="17" height="17" viewBox="0 0 17 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.1541 15.8069C14.7922 15.8069 14.4637 15.6602 14.2261 15.4227C13.9885 15.1851 13.8418 14.8566 13.8418 14.4946L13.8418 4.67039L2.28071 16.2315C1.76843 16.7438 0.937831 16.7447 0.424623 16.2315C-0.0885864 15.7183 -0.0876576 14.8877 0.424623 14.3754L11.9857 2.8143L2.16151 2.8143C1.43578 2.8143 0.849196 2.22772 0.849196 1.50199C0.849196 0.776255 1.43578 0.189672 2.16151 0.189672L15.1523 0.189672C15.3249 0.189672 15.4947 0.223904 15.6562 0.290723C15.9764 0.423434 16.2327 0.679723 16.3654 0.999898C16.4322 1.16138 16.4665 1.33118 16.4665 1.5038L16.4665 14.4946C16.4665 15.2203 15.8799 15.8069 15.1541 15.8069Z" fill="url(#paint0_linear_11135_810)"/>
+                        <defs>
+                        <linearGradient id="paint0_linear_11135_810" x1="8.65649" y1="-6.84961" x2="23.4757" y2="9.44167" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#5F8AC7"/>
+                        <stop offset="0.175334" stop-color="#5F8AC7"/>
+                        <stop offset="0.487847" stop-color="#78A293"/>
+                        <stop offset="0.82" stop-color="#99C152"/>
+                        <stop offset="1" stop-color="#A6CE39"/>
+                        </linearGradient>
+                        </defs>
+                      </svg> -->
+                  </div>
+                  <div class="Loan_Agree_DivTwo">
+                    <img src="./assets/images/Loan_agree_image1.png" alt="Fuel Pump">
+                  </div>
                 </div>
-                <div class="Explore_Cusomer_Offer_ThirdDiv">
-                  <button id="akashBtn" class="button">Akash</button>
-                  <button id="buntyBtn" class="button">Bunty</button>
-                  <div class="slider">
-                      <div class="slide akash">
-                          <div class="content">
-                              <h2>Akash Content</h2>
-                              <p>This is Akash's content.</p>
-                              <button>Button</button>
-                          </div>
+
+                <div class="Loan_Agree_box" id="box">
+                  <div class="Loan_Agree_DivOne">
+                    <div class="Loan_Agree_DivOne_Heading">
+                      <h2>Contract Manager Offer</h2>
+                      <p>The platform and support you need</p>
+                    </div>
+                    <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow" id="arrow">
+                  </div>
+                  <div class="Loan_Agree_DivTwo">
+                    <img src="./assets/images/Loan_agree_image3.png" alt="Contract MAnager">
+                  </div>
+                </div>
+
+                <div class="Loan_Agree_box" id="box">
+                  <div class="Loan_Agree_DivOne">
+                    <div class="Loan_Agree_DivOne_Heading">
+                      <h2>Dealer Offer</h2>
+                      <p>Our network built around the needs of your business</p>
+                    </div>
+                    <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow" id="arrow">
+                  </div>
+                  <div class="Loan_Agree_DivTwo">
+                    <img src="./assets/images/Loan_agree_image2.png" alt="Fuel Truck">
+                  </div>
+                </div>
+
+                
+              </div>
+            </div>
+        </section>
+
+        <!-- Explore Customer  Offer -->
+        <section>
+            <div class="Explore_Cusomer_Offer_Containar">
+                <div class="Explore_Cusomer_Offer_Heading">
+                    <div class="Explore_Cusomer_Offer_firstDiv">
+                      <div class="Explore_Cusomer_Offer_SubParentDiv">
+                        <p>Discover who we are</p>
+                        <div class="Explore_Cusomer_Offer_horizontal_line"></div>
+                    </div>
+                    </div>
+                    <div class="Explore_Cusomer_Offer_SecondDiv">
+                      <h2>A fresh approach to <br><span>forecourt convenience</span></h2>
+                    </div>
+                    <div class="Explore_Cusomer_Offer_Button">
+                      <button id="bgOneBtn" class="button btn1">Essar 99</button>
+                      <button id="bgTwoBtn" class="button btn2">Convenience</button>
+                      <!-- <button class="btn1">Btn 1</button>
+                      <button class="btn2">Btn 2</button> -->
+                    </div>
+                  </div>
+                  <div class="Explore_Cusomer_Offer_ThirdDiv">
+                    <div class="slider">
+                        <div class="slide bgOne">
+                            <div class="content">
+                                <h2>Essar 99</h2>
+                                <p>Our new high-octane fuel is competitively priced and designed to meet your vehicle's needs, ensuring efficiency and reliability. </p>
+                                <button>Find out more</button>
+                            </div>
+                        </div>
+                        <div class="slide bgTwo">
+                            <div class="content">
+                                <h2>Convenience</h2>
+                                <p>Our new high-octane fuel is competitively priced and designed to meet your vehicle's needs, ensuring efficiency and reliability. </p>
+                                <button>Find out more</button>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+             </div>
+        </section>
+
+
+        <!-- Visit US Today -->
+        <section>
+              <div class="VisitUs_Today_Container">
+                  <div class="VisitUs_Today_DivOne">
+                      <div class="VisitUs_Today_firstDiv">
+                        <div class="VisitUs_Today_SubParent_div">
+                          <p>strategic PRESENCE</p>
+                          <div class="VisitUs_Today_horizontal_line"></div>
+                        </div>
                       </div>
-                      <div class="slide bunty">
-                          <div class="content">
-                              <h2>Bunty Content</h2>
-                              <p>This is Bunty's content.</p>
-                              <button>Button</button>
-                          </div>
+                      <div class="Refinery_Container_SecondDiv">
+                          <h2>Visit us <br><span>today</span></h2>
+                          <p>Whether you're navigating the daily commute, planning a long-distance trip, or simply need to refuel quickly, you can find your nearest Essar service station with our forecourt locator.</p>
+                          <button class="button">Explore our network</button>
                       </div>
                   </div>
-          
+                  <div class="VisitUs_Today_DivTwo">
+                      <img src="./assets/images/VisitUsMap.png" alt="Visit Map">
+                  </div>
+              </div>
+        </section>
+
+        <!-- TestMoinals Section -->
+        <section>
+            <div class="TestMoinals_Container">
+                <div class="TestMoinals_firstDiv">
+                  <div class="TestMoinals_SubParent_div">
+                    <p>testimonials</p>
+                    <div class="TestMoinals_horizontal_line"></div>
+                  </div>
                 </div>
-             </div>
-         </div>
-     </section> -->
+              
+                <div class="NexTAndPrev_Button">
+                  <h1>What our <span>customers say</span></h1>
+                  <div class="NextAndPrevBtns">
+                    <div class="PrevBtn">
+                      <img class="prev-btn" src="./assets/images/TestmonialPrev.png" alt="prev">
+                    </div>
+                    <div class="PrevBtn">
+                      <img class="next-btn" src="./assets/images/TestmonialNext.png" alt="next">
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel" data-flickity='{ "wrapAround": true, "pageDots": false }'>
+                  <div class="slide">
+                    <p>“ We signed a contract with ESSAR to rebrand our forecourt about 18 months ago. It has been a roaring success with our volumes sold increasing across Diesel and Unleaded plus the supreme fuels. We have had great feedback from our customers regarding the look of the forecourt which especially at night, when lit up, looks very impressive.
+    We look back at the decision to move to ESSAR with great pleasure as it is a partnership which is going from strength to strength! ”</p>
+                    <div class="TestMoinals_Slide_Headig">
+                      <img src="./assets/images/Testmonials_Logo.png" alt="Sign Logo">
+                      <h3>D. A. Roberts Fuels Limited</h3>
+                    </div>
+                  </div>
+                  <div class="slide">
+                    <p>“ We signed a contract with ESSAR to rebrand our forecourt about 18 months ago. It has been a roaring success with our volumes sold increasing across Diesel and Unleaded plus the supreme fuels. We have had great feedback from our customers regarding the look of the forecourt which especially at night, when lit up, looks very impressive.
+    We look back at the decision to move to ESSAR with great pleasure as it is a partnership which is going from strength to strength! ”</p>
+                    <div class="TestMoinals_Slide_Headig">
+                      <img src="./assets/images/Testmonials_Logo.png" alt="Sign Logo">
+                      <h3>D. A. Roberts Fuels Limited</h3>
+                    </div>              </div>
+                  <div class="slide">
+                    <p>“ We signed a contract with ESSAR to rebrand our forecourt about 18 months ago. It has been a roaring success with our volumes sold increasing across Diesel and Unleaded plus the supreme fuels. We have had great feedback from our customers regarding the look of the forecourt which especially at night, when lit up, looks very impressive.
+    We look back at the decision to move to ESSAR with great pleasure as it is a partnership which is going from strength to strength! ”</p>
+                    <div class="TestMoinals_Slide_Headig">
+                      <img src="./assets/images/Testmonials_Logo.png" alt="Sign Logo">
+                      <h3>D. A. Roberts Fuels Limited</h3>
+                    </div>              </div>
+                </div>
+        </section>
+
+        <!-- Explore News And Update Section -->
+        <section>
+            <div class="ExploreNews_Continer">
+                <div class="ExploreNews_firstDiv">
+                  <div class="ExploreNews_SubParent_div">
+                    <p>newsroom</p>
+                    <div class="ExploreNews_horizontal_line"></div>
+                  </div>
+                </div>
+              
+                <div class="ExploreNews_Button">
+                    <h1>Explore our latest <span>news and updates</span></h1>
+                    <button>View all updates</button>
+                </div>
+
+                <div class="ExploreNews_NewsSection">
+                      <div class="ExploreNews_BoxOne">
+                          <img src="./assets/images/News.png" alt="news">
+                          <p>Essar will be the exclusive Motor Fuel Partner at Retail's Best Forecourt & Convenience event on 16 May, 2024. See you there! </p>
+                      </div>
+                      <div class="ExploreNews_BoxOne">
+                          <img src="./assets/images/News.png" alt="news">
+                          <p>Essar will be the exclusive Motor Fuel Partner at Retail's Best Forecourt & Convenience event on 16 May, 2024. See you there! </p>
+                      </div>
+                      <div class="ExploreNews_BoxOne">
+                          <img src="./assets/images/News.png" alt="news">
+                          <p>Essar will be the exclusive Motor Fuel Partner at Retail's Best Forecourt & Convenience event on 16 May, 2024. See you there! </p>
+                      </div>
+                </div>
+            </div>
+        </section>
 
 
-     <!-- Footer Section -->
-      <footer>
-        <div class="footer">
-          <div class="column">
-            <div class="row_Logo">
-              <img src="./assets/images/EET_Retail_Logo_T.png" alt="Logo">
+        <!-- Invite Section -->
+        <section>
+            <div class="InviteContiner">
+                <p>We invite you to join our growing network and benefit from our secure supply of quality fuels, value driven partnerships, and innovative retail solutions. </p>
+                <button>Speak to us</button>
             </div>
-            <p class="row"> is the trading name for Essar Oil (UK) Limited, a company registered in England and Wales with company registration number 07071400 and registered office at 5th Floor, the Administration Building, Stanlow Manufacturing Complex, Ellesmere Port, Cheshire, CH65 4HB. © Essar Oil (UK) Limited 2024.</p>
-            <div class="NavigateTo_EarthGlobe">
-              <img src="./assets/images/earth_globe_fooer.png" alt="Logo">
-              <p >  Website</p>
-              <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow_Logo">
-            </div>
-          </div>
-          <div class="column">
-            <div class="row"><h3>Who We Are</h3></div>
-            <div class="row">
-              <h3>Leasing Offer</h3>
-              <div class="row_sub"><p>footer_main</p> </div>
-              <div class="row_sub"><p>footer_main</p> </div>
-              <div class="row_sub"><p>footer_main</p> </div>
-            </div>
-            <div class="row"><h3>Leasing Offer</h3></div>
-          </div>
-          <div class="column">
-            <div class="row"><h3>Who We Are</h3></div>
-            <div class="row"><h3>Leasing Offer</h3></div>
-            <div class="row"><h3>News</h3></div>
-          </div>
-          <div class="column">
-            <div class="row_LastColum"><h3>Another row</h3></div>
-            <div class="row_Social_logo">
-              <img src="./assets/images/Linkdin_footer.png" alt="LinkedIn Logo">
-            </div>
-            <div class="row_QrLogo">
-              <img src="./assets/images/qr_code_footer.png" alt="QrCode Logo">
-            </div>
-          </div>
-        </div>
-        <!-- <div class="footer-content-container">
-          <p>© Copyright 2023 Master Wire kit.</p>
-        </div> -->
-      </footer>
-      
+        </section>
 
-</div>
+
+
+        <!-- Footer Section -->
+          <footer>
+            <div class="footer">
+              <div class="column">
+                <div class="row_Logo">
+                  <img src="./assets/images/EET_Retail_Logo_T.png" alt="Logo">
+                </div>
+                <p class="row"> is the trading name for Essar Oil (UK) Limited, a company registered in England and Wales with company registration number 07071400 and registered office at 5th Floor, the Administration Building, Stanlow Manufacturing Complex, Ellesmere Port, Cheshire, CH65 4HB. © Essar Oil (UK) Limited 2024.</p>
+                <div class="NavigateTo_EarthGlobe">
+                  <img src="./assets/images/earth_globe_fooer.png" alt="Logo">
+                  <p >  Website</p>
+                  <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow_Logo">
+                </div>
+              </div>
+              <div class="column">
+                <div class="row"><h3>Who We Are</h3></div>
+                <div class="row">
+                  <h3>Leasing Offer</h3>
+                  <div class="row_sub"><p>footer_main</p> </div>
+                  <div class="row_sub"><p>footer_main</p> </div>
+                  <div class="row_sub"><p>footer_main</p> </div>
+                </div>
+                <div class="row"><h3>Leasing Offer</h3></div>
+              </div>
+              <div class="column">
+                <div class="row"><h3>Who We Are</h3></div>
+                <div class="row"><h3>Leasing Offer</h3></div>
+                <div class="row"><h3>News</h3></div>
+              </div>
+              <div class="column">
+                <div class="row_LastColum"><h3>Another row</h3></div>
+                <div class="row_Social_logo">
+                  <img src="./assets/images/Linkdin_footer.png" alt="LinkedIn Logo">
+                </div>
+                <div class="row_QrLogo">
+                  <img src="./assets/images/qr_code_footer.png" alt="QrCode Logo">
+                </div>
+              </div>
+            </div>
+            <!-- <div class="footer-content-container">
+              <p>© Copyright 2023 Master Wire kit.</p>
+            </div> -->
+          </footer>
+          
+
+    </div>
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../dist/js/bundle.min.js"></script>
+    <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
+
   </body>
 </html>
