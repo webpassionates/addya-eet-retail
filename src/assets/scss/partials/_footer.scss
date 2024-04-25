@@ -26,6 +26,8 @@
   align-items: flex-start;
   padding-top: 10%;
   padding-bottom: 5%;
+  position: relative;
+  z-index: -1;
 
 
   .column {
