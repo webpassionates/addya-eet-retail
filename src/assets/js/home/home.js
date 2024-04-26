@@ -85,3 +85,31 @@ document.addEventListener("DOMContentLoaded", function() {
   startSlideshow();
 });
 
+
+
+// document.addEventListener("DOMContentLoaded", function() {
+//   const slides = document.querySelectorAll('.slide');
+//   let currentSlideIndex = 0;
+
+//   // Function to start the slideshow
+//   function startSlideshow() {
+//     slides[currentSlideIndex].style.opacity = 1; // Show the first slide initially
+
+//     // Start the slideshow interval
+//     setInterval(() => {
+//       slides[currentSlideIndex].style.opacity = 0; // Hide the current slide
+//       slides[currentSlideIndex].style.transform = 'scale(1.1)'; // Scale out the current slide
+
+//       // Move to the next slide
+//       currentSlideIndex = (currentSlideIndex + 1) % slides.length;
+
+//       setTimeout(() => {
+//         slides[currentSlideIndex].style.opacity = 1; // Show the next slide after hiding the current one
+//         slides[currentSlideIndex].style.transform = 'scale(1)'; // Scale in the next slide
+//       }, 1000); // Adjust this delay to match the transition timing in CSS
+//     }, 10000); // Change slide every 10 seconds (adjust as needed)
+//   }
+
+//   // Start the slideshow
+//   startSlideshow();
+// });

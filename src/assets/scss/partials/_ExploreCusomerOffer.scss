@@ -127,13 +127,13 @@
 
                 .slide {
                     // border: 1px solid red;
-                    // width: 100%;
-                    // height: 568px;
+                    width: 100%;
+                    height: 568px;
                     position: relative;
                     background-size: cover;
                     background-position: center;
-                    width: 100%;
-                    height: 75vh;
+                    // width: 100%;
+                    // height: 75vh;
                     overflow: hidden;
                     border-radius: 35px;
 
@@ -176,7 +176,11 @@
                     text-align: left;
                     background-color: white;
                     z-index: 100;
-
+                    border-image: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+                    border-image-slice: 2;
+                    border-bottom: 4px solid transparent;
+                    
+                    
                     h2 {
                           font-size: 2.5rem;
                           font-weight: 600; 
