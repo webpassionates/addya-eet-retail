@@ -1,6 +1,6 @@
 .Explore_Cusomer_Offer_Containar{
     // border: 1px solid  black;
-    width: 98%;
+    width: 98.5%;
     height: auto;
     margin: auto;
 
@@ -108,7 +108,6 @@
     
     // slider            
     .Explore_Cusomer_Offer_ThirdDiv {
-        // border: 1px solid red;
             display: flex;
             flex-direction: column;
             align-items: center;
@@ -143,8 +142,8 @@
                         content: "";
                         width: 100%;
                         height: 100%;
-                        background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
-                        opacity: 0;
+                        // background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+                        // opacity: 0;
                         z-index: 2;
                       }
 
@@ -176,6 +175,7 @@
                     border-radius: 35px;
                     text-align: left;
                     background-color: white;
+                    z-index: 100;
 
                     h2 {
                           font-size: 2.5rem;

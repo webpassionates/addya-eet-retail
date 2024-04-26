@@ -1,8 +1,5 @@
 
-
-
-
-
+// Slider SEction code
 
 let currentIndex = 0;
 const slides = $('.slide');
