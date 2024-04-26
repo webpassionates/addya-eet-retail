@@ -84,7 +84,6 @@
             width: 18px;
             height: 18px;
             padding: 16px;
-           
             }
         }
         
@@ -138,4 +137,10 @@
         }
     }
     
+    .flickity-prev-next-button.previous {
+        display: none;
+    }
+    .flickity-prev-next-button.next {
+        display: none;
+    }
 }

@@ -1,30 +1,6 @@
-//  document.addEventListener("DOMContentLoaded", function() {
-//     var dropdownToggle = document.querySelector('.dropdown-toggle');
-//     var dropdownMenu = document.querySelector('.dropdown-menu');
-
-//     if (dropdownToggle && dropdownMenu) {
-//         dropdownToggle.addEventListener('click', function() {
-//             console.log('Dropdown toggle clicked');
-//             dropdownMenu.classList.toggle('show');
-//             document.querySelector('.arrow').classList.toggle('rotate');
-//             console.log('Dropdown menu toggled:', dropdownMenu.classList.contains('show'));
-//         });
-
-//         // Close dropdown when clicking outside
-//         document.addEventListener('click', function(e) {
-//             if (!dropdownToggle.contains(e.target)) {
-//                 console.log('Clicked outside dropdown toggle');
-//                 dropdownMenu.classList.remove('show');
-//                 document.querySelector('.arrow').classList.remove('rotate');
-//                 console.log('Dropdown menu closed');
-//             }
-//         });
-//     } else {
-//         console.error('Dropdown error');
-//     }
-// });
 
 
+// FOr NAvbar DropDown
 // j querry 
 
 $(document).ready(function() {
@@ -53,79 +29,45 @@ $(document).ready(function() {
     }
 });
 
+// HEader imaeg   chaneg  into 5sec
+
+$(document).ready(function() {
+    setTimeout(function() {
+      $('.background').addClass('second-image'); // Add class to transition to the second image
+    }, 5000); // 5000 milliseconds = 5 seconds
+  });
+
+// $(document).ready(function() {
+//     // Scale up the background image
+//     $('.background').addClass('scale-up');
+  
+//     // After 5 seconds, switch to the second image
+//     setTimeout(function() {
+//       $('.background').removeClass('scale-up'); // Remove scale-up class
+//       $('.background').addClass('fade-in'); // Apply fade-in effect
+//       $('.background').addClass('second-image'); // Switch to the second image
+//     }, 5000);
+//   });
+  
 
 
-
-// for the  button silder js
-
-document.addEventListener('DOMContentLoaded', function () {
-    var bgOneBtn = document.getElementById('bgOneBtn');
-    var bgTwoBtn = document.getElementById('bgTwoBtn');
-    var slides = document.querySelectorAll('.slide');
-
-    bgOneBtn.addEventListener('click', function () {
-        switchSlide('bgOne');
-    });
-
-    bgTwoBtn.addEventListener('click', function () {
-        switchSlide('bgTwo');
-    });
-
-    var currentIndex = 0;
-    var slideInterval = setInterval(autoSwitch, 5000);
-
-    function autoSwitch() {
-        switchSlide(currentIndex % 2 === 0 ? 'bgOne' : 'bgTwo');
-        currentIndex++;
-    }
-
-    function switchSlide(slideName) {
-        slides.forEach(function (slide) {
-            if (slide.classList.contains(slideName)) {
-                slide.style.opacity = '1';
-            } else {
-                slide.style.opacity = '0';
-            }
-        });
-    }
-});
-
+// for the  button silder js explore offer of the  Button  Slider
 
 $(document).ready(function(){
     $('.slider').slick({
-        slidesToShow: 1,
-        slidesToScroll: 1,
-        autoplay: true,
-        autoplaySpeed: 10000, // 10 seconds autoplay
-        arrows: false,
-        dots: false,
-        pauseOnHover: false,
-        pauseOnFocus: false,
-        rtl: true, // Right to left slide direction
-        adaptiveHeight: true // Automatically adjust height
+      arrows: false,
+      dots: false,
+      infinite: true,
+      speed: 500,
+      fade: false,
+      cssEase: 'linear',
     });
 
-    // Custom function to adjust slide on button click
-    $('#bgOneBtn').click(function(){
-        $('.slider').slick('slickGoTo', 0);
+    $('.prev').click(function(){
+      $('.slider').slick('slickPrev');
     });
 
-    $('#bgTwoBtn').click(function(){
-        $('.slider').slick('slickGoTo', 1);
+    $('.next').click(function(){
+      $('.slider').slick('slickNext');
     });
-});
-
-
-function switchSlide(slideName) {
-    slides.forEach(function (slide) {
-        if (slide.classList.contains(slideName)) {
-            slide.style.opacity = '1';
-            slide.style.transform = 'translateX(0)'; // Move slide to initial position
-        } else {
-            slide.style.opacity = '0';
-            slide.style.transform = 'translateX(100%)'; // Move slide out of view
-        }
-    });
-}
-
-
+  });
