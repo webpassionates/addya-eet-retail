@@ -31,24 +31,11 @@ $(document).ready(function() {
 
 // HEader imaeg   chaneg  into 5sec
 
-$(document).ready(function() {
-    setTimeout(function() {
-      $('.background').addClass('second-image'); // Add class to transition to the second image
-    }, 5000); // 5000 milliseconds = 5 seconds
-  });
-
 // $(document).ready(function() {
-//     // Scale up the background image
-//     $('.background').addClass('scale-up');
-  
-//     // After 5 seconds, switch to the second image
 //     setTimeout(function() {
-//       $('.background').removeClass('scale-up'); // Remove scale-up class
-//       $('.background').addClass('fade-in'); // Apply fade-in effect
-//       $('.background').addClass('second-image'); // Switch to the second image
-//     }, 5000);
+//       $('.background').addClass('second-image'); // Add class to transition to the second image
+//     }, 5000); // 5000 milliseconds = 5 seconds
 //   });
-  
 
 
 // for the  button silder js explore offer of the  Button  Slider
@@ -71,3 +58,30 @@ $(document).ready(function(){
       $('.slider').slick('slickNext');
     });
   });
+
+
+
+  // Hompage section one
+
+document.addEventListener("DOMContentLoaded", function() {
+  const slides = document.querySelectorAll('.slide');
+
+  // Function to start the slideshow
+  function startSlideshow() {
+    slides[0].style.opacity = 1; // Show the first slide initially
+
+    // Start the slideshow interval
+    setInterval(() => {
+      slides[0].style.opacity = 0; // Hide the first slide
+      slides[1].style.opacity = 1; // Show the second slide after 5 seconds
+      setTimeout(() => {
+        slides[1].style.opacity = 0; // Hide the second slide after 5 seconds
+        slides[0].style.opacity = 1; // Show the first slide again
+      }, 15000);
+    }, 10000); // Change slide every 10 seconds (adjust as needed)
+  }
+
+  // Start the slideshow
+  startSlideshow();
+});
+
