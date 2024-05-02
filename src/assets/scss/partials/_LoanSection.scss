@@ -132,13 +132,16 @@
               width: 100%;
               border-radius: 30px;
               transition: transform 0.3s ease;
-
+              position:absolute;
+              bottom: -14px;
+              left: 0;
             }
           }
       
           &:hover {
             .Loan_Agree_DivTwo img {
-              transform: scale(1.05);
+              // transform: scale(1.05);
+              transform: translateY(-15px);
             }
           }
         }

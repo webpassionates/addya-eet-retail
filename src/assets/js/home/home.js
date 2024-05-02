@@ -40,24 +40,58 @@ $(document).ready(function() {
 
 // for the  button silder js explore offer of the  Button  Slider
 
+// $(document).ready(function(){
+//     $('.slider').slick({
+//       arrows: false,
+//       dots: false,
+//       infinite: true,
+//       speed: 500,
+//       fade: true,
+//       cssEase: 'linear',
+//       autoplay:'true',
+//       autoplaySpeed: 3000,
+//     });
+
+//     $('.prev').click(function(){
+//       $('.slider').slick('slickPrev');
+//     });
+
+//     $('.next').click(function(){
+//       $('.slider').slick('slickNext');
+//     });
+//   });
+
 $(document).ready(function(){
-    $('.slider').slick({
-      arrows: false,
-      dots: false,
-      infinite: true,
-      speed: 500,
-      fade: false,
-      cssEase: 'linear',
-    });
-
-    $('.prev').click(function(){
-      $('.slider').slick('slickPrev');
-    });
-
-    $('.next').click(function(){
-      $('.slider').slick('slickNext');
-    });
+  $('.slider').slick({
+    arrows: false,
+    dots: false,
+    infinite: true,
+    speed: 500,
+    fade: true,
+    cssEase: 'linear',
+    autoplay: true,
+    autoplaySpeed: 3000,
   });
+  $('.prev').click(function(){
+    $('.slider').slick('slickPrev');
+    $('.prev').addClass('active');
+    $('.next').removeClass('active');
+  });
+  $('.next').click(function(){
+    $('.slider').slick('slickNext');
+    $('.next').addClass('active');
+    $('.prev').removeClass('active');
+  });
+  $('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+    if (nextSlide === 0) {
+      $('.prev').addClass('active');
+      $('.next').removeClass('active');
+    } else {
+      $('.next').addClass('active');
+      $('.prev').removeClass('active');
+    }
+  });
+});
 
 
 

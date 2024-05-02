@@ -14,6 +14,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+@import 'variable';
 // Use custom fonts
 body {
   font-size: 16px;
@@ -96,34 +97,34 @@ body {
     border: none;
 
     &::before {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
-      opacity: 0;
-      z-index: 2;
+      // position: absolute;
+      // content: "";
+      // width: 100%;
+      // height: 100%;
+      // background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+      // opacity: 0;
+      // z-index: 2;
     }
     
     img {
       position: absolute;
       width: 100%;
       height: 100%;
-      object-fit: cover;
+      // object-fit: cover;
       object-position: center center;
       z-index: 1;
     }
 
     &::after {
-      position: absolute;
-      content: "";
-      width: 100%;
-      height: 100%;
-      background: url(../images/hero-clip.svg);
-      background-repeat: no-repeat;
-      background-position: bottom center;
-      background-size: 100%;
-      z-index: 2;
+      // position: absolute;
+      // content: "";
+      // width: 100%;
+      // height: 100%;
+      // background: url(../images/hero-clip.svg);
+      // background-repeat: no-repeat;
+      // background-position: bottom center;
+      // background-size: 100%;
+      // z-index: 2;
     }
 
     .slide {
@@ -137,11 +138,11 @@ body {
     }
 
     .first-slide {
-      animation: fadeInOut 10s infinite; /* Adjust timing as needed */
+      // animation: fadeInOut 10s infinite; /* Adjust timing as needed */
     }
 
     .second-slide {
-      animation: fadeInOut 10s infinite 5s; /* Delay the animation for the second slide */
+      // animation: fadeInOut 10s infinite 5s; /* Delay the animation for the second slide */
     }
 
     @keyframes fadeInOut {
@@ -159,7 +160,7 @@ body {
       bottom: 15%;
       left: 2%;
       border-radius: 10px;
-      width: 30%;
+      // width: 30%;
       padding-left: 10%;
       // z-index: 3;
       z-index: 999;
@@ -254,7 +255,7 @@ body {
           // width: 60%;
           display: flex;
           align-items: center;
-          gap: 15px;
+          gap: 30px;
       
           .navigation { 
             ul {
@@ -534,14 +535,195 @@ body {
         }
       }
     }
-
-    
-
     
   }
 
 }
 
+.Loan_Agree_Main_Continer{
+  .Loan_Agree_Container_firstDiv{
+    .Loan_Agree_SubParent_div{
+      margin-top: 9% !important;
+      .Loan_Agree_Heading{
+        padding-left: 13% !important;
+      padding-right: 13% !important;
+      }
+    }
+  }
+}
+
+.Explore_Cusomer_Offer_Containar{
+  .Explore_Cusomer_Offer_Heading{
+    .Explore_Cusomer_Offer_SubParentDiv{
+      justify-content: left !important;
+      .Explore_Cusomer_Offer_horizontal_line{
+        width:73% !important;
+      }
+    }
+  }
+}
+
+.VisitUs_Today_Container{
+  .VisitUs_Today_DivOne{
+    width: 48% !important;
+  }
+}
+
+.TestMoinals_Container{
+  .slide{
+    display: flex;
+    align-items: center;  
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1), rgba(255, 255, 255, 1)), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%);
+    border-left: 0px !important;
+    border-right: 0px !important;
+    border-top: 0px !important;
+    border-image: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%) !important;
+    border-image-slice: 2 !important;
+    border-bottom: 4px solid transparent !important;
+    p{
+      color:$color-1;
+    }
+    .TestMoinals_Slide_Headig{
+      margin-top: unset !important;
+      h3{
+        font-size: 20px;
+      } 
+    }
+  }
+}
+
+.ExploreNews_Continer{
+  .overlay-hover {
+  position: relative;
+  overflow: hidden;
+  &:hover{
+    i{
+      transition: 1s ease-in-out;
+      transform:translateY(0px);
+      color: white;
+      font-size: 24px;
+      background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
+      padding:15px; 
+      width: 70px;
+      text-align: center;
+      border-radius: $border-radius-2;
+    }
+     .overlay{
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: $border-radius-1;
+  } }
+}  
+.ExploreNews_BoxOne img{
+  height:270px !important;
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: transparent; /* Initial transparent background */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  &:hover .overlay{
+    opacity: 1;
+  }
+  i{
+    transform:translateY(150px);
+    color: white;
+    font-size: 24px;
+    background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
+    padding:15px; 
+    width: 70px;
+    text-align: center;
+    border-radius: $border-radius-2;
+  }
+}
+.hiring-top{
+  margin-top:-80px;
+} 
+}
+
+.Loan_Agree_Main_Continer {
+  .Loan_Agree_box {
+    .fa-arrow-right {
+      display: none;
+    }
+    &:hover .fa-arrow-right {
+      display: inline-block;
+      color:#7ba58d;
+      transform: rotate(315deg);
+      font-size: 20px;
+    }
+  }
+}
+
+#slider-curve{
+  .slidercurve{
+    .curve-img{
+      margin-top: -63px;
+      z-index: 999;
+      position: absolute;
+      right: 15px;
+    }
+  }
+}
+
+.dropdown-toggle::after{
+  display: none;
+}
+
+.topSection{
+  .banner{
+    .animate-mouse{
+      right: 50%;
+      bottom: 15%;
+      z-index: 999;
+      .mouse {
+        height: 45px;
+        width: 30px;
+        border-radius: 35%;
+        border: 2px solid #fff;
+        position: relative;
+      }
+      .dot {
+        height: 4px;
+        width: 4px;
+        border-radius: 45%;
+        background-color: #fff;
+        position: absolute;
+        transform: translate(-50%, -50%);
+        left: 50%;
+        animation: moveDot 3.5s infinite;
+      }
+      @keyframes moveDot {
+        0% {
+          top: 0%; 
+        }
+        100% {
+          top: 100%;
+          width: 4px;
+          height: 4px;
+        }
+      }
+    }
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+ 
 
 
 
