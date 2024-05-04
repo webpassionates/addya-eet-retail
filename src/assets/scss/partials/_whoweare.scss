@@ -430,6 +430,44 @@ span {
   }
 }
 
+.custom-button {
+  border-radius: 4px;
+  background: linear-gradient(
+        92.86deg,
+        #5F8AC7 0%,
+        #5F8AC7 17.53%,
+        #78A293 48.78%,
+        #99C152 82%,
+        #A6CE39 100%
+      );
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 16px;
+  width: 170px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+  border-radius: 0 20px 0 20px;
+  i{
+    opacity: 0;
+    // display: none;
+   transition:  all 0.5s;
+   transform: rotate(345deg);
+   font-size: 0px;
+  }
+  &:hover{
+    width: 190px;
+  }
+}
+.custom-button:hover i{
+  opacity: 1;
+  // display: block;
+  // padding-left: 10px;
+  font-size: 18px;
+}
+
 
 
  
