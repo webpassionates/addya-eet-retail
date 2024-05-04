@@ -341,40 +341,40 @@ span {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
-    button {
-      font-size: 1rem;
-      font-weight: 600;
-      line-height: 24px;
-      letter-spacing: -0.02em;
-      text-align: left;
-      background: linear-gradient(
-        92.86deg,
-        #5F8AC7 0%,
-        #5F8AC7 17.53%,
-        #78A293 48.78%,
-        #99C152 82%,
-        #A6CE39 100%
-      );
-      padding: 16px 22.5px 16px 22.5px;
-      gap: 6px;
-      border-radius: 0px 20px 0px 20px;
-      color: #F3F4F6;
-      outline: none;
-      border: none;
-      margin-top: 25px;
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      svg {
-        display: none;
-      }
-      &:hover {
-        svg {
-          display: block;
-          padding-top: 2px;
-        }
-      }
-    }
+    // button {
+    //   font-size: 1rem;
+    //   font-weight: 600;
+    //   line-height: 24px;
+    //   letter-spacing: -0.02em;
+    //   text-align: left;
+    //   background: linear-gradient(
+    //     92.86deg,
+    //     #5F8AC7 0%,
+    //     #5F8AC7 17.53%,
+    //     #78A293 48.78%,
+    //     #99C152 82%,
+    //     #A6CE39 100%
+    //   );
+    //   padding: 16px 22.5px 16px 22.5px;
+    //   gap: 6px;
+    //   border-radius: 0px 20px 0px 20px;
+    //   color: #F3F4F6;
+    //   outline: none;
+    //   border: none;
+    //   margin-top: 25px;
+    //   display: flex;
+    //   align-items: center;
+    //   gap: 20px;
+    //   svg {
+    //     display: none;
+    //   }
+    //   &:hover {
+    //     svg {
+    //       display: block;
+    //       padding-top: 2px;
+    //     }
+    //   }
+    // }
   }
   footer {
     margin-top: 12rem;
@@ -430,43 +430,41 @@ span {
   }
 }
 
-.custom-button {
-  border-radius: 4px;
+.anim-btn {
   background: linear-gradient(
-        92.86deg,
-        #5F8AC7 0%,
-        #5F8AC7 17.53%,
-        #78A293 48.78%,
-        #99C152 82%,
-        #A6CE39 100%
-      );
-  border: none;
+    92.86deg,
+    #5F8AC7 0%,
+    #5F8AC7 17.53%,
+    #78A293 48.78%,
+    #99C152 82%,
+    #A6CE39 100%
+  );
+  border-radius: 0 20px 0 20px !important;
   color: #FFFFFF;
-  text-align: center;
-  font-size: 20px;
-  padding: 16px;
-  width: 170px;
-  transition: all 0.5s;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
   cursor: pointer;
-  margin: 5px;
-  border-radius: 0 20px 0 20px;
-  i{
+  transition: background-color 0.3s ease, padding 0.3s ease;
+  &:hover {
+    background-color: #0056B3;
+    padding: 10px 50px 10px 30px;
+  }
+  svg {
+    margin-left: 5px;
+    vertical-align: middle;
+    transition: transform 0.3s ease, opacity 0.3s ease;
     opacity: 0;
-    // display: none;
-   transition:  all 0.5s;
-   transform: rotate(345deg);
-   font-size: 0px;
+    width: 0px;
   }
-  &:hover{
-    width: 190px;
+  &:hover svg {
+    transform: translateX(20px);
+    opacity: 1;
+    width: 20px;
   }
 }
-.custom-button:hover i{
-  opacity: 1;
-  // display: block;
-  // padding-left: 10px;
-  font-size: 18px;
-}
+
+
 
 
 
