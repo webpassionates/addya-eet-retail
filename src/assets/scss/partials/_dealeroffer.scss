@@ -280,7 +280,14 @@
     .card {
       border-radius: $border-radius-6;
       height: 280px;
-      border-bottom: 4px solid #96bf57;
+      background: linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%);
+      border-left: 0 !important;
+      border-right: 0 !important;
+      border-top: 0 !important;
+      border-image: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%) !important;
+      border-image-slice: 2 !important;
+      border-bottom: 4px solid transparent !important;
+
       .testimonial-logo {
         width: 30px;
       }
@@ -384,12 +391,14 @@
         width: 32px;
         height: 32px;
         line-height: 2;
-        border-radius:32px;
+        border-radius: 32px;
       }
-      .accordian-icon{
+
+      .accordian-icon {
         position: absolute;
         right: 0;
       }
+
       .accordion__item {
         position: relative;
         list-style-type: none;
@@ -456,7 +465,8 @@
         transition: all 0.35s ease-in-out;
         line-height: 1.6;
         z-index: 2;
-        p{
+
+        p {
           font-size: 18px;
         }
       }
@@ -467,27 +477,33 @@
       }
 
     }
-    h4{
+
+    h4 {
       font-size: 28px;
     }
-    .accordian-img{
+
+    .accordian-img {
       border-radius: $border-radius-7;
     }
-    .img-thumbnail{
-      background:unset;
+
+    .img-thumbnail {
+      background: unset;
       border: none;
     }
-    .dealer-icon{
+
+    .dealer-icon {
       position: absolute;
       right: 0;
       color: #a6ce39;
-      .curve-icon{
+
+      .curve-icon {
         border: 2px solid #a6ce39;
         width: 50px;
         height: 36px;
         border-radius: 0 20px 0 20px;
       }
-      .fa-arrow-left{ 
+
+      .fa-arrow-left {
         transform: rotate(315deg);
         line-height: 2;
       }
@@ -495,8 +511,8 @@
   }
 }
 
-.footer_Continer{
-  .f-text-small{
+.footer_Continer {
+  .f-text-small {
     font-size: 14px !important;
     font-weight: 400 !important;
   }
