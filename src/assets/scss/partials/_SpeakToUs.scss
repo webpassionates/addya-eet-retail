@@ -93,7 +93,7 @@
   
       .lets_connect_SecondDiv {
         h2 {
-          font-size: 47px;
+          font-size: $fs-60;
         }
       }
       .lets_connect_ThirdDiv {
@@ -155,7 +155,7 @@
         label {
           text-transform: uppercase;
           font-family: Mulish;
-          font-size: 12px;
+          font-size: $fs-14;
           color: #fff;
           letter-spacing: 2px;
         }
@@ -187,6 +187,7 @@
           border-radius: 0 20px 0 20px;
           color: #fff;
           height: 50px;
+          font-size: $fs-16;
         }
       }
     }

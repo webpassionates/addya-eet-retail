@@ -27,11 +27,12 @@
       h2 {
         padding-left: 12%;
         font-weight: 400;
+        font-size: $fs-48;
       }
 
       p {
         padding-left: 12%;
-        font-size: 20px;
+        font-size: $fs-20;
       }
     }
   }
@@ -88,9 +89,12 @@
 
     .dealer_Container_SecondDiv {
       h2 {
-        font-size: 60px;
+        font-size: $fs-60;
         line-height: 1;
       }
+    }
+    p{
+      font-size: $fs-18;
     }
   }
 }
@@ -113,8 +117,7 @@
     align-items: flex-start;
 
     .TestMoinals_SubParent_div {
-      width: 100%;
-      // border: 1px solid red;
+      width: 100%; 
       display: flex;
       justify-content: center;
       align-items: center;
@@ -126,16 +129,12 @@
         margin-left: 20px;
       }
 
-      p {
-        // font-family: Mulish;
-        font-size: 0.875rem;
+      p { 
+        font-size: $fs-14;
         font-weight: 700;
         line-height: 20px;
         letter-spacing: 2px;
-        text-align: left;
-        // background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
-        // -webkit-background-clip: text;
-        // -webkit-text-fill-color: transparent;
+        text-align: left; 
         text-transform: uppercase;
       }
 
@@ -220,16 +219,7 @@
     $slide-gap: 20px;
     $slide-height: 322px;
     $slide-padding: 20px;
-    $slide-border-radius: 25px;
-    // $border-image: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
-    // $border-image-slice: 2;
-    // $border-bottom: 4px solid transparent;
-
-
-    // .carousel {
-    //     background-color: $carousel-background;
-    //     // Add any other styles you need
-    //   }
+    $slide-border-radius: 25px; 
 
     .slide {
       background-color: $slide-background;
@@ -238,12 +228,7 @@
       height: $slide-height;
       margin: 0 $slide-gap;
       padding: $slide-padding;
-      border-radius: $slide-border-radius;
-      // border-image: $border-image;
-      // border-image-slice:  $border-image-slice;
-      // border-bottom: $border-bottom;
-
-
+      border-radius: $slide-border-radius; 
 
       p {
         font-size: 18px;
@@ -257,8 +242,7 @@
         font-size: 20px;
       }
 
-      .TestMoinals_Slide_Headig {
-        // border: 1px solid red;
+      .TestMoinals_Slide_Headig { 
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -287,6 +271,9 @@
       border-image: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%) !important;
       border-image-slice: 2 !important;
       border-bottom: 4px solid transparent !important;
+      p{
+        font-size: $fs-18;
+      }
 
       .testimonial-logo {
         width: 30px;
@@ -329,7 +316,9 @@
         -webkit-text-fill-color: transparent;
         font-size: 32px;
       }
-
+      p{
+        font-size: $fs-18;
+      }
       .btn-primary {
         background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
         padding: 16px 22.5px 16px 22.5px;
@@ -465,10 +454,9 @@
         transition: all 0.35s ease-in-out;
         line-height: 1.6;
         z-index: 2;
-
         p {
-          font-size: 18px;
-        }
+          font-size: $fs-18;
+        } 
       }
 
       input[type="checkbox"]:checked~.accordion__content {
@@ -479,7 +467,7 @@
     }
 
     h4 {
-      font-size: 28px;
+      font-size: $fs-24;
     }
 
     .accordian-img {

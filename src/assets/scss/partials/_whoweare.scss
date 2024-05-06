@@ -96,9 +96,11 @@ span {
         h5 {
           font-weight: 800;
           color: $white;
+          font-size: $fs-18;
         }
         h6 {
           color: $white;
+          font-size: $fs-18;
         }
       }
     }
@@ -178,7 +180,7 @@ span {
 
       p {
         font-family: Mulish;
-        font-size: 0.875rem;
+        font-size: 14px;
         font-weight: 700;
         line-height: 20px;
         letter-spacing: 2px;
@@ -202,7 +204,7 @@ span {
     width: 80%;
   }
   p {
-    font-size: 1.125rem;
+    font-size: $fs-18;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: -0.01em;
@@ -210,6 +212,9 @@ span {
     color: #4b5563;
     margin-bottom: 35px;
     text-align: justify;
+  }
+  h2{
+    font-size:$fs-60;
   }
 }
 // End
@@ -238,7 +243,7 @@ span {
     }
   }
   p {
-    font-size: 1.125rem;
+    font-size: $fs-18;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: -0.01em;
@@ -246,6 +251,9 @@ span {
     color: #4b5563;
     margin-bottom: 35px;
     text-align: justify;
+  }
+  h2{
+    font-size: $fs-40;
   }
 }
 // End
@@ -274,7 +282,7 @@ span {
     }
   }
   p {
-    font-size: 1.125rem;
+    font-size: $fs-18;
     font-weight: 500;
     line-height: 28px;
     letter-spacing: -0.01em;
@@ -283,13 +291,15 @@ span {
     margin-bottom: 35px;
     text-align: justify;
   }
+  h2{
+    font-size: $fs-40;
+  }
 }
 // End
  
 // Footer Section Start
 #footer {
-  .InviteContinerr {
-    // border: 1px solid blue;
+  .InviteContinerr { 
     width: 75%;
     display: flex;
     justify-content: space-between;
@@ -325,7 +335,7 @@ span {
     }
     p {
       width: 65%;
-      font-size: 1.75rem;
+      font-size: $fs-28;
       font-weight: 700;
       line-height: 36px;
       letter-spacing: -0.02em;

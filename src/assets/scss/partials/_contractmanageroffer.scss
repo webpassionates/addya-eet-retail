@@ -28,6 +28,7 @@
                 h2 {
                     padding-left: 10%;
                     font-weight: 400;
+                    font-size: $fs-48;
                 }
 
                 p {
@@ -57,20 +58,75 @@
 
             h5 {
                 color: $color-2;
+                font-size: $fs-20;
             }
         }
     }
 
-    #footer{
-        .InviteContinerr{
+    #footer {
+        .InviteContinerr {
             bottom: 85%;
             display: unset;
-            p{
+
+            p {
                 width: unset;
+                font-size: $fs-32;
             }
-            h5{
+
+            h5 {
                 font-size: 18px;
-                color:$color-1;
+                color: $color-1;
+            }
+        }
+    }
+
+    #key-carousel {
+        .keycarousel {
+            background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%);
+            border-radius: $border-radius-5;
+            .slide-img {
+                height: 500px;
+                border-radius: $border-radius-3;
+            }
+            h2{
+                font-size: $fs-40;
+            }
+            .key-benefits-carousel {
+                height: 500px;
+                background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
+                border-radius: $border-radius-3;
+
+                .item {
+                    padding: 54px 48px 54px 48px;
+                }
+
+                .key-icon {
+                    width: 32px;
+                    height: 32px;
+                }
+                h4{
+                    font-size: $fs-40;
+                }
+                p{
+                    font-size: $fs-18;
+                }
+            }
+
+            .owl-theme {
+                .owl-nav.disabled+.owl-dots {
+                    position: absolute;
+                    bottom: 10%;
+                    left: 7%;
+
+                    .owl-dot {
+                        &.active {
+                            span {
+                                background: #FCFCFC;
+                                width: 16px;
+                            }
+                        }
+                    }
+                }
             }
         }
     }
