@@ -17,13 +17,13 @@ function changeTab(tabName) {
     selectedTabContent.classList.add("active");
     selectedTabContent.style.opacity = 1;
     document.getElementById(tabName + "Tab").classList.add("active");
-    
+
     // Hide all inner-para text
     var innerParas = document.querySelectorAll('.inner-para');
     innerParas.forEach(para => {
         para.style.display = 'none';
     });
-    
+
     // Show inner-para text only for the active tab
     var activeTabInnerPara = document.querySelector('#' + tabName + 'Tab .inner-para');
     activeTabInnerPara.style.display = 'block';
@@ -35,10 +35,20 @@ function autoSwitchTabs() {
     var currentIndex = 0;
 
     // Switch tabs every 3 seconds (adjust the interval as needed)
-    setInterval(function () {
+    var intervalId = setInterval(function () {
         changeTab(tabs[currentIndex]);
         currentIndex = (currentIndex + 1) % tabs.length;
     }, 3000); // Change tabs every 3 seconds
+
+    // Stop auto-scrolling when a tab is clicked
+    var tabLinks = document.querySelectorAll('.tab');
+    tabLinks.forEach(function(tab) {
+        tab.addEventListener('click', function() {
+            clearInterval(intervalId); // Stop auto-scrolling
+            var tabName = this.id.replace("Tab", "");
+            changeTab(tabName); // Activate clicked tab
+        });
+    });
 }
 
 // Automatically switch tabs on page load
@@ -50,4 +60,3 @@ window.onload = function () {
     var activeTabInnerPara = document.querySelector('#' + activeTabName + 'Tab .inner-para');
     activeTabInnerPara.style.display = 'block';
 };
-

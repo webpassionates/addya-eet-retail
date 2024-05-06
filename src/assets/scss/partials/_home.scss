@@ -520,41 +520,41 @@ body {
       padding-bottom: 15px;
     }
 
-    button {
-      border: 2px solid white;
-      font-family: "JosefinSans-Bold";
-      opacity: 1;
-      background: transparent;
-      color: white;
-      padding: 10px 30px;
-      border-radius: 20px 0px 20px 0px;
-      cursor: pointer;
-      transition: opacity 0.3s ease;
-      font-size: 1rem;
-      position: relative;
-      display: flex;
-      align-items: center;
-      gap: 20px;
-      font-size: 1rem;
-      font-weight: 600;
-      line-height: 24px;
-      letter-spacing: -0.02em;
+    // button {
+    //   border: 2px solid white;
+    //   font-family: "JosefinSans-Bold";
+    //   opacity: 1;
+    //   background: transparent;
+    //   color: white;
+    //   padding: 10px 30px;
+    //   border-radius: 20px 0px 20px 0px;
+    //   cursor: pointer;
+    //   transition: opacity 0.3s ease;
+    //   font-size: 1rem;
+    //   position: relative;
+    //   display: flex;
+    //   align-items: center;
+    //   gap: 20px;
+    //   font-size: 1rem;
+    //   font-weight: 600;
+    //   line-height: 24px;
+    //   letter-spacing: -0.02em;
 
 
-      svg {
-        display: none;
-      }
+    //   svg {
+    //     display: none;
+    //   }
 
-      &:hover {
-        background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
+    //   &:hover {
+    //     background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+    //     -webkit-background-clip: text;
+    //     -webkit-text-fill-color: transparent;
 
-        svg {
-          display: block;
-        }
-      }
-    }
+    //     svg {
+    //       display: block;
+    //     }
+    //   }
+    // }
 
   }
 
@@ -872,3 +872,41 @@ body {
     bottom: 6.5%;
   }
 }
+
+.anim-btn {
+  background: linear-gradient(
+    92.86deg,
+    #5f8ac7 0%,
+    #5f8ac7 17.53%,
+    #78a293 48.78%,
+    #99c152 82%,
+    #a6ce39 100%
+  );
+  border-radius: 0 20px 0 20px !important;
+  color: #ffffff;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, padding 0.3s ease;
+  &:hover {
+    background-color: #0056b3;
+    padding: 13px 24px 13px 20px;
+  }
+  svg{
+    vertical-align: middle;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+    opacity: 0;
+    width: 0px;
+    transition: all 0.5s;
+    margin-left: 5px;
+
+    
+  }
+  &:hover svg{
+    transform: translateX(1px);
+    opacity: 1;
+    width: 16px;
+  }
+}
+
