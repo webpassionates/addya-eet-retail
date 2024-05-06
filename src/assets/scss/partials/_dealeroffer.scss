@@ -300,13 +300,13 @@
 
 #join-network {
   .joinnetwork {
-    padding-top: 8%;
+    // padding-top: 8%;
 
     .network-box {
       background: #e4ece8;
-      position: absolute;
-      bottom: -125px;
-      width: 547px;
+      position: relative;
+      bottom: -90px;
+      // width: 547px;
       z-index: 999;
       border-radius: $border-radius-4;
 
