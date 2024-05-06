@@ -1,0 +1,155 @@
+@import "variable";
+
+#leasingoffer-page {
+
+    #leasing-offer-banner {
+        .leasingofferbanner {
+            background: url('../images/leasing-offer/banner.png');
+            height: 720px;
+            width: 98%;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            margin-left: 1%;
+            border-radius: $border-radius-3;
+
+            .row-height {
+                height: 720px;
+            }
+
+            .banner-bg {
+                backdrop-filter: blur(22px);
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                right: 0;
+                height: 170px;
+                border-bottom-left-radius: $border-radius-3;
+
+                h2 {
+                    padding-left: 10%;
+                    font-weight: 400;
+                    font-size: $fs-48;
+                }
+
+                p {
+                    padding-left: 10%;
+                    font-size: 20px;
+                }
+            }
+        }
+    }
+
+    #dealer-offer {
+        .Explore_Cusomer_Offer_SubParentDiv {
+            justify-content: left !important;
+        }
+    }
+
+    #competetive-receive {
+        .competetivereceive {
+            background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%);
+            border-radius: $border-radius-5;
+
+            .row-p-b {
+                padding: 120px 0px 120px 165px;
+            }
+
+            h4 {
+                background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
+                color: $white;
+                width: 30px;
+                height: 30px;
+                border-radius: 30px;
+                text-align: center;
+                font-size: $fs-18;
+                line-height: 27px;
+            }
+
+            h1 {
+                font-size: $fs-28;
+                font-weight: 600;
+            }
+
+            p {
+                font-size: $fs-18;
+            }
+
+            .inner-para {
+                padding-left: $fs-55;
+            }
+
+            .Explore_Cusomer_Offer_firstDiv {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding-top: 30px;
+
+                .Explore_Cusomer_Offer_SubParentDiv {
+                    width: 100%;
+                    display: flex; 
+                    align-items: center;
+                    p {
+                        font-family: Mulish;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 20px;
+                        letter-spacing: 2px;
+                        margin: 0;
+                        text-align: left;
+                        background: linear-gradient(90deg, #5f8ac7 -.15%, #5f8ac7 14.85%, #78a293 42.85%, #99c152 81.85%, #a6ce39 99.85%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                    .Explore_Cusomer_Offer_horizontal_line {
+                        background-color: #d1d5db;
+                        height: 1.5px;
+                        width: 57%;
+                        margin-left: 20px;
+                    }
+                }
+            }
+            .tab {
+                cursor: pointer;
+                background-color: transparent;
+                padding: 10px;
+                transition: background-color 0.3s ease;
+                border-bottom: 1px solid $color-3;
+                .inner-para {
+                    display: none; /* Hide by default */
+                }
+                
+                .tab.active .inner-para {
+                    display: block; /* Show when parent tab is active */
+                }
+
+                &.active {
+                    background-color: $white;
+                    width: 110%;
+                    position: relative;
+                    background-color: $white;
+                    border-radius: 24px;
+                    text-align: left;
+                    z-index: 100;
+                    border-image: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
+                    border-image-slice: 2;
+                    border-left: 4px solid transparent;
+                    border-bottom: 0;
+                }
+            }
+
+            // Style for tab content
+            .tabcontent {
+                display: none;
+                transition: opacity 0.3s ease;
+
+                &.active {
+                    display: block;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+}
