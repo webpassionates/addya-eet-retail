@@ -88,8 +88,9 @@
 
                 .Explore_Cusomer_Offer_SubParentDiv {
                     width: 100%;
-                    display: flex; 
+                    display: flex;
                     align-items: center;
+
                     p {
                         font-family: Mulish;
                         font-size: 14px;
@@ -102,6 +103,7 @@
                         -webkit-background-clip: text;
                         -webkit-text-fill-color: transparent;
                     }
+
                     .Explore_Cusomer_Offer_horizontal_line {
                         background-color: #d1d5db;
                         height: 1.5px;
@@ -110,18 +112,22 @@
                     }
                 }
             }
+
             .tab {
                 cursor: pointer;
                 background-color: transparent;
                 padding: 10px;
                 transition: background-color 0.3s ease;
                 border-bottom: 1px solid $color-3;
+
                 .inner-para {
-                    display: none; /* Hide by default */
+                    display: none;
+                    /* Hide by default */
                 }
-                
+
                 .tab.active .inner-para {
-                    display: block; /* Show when parent tab is active */
+                    display: block;
+                    /* Show when parent tab is active */
                 }
 
                 &.active {
@@ -151,22 +157,22 @@
                 }
             }
         }
-    }
-    .InviteContiner {
-        bottom: 6.5%;
-        display: flex;
-        align-items: center;
-        background: linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%) !important;
-        border-left: 0 !important;
-        border-right: 0 !important;
-        border-top: 0 !important;
-        border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
-        border-image-slice: 2 !important;
-        border-bottom: 4px solid transparent !important;
-      }
-      
-      .InviteContiner::after{
-        background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%) !important;
-      }
+    } 
+}
 
+.InviteContinerr {
+    bottom: 80.5% !important;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%) !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-top: 0 !important;
+    border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
+    border-image-slice: 2 !important;
+    border-bottom: 4px solid transparent !important;
+}
+
+.InviteContinerr::after {
+    background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%) !important;
 }
