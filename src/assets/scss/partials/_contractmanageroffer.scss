@@ -17,12 +17,12 @@
             }
 
             .banner-bg {
-                backdrop-filter: blur(22px);
+                backdrop-filter: blur(35px);
                 position: absolute;
                 bottom: 0;
                 width: 100%;
                 right: 0;
-                height: 164px;
+                height: 220px;
                 border-bottom-left-radius: $border-radius-3;
 
                 h2 {
@@ -67,7 +67,7 @@
         .InviteContinerr {
             bottom: 85%;
             display: unset;
-
+            height:211px;
             p {
                 width: unset;
                 font-size: $fs-32;

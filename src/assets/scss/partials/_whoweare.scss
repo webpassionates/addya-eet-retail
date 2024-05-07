@@ -300,6 +300,7 @@ span {
 // Footer Section Start
 #footer {
   .InviteContinerr { 
+    height: 211px;
     width: 75%;
     display: flex;
     justify-content: space-between;
@@ -437,6 +438,12 @@ span {
     .header-width {
       width: 85% !important;
     }
+  }
+}
+
+#footer{
+  .whoweare-para{
+    width: 80% !important;
   }
 }
 

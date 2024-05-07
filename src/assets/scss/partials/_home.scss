@@ -870,6 +870,7 @@ body {
 #home-inviteContiner{
   .InviteContiner{
     bottom: 6.5%;
+    height: 211px;
   }
 }
 
@@ -907,6 +908,12 @@ body {
     transform: translateX(1px);
     opacity: 1;
     width: 16px;
+  }
+}
+
+#home-inviteContiner{
+  .home-para{
+    width: 80%;
   }
 }
 
