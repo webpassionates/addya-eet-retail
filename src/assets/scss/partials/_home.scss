@@ -935,3 +935,61 @@ body {
 .InviteContiner::after{
   background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%) !important;
 }
+
+.border-btn {
+  .anim-btn-border-1 {
+    position: relative;
+    cursor:pointer;
+    background: linear-gradient(
+      92.86deg,
+      #5F8AC7 0,
+      #5F8AC7 17.53%,
+      #78A293 48.78%,
+      #99C152 82%,
+      #A6CE39 100%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding: 16px 10px 16px 22px;
+    margin: 5px;
+    display: inline-block;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border: 2px solid transparent;
+    // border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+    border-image-slice: 1;
+    transition: all 0.5s !important;
+    &::before {
+      content: "";
+      position: absolute;
+      inset: 0;
+      border-radius: 0 20px 0 20px;
+      padding: 2px;
+      background: linear-gradient(
+        92.86deg,
+        #5F8AC7 0,
+        #5F8AC7 17.53%,
+        #78A293 48.78%,
+        #99C152 82%,
+        #A6CE39 100%
+      );
+      -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+    &:hover {
+      padding: 16px 24px 16px 22px;
+    }
+    img {
+      opacity: 0;
+    transition: all 0.3s !important;
+    }
+    &:hover img {
+      opacity: 1;
+      padding-left: 10px;
+    }
+  }
+}
