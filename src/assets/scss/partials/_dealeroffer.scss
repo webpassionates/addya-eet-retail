@@ -14,14 +14,14 @@
       height: 720px;
     }
 
-    .banner-bg {
-      // background: rgba(129, 128, 130, 255);
+    .banner-bg { 
+      background: rgba(199, 199, 199, 0.2);
       backdrop-filter: blur(30px);
       position: absolute;
       bottom: 0;
       width: 100%;
       right: 0;
-      height: 164px;
+      height: 136px;
       border-bottom-left-radius: $border-radius-3;
 
       h2 {
