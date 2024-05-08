@@ -8,7 +8,7 @@
             height: 720px;
             width: 98%;
             background-repeat: no-repeat;
-            background-size: 100%;
+            background-size: cover;
             margin-left: 1%;
             border-radius: $border-radius-3;
 
@@ -16,8 +16,30 @@
                 height: 720px;
             }
 
+            // .banner-bg {
+            //     backdrop-filter: blur(35px);
+            //     position: absolute;
+            //     bottom: 0;
+            //     width: 100%;
+            //     right: 0;
+            //     height: 220px;
+            //     border-bottom-left-radius: $border-radius-3;
+
+            //     h2 {
+            //         padding-left: 10%;
+            //         font-weight: 400;
+            //         font-size: $fs-48;
+            //     }
+
+            //     p {
+            //         padding-left: 10%;
+            //         font-size: 20px;
+            //     }
+            // }
             .banner-bg {
-                backdrop-filter: blur(35px);
+                background-color: rgba(199, 199, 199, 0.2);
+                backdrop-filter: blur(22px);
+                -webkit-backdrop-filter: blur(22px);
                 position: absolute;
                 bottom: 0;
                 width: 100%;
@@ -67,7 +89,8 @@
         .InviteContinerr {
             bottom: 85%;
             display: unset;
-            height:211px;
+            height: 211px;
+
             p {
                 width: unset;
                 font-size: $fs-32;
@@ -84,13 +107,16 @@
         .keycarousel {
             background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%);
             border-radius: $border-radius-5;
+
             .slide-img {
                 height: 500px;
                 border-radius: $border-radius-3;
             }
-            h2{
+
+            h2 {
                 font-size: $fs-40;
             }
+
             .key-benefits-carousel {
                 height: 500px;
                 background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
@@ -104,10 +130,12 @@
                     width: 32px;
                     height: 32px;
                 }
-                h4{
+
+                h4 {
                     font-size: $fs-40;
                 }
-                p{
+
+                p {
                     font-size: $fs-18;
                 }
             }
@@ -142,10 +170,10 @@
         border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
         border-image-slice: 2 !important;
         border-bottom: 4px solid transparent !important;
-      }
-      
-      .InviteContinerr::after{
+    }
+
+    .InviteContinerr::after {
         background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%) !important;
-      }
+    }
 
 }
