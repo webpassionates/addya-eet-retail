@@ -767,10 +767,10 @@ body {
 #slider-curve {
   .slidercurve {
     .curve-img {
-      margin-top: -63px;
+      margin-top: -45px;
       z-index: 999;
       position: absolute;
-      right: 15px;
+      right: 0;
     }
   }
 }
@@ -990,6 +990,87 @@ body {
     &:hover img {
       opacity: 1;
       padding-left: 10px;
+    }
+  }
+}
+
+#hero-home-slider {
+  .slick-slide .img--holder {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+    background-size: cover;
+    height: 100vh !important;
+  }
+  .hero-slider .text--holder {
+    position: absolute;
+    width: 60%;
+    bottom: 15%;
+    left: 10%;
+    z-index: 99;
+    color: #fff;
+  }
+  .hero-slider .text--holder h1 {
+    font-size: 72px;
+    line-height: 75px;
+  }
+  .hero-slider .text--holder p {
+    font-size: 24px;
+  }
+  .office-photo{
+    border-radius: 48px !important;
+  }
+  @keyframes zoom {
+    from {
+      transform: scale(1.1);
+    }
+    to {
+      transform: scale(1.2);
+    }
+  }
+  .img--holder {
+    animation: zoom 10s alternate infinite;
+  }
+  .animate-mouse {
+    right: 50%;
+    bottom: 10%;
+    z-index: 999;
+    .mouse {
+      height: 40px;
+      width: 28px;
+      border-radius: 35%;
+      border: 2.3px solid #fff;
+      position: relative;
+      // z-index: 999 !important;
+    }
+    .dot {
+      height: 5px;
+      width: 5px;
+      border-radius: 45%;
+      background-color: #fff;
+      position: absolute;
+      transform: translate(-50%, -50%);
+      left: 50%;
+      animation: moveDot 3.5s infinite;
+    }
+    @keyframes moveDot {
+      0% {
+        top: 0%;
+        width: 4px;
+        height: 4px;
+      }
+      25% {
+        width: 5px;
+        height: 5px;
+      }
+      25% {
+        width: 5px;
+        height: 5px;
+      }
+      100% {
+        top: 100%;
+        width: 3px;
+        height: 3%;
+      }
     }
   }
 }
