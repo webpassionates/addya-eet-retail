@@ -25,13 +25,13 @@
       border-bottom-left-radius: $border-radius-3;
 
       h2 {
-        padding-left: 12%;
+        padding-left: 9%;
         font-weight: 400;
         font-size: $fs-48;
       }
 
       p {
-        padding-left: 12%;
+        padding-left: 9%;
         font-size: $fs-20;
       }
     }
@@ -82,7 +82,7 @@
           background-color: #d1d5db;
           height: 1.5px;
           width: 76%;
-          margin-left: 20px;
+          margin-left: 10px;
         }
       }
     }
@@ -109,7 +109,7 @@
   margin-bottom: 50px;
 
   .TestMoinals_firstDiv {
-    width: 75%;
+    width: 81%;
     margin: auto;
     display: flex;
     flex-direction: row; // Added
@@ -146,9 +146,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 75%;
+    width: 81%;
     margin: auto;
-    margin-top: 25px;
+    margin-top: 16px;
 
 
     h1 {
