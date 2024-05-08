@@ -194,56 +194,55 @@
 //  End
 
 // Visit us Today Section Start
-#visit-us-today-section {
-  .visit-us-today {
-    .background-color {
-      height: 500px;
-      width: 100%;
-      background: linear-gradient(
-        90deg,
-        #5f8ac7 -0.15%,
-        #5f8ac7 14.85%,
-        #78a293 42.85%,
-        #99c152 81.85%,
-        #a6ce39 99.85%
-      );
-      border-radius: 40px;
-      .row {
-        height: 444px;
-        h1 {
-          font-size: 40px;
-          font-weight: 700;
-        }
-      }
-    }
-    .curve-img {
-      // margin-top: 16px;
-      z-index: 999;
-      top: 93%;
-      position: absolute;
-      right: 0;
-      //   border-radius: 40px;
-      /* margin-left: -319px; */
-      // margin-right: 130px;
-    }
-    .for-position{
-      top: -411px !important;
-     }
+// #visit-us-today-section {
+//   .visit-us-today {
+//     .background-color {
+//       height: 500px;
+//       width: 100%;
+//       background: linear-gradient(
+//         90deg,
+//         #5f8ac7 -0.15%,
+//         #5f8ac7 14.85%,
+//         #78a293 42.85%,
+//         #99c152 81.85%,
+//         #a6ce39 99.85%
+//       );
+//       border-radius: 40px;
+//       .row {
+//         height: 444px;
+//         h1 {
+//           font-size: 40px;
+//           font-weight: 700;
+//         }
+//       }
+//     }
+//     .curve-img {
+//       // margin-top: 16px;
+//       z-index: 999;
+//       top: 93%;
+//       position: absolute;
+//       right: 0;
+//       //   border-radius: 40px;
+//       /* margin-left: -319px; */
+//       // margin-right: 130px;
+//     }
+//     .for-position{
+//       top: -411px !important;
+//      }
     
-  }
-}
+//   }
+// }
 
-.for-margin {
-  // margin-top: -70px !important;
-  .footer_Continer {
-    z-index: -11 !important;
-  }
-}
+// .for-margin {
+//   // margin-top: -70px !important;
+//   .footer_Continer {
+//     z-index: -11 !important;
+//   }
+// }
 
 //  End
 
-#enhancing-your-experience-section {
-  margin-bottom: 30rem;
+#enhancing-your-experience-section { 
   .enhancing-your-experience {
     background: linear-gradient(
       92.86deg,
@@ -369,35 +368,56 @@
       }
     }
   }
-  .for-border.tab.active {
-    // display: flex;
-    // align-items: center;
-    // background: linear-gradient(
-    //     0deg,
-    //     rgba(255, 255, 255, 1),
-    //     rgba(255, 255, 255, 1)
-    //   ),
-    //   linear-gradient(
-    //     92.86deg,
-    //     rgba(95, 138, 199, 0.4) 0,
-    //     rgba(95, 138, 199, 0.4) 17.53%,
-    //     rgba(120, 162, 147, 0.4) 48.78%,
-    //     rgba(153, 193, 82, 0.4) 82%,
-    //     rgba(166, 206, 57, 0.4) 100%
-    //   );
-    // border-bottom: 0px !important;
-    // border-right: 0px !important;
-    // border-top: 0px !important;
-    // border-image: linear-gradient(
-    //   90deg,
-    //   #5f8ac7 -0.15%,
-    //   #5f8ac7 14.85%,
-    //   #78a293 42.85%,
-    //   #99c152 81.85%,
-    //   #a6ce39 99.85%
-    // );
-    // border-image-slice: 2 !important;
-    // border-left: 4px solid transparent !important;
+  .for-border.tab.active { 
     border-left: 5px solid #78a293;
+  }
+}
+
+
+#footer {
+  #visit-us-today-section {
+    .visit-us-today {
+      transform: translateY(100px);
+      z-index: 999 !important;
+      .background-color {
+        height: 500px;
+        width: 100%;
+        background: linear-gradient(
+          90deg,
+          #5F8AC7 -0.15%,
+          #5F8AC7 14.85%,
+          #78A293 42.85%,
+          #99C152 81.85%,
+          #A6CE39 99.85%
+        );
+        border-radius: 40px;
+        .row {
+          height: 444px;
+          h1 {
+            font-size: 40px;
+            font-weight: 700;
+          }
+        }
+      }
+      .curve-img {
+        // margin-top: 16px;
+        z-index: 999;
+        top: 93%;
+        position: absolute;
+        right: 0;
+        //   border-radius: 40px;
+        /* margin-left: -319px; */
+        // margin-right: 130px;
+      }
+      .for-position {
+        top: -411px !important;
+      }
+    }
+  }
+}
+.visit-footer {
+  .footer_Continer {
+    z-index: -11 !important;
+    position: unset !important;
   }
 }
