@@ -14,7 +14,7 @@
       height: 736px;
     }
 
-    .banner-bg { 
+    .banner-bg {
       background: rgba(199, 199, 199, 0.2);
       backdrop-filter: blur(35px);
       position: absolute;
@@ -93,7 +93,8 @@
         line-height: 1;
       }
     }
-    p{
+
+    p {
       font-size: $fs-18;
     }
   }
@@ -117,7 +118,7 @@
     align-items: flex-start;
 
     .TestMoinals_SubParent_div {
-      width: 100%; 
+      width: 100%;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -129,12 +130,12 @@
         margin-left: 20px;
       }
 
-      p { 
+      p {
         font-size: $fs-14;
         font-weight: 700;
         line-height: 20px;
         letter-spacing: 2px;
-        text-align: left; 
+        text-align: left;
         text-transform: uppercase;
       }
 
@@ -219,7 +220,7 @@
     $slide-gap: 20px;
     $slide-height: 322px;
     $slide-padding: 20px;
-    $slide-border-radius: 25px; 
+    $slide-border-radius: 25px;
 
     .slide {
       background-color: $slide-background;
@@ -228,7 +229,7 @@
       height: $slide-height;
       margin: 0 $slide-gap;
       padding: $slide-padding;
-      border-radius: $slide-border-radius; 
+      border-radius: $slide-border-radius;
 
       p {
         font-size: 18px;
@@ -242,7 +243,7 @@
         font-size: 20px;
       }
 
-      .TestMoinals_Slide_Headig { 
+      .TestMoinals_Slide_Headig {
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -271,7 +272,8 @@
       border-image: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%) !important;
       border-image-slice: 2 !important;
       border-bottom: 4px solid transparent !important;
-      p{
+
+      p {
         font-size: $fs-18;
       }
 
@@ -316,9 +318,11 @@
         -webkit-text-fill-color: transparent;
         font-size: 32px;
       }
-      p{
+
+      p {
         font-size: $fs-18;
       }
+
       .btn-primary {
         background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
         padding: 16px 22.5px 16px 22.5px;
@@ -454,9 +458,10 @@
         transition: all 0.35s ease-in-out;
         line-height: 1.6;
         z-index: 2;
+
         p {
           font-size: $fs-18;
-        } 
+        }
       }
 
       input[type="checkbox"]:checked~.accordion__content {
@@ -496,7 +501,8 @@
         line-height: 2;
       }
     }
-    input[type="checkbox"]:checked + .dealer-icon .fa-arrow-left {
+
+    input[type="checkbox"]:checked+.dealer-icon .fa-arrow-left {
       transform: rotate(315deg);
     }
   }
@@ -509,3 +515,21 @@
   }
 }
 
+@media only screen and (min-width: 1800px) and (min-height: 1169px) {
+  #dealer-offer {
+    .dealeroffer {
+      .Explore_Cusomer_Offer_SubParentDiv {
+        padding-left: 0px !important;
+      }
+    }
+  }
+  #dealer-offer-includes{
+    .offer-includes{
+      .Explore_Cusomer_Offer_SubParentDiv{
+        p{
+          padding-left: 10px !important;
+        }
+      }
+    }
+  }
+}

@@ -1138,7 +1138,8 @@ body {
   font-size: 1rem;
   font-weight: 600;
   border-radius: 0 20px 0 20px;
-  background-color: rgba(166, 206, 57, 1.0);
+  // background-color: rgba(166, 206, 57, 1.0);
+  background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
   transition: 1s !important;
 }
 .speak-hover-btn:hover {

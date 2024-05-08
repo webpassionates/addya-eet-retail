@@ -1,4 +1,4 @@
-#speakus-page{
+#speakus-page {
   #speaktous-banner {
     .speaktous {
       background: url('../images/speakus.png');
@@ -8,11 +8,11 @@
       background-size: 100%;
       margin-left: 1%;
       border-radius: $border-radius-3;
-  
+
       .row-height {
         height: 400px;
       }
-  
+
       .banner-bg {
         background: rgba(129, 128, 130, 255);
         position: absolute;
@@ -21,12 +21,12 @@
         right: 0;
         height: 164px;
         border-bottom-left-radius: $border-radius-3;
-  
+
         h2 {
           padding-left: 12%;
           font-weight: 400;
         }
-  
+
         p {
           padding-left: 12%;
           font-size: 20px;
@@ -34,7 +34,7 @@
       }
     }
   }
-  
+
   #speak-to-us-curve {
     .speaktouscurve {
       .curve-img {
@@ -45,7 +45,7 @@
       }
     }
   }
-  
+
   #lets-connect {
     .letsconnect {
       .lets_connect_firstDiv {
@@ -55,13 +55,13 @@
         justify-content: flex-start;
         align-items: flex-start;
         padding-top: 30px;
-  
+
         .lets_connect_SubParentDiv {
           width: 100%;
           display: flex;
           justify-content: center;
           align-items: center;
-  
+
           p {
             font-family: Mulish;
             font-size: 14px;
@@ -70,18 +70,16 @@
             letter-spacing: 2px;
             margin: 0;
             text-align: left;
-            background: linear-gradient(
-              90deg,
-              #5f8ac7 -0.15%,
-              #5f8ac7 14.85%,
-              #78a293 42.85%,
-              #99c152 81.85%,
-              #a6ce39 99.85%
-            );
+            background: linear-gradient(90deg,
+                #5f8ac7 -0.15%,
+                #5f8ac7 14.85%,
+                #78a293 42.85%,
+                #99c152 81.85%,
+                #a6ce39 99.85%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
-  
+
           .lets_connect_horizontal_line {
             background-color: #d1d5db;
             height: 1.5px;
@@ -90,27 +88,27 @@
           }
         }
       }
-  
+
       .lets_connect_SecondDiv {
         h2 {
           font-size: $fs-60;
         }
       }
+
       .lets_connect_ThirdDiv {
         .iconcontainer {
-          background: linear-gradient(
-            92.86deg,
-            #5f8ac7 0,
-            #5f8ac7 17.53%,
-            #78a293 48.78%,
-            #99c152 82%,
-            #a6ce39 100%
-          );
+          background: linear-gradient(92.86deg,
+              #5f8ac7 0,
+              #5f8ac7 17.53%,
+              #78a293 48.78%,
+              #99c152 82%,
+              #a6ce39 100%);
           width: 32px;
           height: 32px;
           line-height: 2;
           border-radius: 32px;
         }
+
         .iconheading {
           p {
             font-family: Mulish;
@@ -120,18 +118,17 @@
             letter-spacing: 2px;
             margin: 0;
             text-align: left;
-            background: linear-gradient(
-              90deg,
-              #5f8ac7 -0.15%,
-              #5f8ac7 14.85%,
-              #78a293 42.85%,
-              #99c152 81.85%,
-              #a6ce39 99.85%
-            );
+            background: linear-gradient(90deg,
+                #5f8ac7 -0.15%,
+                #5f8ac7 14.85%,
+                #78a293 42.85%,
+                #99c152 81.85%,
+                #a6ce39 99.85%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
         }
+
         .iconinformation {
           p {
             font-family: Mulish;
@@ -141,17 +138,17 @@
           }
         }
       }
+
       .lets_connect_form {
         width: 90%;
-        background: linear-gradient(
-          92.86deg,
-          #5f8ac7 0,
-          #5f8ac7 17.53%,
-          #78a293 48.78%,
-          #99c152 82%,
-          #a6ce39 100%
-        );
+        background: linear-gradient(92.86deg,
+            #5f8ac7 0,
+            #5f8ac7 17.53%,
+            #78a293 48.78%,
+            #99c152 82%,
+            #a6ce39 100%);
         border-radius: 15px;
+
         label {
           text-transform: uppercase;
           font-family: Mulish;
@@ -159,16 +156,19 @@
           color: #fff;
           letter-spacing: 2px;
         }
+
         .for-width {
           width: 100%;
           height: 44px;
         }
+
         input {
           border: none;
           border-radius: 7px;
           outline: none;
           padding-left: 20px;
         }
+
         textarea {
           width: 100%;
           height: 100px;
@@ -177,14 +177,17 @@
           outline: none;
           padding-left: 20px;
         }
+
         .for-height {
           height: 100px;
         }
-        ::placeholder { 
+
+        ::placeholder {
           font-size: 14px;
           font-weight: 400px;
-          color: #6b7280; 
+          color: #6b7280;
         }
+
         button {
           border: 2px solid #fff;
           border-radius: 0 20px 0 20px;
@@ -196,14 +199,40 @@
     }
   }
 
-  #footer{
-    .InviteContinerr{
-      bottom:78%;
+  #footer {
+    .InviteContinerr {
+      bottom: 78%;
       // width: 1110px;
     }
-    footer{
+
+    footer {
       margin-top: 8rem !important;
     }
-  } 
+  }
+
+  /* Smartphones (portrait and landscape) ----------- */
+  // @media only screen and (min-width : 1800px){
+  //   #lets-connect{
+  //     .letsconnect{
+  //       p{
+  //         padding-left: unset !important;
+  //       }
+  //     }
+  //   }
+  // }
+
+  @media only screen and (min-width: 1800px) and (min-height: 1169px) {
+    #lets-connect {
+      .letsconnect {
+        .lets_connect_SubParentDiv {
+          padding-top: 60px;
+
+          p {
+            padding-left: 16px !important;
+          }
+        }
+      }
+    }
+  }
 
 }
