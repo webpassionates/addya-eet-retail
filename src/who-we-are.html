@@ -23,7 +23,7 @@
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
   <link rel="stylesheet" type="text/css"
     href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
@@ -32,54 +32,67 @@
 <body>
 
   <section id="top-common-header">
-      <div class="topheader pb-3">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg pt-4">
-            <div class="container-fluid header-width">
-              <a class="navbar-brand" href="index.html"><img src="./assets/images/retail-logo.png"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
-                  <li class="nav-item">
-                    <a class="nav-link active fw-semibold" aria-current="page" href="who-we-are.html">Who We Are</a>
-                  </li> 
-                  <li class="nav-item dropdown">
-                    <a class="nav-link fw-semibold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Business Offers <i class="fa-solid fa-chevron-down"></i>
-                    </a>
-                    <ul class="dropdown-menu shadow px-2">
-                      <li><a class="dropdown-item pt-4 fw-bold" href="leasing-offer-1.html">Leasing Offer</a></li>
-                      <li><a class="dropdown-item pt-3 fw-bold" href="contract-manager-offer.html">Contract Manager Offer</a></li> 
-                      <li><a class="dropdown-item pt-3 pb-4 fw-bold" href="business-offerings-dealer-offer-1.html">Dealer Offer</a></li> 
-                    </ul>
-                  </li> 
-                  <li class="nav-item">
-                    <a class="nav-link fw-semibold active" aria-current="page" href="customer-offering.html">Customer Offers</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-semibold active" aria-current="page" href="our-locations.html">Our Locations</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link fw-semibold active" aria-current="page" href="newsroom-1.html">News</a>
-                  </li>
-                  <li class="m-3">
-                    <a href="speak-to-us.html" class="speak-hover-btn">
-                      <button type="button" class="btn btn-primary">Speak To Us</button>
-                    </a>
-                  </li>
-                  <li class="nav-item">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-                  </li>
-                </ul>  
-              </div>
+    <div class="topheader pb-3">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg pt-4">
+          <div class="container-fluid header-width">
+            <a class="navbar-brand" href="index.html"><img src="./assets/images/retail-logo.png"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+              aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active fw-semibold" aria-current="page" href="who-we-are.html">Who We Are</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link fw-semibold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Business Offers <i class="fa-solid fa-chevron-down"></i>
+                  </a>
+                  <ul class="dropdown-menu shadow px-2">
+                    <li><a class="dropdown-item pt-4 fw-bold" href="leasing-offer-1.html">Leasing Offer</a></li>
+                    <li><a class="dropdown-item pt-3 fw-bold" href="contract-manager-offer.html">Contract Manager
+                        Offer</a></li>
+                    <li><a class="dropdown-item pt-3 pb-4 fw-bold" href="business-offerings-dealer-offer-1.html">Dealer
+                        Offer</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-semibold active" aria-current="page" href="customer-offering.html">Customer
+                    Offers</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-semibold active" aria-current="page" href="our-locations.html">Our Locations</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link fw-semibold active" aria-current="page" href="newsroom-1.html">News</a>
+                </li>
+                <li class="me-5 ms-3 speak-hover-btn" id="speakToUsBtn">
+                  <a href="speak-to-us.html" class="">
+                    <div class="nav-btns"> <a href="speak-to-us.html" class="text-decoration-none text-white text-color">Speak
+                        to us
+                      </a>
+                    </div>
+                  </a>
+                </li>
+                <li class="nav-item position-relative">
+                  <div class="icon-input">
+                    <input id="searchInput" class="icon-input__text-field border-0" type="text" placeholder="Search ">
+                    <i id="searchIcon" class="icon-input__icon material-icons "><i
+                        class="fa-solid fa-magnifying-glass fs-4" id="glass"></i></i>
+                  </div>
+                </li>
+              </ul>
             </div>
-          </nav>
-        </div>
+          </div>
+        </nav>
       </div>
-    </section>
-  
+    </div>
+  </section>
+
   <!-- Banner Sectionn Start -->
   <section id="banner-section">
     <div class="banner">
@@ -235,7 +248,8 @@
                 A fresh new approach to fuel and convenience retailing — <span> "Driving Community Convenience"</span>
 
               </h2>
-              <p class="ps-2">We are accelerating our transformation towards a better tomorrow through our Essar-branded service
+              <p class="ps-2">We are accelerating our transformation towards a better tomorrow through our Essar-branded
+                service
                 stations with a renewed purpose: 'Driving Community Convenience'. This initiative focuses on meeting the
                 needs of local communities, turning our sites into essential hubs for the people we serve. We are
                 committed to delivering on this promise by guaranteeing an experience that is easy for customers, simple
@@ -275,7 +289,9 @@
   <section id="footer">
     <div class="position-relative">
       <div class="InviteContinerr">
-        <p class="whoweare-para mb-0">As we advance towards a sustainable future, we invite you to join us on our journey and benefit from our secure supply of quality fuels, value driven partnerships, and innovative retail solutions.</p>
+        <p class="whoweare-para mb-0">As we advance towards a sustainable future, we invite you to join us on our
+          journey and benefit from our secure supply of quality fuels, value driven partnerships, and innovative retail
+          solutions.</p>
         <button class="anim-btn"> <a class="text-decoration-none text-white">Speak To Us</a>
           <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
@@ -284,74 +300,85 @@
           </svg>
         </button>
       </div>
-    <!-- Footer Section Start -->
-    <footer>
-      <div class="footer_Continer pt-5">
-        <div class="footer">
-          <div class="column">
-            <div class="row_Logo">
-              <img src="./assets/images/EET_Retail_Logo_T.png" alt="Logo">
+      <!-- Footer Section Start -->
+      <footer>
+        <div class="footer_Continer pt-5">
+          <div class="footer">
+            <div class="column">
+              <div class="row_Logo">
+                <img src="./assets/images/EET_Retail_Logo_T.png" alt="Logo">
+              </div>
+              <p class="row">EET Fuels is the trading name for Essar Oil (UK) Limited, a company registered in England
+                and
+                Wales with company registration number 07071400 and registered office at 5th Floor, the Administration
+                Building, Stanlow Manufacturing Complex, Ellesmere Port, Cheshire, CH65 4HB. © Essar Oil (UK) Limited
+                2024.
+              </p>
+              <div class="NavigateTo_EarthGlobe">
+                <img src="./assets/images/earth_globe_fooer.png" alt="Logo">
+                <p class="mb-0">Visit EET Fuels Website</p>
+                <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow_Logo">
+              </div>
             </div>
-            <p class="row">EET Fuels is the trading name for Essar Oil (UK) Limited, a company registered in England and
-              Wales with company registration number 07071400 and registered office at 5th Floor, the Administration
-              Building, Stanlow Manufacturing Complex, Ellesmere Port, Cheshire, CH65 4HB. © Essar Oil (UK) Limited
-              2024.
-            </p>
-            <div class="NavigateTo_EarthGlobe">
-              <img src="./assets/images/earth_globe_fooer.png" alt="Logo">
-              <p class="mb-0">Visit EET Fuels Website</p>
-              <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow_Logo">
+            <div class="column">
+              <div class="row">
+                <h3 class="text-start ps-5 ms-4"><a href="who-we-are.html" class="text-white text-decoration-none">Who
+                    We Are</a></h3>
+              </div>
+              <div class="row">
+                <h3 class="text-start ps-5 ms-4"><a href="#" class="text-white text-decoration-none">Business Offers</a>
+                </h3>
+                <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="leasing-offer-1.html"
+                    class="text-white text-decoration-none">Leasing Offer</a></h3>
+                <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="contract-manager-offer.html"
+                    class="text-white text-decoration-none">Contract Manager Offer</a></h3>
+                <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="business-offerings-dealer-offer-1.html"
+                    class="text-white text-decoration-none">Dealer Offer</a></h3>
+              </div>
+              <div class="row">
+                <h3 class="text-start ps-5 ms-4"><a href="customer-offering.html"
+                    class="text-white text-decoration-none">Customer Offers</a></h3>
+              </div>
+            </div>
+            <div class="column">
+              <div class="row">
+                <h3 class="text-start ps-5 ms-4"><a href="our-locations.html"
+                    class="text-white text-decoration-none">Our Locations</a></h3>
+                <h3 class="text-start ps-5 ms-4 pt-2"><a href="newsroom-1.html"
+                    class="text-white text-decoration-none">News</a></h3>
+                <h3 class="text-start ps-5 ms-4 pt-2"><a href="speak-to-us.html"
+                    class="text-white text-decoration-none">Speak To Us</a></h3>
+              </div>
+            </div>
+            <div class="column text-start">
+              <div class="row_LastColum">
+                <h3>Follow Us</h3>
+              </div>
+              <div class="row_Social_logo">
+                <img src="./assets/images/Linkdin_footer.png" alt="LinkedIn Logo">
+              </div>
+              <div class="row_QrLogo pt-4">
+                <img src="./assets/images/qr_code_footer.png" alt="QrCode Logo">
+              </div>
             </div>
           </div>
-          <div class="column">
-            <div class="row">
-              <h3 class="text-start ps-5 ms-4"><a href="who-we-are.html" class="text-white text-decoration-none">Who We Are</a></h3>
-            </div>
-            <div class="row">
-              <h3 class="text-start ps-5 ms-4"><a href="#" class="text-white text-decoration-none">Business Offers</a></h3>
-              <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="leasing-offer-1.html" class="text-white text-decoration-none">Leasing Offer</a></h3> 
-              <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="contract-manager-offer.html" class="text-white text-decoration-none">Contract Manager Offer</a></h3>  
-              <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="business-offerings-dealer-offer-1.html" class="text-white text-decoration-none">Dealer Offer</a></h3>  
-            </div>
-            <div class="row">
-              <h3 class="text-start ps-5 ms-4"><a href="customer-offering.html" class="text-white text-decoration-none">Customer Offers</a></h3>
-            </div>
-          </div>
-          <div class="column">
-            <div class="row">
-              <h3 class="text-start ps-5 ms-4"><a href="our-locations.html" class="text-white text-decoration-none">Our Locations</a></h3>
-              <h3 class="text-start ps-5 ms-4 pt-2"><a href="newsroom-1.html" class="text-white text-decoration-none">News</a></h3> 
-              <h3 class="text-start ps-5 ms-4 pt-2"><a href="speak-to-us.html" class="text-white text-decoration-none">Speak To Us</a></h3>   
-            </div>
-          </div>
-          <div class="column text-start">
-            <div class="row_LastColum">
-              <h3>Follow Us</h3>
-            </div>
-            <div class="row_Social_logo">
-              <img src="./assets/images/Linkdin_footer.png" alt="LinkedIn Logo">
-            </div>
-            <div class="row_QrLogo pt-4">
-              <img src="./assets/images/qr_code_footer.png" alt="QrCode Logo">
+          <div class="row m-0">
+            <div class="col-lg-12 text-center">
+              <p class="pt-4 pb-3 footer-copyright">© Copyright 2024 EET Retail</p>
             </div>
           </div>
         </div>
-        <div class="row m-0">
-          <div class="col-lg-12 text-center">
-            <p class="pt-4 pb-3 footer-copyright">© Copyright 2024 EET Retail</p>
-          </div>
-        </div>
-      </div>
-      <!-- <div class="footer-content-container">
+        <!-- <div class="footer-content-container">
               <p>© Copyright 2023 Master Wire kit.</p>
             </div> -->
-    </footer>
-  </div>
+      </footer>
+    </div>
   </section>
   <!-- End -->
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-  <script src="../dist/js/bundle.min.js"></script> 
+  <script src="../dist/js/bundle.min.js"></script>
+  <script src="assets/js/custom.js"></script>
 
 </body>
 

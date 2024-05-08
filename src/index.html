@@ -66,13 +66,20 @@
                   <li class="nav-item">
                     <a class="nav-link text-white fw-semibold active" aria-current="page" href="newsroom-1.html">News</a>
                   </li>
-                  <li class="m-3">
-                    <a href="speak-to-us.html">
-                      <button type="button" class="btn btn-primary">Speak To Us</button>
+                  <li class="me-5 ms-3 speak-hover-btn" id="speakToUsBtn">
+                    <a href="speak-to-us.html" class="">
+                      <div class="nav-btns"> <a href="speak-to-us.html" class="text-decoration-none text-white text-color">Speak
+                          to us
+                        </a>
+                      </div>
                     </a>
                   </li>
-                  <li class="nav-item">
-                    <i class="fa-solid fa-magnifying-glass text-white"></i>
+                  <li class="nav-item position-relative">
+                    <div class="icon-input">
+                      <input id="searchInput" class="icon-input__text-field border-0" type="text" placeholder="Search ">
+                      <i id="searchIcon" class="icon-input__icon material-icons text-white"><i
+                          class="fa-solid fa-magnifying-glass fs-4" id="glass"></i></i>
+                    </div>
                   </li>
                 </ul>
               </div>
@@ -703,9 +710,8 @@
   <script src="../dist/js/bundle.min.js"></script>
   <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
-
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> 
+  <script src="assets/js/custom.js"></script>
 
 </body>
 
