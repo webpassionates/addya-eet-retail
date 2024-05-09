@@ -29,7 +29,7 @@
             .Refinery_horizontal_line {
                 background-color: #D1D5DB;
                 height: 1.5px;
-                width: 56%;
+                width: 65%;
                 margin-left: 20px;
             }
 
@@ -121,6 +121,7 @@
 @media only screen and (min-width: 1800px) and (min-height: 1169px) {
     #Refinery_Container {
         padding-left: 9%;
+
         .Refinery_Container_firstDiv {
             .SubParent_div {
                 .Refinery_horizontal_line {
@@ -130,3 +131,13 @@
         }
     }
 }
+
+// @media only screen and (min-width : 1366px) and (max-width : 1440px) {
+//     .Refinery_Container {
+//         .Refinery_Container_firstDiv {
+//             .SubParent_div {
+//                 .Refinery_horizontal_line
+//             }
+//         }
+//     }
+// }
