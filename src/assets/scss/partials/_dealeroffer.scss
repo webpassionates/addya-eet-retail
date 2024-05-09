@@ -368,7 +368,7 @@
         .Explore_Cusomer_Offer_horizontal_line {
           background-color: #d1d5db;
           height: 1.5px;
-          width: 76%;
+          width: 72%;
           margin-left: 20px;
         }
       }
@@ -532,4 +532,9 @@
       }
     }
   }
+  #dealer-offer{
+    .Explore_Cusomer_Offer_horizontal_line{
+      width: 78% !important;
+    }
+  } 
 }
