@@ -238,4 +238,19 @@
     }
   }
 
+  @media only screen and (min-width: 1366px) and (max-width: 1440px) {
+    #lets-connect{
+      .letsconnect{
+        padding: unset !important;
+        .col-lg-11{
+          margin-top: unset !important;
+          padding-top: unset !important;
+        }
+      }
+     .lets_connect_SubParentDiv {
+      padding: 0 65px !important;
+     }
+    }
+  }
+
 }
