@@ -226,5 +226,24 @@
             }
         }
     }
- 
+    #dealer-offer{
+        .dealeroffer{
+            .Explore_Cusomer_Offer_firstDiv{
+                .Explore_Cusomer_Offer_SubParentDiv{
+                    margin-left: 1.5rem !important;
+                } 
+            }
+            .dealer_Container_SecondDiv{
+                margin-left: unset !important;
+            }
+        }
+    }
+    #competetive-receive{
+        .competetivereceive{
+            .eighteen-div{
+                margin-left: 0rem !important;
+                padding-left: 0rem !important;
+            }
+        }
+    }
 }
