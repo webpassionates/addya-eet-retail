@@ -194,6 +194,9 @@
           color: #fff;
           height: 50px;
           font-size: $fs-16;
+          &:hover{
+            border:none;
+          }
         }
       }
     }
