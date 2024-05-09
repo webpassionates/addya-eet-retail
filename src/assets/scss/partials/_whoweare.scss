@@ -260,6 +260,9 @@ span {
 
 // Added value across Start
 #added-value-across-section {
+  .desk-row{
+    padding-left: 25px;
+  }
   .Explore_Cusomer_Offer_firstDiv {
     width: 100%;
     display: flex;
@@ -393,6 +396,14 @@ span {
 }
 //End
 
+#quality-fuels-and-security-section{
+  .quality-fuels-and-security{
+    .desk-row-quality{
+      padding-left: 25px;
+    }
+  }
+}
+
 #top-common-header {
   .topheader {
     .navbar {
@@ -450,7 +461,32 @@ span {
 @media only screen and (min-width: 1800px) and (min-height: 1169px) {
   #from-refinery-to-forecourt-section{
         .Explore_Cusomer_Offer_firstDiv{  
-              padding-left: 3px !important;  
+              padding-left: 13px !important;  
+        }
+      }
+      #from-refinery-to-forecourt-section{
+        h2{
+          padding-left: 13px;
+        }
+      } 
+      #added-value-across-section{
+        .Explore_Cusomer_Offer_firstDiv{
+          padding-left: 40px !important;
+        }
+        h2{
+          padding-left: 40px !important;
+        }
+      }
+      .quality-fuels-and-security{
+        .Explore_Cusomer_Offer_firstDiv{
+          padding-left: 87px !important;
+        }
+      }
+      .quality-fuels-and-security-section{
+        .quality-fuels-and-security{
+          .content{
+            padding-left: 84px !important;
+          }
         }
       }
 }
