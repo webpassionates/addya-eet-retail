@@ -546,8 +546,19 @@
   #dealer-offer {
     .dealeroffer {
       .Explore_Cusomer_Offer_SubParentDiv {
-        padding-left: 33px;
+        padding-left: 0.5rem !important;
       }
     }
   }
+  #dealer-offer-includes{
+    .offer-includes{
+      .Explore_Cusomer_Offer_firstDiv{
+        .Explore_Cusomer_Offer_SubParentDiv{
+          .Explore_Cusomer_Offer_horizontal_line{
+            width: 67%;
+          }
+        } 
+      } 
+    } 
+  } 
 }
