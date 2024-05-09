@@ -523,30 +523,32 @@
       }
     }
   }
-  #dealer-offer-includes{
-    .offer-includes{
-      .Explore_Cusomer_Offer_SubParentDiv{
-        p{
+
+  #dealer-offer-includes {
+    .offer-includes {
+      .Explore_Cusomer_Offer_SubParentDiv {
+        p {
           padding-left: 10px !important;
         }
       }
     }
   }
-  #dealer-offer{
-    .Explore_Cusomer_Offer_horizontal_line{
+
+  #dealer-offer {
+    .Explore_Cusomer_Offer_horizontal_line {
       width: 78% !important;
     }
-  } 
+  }
 }
 
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen and (min-width : 1366px) and (max-width : 1440px) {
-  #dealer-offer{
-    .dealeroffer{
-      .Explore_Cusomer_Offer_SubParentDiv{
+  #dealer-offer {
+    .dealeroffer {
+      .Explore_Cusomer_Offer_SubParentDiv {
         padding-left: 33px;
       }
     }
   }
-  }
+}
