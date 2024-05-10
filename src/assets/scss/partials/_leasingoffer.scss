@@ -226,23 +226,33 @@
             }
         }
     }
-    #dealer-offer{
-        .dealeroffer{
-            .Explore_Cusomer_Offer_firstDiv{
-                .Explore_Cusomer_Offer_SubParentDiv{
+
+    #dealer-offer {
+        .dealeroffer {
+            .Explore_Cusomer_Offer_firstDiv {
+                .Explore_Cusomer_Offer_SubParentDiv {
                     margin-left: 1.9rem !important;
-                } 
+                }
             }
-            .dealer_Container_SecondDiv{
+
+            .dealer_Container_SecondDiv {
                 margin-left: unset !important;
+            }
+
+            .lease-col {
+                padding-left: 5px;
             }
         }
     }
-    #competetive-receive{
-        .competetivereceive{
-            .eighteen-div{
+
+    #competetive-receive {
+        .competetivereceive {
+            .eighteen-div {
                 margin-left: 0rem !important;
                 padding-left: 0rem !important;
+            }
+            .row-p-b {
+                padding: 120px 0 120px 160px !important;
             }
         }
     }
