@@ -1240,3 +1240,72 @@ body {
     }
   }
 }
+
+@media only screen and (min-width: 1366px) and (max-width: 1440px) {
+  .Refinery_Container {
+    .Refinery_Container_firstDiv {
+      .SubParent_div {
+        .Refinery_horizontal_line {
+          width: 52% !important;
+        }
+        .text-uppercase {
+          margin-bottom: 0 !important;
+        }
+      }
+    }
+  }
+  .Loan_Agree_Main_Continer {
+    .Loan_Agree_DivSection {
+      .Loan_Agree_box {
+        width: 330px !important;
+        height: 450px !important;
+      }
+    }
+  }
+  // .Loan_Agree_Container_firstDiv {
+  //   .Loan_Agree_SubParent_div {
+  //     margin-top: 9%;
+  //   }
+  // }
+  .Explore_Cusomer_Offer_Containar {
+    .Explore_Cusomer_Offer_Heading {
+      .Explore_Cusomer_Offer_firstDiv {
+        .Explore_Cusomer_Offer_SubParentDiv {
+          .Explore_Cusomer_Offer_horizontal_line {
+            width: 69% !important;
+          }
+        }
+      }
+    }
+  }
+  .VisitUs_Today_firstDiv {
+    padding-left: 0 !important;
+  }
+  .Refinery_Container_SecondDiv {
+    padding-left: 0 !important;
+  }
+  .ExploreNews_Continer {
+    .ExploreNews_firstDiv {
+      .ExploreNews_SubParent_div {
+        .ExploreNews_horizontal_line {
+          width: 87% !important;
+        }
+      }
+    }
+  }
+  .ExploreNews_Continer {
+    .ExploreNews_Button {
+      h1 {
+        margin-left: 12px;
+      }
+    }
+  }
+  #home-inviteContiner{
+    margin-top: 200px;
+  }
+  .Loan_Agree_Main_Continer {
+    .Loan_Agree_Container_firstDiv {
+      padding-top: 60px;
+    }
+  }
+}
