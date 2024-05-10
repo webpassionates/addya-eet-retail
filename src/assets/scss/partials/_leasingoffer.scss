@@ -161,27 +161,47 @@
 }
 
 .InviteContinerr {
+    // bottom: 80.5% !important;
+    // display: flex;
+    // align-items: center;
+    // background: linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%) !important;
+    // border-left: 0 !important;
+    // border-right: 0 !important;
+    // border-top: 0 !important;
+    // border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
+    // border-image-slice: 2 !important;
+    // border-bottom: 4px solid transparent !important;
+    /* Use vendor prefixes for gradient and flexbox */
     bottom: 80.5% !important;
+    display: -webkit-box;
+    /* Safari, iOS Safari */
+    display: -moz-box;
+    /* Firefox (old) */
+    display: -ms-flexbox;
+    /* IE 10 */
+    display: -webkit-flex;
+    /* Chrome, Safari, Android, iOS Safari */
     display: flex;
+    /* Standard */
+    -webkit-box-align: center;
+    /* Safari, iOS Safari */
+    -moz-box-align: center;
+    /* Firefox (old) */
+    -ms-flex-align: center;
+    /* IE 10 */
+    -webkit-align-items: center;
+    /* Chrome, Safari, Android, iOS Safari */
     align-items: center;
-    background: linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%) !important;
-    background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#fff)),
-        linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%);
+    /* Standard */
+    background: -webkit-linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%) !important;
     border-left: 0 !important;
     border-right: 0 !important;
     border-top: 0 !important;
+    border-image: -webkit-linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
     border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
-    border-image: -webkit-gradient(linear, left top, right top, from(#5F8AC7), color-stop(17.53%, #5F8AC7), color-stop(48.78%, #78A293), color-stop(82%, #99C152), to(#A6CE39)) !important;
+    -webkit-border-image-slice: 2 !important;
     border-image-slice: 2 !important;
     border-bottom: 4px solid transparent !important;
-    display: -webkit-box;
-    /* Safari 6.1+ */
-    display: -ms-flexbox;
-    /* IE 10 */
-    -webkit-box-align: center;
-    /* Safari 6.1+ */
-    -ms-flex-align: center;
-    /* IE 10 */
 }
 
 .InviteContinerr::after {
