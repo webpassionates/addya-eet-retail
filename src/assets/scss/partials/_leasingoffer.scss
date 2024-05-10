@@ -171,6 +171,10 @@
     border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
     border-image-slice: 2 !important;
     border-bottom: 4px solid transparent !important;
+    display: -webkit-box; /* Safari 6.1+ */
+    display: -ms-flexbox; /* IE 10 */
+    -webkit-box-align: center; /* Safari 6.1+ */
+    -ms-flex-align: center; /* IE 10 */
 }
 
 .InviteContinerr::after {
