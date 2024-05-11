@@ -27,24 +27,24 @@
 
     <main id="newsroom-page">
         <!--header start-->
-    <section id="top-common-header">
-        <div class="topheader pb-3">
-            <div class="container">
-                <nav class="navbar navbar-expand-lg pt-4">
-                    <div class="container-fluid header-width">
-                        <a class="navbar-brand" href="index.html"><img src="./assets/images/retail-logo.png"></a>
-                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                            aria-expanded="false" aria-label="Toggle navigation">
-                            <span class="navbar-toggler-icon"></span>
-                        </button>
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
-                                <li class="nav-item">
-                                    <a class="nav-link active fw-semibold" aria-current="page"
-                                        href="who-we-are.html">Who We Are</a>
-                                </li>
-                                <li class="nav-item dropdown">
+        <section id="top-common-header">
+            <div class="topheader pb-3">
+                <div class="container">
+                    <nav class="navbar navbar-expand-lg pt-4">
+                        <div class="container-fluid header-width">
+                            <a class="navbar-brand" href="index.html"><img src="./assets/images/retail-logo.png"></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                                    <li class="nav-item">
+                                        <a class="nav-link active fw-semibold" aria-current="page"
+                                            href="who-we-are.html">Who We Are</a>
+                                    </li>
+                                    <!-- <li class="nav-item dropdown">
                                     <a class="nav-link fw-semibold dropdown-toggle" href="#" role="button"
                                         data-bs-toggle="dropdown" aria-expanded="false">
                                         Business Offers <i class="fa-solid fa-chevron-down"></i>
@@ -58,63 +58,79 @@
                                         <li><a class="dropdown-item pt-3 pb-4 fw-bold"
                                                 href="business-offerings-dealer-offer-1.html">Dealer Offer</a></li>
                                     </ul>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link fw-semibold active" aria-current="page"
-                                        href="customer-offering.html">Customer
-                                        Offers</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link fw-semibold active" aria-current="page"
-                                        href="our-locations.html">Our
-                                        Locations</a>
-                                </li>
-                                <li class="nav-item">
-                                    <a class="nav-link fw-semibold active" aria-current="page"
-                                        href="newsroom-1.html">News</a>
-                                </li>
-                                <li class="me-5 ms-3 speak-hover-btn" id="speakToUsBtn">
-                                    <a href="speak-to-us.html" class="">
-                                        <div class="nav-btns"> <a href="speak-to-us.html"
-                                                class="text-decoration-none text-white text-color">Speak
-                                                to us
-                                            </a>
+                                </li> -->
+                                    <li class="nav-item dropdown" onmouseover="openDropdown()"
+                                        onmouseout="closeDropdown()">
+                                        <a class="nav-link fw-semibold dropdown-toggle" href="#" role="button"
+                                            aria-expanded="false">
+                                            Business Offers <i class="fa-solid fa-chevron-down"></i>
+                                        </a>
+                                        <ul class="dropdown-menu px-2" id="dropdownMenu">
+                                            <li><a class="dropdown-item pt-4 fw-bold"
+                                                    href="leasing-offer-1.html">Leasing Offer</a></li>
+                                            <li><a class="dropdown-item pt-3 fw-bold"
+                                                    href="contract-manager-offer.html">Contract Manager
+                                                    Offer</a></li>
+                                            <li><a class="dropdown-item pt-3 pb-4 fw-bold"
+                                                    href="business-offerings-dealer-offer-1.html">Dealer Offer</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link fw-semibold active" aria-current="page"
+                                            href="customer-offering.html">Customer
+                                            Offers</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link fw-semibold active" aria-current="page"
+                                            href="our-locations.html">Our
+                                            Locations</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link fw-semibold active" aria-current="page"
+                                            href="newsroom-1.html">News</a>
+                                    </li>
+                                    <li class="me-5 ms-3 speak-hover-btn" id="speakToUsBtn">
+                                        <a href="speak-to-us.html" class="">
+                                            <div class="nav-btns"> <a href="speak-to-us.html"
+                                                    class="text-decoration-none text-white text-color">Speak
+                                                    to us
+                                                </a>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="nav-item position-relative">
+                                        <div class="icon-input">
+                                            <input id="searchInput" class="icon-input__text-field border-0" type="text"
+                                                placeholder="Search ">
+                                            <i id="searchIcon" class="icon-input__icon material-icons "><i
+                                                    class="fa-solid fa-magnifying-glass fs-4" id="glass"></i></i>
                                         </div>
-                                    </a>
-                                </li>
-                                <li class="nav-item position-relative">
-                                    <div class="icon-input">
-                                        <input id="searchInput" class="icon-input__text-field border-0" type="text"
-                                            placeholder="Search ">
-                                        <i id="searchIcon" class="icon-input__icon material-icons "><i
-                                                class="fa-solid fa-magnifying-glass fs-4" id="glass"></i></i>
-                                    </div>
-                                </li>
-                            </ul>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
-                    </div>
-                </nav>
+                    </nav>
+                </div>
             </div>
-        </div>
-    </section>
-    <!--header end-->
+        </section>
+        <!--header end-->
 
-    <!--banner start-->
-    <section id="essar-banner">
-        <div class="essarbanner">
-            <div class="container">
-                <div class="row row-height">
-                    <div class="col-lg-12">
+        <!--banner start-->
+        <section id="essar-banner">
+            <div class="essarbanner">
+                <div class="container">
+                    <div class="row row-height">
+                        <div class="col-lg-12">
 
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!--banner end-->
+        </section>
+        <!--banner end-->
 
-    <!-- Curve Srart -->
-    <!-- <section id="essar-curve">
+        <!-- Curve Srart -->
+        <!-- <section id="essar-curve">
         <div class="essarcurve">
             <div class="container">
                 <div class="row">
@@ -125,334 +141,339 @@
             </div>
         </div>
     </section> -->
-    <!-- Curve End -->
+        <!-- Curve End -->
 
-    <!-- Newsroom Section Start -->
-    <section id="newsroom-section" class="pb-4">
-        <div class="newsroom px-5">
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-11 p-0">
-                        <div class="Explore_Cusomer_Offer_firstDiv">
-                            <div class="Explore_Cusomer_Offer_SubParentDiv ps-4">
-                                <p>NEWSROOM</p>
-                                <div class="Explore_Cusomer_Offer_horizontal_line"></div>
+        <!-- Newsroom Section Start -->
+        <section id="newsroom-section" class="pb-4">
+            <div class="newsroom px-5">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-lg-11 p-0">
+                            <div class="Explore_Cusomer_Offer_firstDiv">
+                                <div class="Explore_Cusomer_Offer_SubParentDiv ps-4">
+                                    <p>NEWSROOM</p>
+                                    <div class="Explore_Cusomer_Offer_horizontal_line"></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row justify-content-center">
+                            <div class="col-lg-11">
+                                <div class="row for-padding">
+                                    <div class="col-lg-12">
+                                        <div class="newsroom_Container_SecondDiv">
+                                            <h2 class="ps-5 fs-60">Explore our latest <span> news and updates </span>
+                                            </h2>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="row justify-content-center">
+                </div>
+        </section>
+        <!--Newsroom  End -->
+
+        <!-- News Articles and Press Releases Start -->
+        <section id="newsroom">
+            <div class="ExploreNews_Continer p-0 px-4">
+                <div class="container">
+                    <div class="row justify-content-center px-5 ">
                         <div class="col-lg-11">
-                            <div class="row for-padding">
-                                <div class="col-lg-12">
-                                    <div class="newsroom_Container_SecondDiv">
-                                        <h2 class="ps-5 fs-60">Explore our latest <span> news and updates </span></h2>
-                                    </div>
-                                </div>
+                            <div class="tab mb-5">
+                                <button class="tablinks active" onclick="openCity(event, 'Articles')"><strong>News
+                                        Articles</strong></button>
+
+                                <button class="tablinks" onclick="openCity(event, 'Press')"><strong>Press
+                                        Releases</strong></button>
                             </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <!--Newsroom  End -->
-
-    <!-- News Articles and Press Releases Start -->
-    <section id="newsroom">
-        <div class="ExploreNews_Continer p-0 px-4">
-            <div class="container">
-                <div class="row justify-content-center px-5 ">
-                    <div class="col-lg-11">
-                        <div class="tab mb-5">
-                            <button class="tablinks active" onclick="openCity(event, 'Articles')"><strong>News
-                                    Articles</strong></button>
-
-                            <button class="tablinks" onclick="openCity(event, 'Press')"><strong>Press
-                                    Releases</strong></button>
-                        </div>
-                        <div id="Articles" class="tabcontent active">
-                            <div class="row ExploreNews_NewsSection container">
+                            <div id="Articles" class="tabcontent active">
                                 <div class="row ExploreNews_NewsSection container">
-                                    <div class="ExploreNews_BoxOne col-lg-4 ps-1">
-                                        <div class="overlay-hover">
-                                            <img src="./assets/images/newsroom/newsArticle-1.png" alt="fuel">
-                                            <div class="overlay">
-                                                <div class="fadeIn_bottom">
-                                                    <div class="icon-container">
-                                                        <i class="fa-solid fa-arrow-right"></i>
+                                    <div class="row ExploreNews_NewsSection container">
+                                        <div class="ExploreNews_BoxOne col-lg-4 ps-1">
+                                            <div class="overlay-hover">
+                                                <img src="./assets/images/newsroom/newsArticle-1.png" alt="fuel">
+                                                <div class="overlay">
+                                                    <div class="fadeIn_bottom">
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div>
+                                                <p>
+                                                    Essar will be exhibiting at The Forecourt Show event from 29 April —
+                                                    01
+                                                    May, 2024. See us on stand 140!
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <p>
-                                                Essar will be exhibiting at The Forecourt Show event from 29 April — 01
-                                                May, 2024. See us on stand 140!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="ExploreNews_BoxOne col-lg-4 ps-1">
-                                        <div class="overlay-hover">
-                                            <img src="./assets/images/newsroom/newsArticle-2.png" alt="fuel">
-                                            <div class="overlay">
-                                                <div class="fadeIn_bottom">
-                                                    <div class="icon-container">
-                                                        <i class="fa-solid fa-arrow-right"></i>
+                                        <div class="ExploreNews_BoxOne col-lg-4 ps-1">
+                                            <div class="overlay-hover">
+                                                <img src="./assets/images/newsroom/newsArticle-2.png" alt="fuel">
+                                                <div class="overlay">
+                                                    <div class="fadeIn_bottom">
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div>
+                                                <p>
+                                                    Essar will be the exclusive Motor Fuel Partner at Retail's Best
+                                                    Forecourt & Convenience event on 16 May, 2024. See you there!
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <p>
-                                                Essar will be the exclusive Motor Fuel Partner at Retail's Best
-                                                Forecourt & Convenience event on 16 May, 2024. See you there!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="ExploreNews_BoxOne col-lg-4 ps-1">
-                                        <div class="overlay-hover">
-                                            <img src="./assets/images/newsroom/newsArticle-3.png" alt="fuel">
-                                            <div class="overlay">
-                                                <div class="fadeIn_bottom">
-                                                    <div class="icon-container">
-                                                        <i class="fa-solid fa-arrow-right"></i>
+                                        <div class="ExploreNews_BoxOne col-lg-4 ps-1">
+                                            <div class="overlay-hover">
+                                                <img src="./assets/images/newsroom/newsArticle-3.png" alt="fuel">
+                                                <div class="overlay">
+                                                    <div class="fadeIn_bottom">
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div>
+                                                <p>
+                                                    We are hiring!
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <p>
-                                                We are hiring!
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="ExploreNews_BoxOne col-lg-4 ps-1 mt-lg-4">
-                                        <div class="overlay-hover">
-                                            <img src="./assets/images/newsroom/newsArticle-4.png" alt="fuel">
-                                            <div class="overlay">
-                                                <div class="fadeIn_bottom">
-                                                    <div class="icon-container">
-                                                        <i class="fa-solid fa-arrow-right"></i>
+                                        <div class="ExploreNews_BoxOne col-lg-4 ps-1 mt-lg-4">
+                                            <div class="overlay-hover">
+                                                <img src="./assets/images/newsroom/newsArticle-4.png" alt="fuel">
+                                                <div class="overlay">
+                                                    <div class="fadeIn_bottom">
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div>
+                                                <p>
+                                                    Essar tempts retailers with lease options to achieve ambitious
+                                                    network
+                                                    plans
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <p>
-                                                Essar tempts retailers with lease options to achieve ambitious network
-                                                plans
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="ExploreNews_BoxOne col-lg-4 ps-1 mt-lg-4">
-                                        <div class="overlay-hover">
-                                            <img src="./assets/images/newsroom/newsArticle-5.png" alt="fuel">
-                                            <div class="overlay">
-                                                <div class="fadeIn_bottom">
-                                                    <div class="icon-container">
-                                                        <i class="fa-solid fa-arrow-right"></i>
+                                        <div class="ExploreNews_BoxOne col-lg-4 ps-1 mt-lg-4">
+                                            <div class="overlay-hover">
+                                                <img src="./assets/images/newsroom/newsArticle-5.png" alt="fuel">
+                                                <div class="overlay">
+                                                    <div class="fadeIn_bottom">
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div>
+                                                <p>
+                                                    Essar re-opens forecourt in South Wales
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <p>
-                                                Essar re-opens forecourt in South Wales
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="ExploreNews_BoxOne col-lg-4 ps-1 mt-lg-4">
-                                        <div class="overlay-hover">
-                                            <img src="./assets/images/newsroom/newsArticle-6.png" alt="fuel">
-                                            <div class="overlay">
-                                                <div class="fadeIn_bottom">
-                                                    <div class="icon-container">
-                                                        <i class="fa-solid fa-arrow-right"></i>
+                                        <div class="ExploreNews_BoxOne col-lg-4 ps-1 mt-lg-4">
+                                            <div class="overlay-hover">
+                                                <img src="./assets/images/newsroom/newsArticle-6.png" alt="fuel">
+                                                <div class="overlay">
+                                                    <div class="fadeIn_bottom">
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div>
+                                                <p>
+                                                    Essar opens flagship forecourt with Morrisons store in Preston
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <p>
-                                                Essar opens flagship forecourt with Morrisons store in Preston
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="ExploreNews_BoxOne col-lg-4 ps-1  mt-lg-4">
-                                        <div class="overlay-hover">
-                                            <img src="./assets/images/newsroom/newsArticle-7.png" alt="fuel">
-                                            <div class="overlay">
-                                                <div class="fadeIn_bottom">
-                                                    <div class="icon-container">
-                                                        <i class="fa-solid fa-arrow-right"></i>
+                                        <div class="ExploreNews_BoxOne col-lg-4 ps-1  mt-lg-4">
+                                            <div class="overlay-hover">
+                                                <img src="./assets/images/newsroom/newsArticle-7.png" alt="fuel">
+                                                <div class="overlay">
+                                                    <div class="fadeIn_bottom">
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
-                                        <div>
-                                            <p>
-                                                Essar reveals new motorsport sponsorship deal to highlight its
-                                                performance fuels
-                                            </p>
+                                            <div>
+                                                <p>
+                                                    Essar reveals new motorsport sponsorship deal to highlight its
+                                                    performance fuels
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="Press" class="tabcontent">
-                            <div class="row ExploreNews_NewsSection container">
+                            <div id="Press" class="tabcontent">
                                 <div class="row ExploreNews_NewsSection container">
-                                    <div class="ExploreNews_BoxOne col-lg-4 ps-1">
-                                        <div class="overlay-hover">
-                                            <img src="./assets/images/newsroom/press-1.png" alt="fuel">
-                                            <div class="overlay">
-                                                <div class="fadeIn_bottom">
-                                                    <div class="icon-container">
-                                                        <i class="fa-solid fa-arrow-right"></i>
+                                    <div class="row ExploreNews_NewsSection container">
+                                        <div class="ExploreNews_BoxOne col-lg-4 ps-1">
+                                            <div class="overlay-hover">
+                                                <img src="./assets/images/newsroom/press-1.png" alt="fuel">
+                                                <div class="overlay">
+                                                    <div class="fadeIn_bottom">
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div>
+                                                <p>
+                                                    Press Release title
+                                                <div><span><b>12 MAR, 2024</b></span></div>
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <p>
-                                                Press Release title
-                                            <div><span><b>12 MAR, 2024</b></span></div>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="ExploreNews_BoxOne col-lg-4 ps-1">
-                                        <div class="overlay-hover">
-                                            <img src="./assets/images/newsroom/press-2.png" alt="fuel">
-                                            <div class="overlay">
-                                                <div class="fadeIn_bottom">
-                                                    <div class="icon-container">
-                                                        <i class="fa-solid fa-arrow-right"></i>
+                                        <div class="ExploreNews_BoxOne col-lg-4 ps-1">
+                                            <div class="overlay-hover">
+                                                <img src="./assets/images/newsroom/press-2.png" alt="fuel">
+                                                <div class="overlay">
+                                                    <div class="fadeIn_bottom">
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div>
+                                                <p>
+                                                    Press Release title
+                                                <div><span><b>12 MAR, 2024</b></span></div>
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <p>
-                                                Press Release title
-                                            <div><span><b>12 MAR, 2024</b></span></div>
-                                            </p>
-                                        </div>
-                                    </div>
-                                    <div class="ExploreNews_BoxOne col-lg-4 ps-1">
-                                        <div class="overlay-hover">
-                                            <img src="./assets/images/newsroom/press-3.png" alt="fuel">
-                                            <div class="overlay">
-                                                <div class="fadeIn_bottom">
-                                                    <div class="icon-container">
-                                                        <i class="fa-solid fa-arrow-right"></i>
+                                        <div class="ExploreNews_BoxOne col-lg-4 ps-1">
+                                            <div class="overlay-hover">
+                                                <img src="./assets/images/newsroom/press-3.png" alt="fuel">
+                                                <div class="overlay">
+                                                    <div class="fadeIn_bottom">
+                                                        <div class="icon-container">
+                                                            <i class="fa-solid fa-arrow-right"></i>
+                                                        </div>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div>
+                                                <p>
+                                                    Press Release title
+                                                <div><span><b>12 MAR, 2024</b></span></div>
+                                                </p>
+                                            </div>
                                         </div>
-                                        <div>
-                                            <p>
-                                                Press Release title
-                                            <div><span><b>12 MAR, 2024</b></span></div>
-                                            </p>
-                                        </div>
-                                    </div>
 
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
-    <!-- News Articles and Press Releases Start -->
+        </section>
+        <!-- News Articles and Press Releases Start -->
 
-    <!-- Footer Section Start -->
-    <section id="footer">
-        <div class="position-relative">
-            <div class="InviteContinerr">
-                <p class="newsroom-para mb-0">Why not join our growing network today and benefit from our brands secure
-                    supply of fuel straight to your forecourt?</p>
-                <button class="anim-btn">Speak to us
-                    <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
-                            fill="#FFFFFF" />
-                    </svg>
-                </button>
-            </div>
-            <!-- Footer Section Start -->
-            <footer>
-                <div class="footer_Continer pt-5">
-                    <div class="footer">
-                        <div class="column">
-                            <div class="row_Logo">
-                                <img src="./assets/images/EET_Retail_Logo_T.png" alt="Logo">
-                            </div>
-                            <p class="row">Why not join our growing network today and benefit from our brands secure
-                                supply of fuel straight to your forecourt?
-                            </p>
-                            <div class="NavigateTo_EarthGlobe">
-                                <img src="./assets/images/earth_globe_fooer.png" alt="Logo">
-                                <p class="mb-0">Visit EET Fuels Website</p>
-                                <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow_Logo">
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="row">
-                                <h3 class="text-start ps-5 ms-4"><a href="who-we-are.html"
-                                        class="text-white text-decoration-none">Who We Are</a></h3>
-                            </div>
-                            <div class="row">
-                                <h3 class="text-start ps-5 ms-4"><a href="#"
-                                        class="text-white text-decoration-none">Business Offers</a></h3>
-                                <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="leasing-offer-1.html"
-                                        class="text-white text-decoration-none">Leasing Offer</a></h3>
-                                <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="contract-manager-offer.html"
-                                        class="text-white text-decoration-none">Contract Manager Offer</a></h3>
-                                <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a
-                                        href="business-offerings-dealer-offer-1.html"
-                                        class="text-white text-decoration-none">Dealer Offer</a></h3>
-                            </div>
-                            <div class="row">
-                                <h3 class="text-start ps-5 ms-4"><a href="customer-offering.html"
-                                        class="text-white text-decoration-none">Customer Offers</a></h3>
-                            </div>
-                        </div>
-                        <div class="column">
-                            <div class="row">
-                                <h3 class="text-start ps-5 ms-4"><a href="our-locations.html"
-                                        class="text-white text-decoration-none">Our Locations</a></h3>
-                                <h3 class="text-start ps-5 ms-4 pt-2"><a href="newsroom-1.html"
-                                        class="text-white text-decoration-none">News</a></h3>
-                                <h3 class="text-start ps-5 ms-4 pt-2"><a href="speak-to-us.html"
-                                        class="text-white text-decoration-none">Speak To Us</a></h3>
-                            </div>
-                        </div>
-                        <div class="column text-start">
-                            <div class="row_LastColum">
-                                <h3>Follow Us</h3>
-                            </div>
-                            <div class="row_Social_logo">
-                                <img src="./assets/images/Linkdin_footer.png" alt="LinkedIn Logo">
-                            </div>
-                            <div class="row_QrLogo pt-4">
-                                <img src="./assets/images/qr_code_footer.png" alt="QrCode Logo">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row m-0">
-                        <div class="col-lg-12 text-center">
-                            <p class="pt-4 pb-3 footer-copyright">© Copyright 2024 EET Retail</p>
-                        </div>
-                    </div>
+        <!-- Footer Section Start -->
+        <section id="footer">
+            <div class="position-relative">
+                <div class="InviteContinerr">
+                    <p class="newsroom-para mb-0">Why not join our growing network today and benefit from our brands
+                        secure
+                        supply of fuel straight to your forecourt?</p>
+                    <button class="anim-btn">Speak to us
+                        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
+                                fill="#FFFFFF" />
+                        </svg>
+                    </button>
                 </div>
-                <!-- <div class="footer-content-container">
+                <!-- Footer Section Start -->
+                <footer>
+                    <div class="footer_Continer pt-5">
+                        <div class="footer">
+                            <div class="column">
+                                <div class="row_Logo">
+                                    <img src="./assets/images/EET_Retail_Logo_T.png" alt="Logo">
+                                </div>
+                                <p class="row">Why not join our growing network today and benefit from our brands secure
+                                    supply of fuel straight to your forecourt?
+                                </p>
+                                <div class="NavigateTo_EarthGlobe">
+                                    <img src="./assets/images/earth_globe_fooer.png" alt="Logo">
+                                    <p class="mb-0">Visit EET Fuels Website</p>
+                                    <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow_Logo">
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    <h3 class="text-start ps-5 ms-4"><a href="who-we-are.html"
+                                            class="text-white text-decoration-none">Who We Are</a></h3>
+                                </div>
+                                <div class="row">
+                                    <h3 class="text-start ps-5 ms-4"><a href="#"
+                                            class="text-white text-decoration-none">Business Offers</a></h3>
+                                    <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="leasing-offer-1.html"
+                                            class="text-white text-decoration-none">Leasing Offer</a></h3>
+                                    <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a
+                                            href="contract-manager-offer.html"
+                                            class="text-white text-decoration-none">Contract Manager Offer</a></h3>
+                                    <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a
+                                            href="business-offerings-dealer-offer-1.html"
+                                            class="text-white text-decoration-none">Dealer Offer</a></h3>
+                                </div>
+                                <div class="row">
+                                    <h3 class="text-start ps-5 ms-4"><a href="customer-offering.html"
+                                            class="text-white text-decoration-none">Customer Offers</a></h3>
+                                </div>
+                            </div>
+                            <div class="column">
+                                <div class="row">
+                                    <h3 class="text-start ps-5 ms-4"><a href="our-locations.html"
+                                            class="text-white text-decoration-none">Our Locations</a></h3>
+                                    <h3 class="text-start ps-5 ms-4 pt-2"><a href="newsroom-1.html"
+                                            class="text-white text-decoration-none">News</a></h3>
+                                    <h3 class="text-start ps-5 ms-4 pt-2"><a href="speak-to-us.html"
+                                            class="text-white text-decoration-none">Speak To Us</a></h3>
+                                </div>
+                            </div>
+                            <div class="column text-start">
+                                <div class="row_LastColum">
+                                    <h3>Follow Us</h3>
+                                </div>
+                                <div class="row_Social_logo">
+                                    <img src="./assets/images/Linkdin_footer.png" alt="LinkedIn Logo">
+                                </div>
+                                <div class="row_QrLogo pt-4">
+                                    <img src="./assets/images/qr_code_footer.png" alt="QrCode Logo">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row m-0">
+                            <div class="col-lg-12 text-center">
+                                <p class="pt-4 pb-3 footer-copyright">© Copyright 2024 EET Retail</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- <div class="footer-content-container">
               <p>© Copyright 2023 Master Wire kit.</p>
             </div> -->
-            </footer>
-        </div>
-    </section>
-    <!-- End -->
+                </footer>
+            </div>
+        </section>
+        <!-- End -->
     </main>
 
     <!-- Script Link -->
