@@ -863,7 +863,7 @@ body {
     }
 
     .header-width {
-      width: 82% !important;
+      width: 83% !important;
     }
   }
 }
@@ -1202,6 +1202,10 @@ body {
   text-align: justify;
 }
 
+.visit-eet {
+  font-size: $fs-16;
+}
+
 @media only screen and (min-width: 1800px) and (min-height: 1169px) {
   .Explore_Cusomer_Offer_Containar {
     .Explore_Cusomer_Offer_ThirdDiv {
@@ -1272,11 +1276,6 @@ body {
     }
   }
 
-  // .Loan_Agree_Container_firstDiv {
-  //   .Loan_Agree_SubParent_div {
-  //     margin-top: 9%;
-  //   }
-  // }
   .Explore_Cusomer_Offer_Containar {
     .Explore_Cusomer_Offer_Heading {
       .Explore_Cusomer_Offer_firstDiv {
@@ -1331,6 +1330,14 @@ body {
         .slide-content {
           left: 28.5%;
         }
+      }
+    }
+  }
+
+  #top-header {
+    .topheader {
+      .navbar .nav-item {
+        padding:5px 5px;
       }
     }
   }

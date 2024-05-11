@@ -87,8 +87,8 @@ span {
       background-size: 100%;
 
       .content {
-        right: 10%;
-        bottom: 30%;
+        right: 20%;
+        bottom: 35%;
 
         h5 {
           font-weight: 800;
@@ -523,7 +523,7 @@ span {
 }
 
 
-@media only screen and (min-width : 1366px) and (max-width : 1440px) { 
+@media only screen and (min-width : 1360px) and (max-width : 1440px) { 
 
   #added-value-across-section {
       .added-value-across {
@@ -559,10 +559,28 @@ span {
           }
       }
   }
-}
 
-@media only screen and (min-width: 1366px) and (max-width: 1440px) { 
-  .nav-link {
-    font-size:14px !important; 
+  #banner-section {
+    .banner {
+      .background-banner-img { 
+        .content {
+          right: 10%;
+          bottom: 36%;  
+        }
+      }
+    } 
+  }
+  #top-common-header{
+    .topheader{
+      .navbar{
+        .nav-item{
+          font-size:18px !important; 
+          padding: 5px 5px;
+        }
+      }
+    } 
   }
 }
+ 
+
+ 
