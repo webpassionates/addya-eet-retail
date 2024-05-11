@@ -32,3 +32,11 @@ $(document).ready(function() {
     });
   });
   
+//accordian start//
+$(document).ready(function(){
+  $('.accordion__item input[type="checkbox"]').on('change', function(){
+      // Close all other accordions
+      $('.accordion__item input[type="checkbox"]').not(this).prop('checked', true);
+  });
+});
+//accordian end//
