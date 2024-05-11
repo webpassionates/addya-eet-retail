@@ -44,9 +44,10 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
                   <li class="nav-item">
-                    <a class="nav-link active text-white fw-semibold" aria-current="page" href="who-we-are.html">Who We Are</a>
+                    <a class="nav-link active text-white fw-semibold" aria-current="page" href="who-we-are.html">Who We
+                      Are</a>
                   </li>
-                  <li class="nav-item dropdown">
+                  <!-- <li class="nav-item dropdown">
                     <a class="nav-link text-white fw-semibold dropdown-toggle" href="#" role="button"
                       data-bs-toggle="dropdown" aria-expanded="false">
                       Business Offers <i class="fa-solid fa-chevron-down"></i>
@@ -56,19 +57,36 @@
                       <li><a class="dropdown-item pt-3 fw-bold" href="contract-manager-offer.html">Contract Manager Offer</a></li>
                       <li><a class="dropdown-item pt-3 pb-4 fw-bold" href="business-offerings-dealer-offer-1.html">Dealer Offer</a></li>
                     </ul>
+                  </li> -->
+                  <li class="nav-item dropdown" onmouseover="openDropdown()" onmouseout="closeDropdown()">
+                    <a class="nav-link text-white fw-semibold dropdown-toggle" href="#" role="button"
+                      aria-expanded="false">
+                      Business Offers <i class="fa-solid fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu px-2" id="dropdownMenu">
+                      <li><a class="dropdown-item pt-4 fw-bold" href="leasing-offer-1.html">Leasing Offer</a></li>
+                      <li><a class="dropdown-item pt-3 fw-bold" href="contract-manager-offer.html">Contract Manager
+                          Offer</a></li>
+                      <li><a class="dropdown-item pt-3 pb-4 fw-bold"
+                          href="business-offerings-dealer-offer-1.html">Dealer Offer</a></li>
+                    </ul>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white fw-semibold active" aria-current="page" href="customer-offering.html">Customer Offers</a>
+                    <a class="nav-link text-white fw-semibold active" aria-current="page"
+                      href="customer-offering.html">Customer Offers</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white fw-semibold active" aria-current="page" href="our-locations.html">Our Locations</a>
+                    <a class="nav-link text-white fw-semibold active" aria-current="page" href="our-locations.html">Our
+                      Locations</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link text-white fw-semibold active" aria-current="page" href="newsroom-1.html">News</a>
+                    <a class="nav-link text-white fw-semibold active" aria-current="page"
+                      href="newsroom-1.html">News</a>
                   </li>
                   <li class="me-5 ms-3 speak-hover-btn" id="speakToUsBtn">
                     <a href="speak-to-us.html" class="">
-                      <div class="nav-btns"> <a href="speak-to-us.html" class="text-decoration-none text-white text-color">Speak
+                      <div class="nav-btns"> <a href="speak-to-us.html"
+                          class="text-decoration-none text-white text-color">Speak
                           to us
                         </a>
                       </div>
@@ -165,8 +183,10 @@
               <div class="border-btn">
                 <div class="anim-btn-border-2">
                   <a class="text-decoration-none text-white" href="#">
-                    <a style="display: inline-block;" class="text-color text-decoration-none text-white"> Find out more</a>
-                    <img src="./assets/images/TestmonialNext.png" alt="icon" style="display: inline-block; vertical-align: middle;">
+                    <a style="display: inline-block;" class="text-color text-decoration-none text-white"> Find out
+                      more</a>
+                    <img src="./assets/images/TestmonialNext.png" alt="icon"
+                      style="display: inline-block; vertical-align: middle;">
                   </a>
                 </div>
               </div>
@@ -191,8 +211,10 @@
               <div class="border-btn">
                 <div class="anim-btn-border-2">
                   <a class="text-decoration-none text-white" href="#">
-                    <a style="display: inline-block;" class="text-color text-decoration-none text-white"> Find out more</a>
-                    <img src="./assets/images/TestmonialNext.png" alt="icon" style="display: inline-block; vertical-align: middle;">
+                    <a style="display: inline-block;" class="text-color text-decoration-none text-white"> Find out
+                      more</a>
+                    <img src="./assets/images/TestmonialNext.png" alt="icon"
+                      style="display: inline-block; vertical-align: middle;">
                   </a>
                 </div>
               </div>
@@ -341,43 +363,14 @@
           </div>
         </div>
         <div class="Explore_Cusomer_Offer_ThirdDiv">
-          <!-- <div class="slider">
-            <div class="slide" style="background-image: url('./assets/images/LG_night_025-small_1.png');">
-              <div class="slide-content">
-                <h2>Essar 99</h2>
-                <p>Our new high-octane fuel is competitively priced and designed to meet your vehicle's needs, ensuring
-                  efficiency and reliability. </p>
-                <button class="button">Find out more
-                  <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
-                      fill="#ffffff" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-            <div class="slide" style="background-image: url('./assets/images/Hero_1.png');">
-              <div class="slide-content">
-                <h2>Convenience</h2>
-                <p>Our new high-octane fuel is competitively priced and designed to meet your vehicle's needs, ensuring
-                  efficiency and reliability. </p>
-                <button class="button">Find out more
-                  <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                      d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
-                      fill="#ffffff" />
-                  </svg>
-                </button>
-              </div>
-            </div>
-          </div> -->
           <div class="slider">
             <div class="slide" style="background-image: url('./assets/images/essar.png');">
               <div class="slide-content">
-                <h2>Essar 99</h2>
-                <p>Our new high-octane fuel is competitively priced and designed to meet your vehicle's needs, ensuring
+                <h2 class="ps-2 pb-4">Essar 99</h2>
+                <p class="ps-2">Our new high-octane fuel is competitively priced and designed to meet your vehicle's
+                  needs, ensuring
                   efficiency and reliability.</p>
-                <button class="anim-btn"> <a class="text-decoration-none text-white">Find out more</a>
+                <button class="anim-btn mt-2 ms-2"> <a class="text-decoration-none text-white">Find out more</a>
                   <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
@@ -388,11 +381,12 @@
             </div>
             <div class="slide" style="background-image: url('./assets/images/conveniance.png');">
               <div class="slide-content">
-                <h2>Convenience</h2>
-                <p>Our renewed purpose: 'Driving Community Convenience focuses on meeting the needs of local communities
+                <h2 class="ps-2 pb-4 pt-2">Convenience</h2>
+                <p class="ps-2">Our renewed purpose: 'Driving Community Convenience focuses on meeting the needs of
+                  local communities
                   by making interactions effortless for customers and streamline operations for our staff, turning our
                   sites into essential hubs for the people we serve.</p>
-                <button class="anim-btn"> <a class="text-decoration-none text-white">Find out more</a>
+                <button class="anim-btn ms-2"> <a class="text-decoration-none text-white">Find out more</a>
                   <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path
                       d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
@@ -421,13 +415,13 @@
             <h2 class="pt-2">Visit us <br><span>today</span></h2>
             <p>Whether you're navigating the daily commute, planning a long-distance trip, or simply need to refuel
               quickly, you can find your nearest Essar service station with our forecourt locator.</p>
-              <button class="anim-btn"> <a class="text-decoration-none text-white">Explore our network</a>
-                <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path
-                    d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
-                    fill="#FFFFFF" />
-                </svg>
-              </button>
+            <button class="anim-btn"> <a class="text-decoration-none text-white">Explore our network</a>
+              <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
+                  fill="#FFFFFF" />
+              </svg>
+            </button>
 
           </div>
         </div>
@@ -626,15 +620,16 @@
     <!-- Invite Section -->
     <section id="home-inviteContiner">
       <div class="InviteContiner">
-        <p class="mb-0 home-para">We invite you to join our growing network and benefit from our secure supply of quality fuels, value driven
+        <p class="mb-0 home-para">We invite you to join our growing network and benefit from our secure supply of
+          quality fuels, value driven
           partnerships, and innovative retail solutions. </p>
-          <button class="anim-btn"> <a class="text-decoration-none text-white">Speak to us</a>
-            <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
-              <path
-                d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
-                fill="#FFFFFF" />
-            </svg>
-          </button>
+        <button class="anim-btn"> <a class="text-decoration-none text-white">Speak to us</a>
+          <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
+              fill="#FFFFFF" />
+          </svg>
+        </button>
       </div>
     </section>
 
@@ -661,23 +656,32 @@
           </div>
           <div class="column">
             <div class="row">
-              <h3 class="text-start ps-5 ms-4"><a href="who-we-are.html" class="text-white text-decoration-none">Who We Are</a></h3>
+              <h3 class="text-start ps-5 ms-4"><a href="who-we-are.html" class="text-white text-decoration-none">Who We
+                  Are</a></h3>
             </div>
             <div class="row">
-              <h3 class="text-start ps-5 ms-4"><a href="#" class="text-white text-decoration-none">Business Offers</a></h3>
-              <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="leasing-offer-1.html" class="text-white text-decoration-none">Leasing Offer</a></h3>
-              <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="contract-manager-offer.html" class="text-white text-decoration-none">Contract Manager Offer</a></h3>
-              <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="business-offerings-dealer-offer-1.html" class="text-white text-decoration-none">Dealer Offer</a></h3>
+              <h3 class="text-start ps-5 ms-4"><a href="#" class="text-white text-decoration-none">Business Offers</a>
+              </h3>
+              <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="leasing-offer-1.html"
+                  class="text-white text-decoration-none">Leasing Offer</a></h3>
+              <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="contract-manager-offer.html"
+                  class="text-white text-decoration-none">Contract Manager Offer</a></h3>
+              <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="business-offerings-dealer-offer-1.html"
+                  class="text-white text-decoration-none">Dealer Offer</a></h3>
             </div>
             <div class="row">
-              <h3 class="text-start ps-5 ms-4"><a href="customer-offering.html" class="text-white text-decoration-none">Customer Offers</a></h3>
+              <h3 class="text-start ps-5 ms-4"><a href="customer-offering.html"
+                  class="text-white text-decoration-none">Customer Offers</a></h3>
             </div>
           </div>
           <div class="column">
             <div class="row">
-              <h3 class="text-start ps-5 ms-4"><a href="our-locations.html" class="text-white text-decoration-none">Our Locations</a></h3>
-              <h3 class="text-start ps-5 ms-4 pt-2"><a href="newsroom-1.html" class="text-white text-decoration-none">News</a></h3>
-              <h3 class="text-start ps-5 ms-4 pt-2"><a href="speak-to-us.html" class="text-white text-decoration-none">Speak To Us</a></h3>
+              <h3 class="text-start ps-5 ms-4"><a href="our-locations.html" class="text-white text-decoration-none">Our
+                  Locations</a></h3>
+              <h3 class="text-start ps-5 ms-4 pt-2"><a href="newsroom-1.html"
+                  class="text-white text-decoration-none">News</a></h3>
+              <h3 class="text-start ps-5 ms-4 pt-2"><a href="speak-to-us.html"
+                  class="text-white text-decoration-none">Speak To Us</a></h3>
             </div>
           </div>
           <div class="column text-start">
@@ -710,8 +714,12 @@
   <script src="../dist/js/bundle.min.js"></script>
   <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
   <script src="assets/js/custom.js"></script>
+  
+  <script>
+    
+</script>
 
 </body>
 
