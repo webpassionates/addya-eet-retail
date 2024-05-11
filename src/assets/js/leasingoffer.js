@@ -54,7 +54,7 @@ window.onload = function () {
     var autoplayInterval = setInterval(function () {
         changeTab(tabs[currentIndex]);
         currentIndex = (currentIndex + 1) % tabs.length;
-    }, 3000); // Change tabs every 3 seconds
+    }, 8000); // Change tabs every 3 seconds
     // Call function to add click event listeners to all tabs
     addClickEventListenersToTabs();
 };

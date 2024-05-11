@@ -96,7 +96,7 @@
           .Explore_Cusomer_Offer_horizontal_line {
             background-color: #d1d5db;
             height: 1.5px;
-            width: 100%;
+            width: 85%;
             margin-left: 20px;
           }
         }
@@ -106,6 +106,7 @@
         h2 {
           font-size: 60px;
           line-height: 65px;
+          padding-left: 2.5rem !important;
         }
       }
 
@@ -218,13 +219,48 @@
   }
 
   @media only screen and (min-width: 1800px) and (min-height: 1169px) {
-    #location-section{
-          .location{
-            .Explore_Cusomer_Offer_firstDiv{  
-                padding-left: 0px !important;  
-            } 
+    #location-section {
+      .location {
+        .Explore_Cusomer_Offer_firstDiv {
+          padding-left: 0px !important;
+        }
+      }
+    }
+  }
+
+  @media only screen and (min-width : 1360px) and (max-width : 1440px) {
+    #location-section {
+      .location {
+        .Explore_Cusomer_Offer_firstDiv {
+          .Explore_Cusomer_Offer_SubParentDiv {
+            .Explore_Cusomer_Offer_horizontal_line {
+              width: 83%;
+            }
           }
         }
+
+        .newsroom_Container_SecondDiv {
+          h2 {
+            padding-left: 1.5rem !important;
+          }
+        }
+
+        .site-locator {
+          margin-left: 2rem !important;
+        }
+      }
+    }
+
+    #maps-section {
+      .mapssection .for-scroll {
+        margin-left: unset !important;
+      }
+    }
+    #location-section {
+      .location h5 {
+        font-size: 20px !important;
+      }
+    }
   }
 
 }

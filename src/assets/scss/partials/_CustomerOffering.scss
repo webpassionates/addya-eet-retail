@@ -441,7 +441,7 @@
   }
 }
 
-@media only screen and (min-width: 1366px) and (max-width: 1440px) {
+@media only screen and (min-width: 1440px) and (max-width: 1900px) {
   #dealer-offer .dealeroffer {
     .Explore_Cusomer_Offer_firstDiv {
       .Explore_Cusomer_Offer_SubParentDiv {
@@ -450,13 +450,45 @@
         }
       }
     }
-    .dealer_Container_SecondDiv{
-      h2{
+
+    .dealer_Container_SecondDiv {
+      h2 {
         padding-left: 8px !important;
       }
     }
-    .exp-offers{
+
+    .exp-offers {
       margin-left: -1.1rem !important;
+    }
+  }
+
+  #dealer-offer {
+    .hr-dealeroffer {
+      .Explore_Cusomer_Offer_horizontal_line {
+        width: 72% !important;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1300px) and (max-width: 1400px) {
+  #dealer-offer {
+    .hr-dealeroffer { 
+      .Explore_Cusomer_Offer_horizontal_line {
+        width: 70% !important;
+      }
+    } 
+  }
+  #dealer-offer{
+    .dealeroffer{
+      .exp-offers{
+        .Explore_Cusomer_Offer_SubParentDiv{
+          margin-left: 0rem !important;
+        }
+      }
+      .fresh-approach{
+        padding-left: 0 !important;
+      }
     }
   }
 }
