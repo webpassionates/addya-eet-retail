@@ -241,7 +241,7 @@
 }
 
 
-@media only screen and (min-width : 1366px) and (max-width : 1440px) {
+@media only screen and (min-width : 1440px) and (max-width : 1900px) {
     #from-refinery-to-forecourt-section {
         .from-refinery-to-forecourt {
             .Explore_Cusomer_Offer_SubParentDiv {
@@ -288,4 +288,46 @@
             }
         }
     }
+
+    #competetive-receive {
+        .competetivereceive {
+            .Explore_Cusomer_Offer_firstDiv {
+                .Explore_Cusomer_Offer_SubParentDiv {
+                    .Explore_Cusomer_Offer_horizontal_line{
+                        width: 54% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 1360px) and (max-width : 1400px){
+    #dealer-offer{
+        .exp-leas-offer{
+           .Explore_Cusomer_Offer_horizontal_line{
+            width: 74% !important;
+           } 
+           .Explore_Cusomer_Offer_SubParentDiv{
+            margin-left: 2rem !important;
+           }
+           .dealer_Container_SecondDiv{
+            margin-left: unset !important;
+           }
+        }
+    }
+    #competetive-receive{
+        .competetivereceive{
+            .Explore_Cusomer_Offer_firstDiv{
+                .Explore_Cusomer_Offer_SubParentDiv{
+                    .Explore_Cusomer_Offer_horizontal_line{
+                        width: 48% !important;
+                    }
+                } 
+            } 
+            .row-p-b{
+                padding: 120px 0 120px 120px !important;
+            }
+        } 
+    } 
 }
