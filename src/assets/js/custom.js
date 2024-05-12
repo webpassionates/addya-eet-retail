@@ -41,3 +41,21 @@ function closeDropdown() {
     document.getElementById("dropdownMenu").classList.remove("show");
 }
 //header dropdown mouse hover end//
+
+// Who We Are slider effect start
+document.addEventListener('DOMContentLoaded', function() {
+    const textElements = document.querySelectorAll('.animated-text');
+    
+    function showText(index) {
+        if (index < textElements.length) {
+            setTimeout(function() {
+                textElements[index].style.opacity = '1';
+                textElements[index].style.transform = 'translateY(0)';
+                showText(index + 1);
+            }, 1500); // Adjust timing here (in milliseconds)
+        }
+    }
+    
+    showText(0);
+});
+// Who We Are slider effect end
