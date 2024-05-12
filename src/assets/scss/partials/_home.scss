@@ -1520,3 +1520,10 @@ body {
     }
   }
 }
+.container-custom{
+  max-width: 80%;
+  padding:0 15px;
+  @media only screen and (max-width:786px){
+    max-width:100%;
+  }
+}
