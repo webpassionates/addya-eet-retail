@@ -15,8 +15,9 @@
 
     .Loan_Agree_SubParent_div {
       // border: 1px solid red;
-      width: 100%;
+      // width: 100%;
       display: flex;
+      flex: auto;
       justify-content: center;
       align-items: center;
       margin-top: 60px;
@@ -45,8 +46,7 @@
 
   .Loan_Agree_Heading {
     // border: 1px solid red;
-    padding-left: 10%;
-    padding-right: 14%;
+    padding: 0px 94px;
 
     h1 {
       font-size: 3.75rem;
@@ -59,14 +59,16 @@
   }
 
   .Loan_Agree_DivSection {
-    width: 86% !important;
+    // width: 86% !important;
     margin: auto;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
+    gap:36px;
+    padding: 0 90px;
 
     .Loan_Agree_box {
-      width: 450px;
+      // width: 450px; 
       height: 550px;
       background-color: #f0f0f0;
       text-align: center;
