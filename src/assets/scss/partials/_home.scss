@@ -563,7 +563,7 @@ body {
 .Loan_Agree_Main_Continer {
   .Loan_Agree_Container_firstDiv {
     .Loan_Agree_SubParent_div {
-      margin-top: 4% !important;
+      // margin-top: 4% !important;
 
       .Loan_Agree_Heading {
         padding-left: 13% !important;
@@ -759,7 +759,7 @@ body {
       display: inline-block;
       color: #7ba58d;
       transform: rotate(315deg);
-      font-size: 20px;
+      font-size: 24px;
     }
   }
 }
@@ -1097,10 +1097,9 @@ body {
 }
 
 .icon-input {
-  margin-bottom: 10px;
   position: absolute;
   top: 50%;
-  right: 10px;
+  right: -16px;
   transform: translateY(-50%);
   max-width: 200px;
 
@@ -1122,13 +1121,16 @@ body {
   }
 
   .icon-input__icon {
-    color: rgba(0, 0, 0, 1);
+   color: #fff!important;
     position: absolute;
     top: 52%;
     right: auto;
     left: 4px;
     transform: translateY(-50%);
     transition: left 0.3s ease-in-out;
+    .fa-magnifying-glass{
+      color: #fff!important;
+    }
   }
 }
 
@@ -1167,31 +1169,37 @@ body {
 }
 
 .speak-hover-btn {
-  position: relative;
-  padding: 16px 22px;
-  font-size: 1rem;
-  font-weight: 600;
   border-radius: 0 20px 0 20px;
-  // background-color: rgba(166, 206, 57, 1.0);
-  background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
-  transition: 1s !important;
+  background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%)!important;
+  .text-color {
+    padding: 16px 22px;
+    font-size: 1rem;
+    font-weight: 600;
+    background: #F3F4F6;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+transition: all 0.5s ease!important;
+  }
+  transition: all 0.5s ease!important;
 }
+
 
 .speak-hover-btn:hover {
-  border-radius: 0 20px 0 20px;
-  background: #fff;
-  transition: 1s !important;
-}
-
-.speak-hover-btn:hover .text-color {
-  background: linear-gradient(92.86deg,
-      #5F8AC7 0,
-      #5F8AC7 17.53%,
-      #78A293 48.78%,
-      #99C152 82%,
-      #A6CE39 100%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  background: #F3F4F6!important;
+  .text-color {
+    background: linear-gradient(92.86deg,
+    #5F8AC7 0,
+    #5F8AC7 17.53%,
+    #78A293 48.78%,
+    #99C152 82%,
+    #A6CE39 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+// transition: 0.5s !important;
+transition: all 0.5s ease!important;
+  }
+  transition: all 0.5s ease!important;
+ 
 }
 
 .exp-home-news {
