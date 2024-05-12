@@ -77,18 +77,18 @@ span {
 
 // End
 // Banner Section Start
+
 #banner-section {
   .banner {
     .background-banner-img {
-      background: url('../images/about-us/hero-banner-img.png');
-      height: 100vh;
+      background: url('../images/about-us/who-we-are-bg.png');
+      height: 87vh;
       width: 100%;
       background-repeat: no-repeat;
       background-size: 100%;
 
       .content {
-        right: 20%;
-        bottom: 35%;
+        left: 50%;
 
         h5 {
           font-weight: 800;
@@ -186,7 +186,7 @@ span {
 }
 
 .refinery-forecourt--section {
-  margin-bottom: 80px;
+  margin: 80px 0;
 
   .Explore_Cusomer_Offer_firstDiv {
     // border: 1px solid red;
@@ -222,6 +222,10 @@ span {
 
 // Quality fuels and security Section Start
 .quality-fuels-and-security {
+  margin:120px 0;
+  .content-image{
+    width:94%;
+  }
   .Explore_Cusomer_Offer_firstDiv {
     width: 100%;
     display: flex;
