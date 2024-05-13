@@ -5,7 +5,7 @@ $(document).ready(function() {
       stagePadding: 125,
       loop: true,
       margin: 10,
-      autoplay: false,
+      autoplay: true,
       dots: false,
       responsiveClass: true,
       responsive: {

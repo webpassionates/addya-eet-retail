@@ -119,6 +119,7 @@
             .slide-img {
                 height: 500px;
                 border-radius: $border-radius-3;
+                object-fit: cover;
             }
 
             h2 {
