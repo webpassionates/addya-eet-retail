@@ -379,6 +379,7 @@
 }
 
 
+
 #footer {
   #visit-us-today-section {
     .visit-us-today {
@@ -386,7 +387,7 @@
       z-index: 999 !important;
 
       .background-color {
-        /* height: 500px; */
+        height: 500px;
         width: 100%;
         background: linear-gradient(90deg,
             #5F8AC7 -0.15%,
@@ -397,7 +398,7 @@
         border-radius: 40px;
 
         .row {
-          /* height: 444px; */
+          height: 444px;
 
           h1 {
             font-size: 40px;
@@ -427,7 +428,7 @@
 .visit-footer {
   .footer_Continer {
     z-index: -11 !important;
-    position: unset !important;
+    /* position: unset !important; */
   }
 }
 
