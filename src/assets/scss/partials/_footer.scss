@@ -16,7 +16,10 @@
       align-items: flex-start;
       padding-top: 7%;
       padding-bottom: 2%;
-    border-bottom: 2px solid #fff;
+      /* border-bottom: 2px solid #fff; */
+      border-image: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+      border-image-slice: 2 !important;
+      border-bottom: 1px solid transparent !important;
   
       .column {
         flex: 1;
