@@ -57,7 +57,7 @@
         padding-top: 30px;
 
         .lets_connect_SubParentDiv {
-          width: 100%;
+          width: 97%;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -118,12 +118,15 @@
             letter-spacing: 2px;
             margin: 0;
             text-align: left;
-            background: linear-gradient(90deg,
+            width: max-content;
+            /* background: linear-gradient(90deg,
                 #5f8ac7 -0.15%,
                 #5f8ac7 14.85%,
                 #78a293 42.85%,
                 #99c152 81.85%,
-                #a6ce39 99.85%);
+                #a6ce39 99.85%); */
+             background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
           }
@@ -198,6 +201,25 @@
             border:none;
           }
         }
+        textarea {
+          padding-top: 12px;
+        }
+
+        /* textarea::-webkit-input-placeholder {
+          padding-top: 10px;
+       }
+       
+       textarea::-moz-input-placeholder {
+          padding-top: 10px;
+       }
+       
+       textarea:-moz-input-placeholder {
+          padding-top: 10px;
+       }
+       
+       textarea:-ms-input-placeholder {
+          padding-top: 10px;
+       } */
       }
     }
   }

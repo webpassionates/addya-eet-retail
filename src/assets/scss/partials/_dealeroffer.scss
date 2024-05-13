@@ -510,6 +510,7 @@
         align-items: center;
         gap: 15px;
 
+
         &::before {
           content: "";
           position: absolute;
@@ -523,11 +524,17 @@
           -webkit-mask-composite: xor;
            mask-composite: exclude;
           pointer-events: none;
+          transition: 10s ease-in-out;
+
         }
       }
 
 
+      .fa-arrow-left {
+        transform: rotate(45deg);
+        line-height: 2;
 
+      }
     }
 
     input[type="checkbox"]:checked+.dealer-icon .fa-arrow-left {
