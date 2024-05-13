@@ -267,6 +267,20 @@ span {
 // End
 
 // Added value across Start
+
+.Explore_Cusomer_Offer_SubParentDiv {
+  width: 100%;
+  display: flex;
+  align-items: center;
+
+  .Explore_Cusomer_Offer_horizontal_line {
+    background-color: #d1d5db;
+    height: 1.5px;
+    width: 100%;
+    margin-left: 20px;
+  }
+}
+
 #added-value-across-section {
   .desk-row {
     padding-left: 25px;
@@ -280,18 +294,7 @@ span {
     align-items: flex-start;
     padding-top: 30px;
 
-    .Explore_Cusomer_Offer_SubParentDiv {
-      width: 100%;
-      display: flex;
-      align-items: center;
-
-      .Explore_Cusomer_Offer_horizontal_line {
-        background-color: #d1d5db;
-        height: 1.5px;
-        width: 100%;
-        margin-left: 20px;
-      }
-    }
+   
   }
 
   p {
