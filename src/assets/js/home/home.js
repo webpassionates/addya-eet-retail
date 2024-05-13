@@ -61,36 +61,88 @@ $(document).ready(function() {
 //     });
 //   });
 
+// $(document).ready(function(){
+//   $('.slider').slick({
+//     arrows: false,
+//     dots: false,
+//     infinite: true,
+//     speed: 500,
+//     fade: true,
+//     cssEase: 'linear',
+//     autoplay: true,
+//     autoplaySpeed: 5000,
+//   });
+//   $('.prev').click(function(){
+//     $('.slider').slick('slickPrev');
+//     $('.prev').addClass('active');
+//     $('.next').removeClass('active');
+//   });
+//   $('.next').click(function(){
+//     $('.slider').slick('slickNext');
+//     $('.next').addClass('active');
+//     $('.prev').removeClass('active');
+//   });
+//   $('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
+//     if (nextSlide === 0) {
+//       $('.prev').addClass('active');
+//       $('.next').removeClass('active');
+//     } else {
+//       $('.next').addClass('active');
+//       $('.prev').removeClass('active');
+//     }
+//   });
+// });
+
+
 $(document).ready(function(){
   $('.slider').slick({
     arrows: false,
     dots: false,
     infinite: true,
-    speed: 500,
+    speed: 1000,
     fade: true,
     cssEase: 'linear',
     autoplay: true,
     autoplaySpeed: 5000,
   });
+
   $('.prev').click(function(){
     $('.slider').slick('slickPrev');
     $('.prev').addClass('active');
     $('.next').removeClass('active');
+    slideBgToLeft();
   });
+
   $('.next').click(function(){
     $('.slider').slick('slickNext');
     $('.next').addClass('active');
     $('.prev').removeClass('active');
+    slideBgToRight();
   });
+
   $('.slider').on('beforeChange', function(event, slick, currentSlide, nextSlide){
     if (nextSlide === 0) {
       $('.prev').addClass('active');
       $('.next').removeClass('active');
+      slideBgToLeft();
     } else {
       $('.next').addClass('active');
       $('.prev').removeClass('active');
+      slideBgToRight();
     }
   });
+
+  function slideBgToLeft() {
+    $('.slider-nav').stop().animate({
+      'background-position-x': '0%'
+    }, 500);
+  }
+
+  function slideBgToRight() {
+    $('.slider-nav').stop().animate({
+      'background-position-x': '100%'
+    }, 1000);
+  }
 });
 
 
