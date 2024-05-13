@@ -1,12 +1,13 @@
 
 .ExploreNews_Continer{
     // border: 1px solid red;
-    width: 100%;
+    width: 82%;
     height: auto;
     padding: 100px 0px 250px 0px;
+    margin: auto;
 
     .ExploreNews_firstDiv{
-        width: 82%;
+        /* width: 100%; */
         margin: auto;
         display: flex;
         flex-direction: row; 
@@ -45,7 +46,7 @@
      
     .ExploreNews_Button{
         // border: 1px solid red;
-        width:82%;
+        /* width:82%; */
         display: flex;
         justify-content: space-between;
         align-items: center;
