@@ -406,15 +406,33 @@
         }
       }
 
+      // .curve-img {
+      //   // margin-top: 16px;
+      //   z-index: 999;
+      //   top: 93%;
+      //   position: absolute;
+      //   right: 0;
+      //   //   border-radius: 40px;
+      //   /* margin-left: -319px; */
+      //   // margin-right: 130px;
+      // }
       .curve-img {
         // margin-top: 16px;
         z-index: 999;
         top: 93%;
         position: absolute;
+        width: 120%;
         right: 0;
         //   border-radius: 40px;
         /* margin-left: -319px; */
         // margin-right: 130px;
+      }
+
+      .curve-two {
+        position: absolute;
+        bottom: 6%;
+        right: 10px !important;
+        height: 50px;
       }
 
       .for-position {
@@ -469,24 +487,31 @@
       }
     }
   }
+  #visit-us-today-section{
+    .curve-img { 
+      right: -11% !important; 
+    }
+  }
 }
 
 @media only screen and (min-width: 1300px) and (max-width: 1400px) {
   #dealer-offer {
-    .hr-dealeroffer { 
+    .hr-dealeroffer {
       .Explore_Cusomer_Offer_horizontal_line {
         width: 70% !important;
       }
-    } 
+    }
   }
-  #dealer-offer{
-    .dealeroffer{
-      .exp-offers{
-        .Explore_Cusomer_Offer_SubParentDiv{
+
+  #dealer-offer {
+    .dealeroffer {
+      .exp-offers {
+        .Explore_Cusomer_Offer_SubParentDiv {
           margin-left: 0rem !important;
         }
       }
-      .fresh-approach{
+
+      .fresh-approach {
         padding-left: 0 !important;
       }
     }
