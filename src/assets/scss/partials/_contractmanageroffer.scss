@@ -73,6 +73,7 @@
         .keyresp {
             .key-img {
                 border-radius: $border-radius-8;
+                width:80%;
             }
 
             h2 {
@@ -87,8 +88,14 @@
             }
 
             h5 {
+                 width: 92%;
                 color: $color-2;
                 font-size: $fs-20;
+            }
+            .NewClassKey{
+                // border: 1px solid ;
+                height:600px;
+                
             }
         }
     }
@@ -119,6 +126,7 @@
             .slide-img {
                 height: 500px;
                 border-radius: $border-radius-3;
+                object-fit:cover;
             }
 
             h2 {

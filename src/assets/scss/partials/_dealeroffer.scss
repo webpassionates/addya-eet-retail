@@ -368,7 +368,7 @@
         .Explore_Cusomer_Offer_horizontal_line {
           background-color: #d1d5db;
           height: 1.5px;
-          width: 72%;
+          width: 78%;
           margin-left: 20px;
         }
       }
@@ -489,12 +489,43 @@
       right: 0;
       color: #a6ce39;
 
-      .curve-icon {
-        border: 2px solid #a6ce39;
-        width: 50px;
-        height: 36px;
-        border-radius: 0 20px 0 20px;
+      // .curve-icon {
+      //   border: 2px solid #a6ce39;
+      //   padding: 10px 18px;
+      //   border-radius: 0 20px 0 20px;
+      // }
+
+       .curve-icon {
+        // border-radius: 0 20px 0 20px;
+        position: relative;
+        background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+        -webkit-background-clip: text;
+        // -webkit-text-fill-color: transparent;
+        padding: 12px 20px 12px 20px;
+        margin: 2px;
+        display: inline-block;
+        font-size: 1rem;
+        font-weight: 600;
+        display: flex;
+        align-items: center;
+        gap: 15px;
+
+        &::before {
+          content: "";
+          position: absolute;
+          inset: 0;
+          border-radius: 0 20px 0 20px;
+          padding: 2px; 
+          background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+          -webkit-mask: 
+            linear-gradient(#fff 0 0) content-box, 
+            linear-gradient(#fff 0 0);
+          -webkit-mask-composite: xor;
+           mask-composite: exclude;
+          pointer-events: none;
+        }
       }
+
 
       .fa-arrow-left {
         transform: rotate(45deg);
