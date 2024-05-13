@@ -19,7 +19,7 @@
             padding-top: 30px;
 
             .Explore_Cusomer_Offer_SubParentDiv {
-                width: 100%;
+                // width: 100%;
                 // border: 1px solid red;
                 display: flex;
                 justify-content: center;
@@ -29,8 +29,9 @@
                 .Explore_Cusomer_Offer_horizontal_line {
                     background-color: #D1D5DB;
                     height: 1.5px;
-                    width: 79% !important;
-                    margin-left: 20px;
+                    margin-left: 24px;
+                    display: flex;
+                    flex: auto;
                 }
 
                 p {
