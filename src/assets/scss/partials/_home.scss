@@ -1134,7 +1134,7 @@ footer {
     transform: translateY(-50%);
     transition: left 0.3s ease-in-out;
     .fa-magnifying-glass{
-      color: #fff!important;
+      color: #fff;
     }
   }
 }
@@ -1176,6 +1176,7 @@ footer {
 .speak-hover-btn {
   border-radius: 0 20px 0 20px;
   background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%)!important;
+  padding: 16px 22px;
   .text-color {
     padding: 16px 22px;
     font-size: 1rem;

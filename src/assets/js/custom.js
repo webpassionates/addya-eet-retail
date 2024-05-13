@@ -26,7 +26,7 @@ function collapseSearchInput() {
         searchInput.style.background = 'transparent';
         searchInput.style.outline = 'none'
         speakToUsBtn.style.opacity = '1';
-        glass.style.color = "black";
+        // glass.style.color = "black";
     }
 }
 

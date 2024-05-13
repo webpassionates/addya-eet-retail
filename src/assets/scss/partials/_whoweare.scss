@@ -467,6 +467,14 @@ span {
       width: 83% !important;
     }
   }
+
+  .icon-input {
+    .icon-input__icon {
+      .fa-magnifying-glass {
+        color: #000;
+      }
+    }
+  }
 }
 
 #footer {
