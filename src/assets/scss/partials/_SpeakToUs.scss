@@ -186,6 +186,7 @@
           font-size: 14px;
           font-weight: 400px;
           color: #6b7280;
+          padding-top: 10px;
         }
 
         button {
@@ -198,6 +199,9 @@
             border:none;
           }
         }
+      }
+      .lets-para{
+        color:$color-6
       }
     }
   }
