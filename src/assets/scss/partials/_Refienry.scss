@@ -1,11 +1,13 @@
 .Refinery_Container {
     // border: 1px solid black;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
-    gap: 24px;
+    gap: 144px;
     padding-top: 110px;
     padding-bottom: 110px;
+    width: 82%;
+    margin: 0 auto;
 
 
     .Refinery_Container_firstDiv {
@@ -19,7 +21,7 @@
         .SubParent_div {
             // border: 1px solid red;
             display: flex;
-            justify-content: center;
+            justify-content: flex-start;
             align-items: center;
             margin-top: 48px;
             flex: auto;
