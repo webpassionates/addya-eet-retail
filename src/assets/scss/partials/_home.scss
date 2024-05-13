@@ -868,14 +868,19 @@ body {
   }
 }
 
-#home-inviteContiner {
-  .InviteContiner {
-    bottom: 6.5%;
-    height: 211px;
-    width: 78% !important;
+footer {
+
+  position: relative;
+
+  #home-inviteContiner {
+    .InviteContiner {
+      /* bottom: 6.5%; */
+      height: 211px;
+      width: 81% !important;
+      bottom: 92%;
+    }
   }
 }
-
 .anim-btn {
   background: linear-gradient(92.86deg,
       #5f8ac7 0%,
