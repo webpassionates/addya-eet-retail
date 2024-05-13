@@ -18,7 +18,7 @@
             flex-direction: row;
             justify-content: flex-start;
             align-items: flex-start;
-            padding-top: 30px;
+            // padding-top: 30px;
 
             .Explore_Cusomer_Offer_SubParentDiv {
                 // width: 100%;
@@ -31,7 +31,7 @@
                 .Explore_Cusomer_Offer_horizontal_line {
                     background-color: #D1D5DB;
                     height: 1.5px;
-                    margin-left: 24px;
+                    margin-left: 20px;
                     display: flex;
                     flex: auto;
                 }
@@ -46,7 +46,7 @@
                     background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
-                }
+            }
 
             }
 
