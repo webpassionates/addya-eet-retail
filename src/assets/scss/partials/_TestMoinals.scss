@@ -8,7 +8,7 @@
     margin-bottom: 50px;
 
     .TestMoinals_firstDiv{
-        width: 79%;
+        width: 82%;
         margin: auto;
         display: flex;
         flex-direction: row; // Added
@@ -40,6 +40,7 @@
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 text-transform: uppercase;
+                margin: auto;
             }
     
         }
@@ -50,9 +51,9 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        width: 79%;
+        width: 82%;
         margin: auto;
-        margin-top: 11px;
+        margin-top: 18px;
 
     
         h1{
