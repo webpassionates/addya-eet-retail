@@ -6,17 +6,15 @@
     padding: 100px 0px 250px 0px;
 
     .ExploreNews_firstDiv{
-        // border: 1px solid red;
-        width: 79%;
+        width: 82%;
         margin: auto;
         display: flex;
-        flex-direction: row; // Added
+        flex-direction: row; 
         justify-content: flex-start;
         align-items: flex-start;
 
         .ExploreNews_SubParent_div{
             width: 100%;
-            // border: 1px solid red;
             display: flex;
             justify-content: center;
             align-items: center;
@@ -39,6 +37,7 @@
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
                 text-transform: uppercase;
+                margin: auto;
             }
     
         }
@@ -46,13 +45,14 @@
      
     .ExploreNews_Button{
         // border: 1px solid red;
+        width:82%;
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin: auto;
-        margin-top: 0px;
-        margin-bottom: 60px;
-        padding: 0 156px;
+        // margin-top: 0px;
+        // margin-bottom: 60px;
+        // padding: 0 166px;
 
     
       h1{
@@ -131,7 +131,7 @@
     
             img {
                 width: 100%;
-                height: 220px;
+                // height: 220px;
                 border-radius: 20px;
                 // object-fit: contain;
                 position: relative; 
