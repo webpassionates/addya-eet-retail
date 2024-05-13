@@ -164,11 +164,11 @@
 
                 &-content {
                     // border: 1px solid blue;
-                    width: 40%;
+                    width: 30%;
                     position: absolute;
                     top: 55%;
-                    height: 356px;
-                    width: 503px;
+                    height: 370px;
+                    // width: 503px;
                     left: 23.5%;
                     transform: translate(-50%, -50%);
                     text-align: center;
@@ -192,6 +192,7 @@
                         line-height: 48px;
                         letter-spacing: -0.02em;
                         text-align: left;
+                        margin: 0;
                     }
 
                     p {
@@ -200,6 +201,7 @@
                         line-height: 28px;
                         letter-spacing: -0.01em;
                         text-align: left;
+                        margin: 0;
                     }
 
                     // button{
