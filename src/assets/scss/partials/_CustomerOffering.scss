@@ -358,13 +358,18 @@
         text-align: left;
         z-index: 100;
         margin-left: -60px !important;
+        -webkit-transition-delay: 1s;
+        transition-delay: 1s;
+        transition: background-color 1s ease-in-out;
+
+
       }
     }
 
     // Style for tab content
     .tabcontent {
       display: none;
-      transition: opacity 0.3s ease;
+
 
       &.active {
         display: block;
@@ -506,5 +511,35 @@
         padding-left: 0 !important;
       }
     }
+  }
+}
+
+@keyframes slideUp {
+  0%,
+  50% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+   
+  60%,
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  
+  }
+}
+
+@keyframes slideDown {
+  0%,
+  50% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+   
+  60%,
+  100% {
+    transform: translateY(100%);
+    opacity: 0;
+  
   }
 }
