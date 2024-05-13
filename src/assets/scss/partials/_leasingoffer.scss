@@ -17,13 +17,22 @@
             }
 
             .banner-bg {
-                backdrop-filter: blur(22px);
+                // backdrop-filter: blur(22px);
+                // position: absolute;
+                // bottom: 0;
+                // width: 100%;
+                // right: 0;
+                // height: 180px;
+                // border-bottom-left-radius: $border-radius-3;
+                backdrop-filter: blur(120px);
                 position: absolute;
                 bottom: 0;
                 width: 100%;
                 right: 0;
-                height: 170px;
-                border-bottom-left-radius: $border-radius-3;
+                background: rgba(199, 199, 199, 0.2);
+                /* 20% opacity */
+                height: 180px;
+                border-bottom-left-radius: 48px;
 
                 h2 {
                     padding-left: 9%;
@@ -293,7 +302,7 @@
         .competetivereceive {
             .Explore_Cusomer_Offer_firstDiv {
                 .Explore_Cusomer_Offer_SubParentDiv {
-                    .Explore_Cusomer_Offer_horizontal_line{
+                    .Explore_Cusomer_Offer_horizontal_line {
                         width: 54% !important;
                     }
                 }
@@ -302,32 +311,36 @@
     }
 }
 
-@media only screen and (min-width : 1360px) and (max-width : 1400px){
-    #dealer-offer{
-        .exp-leas-offer{
-           .Explore_Cusomer_Offer_horizontal_line{
-            width: 74% !important;
-           } 
-           .Explore_Cusomer_Offer_SubParentDiv{
-            margin-left: 2rem !important;
-           }
-           .dealer_Container_SecondDiv{
-            margin-left: unset !important;
-           }
+@media only screen and (min-width : 1360px) and (max-width : 1400px) {
+    #dealer-offer {
+        .exp-leas-offer {
+            .Explore_Cusomer_Offer_horizontal_line {
+                width: 74% !important;
+            }
+
+            .Explore_Cusomer_Offer_SubParentDiv {
+                margin-left: 2rem !important;
+            }
+
+            .dealer_Container_SecondDiv {
+                margin-left: unset !important;
+            }
         }
     }
-    #competetive-receive{
-        .competetivereceive{
-            .Explore_Cusomer_Offer_firstDiv{
-                .Explore_Cusomer_Offer_SubParentDiv{
-                    .Explore_Cusomer_Offer_horizontal_line{
+
+    #competetive-receive {
+        .competetivereceive {
+            .Explore_Cusomer_Offer_firstDiv {
+                .Explore_Cusomer_Offer_SubParentDiv {
+                    .Explore_Cusomer_Offer_horizontal_line {
                         width: 48% !important;
                     }
-                } 
-            } 
-            .row-p-b{
+                }
+            }
+
+            .row-p-b {
                 padding: 120px 0 120px 120px !important;
             }
-        } 
-    } 
+        }
+    }
 }
