@@ -27,7 +27,7 @@
       .Loan_Agree_horizontal_line {
         background-color: #D1D5DB;
         height: 1.5px;
-        width: 79%;
+        width: 78%;
         margin-left: 20px;
       }
 
@@ -49,7 +49,7 @@
 
   .Loan_Agree_Heading {
     // border: 1px solid red;
-    padding: 0px 130px;
+    
 
     h1 {
       font-size: 3.75rem;
@@ -58,17 +58,23 @@
       letter-spacing: -0.02em;
       text-align: left;
       color: #FFFFFF;
+      padding: 0px 130px;
     }
   }
 
   .Loan_Agree_DivSection {
     // width: 86% !important;
     margin: auto;
-    display: flex;
+    width: 82%;
+    /* display: flex;
     justify-content: space-around;
     align-items: center;
     gap:36px;
-    padding: 0 130px;
+    padding: 0 130px; */
+
+    .Loan-agree-wrapper {
+      gap: 36px;
+    }
 
     .Loan_Agree_box {
       // width: 450px; 
