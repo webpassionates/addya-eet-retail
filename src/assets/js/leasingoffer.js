@@ -1,4 +1,5 @@
 function changeTab(tabName) {
+    
     var tabContents = document.getElementsByClassName("tabcontent");
     for (var i = 0; i < tabContents.length; i++) {
         tabContents[i].style.transition = "opacity 0.3s ease, transform 0.3s ease";
@@ -54,7 +55,7 @@ window.onload = function () {
     var autoplayInterval = setInterval(function () {
         changeTab(tabs[currentIndex]);
         currentIndex = (currentIndex + 1) % tabs.length;
-    }, 8000); // Change tabs every 3 seconds
+    }, 6000); // Change tabs every 3 seconds
     // Call function to add click event listeners to all tabs
     addClickEventListenersToTabs();
 };
