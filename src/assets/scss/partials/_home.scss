@@ -829,6 +829,7 @@ body {
 #top-header {
   .topheader {
     .navbar {
+      // border: 1px solid red;
       position: absolute;
       z-index: 999;
       width: 100%;
@@ -872,7 +873,64 @@ body {
       width: 83% !important;
     }
   }
+
+  // #media-section {
+  //   display: none; /* Hide media section by default */
+
+  //   @media only screen and (max-width: 768px) {
+  //     .hamburger-btn {
+  //       display: block;
+  //       position: fixed;
+  //       top: 10px;
+  //       right: 10px;
+  //       z-index: 1001; /* Ensure it's above other content */
+  //       background: transparent;
+  //       border: none;
+  //       cursor: pointer;
+  //       padding: 10px;
+
+  //       .hamburger-icon {
+  //         display: block;
+  //         width: 25px;
+  //         height: 3px;
+  //         background-color: #333;
+  //         border-radius: 3px;
+  //         position: relative;
+
+  //         &:before,
+  //         &:after {
+  //           content: '';
+  //           position: absolute;
+  //           width: 25px;
+  //           height: 3px;
+  //           background-color: #333;
+  //           border-radius: 3px;
+  //         }
+
+  //         &:before {
+  //           top: -8px;
+  //         }
+
+  //         &:after {
+  //           bottom: -8px;
+  //         }
+  //       }
+  //     }
+
+  //     &.open {
+  //       display: block; /* Show media section when open */
+  //       position: fixed;
+  //       top: 0;
+  //       left: 0;
+  //       width: 100%;
+  //       height: 100%;
+  //       background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  //       z-index: 1000; /* Ensure it's above other content */
+  //     }
+  //   }
+  // }
 }
+
 
 footer {
 
@@ -1264,7 +1322,9 @@ transition: all 0.5s ease!important;
   font-size: $fs-16;
 }
 .for-radius {
-  top: -97px;
+  top: -101px;
+  right: 16px;
+
   @media only screen and (min-width:1280px) and (max-width:1400px){
     top: -98px;
     right: 16px !important;
