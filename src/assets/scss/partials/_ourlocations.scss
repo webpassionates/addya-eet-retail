@@ -206,12 +206,7 @@
         /* Handle */
         &-thumb {
           background: $color-5;
-          border-radius: 10px;
-
-          /* Handle on hover */
-          &:hover {
-            background: #b30000;
-          }
+          border-radius: 10px; 
         }
       }
 
