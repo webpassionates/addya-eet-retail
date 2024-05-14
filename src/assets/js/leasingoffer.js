@@ -2,10 +2,13 @@ function changeTab(tabName) {
     
     var tabContents = document.getElementsByClassName("tabcontent");
     for (var i = 0; i < tabContents.length; i++) {
-        tabContents[i].style.transition = "opacity 0.3s ease, transform 0.3s ease";
+        //tabContents[i].style.transition = "opacity 0.8s ease, transform 0.8s ease";
+        //tabContents[i].style.transition = "all 0.5s ease-in allow-discrete";
+        tabContents[i].style.transition = "200ms linear 50ms";
         tabContents[i].classList.remove("active");
         tabContents[i].style.opacity = 0;
         tabContents[i].style.transform = "scale(0.8)";
+        
     }
     var tabs = document.getElementsByClassName("tab");
     for (var i = 0; i < tabs.length; i++) {

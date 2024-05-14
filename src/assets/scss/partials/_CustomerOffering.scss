@@ -290,7 +290,35 @@
 
     .inner-para {
       padding-left: $fs-25;
+      //animation: slide-up 0.85s cubic-bezier(0.65, 0, 0.35, 1) 
+      animation: showTopText 1s;
+      animation-delay: 0.1s;
+      animation-delay: 600ms;
+      animation-fill-mode: forwards;
+      bottom: 0;
+      transform: translate(0, 100%);
+
+      // After delay
+//animation-delay: 6000ms;
+// Change to: "Lease Offers 5";
+// Animate: Smart animate;
+// Spring: { mass: 1, stiffness: 80, damping: 20 };
+
     }
+    @keyframes showTopText {
+      0% { transform: translate3d(0, 100%, 0); }
+      40%, 60% { transform: translate3d(0, 0, 0); }
+      100% { transform: translate3d(0, 0, 0); }
+    }
+    /* @keyframes inner-para {
+      0% {
+        transform: translateY(100px)
+      }
+      100% {
+        transform: translateY(0)
+      }
+    } */
+  
 
     .Explore_Cusomer_Offer_firstDiv {
       width: 100%;
