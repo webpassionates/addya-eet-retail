@@ -183,6 +183,9 @@
                     border-image: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
                     border-image-slice: 2;
                     border-bottom: 4px solid transparent;
+                    @media only screen and (min-width:1280px) and (min-width:1400px){
+                        // border: 1px solid red;
+                      }
 
 
                     h2 {

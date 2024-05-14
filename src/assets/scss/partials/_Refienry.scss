@@ -8,6 +8,11 @@
     padding-bottom: 110px;
     width: 82%;
     margin: 0 auto;
+    @media only screen and (min-width:1280px) and (min-width:1400px){
+      padding-top: 80px;
+      padding-bottom: 80px;
+      padding-left: 10px;
+    }
 
 
     .Refinery_Container_firstDiv {
