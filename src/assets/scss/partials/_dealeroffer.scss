@@ -314,7 +314,8 @@
       border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
       border-image-slice: 2 !important;
       border-bottom: 4px solid transparent !important;
-  }
+    }
+
     // padding-top: 8%;
 
     .network-box {
@@ -500,13 +501,21 @@
     .dealer-icon {
       position: absolute;
       right: 0;
-      color: #a6ce39;
-
+      color: #a6ce39; 
+      background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%) !important;
+      -webkit-background-clip: text !important;
+      -webkit-text-fill-color: transparent !important;
       .curve-icon {
-        border: 2px solid #a6ce39;
+        // border: 2px solid #a6ce39;
         width: 50px;
         height: 36px;
         border-radius: 0 20px 0 20px;
+        // border-width: 2px;
+        // border-style: solid;
+        // border-image: linear-gradient(#5F8AC7, #5F8AC7, #78A293, #99C152, #A6CE39) 1;
+        // width: 50px;
+        // height: 36px;
+        // border-radius: 0 20px 0 20px;
       }
 
       .fa-arrow-left {
@@ -554,33 +563,37 @@
   }
 }
 
- 
+
 @media only screen and (min-width : 1440px) and (max-width : 1900px) {
   #dealer-offer {
     .dealeroffer {
       .Explore_Cusomer_Offer_SubParentDiv {
         padding-left: 0.5rem !important;
       }
-      .fuels-col{
+
+      .fuels-col {
         padding-left: 0;
       }
-      .exp-deal-col{
+
+      .exp-deal-col {
         margin-left: -6px !important;
-        .Explore_Cusomer_Offer_horizontal_line{}
+
+        .Explore_Cusomer_Offer_horizontal_line {}
       }
-    } 
+    }
   }
-  #dealer-offer-includes{
-    .offer-includes{
-      .Explore_Cusomer_Offer_firstDiv{
-        .Explore_Cusomer_Offer_SubParentDiv{
-          .Explore_Cusomer_Offer_horizontal_line{
+
+  #dealer-offer-includes {
+    .offer-includes {
+      .Explore_Cusomer_Offer_firstDiv {
+        .Explore_Cusomer_Offer_SubParentDiv {
+          .Explore_Cusomer_Offer_horizontal_line {
             width: 65% !important;
           }
-        } 
-      } 
-    } 
-  } 
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width : 1360px) and (max-width : 1400px) {
@@ -589,31 +602,36 @@
       .Explore_Cusomer_Offer_SubParentDiv {
         padding-left: 0.5rem !important;
       }
-      .fuels-col{
+
+      .fuels-col {
         padding-left: 0;
       }
-      .exp-deal-col{
+
+      .exp-deal-col {
         margin-left: -6px !important;
-        .Explore_Cusomer_Offer_horizontal_line{
+
+        .Explore_Cusomer_Offer_horizontal_line {
           width: 71% !important;
         }
       }
-      .fuels-col{
-        .dealer_Container_SecondDiv{
+
+      .fuels-col {
+        .dealer_Container_SecondDiv {
           margin-left: unset !important;
         }
       }
     }
   }
-  #dealer-offer-includes{
-    .offer-includes{
-      .Explore_Cusomer_Offer_firstDiv{
-        .Explore_Cusomer_Offer_SubParentDiv{
-          .Explore_Cusomer_Offer_horizontal_line{
+
+  #dealer-offer-includes {
+    .offer-includes {
+      .Explore_Cusomer_Offer_firstDiv {
+        .Explore_Cusomer_Offer_SubParentDiv {
+          .Explore_Cusomer_Offer_horizontal_line {
             width: 65% !important;
           }
-        } 
-      } 
-    } 
-  } 
+        }
+      }
+    }
+  }
 }
