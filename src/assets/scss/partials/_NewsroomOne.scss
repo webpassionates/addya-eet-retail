@@ -18,7 +18,7 @@
 
     .row-height {
       height: 720px;
-      @media only screen and (min-width:1280px) and (min-width:1400px){
+      @media only screen and (min-width:1280px) and (max-width:1400px){
         // border: 1px solid red;
         height: 330px;
       }
