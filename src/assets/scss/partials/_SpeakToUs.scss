@@ -61,6 +61,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          margin-left: 3%;
 
           p {
             font-family: Mulish;
@@ -83,7 +84,7 @@
           .lets_connect_horizontal_line {
             background-color: #d1d5db;
             height: 1.5px;
-            width: 76%;
+            width: 82%;
             margin-left: 20px;
           }
         }
@@ -245,7 +246,7 @@
     }
   }
 
-  @media only screen and (min-width: 1366px) and (max-width: 1440px) {
+  @media only screen and (min-width: 1440px) and (max-width: 1900px) {
     #lets-connect{
       .letsconnect{
         padding: unset !important;
@@ -255,8 +256,28 @@
         }
       }
      .lets_connect_SubParentDiv {
-      padding: 0 65px !important;
+      padding: 0 50px !important;
+      margin-left: 9% !important;
+      padding-left: unset !important;
+      .lets_connect_horizontal_line{
+        width: 84% !important;
+      }
      }
+    }
+  }
+
+  @media only screen and (min-width: 1360px) and (max-width: 1400px) {
+    #lets-connect{
+      .letsconnect {
+        .lets_connect_firstDiv{
+          .lets_connect_SubParentDiv{
+            margin-left: 3%;
+            .lets_connect_horizontal_line{
+              width: 76%;
+            }
+          } 
+        } 
+      }
     }
   }
 
