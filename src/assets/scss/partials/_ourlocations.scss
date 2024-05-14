@@ -228,7 +228,7 @@
     }
   }
 
-  @media only screen and (min-width : 1360px) and (max-width : 1440px) {
+  @media only screen and (min-width : 1440px) and (max-width : 1900px) {
     #location-section {
       .location {
         .Explore_Cusomer_Offer_firstDiv {
@@ -254,6 +254,44 @@
     #maps-section {
       .mapssection .for-scroll {
         margin-left: unset !important;
+      }
+    }
+    #location-section {
+      .location h5 {
+        font-size: 20px !important;
+      }
+    }
+  }
+
+  @media only screen and (min-width : 1360px) and (max-width : 1400px) {
+    #location-section {
+      .location {
+        .Explore_Cusomer_Offer_firstDiv {
+          .Explore_Cusomer_Offer_SubParentDiv {
+            .Explore_Cusomer_Offer_horizontal_line {
+              width: 83%;
+            }
+          }
+        }
+
+        .newsroom_Container_SecondDiv {
+          h2 {
+            padding-left: 1rem !important;
+          }
+        }
+
+        .site-locator {
+          margin-left: 1.5rem !important;
+        }
+      }
+    }
+
+    #maps-section {
+      .mapssection .for-scroll {
+        margin-left: unset !important;
+      }
+      .show-match{
+        padding-left: unset !important;
       }
     }
     #location-section {
