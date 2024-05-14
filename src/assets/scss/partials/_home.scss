@@ -1132,14 +1132,16 @@ body {
     transform: translateY(-50%);
     transition: left 0.3s ease-in-out;
   }
+  .for-color{
+    color:#4B5563 !important;
+  }
 }
 
 .icon-input i {
   font-size: 18px !important;
 }
 
-.icon-input:hover i {
-  color: #fff;
+.icon-input:hover i { 
   padding-left: 7px !important;
 }
 
