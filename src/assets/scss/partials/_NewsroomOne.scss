@@ -10,9 +10,9 @@
     background-size: 100%;
     margin-left: 1%;
     border-radius: $border-radius-3;
-    @media only screen and (min-width:1280px) and (min-width:1400px){
+    @media only screen and (min-width:1280px) and (max-width:1400px){
       // border: 1px solid red;
-      height: 331px;
+      height: 310px;
     }
 
 
@@ -105,6 +105,12 @@
           height: 1.5px;
           width: 77%;
           margin-left: 20px;
+
+          @media only screen and (min-width:1280px) and (max-width:1400px){
+            // border: 1px solid red;
+            width: 88%;
+          }
+
         }
       }
     }
