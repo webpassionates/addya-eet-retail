@@ -8,6 +8,9 @@
     justify-content: space-between;
     align-items: center;
     padding: 110px 0px 120px 146px;
+    @media only screen and (min-width:1280px) and (min-width:1400px){
+        // border: 1px solid red;
+    }
 
     .VisitUs_Today_DivOne{
         // border: 1px solid blue;
@@ -19,10 +22,13 @@
         .VisitUs_Today_firstDiv{
             // border: 1px solid blue;
             display: flex;
-            flex-direction: row; // Added
+            flex-direction: row; 
             justify-content: flex-start;
             align-items: flex-start;
             padding-bottom: 25px;
+            @media only screen and (min-width:1280px) and (min-width:1400px){
+                // border: 1px solid red;
+            }
     
             .VisitUs_Today_SubParent_div{
                 width: 100%;
@@ -47,6 +53,7 @@
                     background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
+
                 }
         
             }
@@ -67,6 +74,11 @@
                 margin: 0 auto;
                 padding-top: 35px;
                 padding-bottom: 35px;
+                @media only screen and (min-width:1280px) and (min-width:1400px){
+                    // margin: 0 ;
+                    // padding-top: 0px;
+                    // padding-bottom: 10px;
+                }
                 
     
                 span{
@@ -84,6 +96,9 @@
                text-align: left;
                color: #4B5563;
                margin-bottom: 35px;
+               @media only screen and (min-width:1280px) and (min-width:1400px){
+                // border: 1px solid red;
+               }
             }
     
     

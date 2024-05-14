@@ -10,9 +10,18 @@
     background-size: 100%;
     margin-left: 1%;
     border-radius: $border-radius-3;
+    @media only screen and (min-width:1280px) and (min-width:1400px){
+      // border: 1px solid red;
+      height: 331px;
+    }
+
 
     .row-height {
       height: 720px;
+      @media only screen and (min-width:1280px) and (min-width:1400px){
+        // border: 1px solid red;
+        height: 330px;
+      }
     }
 
     .banner-bg {

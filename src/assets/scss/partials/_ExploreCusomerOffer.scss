@@ -19,7 +19,7 @@
             align-items: flex-start;
             // padding-top: 30px;
 
-            
+
             .Explore_Cusomer_Offer_SubParentDiv {
                 // width: 100%;
                 // border: 1px solid red;
@@ -184,10 +184,7 @@
                     border-image: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
                     border-image-slice: 2;
                     border-bottom: 4px solid transparent;
-                    @media only screen and (min-width:1280px) and (min-width:1400px){
-                        // border: 1px solid red;
-                      }
-
+                
 
                     h2 {
                         font-size: 2.5rem;
@@ -205,6 +202,10 @@
                         letter-spacing: -0.01em;
                         text-align: left;
                         margin: 0;
+                        @media only screen and (min-width:1280px) and (min-width:1400px){
+                            // border: 1px solid red;
+                            line-height: 25px;
+                        }
                     }
 
                     // button{
