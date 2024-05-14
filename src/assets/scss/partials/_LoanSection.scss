@@ -6,23 +6,20 @@
   background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
 
   .Loan_Agree_Container_firstDiv {
-    // border: 1px solid red;
-    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
+    padding-left: 20px;
 
     .Loan_Agree_SubParent_div {
       // border: 1px solid red;
-      // width: 100%;
       display: flex;
       flex: auto;
       justify-content: flex-start;
       align-items: center;
       margin-top: 100px;
       padding: 0px 130px;
-      
       margin-bottom: 36px;
 
       .Loan_Agree_horizontal_line {
@@ -30,7 +27,7 @@
         height: 1.5px;
         width: 78%;
         margin-left: 20px;
-        @media only screen and (min-width:1280px) and (min-width:1400px){
+        @media only screen and (min-width:1280px) and (max-width:1400px){
           width: 73%;
           margin-left: 10px;
         }
