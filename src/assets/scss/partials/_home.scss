@@ -1212,7 +1212,9 @@ footer {
 .speak-hover-btn {
   border-radius: 0 20px 0 20px;
   background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%)!important;
-  // padding: 7px 10px;
+  padding: 7px 10px;
+  @media only screen and (min-width:1280px) and (max-width:1400px){
+  }
   .text-color {
     padding: 16px 22px;
     font-size: 1rem;
@@ -1222,7 +1224,8 @@ footer {
     -webkit-text-fill-color: transparent;
     transition: all 0.5s ease!important;
     @media only screen and (min-width:1280px) and (max-width:1400px){
-      padding: 10px 10px;
+      padding: 0px 10px;
+      // border: 1px solid red;
     }
   }
   transition: all 0.5s ease!important;
@@ -1263,8 +1266,8 @@ transition: all 0.5s ease!important;
 .for-radius {
   top: -97px;
   @media only screen and (min-width:1280px) and (max-width:1400px){
-    top: -100px;
-    right: 15px !important;
+    top: -98px;
+    right: 16px !important;
   }  
   @media only screen and (max-width: 768px) {
     top: -66px;

@@ -349,8 +349,12 @@
               #a6ce39 99.85%);
           -webkit-background-clip: text;
           -webkit-text-fill-color: transparent;
-        }
-
+          
+          .speacialcserHeder{
+            line-height: 0px;
+            letter-spacing: 0px;
+          }
+      }
         .Explore_Cusomer_Offer_horizontal_line {
           background-color: #d1d5db;
           height: 1.5px;
@@ -524,7 +528,7 @@
   #dealer-offer {
     .hr-dealeroffer { 
       .Explore_Cusomer_Offer_horizontal_line {
-        width: 70% !important;
+        // width: 70% !important;
       }
     } 
   }

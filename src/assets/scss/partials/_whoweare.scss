@@ -108,6 +108,11 @@ span {
     opacity: 0;
     transform: translateY(30px);
     transition: opacity 0.2s ease-out, transform 0.5s ease-out;
+    @media only screen and (min-width:1280px) and (max-width:1400px){
+    padding-top: 5px;
+    // border: 1px solid red;
+    font-size: 20px;
+    }
   }
 }
 
@@ -618,6 +623,10 @@ span {
       .background-banner-img .content {
         right: 10%;
         bottom: 23%;
+        @media only screen and (min-width:1280px) and (max-width:1400px){
+          right: 10%;
+          bottom: 10%;
+        }
       }
     }
   }
