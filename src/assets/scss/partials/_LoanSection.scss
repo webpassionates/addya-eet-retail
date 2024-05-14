@@ -24,7 +24,7 @@
       .Loan_Agree_horizontal_line {
         background-color: #D1D5DB;
         height: 1.5px;
-        width: 66%;
+        width: 63%;
         margin-left: 20px;
       }
 
@@ -172,8 +172,9 @@
   }
 }
 
-@media only screen and (min-width : 1366px) and (max-width : 1440px) {
+@media only screen and (min-width : 1440px) and (max-width : 1900px) {
   .Loan_Agree_horizontal_line{
-    width: 61% !important;
+    width: 57% !important;
   }
 }
+ 

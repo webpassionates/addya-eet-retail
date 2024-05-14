@@ -864,7 +864,7 @@ body {
     }
 
     .header-width {
-      width: 83% !important;
+      width: 81% !important;
     }
   }
 }
@@ -1009,7 +1009,7 @@ body {
     position: absolute;
     width: 60%;
     bottom: 20%;
-    left: 10%;
+    left: 9%;
     z-index: 99;
     color: #fff;
   }
@@ -1209,6 +1209,7 @@ body {
 }
 .for-radius {
   top: -97px;
+  right: 16px;
 }
 .for-radius-leasing {
   top: -100px;
@@ -1437,7 +1438,7 @@ body {
     .Refinery_Container_firstDiv {
       .SubParent_div {
         .Refinery_horizontal_line {
-          width: 52% !important;
+          width: 45% !important;
         }
 
         .text-uppercase {
@@ -1461,7 +1462,7 @@ body {
       .Explore_Cusomer_Offer_firstDiv {
         .Explore_Cusomer_Offer_SubParentDiv {
           .Explore_Cusomer_Offer_horizontal_line {
-            width: 69% !important;
+            width: 66% !important;
           }
         }
       }
@@ -1531,7 +1532,7 @@ body {
     .Refinery_Container_firstDiv {
       .SubParent_div {
         .Refinery_horizontal_line {
-          width: 52% !important;
+          width: 42% !important;
         }
 
         .text-uppercase {
@@ -1549,7 +1550,7 @@ body {
       } 
     }
     .Loan_Agree_horizontal_line{
-      width: 61% !important;
+      width: 58% !important;
     }
   }
 
@@ -1558,7 +1559,7 @@ body {
       .Explore_Cusomer_Offer_firstDiv {
         .Explore_Cusomer_Offer_SubParentDiv {
           .Explore_Cusomer_Offer_horizontal_line {
-            width: 69% !important;
+            width: 66% !important;
           }
         }
       }
@@ -1616,6 +1617,9 @@ body {
     .topheader {
       .navbar .nav-item {
         padding:5px 5px;
+        a{
+          font-size: 16px;
+        }
       }
     }
   }
