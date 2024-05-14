@@ -91,11 +91,16 @@
                  width: 92%;
                 color: $color-2;
                 font-size: $fs-20;
+                @media only screen and (min-width:1280px) and (max-width:1400px){
+                    width: 100%;
+               }
             }
             .NewClassKey{
-                // border: 1px solid ;
                 height:600px;
-                
+                @media only screen and (min-width:1280px) and (max-width:1400px){
+                    height:550px;
+                    padding-top: 15px;
+                }
             }
         }
     }
@@ -245,6 +250,9 @@
             .cont-m-offer {
                 .Explore_Cusomer_Offer_horizontal_line {
                     width: 69%;
+                    @media only screen and (min-width:1280px) and (max-width:1400px){
+                        width: 64%;
+                    }
                 }
             }
         }

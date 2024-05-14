@@ -83,6 +83,9 @@
           height: 1.5px;
           width: 74%;
           margin-left: 10px;
+          @media only screen and (min-width:1280px) and (max-width:1400px){
+            width: 67%;
+          }
         }
       }
     }
@@ -108,6 +111,9 @@
   border-radius: 64px;
   background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%) !important;
   margin-bottom: 50px;
+  @media only screen and (min-width:1280px) and (max-width:1400px){
+    padding: 52px 0 90px 0;
+  }
 
   .TestMoinals_firstDiv {
     width: 81%;
@@ -370,6 +376,10 @@
           height: 1.5px;
           width: 76%;
           margin-left: 20px;
+          @media only screen and (min-width:1280px) and (max-width:1400px){
+            width: 67%;
+          }
+
         }
       }
     }
