@@ -1485,6 +1485,11 @@ body {
         }
       }
     }
+    .ExploreNews_BoxOne {
+      img{
+        height: unset !important;
+      }
+    }
   }
 
   .ExploreNews_Continer {
@@ -1581,6 +1586,11 @@ body {
         .ExploreNews_horizontal_line {
           width: 87% !important;
         }
+      }
+    }
+    .ExploreNews_BoxOne {
+      img{
+        height: unset !important;
       }
     }
   }
