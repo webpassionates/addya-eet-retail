@@ -3301,8 +3301,13 @@ span {
 #speakus-page #lets-connect .letsconnect .lets_connect_form textarea {
   padding-top: 12px;
 }
+@media only screen and (max-width: 768px) {
+  #speakus-page #footer {
+    margin-top: 210px;
+  }
+}
 #speakus-page #footer .InviteContinerr {
-  bottom: 78%;
+  /* bottom: 78%; */
 }
 #speakus-page #footer footer {
   margin-top: 8rem !important;
@@ -5673,7 +5678,7 @@ span {
 @media only screen and (max-width: 768px) {
   .footer_Continer .footer .column.mobile-column p {
     text-align: center;
-    font-size: 12px;
+    font-size: 13px;
     line-height: 18px;
   }
 }
