@@ -2,12 +2,22 @@
     width: 98.5%;
     height: auto;
     margin: auto;
+    @media only screen and (max-width: 768px) {
+        // border: 1px solid red;
+        width: 90%;
+        height: auto;
+        margin: auto;
+    };
 
     .Explore_Cusomer_Offer_Heading {
         // border: 1px solid blue;
         /* padding: 0 130px; */
         width: 82%;
         margin: auto;
+        @media only screen and (max-width: 768px) {
+            // border: 1px solid black;
+            width: 100%;
+        };
 
 
         .Explore_Cusomer_Offer_firstDiv {
@@ -18,6 +28,10 @@
             justify-content: flex-start;
             align-items: flex-start;
             // padding-top: 30px;
+            @media only screen and (max-width: 768px) {
+                // border: 1px solid black;
+            };
+    
 
 
             .Explore_Cusomer_Offer_SubParentDiv {
@@ -27,6 +41,9 @@
                 justify-content: center;
                 align-items: center;
                 // margin-top: 60px;
+                @media only screen and (max-width: 768px) {
+                    // border: 1px solid black;
+                };
 
                 .Explore_Cusomer_Offer_horizontal_line {
                     background-color: #D1D5DB;
@@ -36,7 +53,12 @@
                     flex: auto;
                     @media only screen and (min-width:1280px) and (max-width:1400px){
                         margin-left: 10px;
-                      }
+                    }
+                    @media only screen and (max-width: 768px) {
+                        // border: 1px solid blue;
+                        width: 20%;
+                        margin-left: 10px;
+                    };
                 }
 
                 p {
@@ -49,7 +71,12 @@
                     background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
                     -webkit-background-clip: text;
                     -webkit-text-fill-color: transparent;
-            }
+                    @media only screen and (max-width: 768px) {
+                        // border: 1px solid blue;
+                        font-size: 0.75rem;
+                        line-height: 18px;
+                    };
+                }
 
             }
 
@@ -62,11 +89,19 @@
             width: 100%;
 
             h2 {
-                font-size: 60px;
+                font-size: 3.75rem;
                 font-weight: 600;
                 line-height: 69px;
                 letter-spacing: -0.02em;
                 text-align: left;
+                @media only screen and (max-width: 768px) {
+                    // border: 1px solid blue;
+                    font-size: 1.875rem;
+                    font-weight: 600;
+                    line-height: 34.5px;
+                    letter-spacing: -0.02em;
+                    text-align: left;
+                };
 
                 span {
                     background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
@@ -105,6 +140,11 @@
                 border: none;
                 outline: none;
                 color: rgba(75, 85, 99, 1);
+                @media only screen and (max-width: 768px) {
+                    // border: 1px solid blue;
+                    font-size: 0.875rem;
+                    line-height: 20px;
+                };
             }
         }
 
@@ -162,6 +202,9 @@
                     background-position: bottom center;
                     background-size: 100%;
                     z-index: 2;
+                    @media only screen and (max-width: 768px) {
+                        background: none;
+                    };
                 }
 
 
@@ -187,6 +230,13 @@
                     border-image: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
                     border-image-slice: 2;
                     border-bottom: 4px solid transparent;
+                    @media only screen and (max-width: 768px) {
+                        // border: 1px solid blue;
+                        width: 90%;
+                        position: absolute;
+                        top: 55%;
+                        left: 50%;
+                    };
                 
 
                     h2 {
@@ -196,6 +246,11 @@
                         letter-spacing: -0.02em;
                         text-align: left;
                         margin: 0;
+                        @media only screen and (max-width: 768px) {
+                            // border: 1px solid blue;
+                            font-size: 1.75rem;
+                            line-height: 36px;
+                        };
                     }
 
                     p {
@@ -209,6 +264,15 @@
                             // border: 1px solid red;
                             line-height: 22px;
                         }
+                        @media only screen and (max-width: 768px) {
+                            // border: 1px solid blue;
+                            font-size: 1rem;
+                            line-height: 20px;
+                        };
+                    }
+
+                    .convinaceButton{
+                        margin-top: 15px;
                     }
 
                     // button{

@@ -58,7 +58,9 @@
         // margin-top: 0px;
         // margin-bottom: 60px;
         // padding: 0 166px;
-
+        @media only screen and (max-width: 768px) {
+          display: block;
+        }
     
       h1{
         //styleName: Heading/H1/Semibold/Desktop;
@@ -67,6 +69,10 @@
         line-height: 48px;
         letter-spacing: -0.02em;
         text-align: left;
+        @media only screen and (max-width: 768px) {
+          font-size: 30px;
+          line-height: 36px;
+        }
 
         span{
             background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);

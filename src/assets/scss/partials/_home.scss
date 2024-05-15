@@ -579,7 +579,7 @@ body {
       justify-content: left !important;
 
       .Explore_Cusomer_Offer_horizontal_line {
-        width: 73% !important;
+        width: 73%;
       }
     }
   }
@@ -587,7 +587,7 @@ body {
 
 .VisitUs_Today_Container {
   .VisitUs_Today_DivOne {
-    width: 30% !important;
+    width: 30% ;
   }
 }
 
@@ -602,6 +602,14 @@ body {
     border-image: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%) !important;
     border-image-slice: 2 !important;
     border-bottom: 4px solid transparent !important;
+
+    @media only screen and (max-width: 768px) {
+      width: 90%;
+      border-radius: 24px;
+      /* margin: 0 auto; */
+      padding: 20px 32px;
+      margin: 0px 32px;
+    }
 
     p {
       color: $color-1;
@@ -753,6 +761,10 @@ body {
       position: absolute;
       top: 8px;
       right: -5px;
+      @media only screen and (max-width: 768px) {
+        // border: 1px solid blue;
+        right: 15px;
+    };
     }
 
     &:hover .fa-arrow-right {
@@ -940,8 +952,24 @@ footer {
     .InviteContiner {
       /* bottom: 6.5%; */
       height: 211px;
-      width: 81% !important;
+      width: 81%;
       bottom: 86%;
+      
+      @media only screen and (max-width: 768px) {
+        width: 90%;
+        padding: 32px 24px;
+        display: block;
+        height: 270px;
+        bottom: 93%;
+      }
+
+      p {
+        @media only screen and (max-width: 768px) {
+          font-size: 1.25rem;
+          line-height: 28px;
+          width: 100%;
+        }
+      }
     }
   }
 }
@@ -1330,7 +1358,8 @@ transition: all 0.5s ease!important;
     right: 16px !important;
   }  
   @media only screen and (max-width: 768px) {
-    top: -66px;
+       top: -67px;
+        right: 0px;
   }
 
 
