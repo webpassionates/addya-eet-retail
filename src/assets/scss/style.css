@@ -2984,6 +2984,11 @@ span {
      padding-top: 10px;
   } */
 }
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_form {
+    width: 100%;
+  }
+}
 #speakus-page #lets-connect .letsconnect .lets_connect_form label {
   text-transform: uppercase;
   font-family: Mulish;

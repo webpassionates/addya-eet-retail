@@ -179,6 +179,9 @@
             #99c152 82%,
             #a6ce39 100%);
         border-radius: 15px;
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+        }
 
         label {
           text-transform: uppercase;
