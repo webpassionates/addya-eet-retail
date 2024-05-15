@@ -861,6 +861,12 @@ body {
           border-bottom: 4px solid transparent !important;
         }
       }
+
+      .nav-item {
+        .nav-link {
+          color: $white;
+        }
+      }
     }
 
     .header-width {
@@ -1691,42 +1697,291 @@ body {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   #hero-home-slider {
     .hero-slider {
-      .text--holder { 
+      .text--holder {
         width: 100%;
-        bottom: 30%; 
+        bottom: 30%;
         left: 3%;
       }
-      .text--holder{
-        h1{
+
+      .text--holder {
+        h1 {
           font-size: 36px;
-          line-height: 42px; 
+          line-height: 42px;
         }
-        p{
+
+        p {
           font-size: 14px;
         }
       }
     }
   }
-  .Refinery_Container{
+
+
+  .navbar {
+    ul {
+      margin-left: -30%;
+    }
+
+    .mob-nav-link {
+      &:hover {
+        background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%) !important;
+        border-radius: 50px;
+        color: $black !important;
+        border-top-left-radius: 80px;
+        border-bottom-left-radius: 0px;
+      }
+    }
+  }
+
+  .navbar-collapse {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 80vh;
+    width: 100%;
+    background-color: #fff;
+    padding: 50px 20px;
+    z-index: 999;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out;
+
+    &.show {
+      transform: translateX(0);
+    }
+  }
+
+  .navbar-toggler {
+    display: block;
+    top: 50px;
+    right: 54px;
+    z-index: 1000;
+    border: none;
+    background-color: transparent; 
+
+    .fa-bars {
+      font-size: 25px;
+      color: $white;
+      cursor: pointer;
+      background: rgb(0, 0, 0, 0.5);
+      border-radius: 100%;
+      padding: 16px;
+    }
+  }
+
+  .navbar-brand {
+    img {
+      height: 60px;
+    }
+  }
+
+  .navbar-nav {
+    .nav-link {
+      color: $black !important;
+    }
+
+    .nav-item {
+      padding: 5px 15px !important;
+    }
+  }
+
+  .speak-hover-btn{
+    .fa-arrow-right{
+      transform: rotate(315deg) !important;
+    }
+  }
+
+  #slider-curve {
+    .slidercurve .curve-img {
+      margin-top: -25px !important;
+    }
+    .for-radius{
+      top: -51px;
+    }
+  }
+
+  .Refinery_Container {
     padding-top: unset !important;
     display: inline-block !important;
-    .Refinery_Container_firstDiv{
+
+    .Refinery_Container_firstDiv {
       height: unset !important;
       width: 100% !important;
+
       .SubParent_div {
-        p{
+        p {
           font-size: 12px !important;
         }
       }
     }
-    .Refinery_horizontal_line{
+
+    .Refinery_horizontal_line {
       width: 30% !important;
     }
-    .Refinery_Container_SecondDiv{
-      h2{
+
+    .Refinery_Container_SecondDiv {
+      width: 100% !important;
+
+      h2 {
         font-size: 39px !important;
         line-height: 45px !important;
       }
     }
   }
+
+  .Loan_Agree_Main_Continer {
+    height: unset !important;
+
+    .Loan_Agree_Container_firstDiv {
+      .Loan_Agree_SubParent_div {
+        margin-top: 14% !important;
+
+        .Loan_Agree_horizontal_line {
+          width: 8% !important;
+        }
+
+        p {
+          font-size: 12px !important;
+        }
+      }
+    }
+
+    .Loan_Agree_Heading {
+      h1 {
+        font-size: 30px !important;
+        line-height: 38px !important;
+      }
+    }
+
+    .Loan_Agree_box {
+      height: 430px !important;
+    }
+  }
+
+  .Explore_Cusomer_Offer_Containar {
+    .Explore_Cusomer_Offer_Heading {
+      padding-left: 4% !important;
+
+      .Explore_Cusomer_Offer_firstDiv {
+        .Explore_Cusomer_Offer_SubParentDiv {
+          p {
+            font-size: 12px !important;
+          }
+
+          .Explore_Cusomer_Offer_horizontal_line {
+            width: 12% !important;
+          }
+        }
+      }
+    }
+
+    .slide-content {
+      width: 296px !important;
+      left: 50.5% !important;
+      padding: 20px 20px !important;
+      height: auto !important;
+
+      h2 {
+        font-size: 28px !important;
+      }
+
+      p {
+        font-size: 16px !important;
+      }
+    }
+
+    .Explore_Cusomer_Offer_SecondDiv {
+      h2 {
+        font-size: 30px !important;
+        line-height: 34px !important;
+      }
+    }
+  }
+
+  .VisitUs_Today_Container {
+    padding: unset !important;
+    display: inline-block !important;
+
+    .VisitUs_Today_DivOne {
+      width: 100% !important;
+    }
+
+    .VisitUs_Today_horizontal_line {
+      width: 34% !important;
+    }
+
+    .Refinery_Container_SecondDiv {
+      width: 100% !important;
+    }
+
+    .VisitUs_Today_DivTwo {
+      width: 100% !important;
+    }
+  }
+
+  .TestMoinals_Container {
+    padding: unset !important;
+
+    .NexTAndPrev_Button {
+      display: inline-block !important;
+
+      h1 {
+        font-size: 26px !important;
+        padding-left: 30px !important;
+      }
+    }
+
+    .NextAndPrevBtns {
+      justify-content: unset !important;
+      margin-left: 25px;
+    }
+
+    .carousel {
+      .slide {
+        width: 100% !important;
+        height: fit-content !important;
+      }
+    }
+  }
+
+  .ExploreNews_Continer {
+    padding-top: 30px !important;
+
+    .ExploreNews_Button {
+      display: inline-block !important;
+
+      h1 {
+        font-size: 30px !important;
+        line-height: 36px;
+        padding-left: 40px;
+      }
+
+      .anim-btn-border-1 {
+        margin-left: 40px;
+      }
+    }
+
+    .exp-home-news {
+      width: 100%;
+    }
+  }
+
+  #home-inviteContiner {
+    .InviteContiner {
+      height: unset;
+      transform: unset !important;
+      left: unset !important;
+      display: inline-block !important;
+      padding: 25px 14px;
+      width: 92% !important;
+      margin-bottom: -25%;
+    }
+
+    .home-para {
+      font-size: 20px;
+      width: 100% !important;
+    }
+  }
+
 }

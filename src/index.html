@@ -34,23 +34,23 @@
       <div class="topheader">
         <div class="container">
           <div class="row">
-            <nav class="navbar navbar-expand-lg pt-4">
+            <nav class="navbar navbar-expand-lg pt-lg-4 pt-5">
               <div class="container-fluid header-width">
                 <a class="navbar-brand" href="index.html"><img src="./assets/images/EET_Retail_Logo_T.png"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                   data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                   aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon"></span>
+                  <i class="fas fa-bars"></i>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                  <ul class="navbar-nav ms-lg-auto mb-2 mb-lg-0 align-items-lg-center">
                     <li class="nav-item">
-                      <a class="nav-link active text-white fw-semibold" aria-current="page" href="who-we-are.html">Who
+                      <a class="nav-link active fw-semibold" aria-current="page" href="who-we-are.html">Who
                         We
                         Are</a>
                     </li>
-                    <li class="nav-item dropdown" onmouseover="openDropdown()" onmouseout="closeDropdown()">
-                      <a class="nav-link text-white fw-semibold dropdown-toggle" href="#" role="button"
+                    <li class="nav-item dropdown d-none d-lg-block" onmouseover="openDropdown()" onmouseout="closeDropdown()">
+                      <a class="nav-link fw-semibold dropdown-toggle" href="#" role="button"
                         aria-expanded="false">
                         Business Offers <i class="fa-solid fa-chevron-down"></i>
                       </a>
@@ -62,23 +62,46 @@
                             href="business-offerings-dealer-offer-1.html">Dealer Offer</a></li>
                       </ul>
                     </li>
+                    <li class="nav-item d-block d-lg-none">
+                      <a class="nav-link fw-semibold active" aria-current="page"
+                        href="customer-offering.html">Business Offers</a>
+                    </li>
+                    <li class="d-block d-lg-none pt-0">
+                      <a class="nav-link mob-nav-link active ps-3 ms-4" aria-current="page"
+                        href="#">Key Projects</a>
+                    </li>
+                    <li class="d-block d-lg-none pt-0">
+                      <a class="nav-link mob-nav-link active ps-3 ms-4" aria-current="page"
+                        href="#">Industrial Customers</a>
+                    </li>
+                    <li class="d-block d-lg-none pt-0">
+                      <a class="nav-link mob-nav-link active ps-3 ms-4" aria-current="page"
+                        href="#">Position in the UK Market</a>
+                    </li>
                     <li class="nav-item">
-                      <a class="nav-link text-white fw-semibold active" aria-current="page"
+                      <a class="nav-link fw-semibold active" aria-current="page"
                         href="customer-offering.html">Customer Offers</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-white fw-semibold active" aria-current="page"
+                      <a class="nav-link fw-semibold active" aria-current="page"
                         href="our-locations.html">Our
                         Locations</a>
                     </li>
                     <li class="nav-item">
-                      <a class="nav-link text-white fw-semibold active" aria-current="page"
+                      <a class="nav-link fw-semibold active" aria-current="page"
                         href="newsroom-1.html">News</a>
                     </li>
-                    <li class="me-5 ms-3 speak-hover-btn" id="speakToUsBtn">
-                      <a href="speak-to-us.html" class="text-white text-decoration-none">
-                        <div class="nav-btns text-color">Speak
+                    <li class="me-5 ms-3 speak-hover-btn d-none d-lg-block" id="speakToUsBtn">
+                      <a href="speak-to-us.html" class="text-decoration-none">
+                        <div class="nav-btns text-white text-color">Speak
                           to us
+                        </div>
+                      </a>
+                    </li>
+                    <li class="me-5 ms-3 speak-hover-btn d-block d-lg-none mt-4" id="speakToUsBtn">
+                      <a href="speak-to-us.html" class="text-decoration-none">
+                        <div class="nav-btns text-white text-color">Speak
+                          to us <i class="fa-solid fa-arrow-right ps-5"></i>
                         </div>
                       </a>
                     </li>
@@ -141,11 +164,11 @@
                 <p>Discover the opportunities available for you</p>
               </div>
               <div class="border-btn">
-                <div class="anim-btn-border-2"> 
-                    <a style="display: inline-block;" class="text-color text-decoration-none text-white"> Speak to
-                      us</a>
-                    <img src="./assets/images/TestmonialNext.png" alt="icon"
-                      style="display: inline-block; vertical-align: middle;"> 
+                <div class="anim-btn-border-2">
+                  <a style="display: inline-block;" class="text-color text-decoration-none text-white"> Speak to
+                    us</a>
+                  <img src="./assets/images/TestmonialNext.png" alt="icon"
+                    style="display: inline-block; vertical-align: middle;">
                 </div>
               </div>
             </div>
@@ -166,11 +189,13 @@
         <div class="container">
           <div class="row">
             <div class="col-lg-12">
-              <img src="assets/images/curve.png" class="img-fluid curve-img" alt="image" />
+              <img src="assets/images/curve.png" class="img-fluid curve-img d-none d-lg-block" alt="image" />
+              <img src="assets/images/curve-small.png" class="img-fluid curve-img d-block d-lg-none" alt="image" />
             </div>
           </div>
           <div class="position-absolute for-radius">
-            <img src="assets/images/border.png" alt="">
+            <img src="assets/images/border.png" class="d-none d-lg-block" alt="">
+            <img src="assets/images/border-small.png" class="d-block d-lg-none" alt="">
           </div>
         </div>
       </div>
@@ -228,7 +253,7 @@
           <h1 class="pt-4 pb-5">Long-term agreements, <br>designed to deliver greater value</h1>
         </div>
         <div class="Loan_Agree_DivSection row w-100">
-          <div class="Loan_Agree_box mx-2 col-lg-4" id="box">
+          <div class="Loan_Agree_box mx-2 col-lg-4 mb-3" id="box">
             <div class="Loan_Agree_DivOne">
               <div class="Loan_Agree_DivOne_Heading">
                 <h2 class="pt-0">Leasing Offer</h2>
@@ -241,7 +266,7 @@
             </div>
           </div>
 
-          <div class="Loan_Agree_box mx-2 col-lg-4" id="box">
+          <div class="Loan_Agree_box mx-2 col-lg-4 mb-3" id="box">
             <div class="Loan_Agree_DivOne">
               <div class="Loan_Agree_DivOne_Heading">
                 <h2 class="pt-0">Contract Manager Offer </h2>
@@ -254,7 +279,7 @@
             </div>
           </div>
 
-          <div class="Loan_Agree_box mx-2 col-lg-4" id="box">
+          <div class="Loan_Agree_box mx-2 col-lg-4 mb-5 mb-lg-3" id="box">
             <div class="Loan_Agree_DivOne">
               <div class="Loan_Agree_DivOne_Heading">
                 <h2 class="pt-0">Dealer Offer</h2>
@@ -273,7 +298,7 @@
     <!-- Explore Customer  Offer -->
     <section>
       <div class="Explore_Cusomer_Offer_Containar px-3">
-        <div class="Explore_Cusomer_Offer_Heading pt-5">
+        <div class="Explore_Cusomer_Offer_Heading pt-lg-5">
           <div class="Explore_Cusomer_Offer_firstDiv mb-3">
             <div class="Explore_Cusomer_Offer_SubParentDiv">
               <p class="mt-3 text-uppercase ps-1">Explore our customer offers</p>
@@ -281,13 +306,13 @@
             </div>
           </div>
           <div class="Explore_Cusomer_Offer_SecondDiv">
-            <h2 class="pt-4 pb-4 mb-5">A fresh approach to <br><span>forecourt convenience</span></h2>
+            <h2 class="pt-lg-4 pb-lg-4 pb-0 mb-5 pt-0">A fresh approach to <br><span>forecourt convenience</span></h2>
           </div>
           <!-- <div class="Explore_Cusomer_Offer_Button">
             <button class="prev ">Essar 99</button>
             <button class="next">Convenience</button>
           </div> -->
-          <div class="Explore_Cusomer_Offer_Button pb-4">
+          <div class="Explore_Cusomer_Offer_Button pb-lg-4 pb-0">
             <div class="slider-nav">
               <button class="prev active">Essar 99</button>
               <button class="next">Convenience</button>
@@ -298,7 +323,7 @@
           <div class="slider">
             <div class="slide" style="background-image: url('./assets/images/essar.png');">
               <div class="slide-content">
-                <h2 class="ps-2 pb-4">Essar 99</h2>
+                <h2 class="ps-2 pb-4 pt-0">Essar 99</h2>
                 <p class="ps-2">Our new high-octane fuel is competitively priced and designed to meet your vehicle's
                   needs, ensuring
                   efficiency and reliability.</p>
@@ -313,7 +338,7 @@
             </div>
             <div class="slide" style="background-image: url('./assets/images/conveniance.png');">
               <div class="slide-content">
-                <h2 class="ps-2 pb-4 pt-2">Convenience</h2>
+                <h2 class="ps-2 pb-lg-4 pb-0 pt-2">Convenience</h2>
                 <p class="ps-2">Our renewed purpose: 'Driving Community Convenience focuses on meeting the needs of
                   local communities
                   by making interactions effortless for customers and streamline operations for our staff, turning our
@@ -337,18 +362,19 @@
     <section class="pt-5 mb-5">
       <div class="VisitUs_Today_Container">
         <div class="VisitUs_Today_DivOne">
-          <div class="VisitUs_Today_firstDiv pb-0 ps-5">
+          <div class="VisitUs_Today_firstDiv pb-0 ps-lg-5 ps-4">
             <div class="VisitUs_Today_SubParent_div pb-4">
               <p class="mt-3">STRATEGIC PRESENCE</p>
               <div class="VisitUs_Today_horizontal_line"></div>
             </div>
           </div>
-          <div class="Refinery_Container_SecondDiv ps-5">
+          <div class="Refinery_Container_SecondDiv ps-lg-5 ps-4">
             <h2 class="pt-2 pb-4">Visit us <br><span>today</span></h2>
-            <p class="pb-4">Whether you're navigating the daily commute, planning a long-distance trip, or simply need
+            <p class="pb-lg-4">Whether you're navigating the daily commute, planning a long-distance trip, or simply
+              need
               to refuel
               quickly, you can find your nearest Essar service station with our forecourt locator.</p>
-            <button class="anim-btn"> <a class="text-decoration-none text-white">Explore our network</a>
+            <button class="anim-btn mb-5"> <a class="text-decoration-none text-white">Explore our network</a>
               <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path
                   d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
@@ -1519,7 +1545,7 @@
     <section>
       <div class="TestMoinals_Container">
         <div class="TestMoinals_firstDiv">
-          <div class="TestMoinals_SubParent_div">
+          <div class="TestMoinals_SubParent_div pt-5">
             <p class="mt-3 ps-2">testimonials</p>
             <div class="TestMoinals_horizontal_line"></div>
           </div>
@@ -1527,7 +1553,7 @@
 
         <div class="NexTAndPrev_Button ps-1">
           <h1>What our <span>customers say</span></h1>
-          <div class="NextAndPrevBtns">
+          <div class="NextAndPrevBtns pb-4">
             <div class="PrevBtn prev-btn">
               <img class="" src="./assets/images/TestmonialPrev.png" alt="prev">
             </div>
@@ -1536,7 +1562,8 @@
             </div>
           </div>
         </div>
-        <div class="carousel pb-5" data-flickity='{ "wrapAround": true, "pageDots": false "autoPlay": true "autoPlay": 3000}'>
+        <div class="carousel pb-5"
+          data-flickity='{ "wrapAround": true, "pageDots": false "autoPlay": true "autoPlay": 3000}'>
           <div class="slide">
             <div>
               <p class="px-4 pt-3">“ We signed a contract with ESSAR to rebrand our forecourt about 18 months ago. It
@@ -1598,7 +1625,7 @@
           </div>
         </div>
 
-        <div class="ExploreNews_Button pt-5">
+        <div class="ExploreNews_Button pt-lg-5">
           <h1>Explore our latest <span>news and updates</span></h1>
           <div class="border-btn">
             <div class=" "> <a class="text-decoration-none text-white anim-btn-border-1">View All Updates
@@ -1608,8 +1635,8 @@
           </div>
         </div>
 
-        <div class="row ExploreNews_NewsSection exp-home-news container px-5">
-          <div class="ExploreNews_BoxOne col-lg-4 px-4">
+        <div class="row ExploreNews_NewsSection exp-home-news container px-lg-5">
+          <div class="ExploreNews_BoxOne col-lg-4 px-lg-4">
             <div class="overlay-hover">
               <img src="./assets/images/fuel.png" alt="fuel">
               <div class="overlay">
@@ -1702,12 +1729,12 @@
 
 
     <!-- Invite Section -->
-    <section id="home-inviteContiner" class="position-relative">
+    <section id="home-inviteContiner" class="position-relative px-3">
       <div class="InviteContiner">
         <p class="mb-0 home-para">We invite you to join our growing network and benefit from our secure supply of
           quality fuels, value driven
           partnerships, and innovative retail solutions. </p>
-        <button class="anim-btn"> <a class="text-decoration-none text-white">Speak to us</a>
+        <button class="anim-btn mt-3"> <a class="text-decoration-none text-white">Speak to us</a>
           <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path
               d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
@@ -1727,7 +1754,7 @@
     <div class="footer_Continer pt-5">
       <div class="footer">
         <div class="column">
-          <div class="row_Logo">
+          <div class="row_Logo text-center text-lg-start pt-5 pt-lg-0 mt-lg-0">
             <img src="./assets/images/EET_Retail_Logo_T.png" alt="Logo">
           </div>
           <p class="row">EET Fuels is the trading name for Essar Oil (UK) Limited, a company registered in England and
@@ -1735,7 +1762,7 @@
             Building, Stanlow Manufacturing Complex, Ellesmere Port, Cheshire, CH65 4HB. © Essar Oil (UK) Limited
             2024.
           </p>
-          <div class="NavigateTo_EarthGlobe pt-4">
+          <div class="NavigateTo_EarthGlobe pt-4 justify-content-center justify-content-lg-start">
             <img src="./assets/images/earth_globe_fooer.png" alt="Logo">
             <p class="mb-0 fw-bold">
               <a href="https://www.google.co.in/" class="text-white text-decoration-none visit-eet">
@@ -1745,7 +1772,7 @@
             <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow_Logo">
           </div>
         </div>
-        <div class="column">
+        <div class="column d-none d-lg-block">
           <div class="row">
             <h3 class="text-start ps-5 ms-4"><a href="who-we-are.html" class="text-white text-decoration-none">Who We
                 Are</a></h3>
@@ -1766,7 +1793,7 @@
                 class="text-white text-decoration-none">Customer Offers</a></h3>
           </div>
         </div>
-        <div class="column">
+        <div class="column d-none d-lg-block">
           <div class="row">
             <h3 class="text-start ps-5 ms-4"><a href="our-locations.html" class="text-white text-decoration-none">Our
                 Locations</a></h3>
@@ -1776,7 +1803,7 @@
                 class="text-white text-decoration-none">Speak To Us</a></h3>
           </div>
         </div>
-        <div class="column text-start">
+        <div class="column text-start d-none d-lg-block">
           <div class="row_LastColum">
             <h3>Follow Us</h3>
           </div>
@@ -1787,6 +1814,23 @@
             <img src="./assets/images/qr_code_footer.png" alt="QrCode Logo">
           </div>
         </div>
+        <!--mob view start-->
+        <div class="row d-block d-md-none">
+          <div class="d-flex justify-content-between pt-4 pb-4">
+            <div class="col-lg-6">
+              <div class="row_LastColum ps-3 pt-3">
+                <h3 class="fs-16">Follow Us</h3>
+                <img src="./assets/images/Linkdin_footer.png" alt="LinkedIn Logo">
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <div class="row_QrLogo pe-2">
+                <img src="./assets/images/qr_code_footer.png" alt="QrCode Logo">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--mob view end-->
       </div>
       <div class="row m-0">
         <div class="col-lg-12 text-center">
@@ -1800,6 +1844,9 @@
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+    crossorigin="anonymous"></script>
   <script src="../dist/js/bundle.min.js"></script>
   <script type="text/javascript" src="node_modules/slick-carousel/slick/slick.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.pkgd.min.js"></script>
@@ -2494,6 +2541,7 @@
       });
     });
   </script>
+
 
 </body>
 
