@@ -109,8 +109,11 @@
         h2 {
           font-size: $fs-60;
           @media only screen and (max-width: 768px) {
-            font-size: $fs-28;
-            line-height: 30px;
+            font-size: 32px;
+            line-height: 41px;
+            margin-bottom: 10px;
+            padding-bottom: 0;
+            padding-top: 0;
             ;
           };
         }
@@ -259,11 +262,7 @@
     @media only screen and (max-width: 768px) {
       margin-top: 210px;
     }
-    .InviteContinerr {
-      /* bottom: 78%; */
-      // width: 1110px;
-    }
-
+    
     footer {
       margin-top: 8rem !important;
     }

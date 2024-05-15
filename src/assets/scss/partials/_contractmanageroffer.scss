@@ -82,7 +82,7 @@
             .Explore_Cusomer_Offer_horizontal_line {
                 width: 69%;
                 @media only screen and (max-width: 768px) {
-                    width: 15%;
+                    width: 0%;
                 };
 
             }
@@ -98,9 +98,17 @@
                     color: #4b5563;
                     margin-bottom: 30px;
                     margin-top: 15px;
-                    padding: 0px 10px;
+                    padding: 0px 10px 0 0px;
                 };
-            }            
+            }   
+            
+            .Explore_Cusomer_Offer_SubParentDiv {
+                p {
+                    @media only screen and (max-width: 768px) {
+                        padding: 0px 10px 0 20px;
+                    }
+                }
+            }
         }
         h2 {
             // border: 1px solid red;
@@ -112,7 +120,7 @@
                 text-align: left;
                 padding-top: 20px;
                 margin-bottom: 20px;
-                padding: 0px 15px;
+                padding: 0px 0px;
             };
         }
     }

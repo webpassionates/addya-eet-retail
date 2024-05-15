@@ -2995,6 +2995,7 @@ span {
   #newsroom-section .newsroom .newsroom_Container_SecondDiv h2 {
     font-size: 32px;
     line-height: 41px;
+    padding-bottom: 0;
   }
 }
 
@@ -3178,8 +3179,11 @@ span {
 }
 @media only screen and (max-width: 768px) {
   #speakus-page #lets-connect .letsconnect .lets_connect_SecondDiv h2 {
-    font-size: 28px;
-    line-height: 30px;
+    font-size: 32px;
+    line-height: 41px;
+    margin-bottom: 10px;
+    padding-bottom: 0;
+    padding-top: 0;
   }
 }
 #speakus-page #lets-connect .letsconnect .lets_connect_ThirdDiv .iconcontainer {
@@ -3306,9 +3310,6 @@ span {
     margin-top: 210px;
   }
 }
-#speakus-page #footer .InviteContinerr {
-  /* bottom: 78%; */
-}
 #speakus-page #footer footer {
   margin-top: 8rem !important;
 }
@@ -3389,7 +3390,7 @@ span {
 }
 @media only screen and (max-width: 768px) {
   #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg {
-    height: 180px;
+    height: 150px;
     border-bottom-right-radius: 45px;
   }
 }
@@ -3403,6 +3404,8 @@ span {
     padding-left: 10px;
     font-size: 28px;
     line-height: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg p {
@@ -3414,6 +3417,7 @@ span {
     padding-left: 15px;
     font-size: 16px;
     padding-top: 10px;
+    margin: auto;
   }
 }
 #contractmanager-page #dealer-offer .cont-m-offer .Explore_Cusomer_Offer_horizontal_line {
@@ -3421,19 +3425,37 @@ span {
 }
 @media only screen and (max-width: 768px) {
   #contractmanager-page #dealer-offer .cont-m-offer .Explore_Cusomer_Offer_horizontal_line {
-    width: 15%;
+    width: 0%;
   }
 }
 @media only screen and (max-width: 768px) {
   #contractmanager-page #dealer-offer .cont-m-offer p {
-    font-size: 12px;
-    line-height: 15px;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #4b5563;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    padding: 0px 10px 0 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #dealer-offer .cont-m-offer .Explore_Cusomer_Offer_SubParentDiv p {
+    padding: 0px 10px 0 20px;
   }
 }
 @media only screen and (max-width: 768px) {
   #contractmanager-page #dealer-offer h2 {
     font-size: 32px;
-    line-height: 40px;
+    font-weight: 600;
+    line-height: 41px;
+    letter-spacing: -0.02em;
+    text-align: left;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px 0px;
   }
 }
 #contractmanager-page #key-responsibilities .keyresp .key-img {
@@ -3558,6 +3580,7 @@ span {
 @media only screen and (max-width: 768px) {
   #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel .item {
     padding: 20px;
+    height: 300px;
   }
 }
 #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel .key-icon {
@@ -4390,6 +4413,7 @@ span {
     padding-left: 10px;
     font-size: 28px;
     line-height: 30px;
+    padding-bottom: 0;
   }
 }
 #customer-offering-banner .dealerofferbanner .banner-bg p {
@@ -4402,6 +4426,12 @@ span {
     font-size: 16px;
     padding-top: 10px;
     margin: auto;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .customer-offering-page .dealeroffer .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv .Explore_Cusomer_Offer_horizontal_line {
+    width: 10% !important;
   }
 }
 

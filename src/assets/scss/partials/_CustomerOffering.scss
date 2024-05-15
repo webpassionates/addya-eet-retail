@@ -1,4 +1,8 @@
 // ==== Gradient Border Button ===
+
+
+
+
 .border-btn {
   .anim-btn-border-1 {
     position: relative;
@@ -225,6 +229,7 @@
           padding-left: 10px;
           font-size: 28px;
           line-height: 30px;
+          padding-bottom: 0;
           // margin: auto;
       };
       }
@@ -239,6 +244,20 @@
           padding-top: 10px;
           margin: auto;
       };
+      }
+    }
+  }
+}
+
+.customer-offering-page {
+  .dealeroffer {
+    .Explore_Cusomer_Offer_firstDiv {
+      .Explore_Cusomer_Offer_SubParentDiv {
+        .Explore_Cusomer_Offer_horizontal_line {
+          @media only screen and (max-width: 768px) {
+            width: 10% !important;
+          }
+        }
       }
     }
   }
