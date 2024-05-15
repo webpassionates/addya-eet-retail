@@ -587,7 +587,7 @@ body {
 
 .VisitUs_Today_Container {
   .VisitUs_Today_DivOne {
-    width: 30% !important;
+    width: 30% ;
   }
 }
 
@@ -753,6 +753,10 @@ body {
       position: absolute;
       top: 8px;
       right: -5px;
+      @media only screen and (max-width: 768px) {
+        // border: 1px solid blue;
+        right: 15px;
+    };
     }
 
     &:hover .fa-arrow-right {
