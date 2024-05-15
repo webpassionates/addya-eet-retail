@@ -211,34 +211,30 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="mt-5">
-                                            <form action="submit-contact.php" class="lets_connect_form p-5">
+                                            <form action="submit-contact.php" class="lets_connect_form p-5" id="contactForm" method="post">
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <label for="fname" class="pb-2">First name</label>
-                                                        <input type="text" id="fname" name="fname"
-                                                            class="py-1 for-width" placeholder="First name">
+                                                        <input type="text" id="fname" name="fname" class="py-1 for-width" placeholder="First name" required>
                                                     </div>
                                                     <div class="col-lg-6">
                                                         <label for="lname" class="pb-2">Last name</label>
-                                                        <input type="text" id="lname" name="lname"
-                                                            class="py-1 for-width" placeholder="Last name">
+                                                        <input type="text" id="lname" name="lname"class="py-1 for-width" placeholder="Last name" required>
                                                     </div>
                                                 </div>
                                                 <div class="my-3">
                                                     <label for="email" class="pb-2">Email</label>
                                                     <div>
-                                                        <input type="email" id="email" name="email"
-                                                            placeholder="you@company.com" class="w-100 py-1 for-width">
+                                                        <input type="email" id="email" name="email" placeholder="you@company.com" class="w-100 py-1 for-width" required>
                                                     </div>
                                                 </div>
                                                 <div>
                                                     <label for="lname" class="pb-2">Message</label>
                                                     <div>
-                                                        <textarea placeholder="Leave us a message..."></textarea>
-
+                                                        <textarea id="message" name="message" placeholder="Leave us a message..." required></textarea>
                                                     </div>
                                                 </div>
-                                                <button class="bg-transparent w-100 py-1 mt-4">Submit Message</button>
+                                                <button type="submit"  class="bg-transparent w-100 py-1 mt-4">Submit Message</button>
                                             </form>
                                         </div>
                                     </div>
