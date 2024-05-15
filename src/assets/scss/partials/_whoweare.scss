@@ -425,14 +425,19 @@ span {
 
 //End
 
+.img-qual-mob {
+  width: 75%;
+}
+
 #quality-fuels-and-security-section {
   .quality-fuels-and-security {
     .desk-row-quality {
       padding-left: 25px;
-    } 
-  } 
+    }
+  }
 }
-.qual-box{
+
+.qual-box {
   padding-right: 5% !important;
 }
 
@@ -616,7 +621,8 @@ span {
         .nav-item {
           font-size: 16px !important;
           padding: 5px 5px;
-          a{
+
+          a {
             font-size: 16px;
           }
         }
@@ -649,25 +655,128 @@ span {
 
   #added-value-across-section {
     .added-value-across {
-    .Explore_Cusomer_Offer_firstDiv{
-    padding-left: unset !important;
+      .Explore_Cusomer_Offer_firstDiv {
+        padding-left: unset !important;
+      }
     }
-    }
-    .supply-chain{
+
+    .supply-chain {
       margin-left: 0px !important;
     }
   }
-  .quality-fuels-and-security-section{
-    .quality-fuels-and-security{
-      .Explore_Cusomer_Offer_firstDiv{
-        .Explore_Cusomer_Offer_SubParentDiv{
+
+  .quality-fuels-and-security-section {
+    .quality-fuels-and-security {
+      .Explore_Cusomer_Offer_firstDiv {
+        .Explore_Cusomer_Offer_SubParentDiv {
           padding-left: 0.5rem !important;
         }
-      } 
-      .content{
+      }
+
+      .content {
         padding-left: 0.5rem !important;
       }
-    } 
+    }
+  }
+
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+  #banner-section {
+    .banner {
+      .background-banner-img {
+        height: 60vh;
+        background-size: 100% 100%;
+      }
+
+      .content {
+        right: 10% !important;
+        bottom: 10% !important;
+
+        .text-mob {
+          font-size: 16px !important;
+        }
+      }
+    }
+  }
+
+  #from-refinery-to-forecourt-section {
+    .Explore_Cusomer_Offer_firstDiv {
+      .Explore_Cusomer_Offer_SubParentDiv {
+        .Explore_Cusomer_Offer_horizontal_line {
+          width: 12% !important;
+        }
+      }
+    }
+
+    h2 {
+      font-size: 30px;
+    }
+  }
+
+  .img-qual-mob {
+    width: 100%;
+  }
+
+  .quality-fuels-and-security {
+    h2 {
+      font-size: 30px;
+      line-height: 42px;
+    }
+  }
+
+  #added-value-across-section {
+    .Explore_Cusomer_Offer_firstDiv {
+      .Explore_Cusomer_Offer_SubParentDiv {
+        .Explore_Cusomer_Offer_horizontal_line {
+          width: 65%;
+        }
+      }
+    }
+
+    h2 {
+      font-size: 30px;
+      line-height: 42px;
+    }
+  }
+
+  .quality-fuels-and-security {
+    .Explore_Cusomer_Offer_firstDiv {
+      .Explore_Cusomer_Offer_SubParentDiv {
+        .Explore_Cusomer_Offer_horizontal_line {
+          width: 65%;
+        }
+      }
+    }
+  }
+
+  #footer {
+    .InviteContinerr {
+      font-size: 14px !important;
+      transform: unset;
+      height: unset;
+      width: 100%;
+      padding: 25px 19px;
+      left: unset;
+      display: inline-block;
+      bottom: 78% !important;
+      .whoweare-para {
+        font-size: 20px;
+        width: 100% !important;
+      }
+    }
+  }
+  .footer_Continer{
+    .footer .column{
+      width: 100% !important;
+    }
   } 
+  .footer_Continer {
+    .footer {
+      display: inline-block !important;
+      max-width: 100% !important;
+    }
+  }
 
 }
