@@ -11,7 +11,7 @@
             background-size: cover;
             margin-left: 1%;
             border-radius: $border-radius-3;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
                 // border: 1px solid black;
                 height:500px;
                 width: 96%;
@@ -25,7 +25,7 @@
 
             .row-height {
                 height: 720px;
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     // border: 1px solid black;
                     height:500px;
                 };
@@ -41,9 +41,9 @@
                 right: 0;
                 height: 220px;
                 border-bottom-left-radius: $border-radius-3;
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     // border: 1px solid black;
-                    height: 150px;
+                    height: 160px;
                     border-bottom-right-radius: 45px;
                     
                 };
@@ -52,10 +52,10 @@
                     padding-left: 9%;
                     font-weight: 400;
                     font-size: $fs-48;
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 600px) {
                         // border: 1px solid black;
                         padding-left: 10px;
-                        font-size: 28px;
+                        font-size: 24px;
                         line-height: 30px;
                         margin-bottom: 0;
                         padding-bottom: 0;
@@ -65,7 +65,7 @@
                 p {
                     padding-left: 9%;
                     font-size: 20px;
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 600px) {
                         // border: 1px solid black;
                         padding-left: 15px;
                         font-size: 16px;
@@ -81,13 +81,13 @@
         .cont-m-offer {
             .Explore_Cusomer_Offer_horizontal_line {
                 width: 69%;
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     width: 0%;
                 };
 
             }
              p {
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     // font-size: 12px;
                     // line-height: 15px;
                     font-size: 1rem;
@@ -104,7 +104,7 @@
             
             .Explore_Cusomer_Offer_SubParentDiv {
                 p {
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 600px) {
                         padding: 0px 10px 0 20px;
                     }
                 }
@@ -112,7 +112,7 @@
         }
         h2 {
             // border: 1px solid red;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
                 font-size: 32px;
                 font-weight: 600;
                 line-height: 41px;
@@ -131,7 +131,7 @@
             .key-img {
                 border-radius: $border-radius-8;
                 width:80%;
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     width:100%;
                     margin: auto;
                 };
@@ -140,7 +140,7 @@
 
             h2 {
                 font-size: $fs-36; 
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     // border: 1px solid red;
                     font-size: $fs-28; 
                     padding-bottom: 0px;
@@ -152,7 +152,7 @@
                 border: none;
                 width: 30px;
                 height: 32px;
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     // border: 1px solid red;
                     width: 30px;
                     height: 32px;
@@ -166,7 +166,7 @@
                 @media only screen and (min-width:1280px) and (max-width:1400px){
                     width: 100%;
                }
-               @media only screen and (max-width: 768px) {
+               @media only screen and (max-width: 600px) {
                 // border: 1px solid red;
                 font-size: $fs-16;
                };  
@@ -177,7 +177,7 @@
                     height:550px;
                     padding-top: 15px;
                 }
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     // border: 1px solid red;
                     height:auto;
                     /* padding-top: 15px; */
@@ -189,10 +189,11 @@
 
     #footer {
         .InviteContinerr {
+            @media only screen and (max-width: 600px) {
             bottom: 90%;
             display: unset;
             height: 290px;
-
+            }
             p {
                 width: unset;
                 font-size: $fs-32;
@@ -219,7 +220,7 @@
                 height: 500px;
                 border-radius: $border-radius-3;
                 object-fit:cover;
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     // border: 1px solid red;
                     // height: 400px;
                     height: auto;
@@ -230,7 +231,7 @@
 
             h2 {
                 font-size: $fs-40;
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     // border: 1px solid red;
                     font-size: 26px;
                     margin-bottom: 0px;
@@ -242,7 +243,7 @@
                 height: 500px;
                 background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
                 border-radius: $border-radius-3;
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     // border: 1px solid red;
                     height: auto;
                     margin-top: 20px;
@@ -250,11 +251,11 @@
 
                 .item {
                     padding: 54px 48px 54px 48px;
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 600px) {
                         // border: 1px solid red;
                         // padding: 54px 48px 54px 48px;
-                        padding: 20px;
-                        height: 300px;
+                        padding: 40px;
+                        height: 200px;
                         
                     }; 
                 }
@@ -262,7 +263,7 @@
                 .key-icon {
                     width: 32px;
                     height: 32px;
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 600px) {
                             // border: 1px solid red;
                         width: 20px;
                         height: 20px;
@@ -272,7 +273,7 @@
 
                 h4 {
                     font-size: $fs-40;
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 600px) {
                         // border: 1px solid red;
                         font-size: $fs-20;
                     }; 
@@ -280,10 +281,15 @@
 
                 p {
                     font-size: $fs-18;
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 600px) {
                         // border: 1px solid red;
                         font-size: $fs-14;
                     }; 
+                }
+
+                .owl-dots {
+                    text-align: left;
+                    padding-left: 50px;
                 }
             }
 
@@ -292,7 +298,7 @@
                     position: absolute;
                     bottom: 10%;
                     left: 7%;
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 600px) {
                         // border: 1px solid red;
                     }; 
 
@@ -301,7 +307,7 @@
                             span {
                                 background: #FCFCFC;
                                 width: 16px;
-                                @media only screen and (max-width: 768px) {
+                                @media only screen and (max-width: 600px) {
                                     // border: 1px solid red;
                                 }; 
                             }
@@ -313,7 +319,7 @@
     }
 
     .InviteContinerr {
-        bottom: 6.5%;
+       /*  bottom: 6.5%; */
         display: flex;
         align-items: center;
         background: linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%) !important;
@@ -323,6 +329,14 @@
         border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
         border-image-slice: 2 !important;
         border-bottom: 4px solid transparent !important;
+
+        .col-wrapper{
+            width: 100%;
+
+            .text-end {
+                text-align: end;
+            }
+        }
     }
 
     .InviteContinerr::after {
@@ -390,5 +404,11 @@
             }
         }
     }
+
+    #footer {
+        @media only screen and (max-width: 600px) {
+          margin-top: 310px;
+        }
+      }
 
 }

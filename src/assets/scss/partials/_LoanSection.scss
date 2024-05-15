@@ -4,7 +4,7 @@
   margin: 15px;
   border-radius: 64px;
   background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     // border: 1px solid black;
     height: auto;
     margin: 5px;
@@ -19,7 +19,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     padding-left: 20px;
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       // border: 1px solid red;
       // display: flex;
       // flex-direction: row;
@@ -38,7 +38,7 @@
       margin-top: 100px;
       padding: 0px 130px;
       margin-bottom: 36px;
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 600px) {
         display: flex;
         flex: auto;
         justify-content: flex-start;
@@ -57,7 +57,7 @@
           width: 73%;
           margin-left: 10px;
         }
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
           width: 30%;
           margin-left: 10px;
         }
@@ -71,7 +71,7 @@
         text-align: left;
         color: #ffffff;
         margin: auto 0;
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
           font-size: 0.75rem;
           font-weight: 700;
           line-height: 0px;
@@ -87,7 +87,7 @@
 
   .Loan_Agree_Heading {
     // border: 1px solid red;
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       margin-bottom: 40px;
     };
     
@@ -99,7 +99,7 @@
       text-align: left;
       color: #FFFFFF;
       padding: 0px 130px;
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 600px) {
         font-size: 1.875rem;
         font-weight: 600;
         line-height: 34.5px;
@@ -113,7 +113,7 @@
     // width: 86% !important;
     margin: auto;
     width: 82%;
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       // border: 1px solid red;
       width: 100%;
       padding-top: 20px;
@@ -135,7 +135,7 @@
       position: relative;
       border-radius: 35px;
       overflow: hidden;
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 600px) {
         // border: 1px solid red;
         // height: 550px;
         background-color: #f0f0f0;
@@ -155,7 +155,7 @@
         align-items: center;
         justify-content: space-between;
         position: relative;
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
           // border: 1px solid red;
           display: flex;
           align-items: center;
@@ -169,7 +169,7 @@
           text-align: left;
           color: #4b5563;
           width: 80%;
-          @media only screen and (max-width: 768px) {
+          @media only screen and (max-width: 600px) {
             // border: 1px solid red;
             text-align: left;
             color: #4b5563;
@@ -185,7 +185,7 @@
             letter-spacing: -0.02em;
             text-align: left;
             margin: 0;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
               // border: 1px solid red;
               font-size: 1.5rem;
               font-weight: 700;
@@ -203,7 +203,7 @@
             line-height: 28px;
             letter-spacing: -0.01em;
             text-align: left;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
               // border: 1px solid red;
               font-size: 1.125rem;
               font-weight: 500;
@@ -221,7 +221,7 @@
           top: 50%;
           left: 50%;
           transform: translate(-50%, -50%);
-          @media only screen and (max-width: 768px) {
+          @media only screen and (max-width: 600px) {
             // border: 1px solid red;
             display: none;
             position: relative;
@@ -248,7 +248,7 @@
         left: 0;
         width: 100%;
         transition: transform 0.3s ease;
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
           // border: 1px solid red;
           // position: absolute;
           // bottom: -4px;
@@ -267,7 +267,7 @@
           position: absolute;
           bottom: -14px;
           left: 0;
-          @media only screen and (max-width: 768px) {
+          @media only screen and (max-width: 600px) {
             // border: 1px solid red;
             width: 100%;
             position: relative;

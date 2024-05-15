@@ -11,7 +11,7 @@
             background-size: 100%;
             margin-left: 1%;
             border-radius: $border-radius-3;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
                 // border: 1px solid black;
                 height:500px;
                 width: 96%;
@@ -24,7 +24,7 @@
 
             .row-height {
                 height: 720px;
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     // border: 1px solid black;
                     height:500px;
                 };
@@ -38,7 +38,7 @@
                 right: 0;
                 height: 170px;
                 border-bottom-left-radius: $border-radius-3;
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     // border: 1px solid black;
                     height: 180px;
                     border-bottom-right-radius: 45px;
@@ -48,7 +48,7 @@
                     padding-left: 9%;
                     font-weight: 400;
                     font-size: $fs-48;
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 600px) {
                         // border: 1px solid black;
                         padding-left: 15px;
                         font-size: 28px;
@@ -60,11 +60,11 @@
                 p {
                     padding-left: 9%;
                     font-size: 20px;
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 600px) {
                         // border: 1px solid black;
                         padding-left: 15px;
                         font-size: 16px;
-                        padding-top: 10px;
+                        
                     };
                 }
             }
@@ -84,7 +84,7 @@
 
             .row-p-b {
                 padding: 120px 0px 120px 165px;
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     padding: 30px 20px 30px 20px;
                 }
             }
@@ -178,13 +178,13 @@
                     // border-left: 4px solid transparent;
                     border-left: 4px solid #5f8ac7;
                     border-bottom: 0;
-                    @media only screen and (max-width: 768px) {
+                    @media only screen and (max-width: 600px) {
                         width: 100%;
                         margin-bottom: 30px;
                     }
 
                     img{
-                        @media only screen and (max-width: 768px) {
+                        @media only screen and (max-width: 600px) {
                             border-radius: 24px;
                             margin-bottom: 30px;
                         }
@@ -205,11 +205,17 @@
             }
         }
     }
+
+    #footer {
+        @media only screen and (max-width: 600px) {
+          margin-top: 340px;
+        }
+    }
 }
 .text-end {
-    @media only screen and (max-width: 786px) {
+    @media only screen and (max-width: 600px) {
         text-align: left !important;
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }
 .InviteContinerr {
@@ -471,3 +477,4 @@
         border-bottom: 0;
     }
 }
+

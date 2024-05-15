@@ -137,6 +137,18 @@
           a {
             color: #4B5563 !important;
           }
+
+          .icon-input {
+            .fa-magnifying-glass {
+              color: #000000;
+            }
+
+            .expanded{
+              .fa-magnifying-glass {
+                color: #FFFFFF;
+              }
+            }
+          }
         }
       }
     }

@@ -12,7 +12,7 @@ body {
   height: auto;
   margin: auto;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Explore_Cusomer_Offer_Containar {
     width: 90%;
     height: auto;
@@ -24,7 +24,7 @@ body {
   width: 82%;
   margin: auto;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_Heading {
     width: 100%;
   }
@@ -53,7 +53,7 @@ body {
     margin-left: 10px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_Heading .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv .Explore_Cusomer_Offer_horizontal_line {
     width: 20%;
     margin-left: 10px;
@@ -69,7 +69,7 @@ body {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_Heading .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv p {
     font-size: 0.75rem;
     line-height: 18px;
@@ -85,7 +85,7 @@ body {
   letter-spacing: -0.02em;
   text-align: left;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_Heading .Explore_Cusomer_Offer_SecondDiv h2 {
     font-size: 1.875rem;
     font-weight: 600;
@@ -127,7 +127,7 @@ body {
   outline: none;
   color: rgb(75, 85, 99);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_Heading .Explore_Cusomer_Offer_Button button {
     font-size: 0.875rem;
     line-height: 20px;
@@ -175,7 +175,7 @@ body {
   background-size: 100%;
   z-index: 2;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_ThirdDiv .slider .slide::after {
     background: none;
   }
@@ -201,7 +201,7 @@ body {
   border-image-slice: 2;
   border-bottom: 4px solid transparent;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_ThirdDiv .slider .slide-content {
     width: 90%;
     position: absolute;
@@ -217,7 +217,7 @@ body {
   text-align: left;
   margin: 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_ThirdDiv .slider .slide-content h2 {
     font-size: 1.75rem;
     line-height: 36px;
@@ -236,7 +236,7 @@ body {
     line-height: 22px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_ThirdDiv .slider .slide-content p {
     font-size: 1rem;
     line-height: 20px;
@@ -363,6 +363,12 @@ body {
 .other--page #top-header .topheader .navbar .nav-item a {
   color: #4B5563 !important;
 }
+.other--page #top-header .topheader .navbar .nav-item .icon-input .fa-magnifying-glass {
+  color: #000000;
+}
+.other--page #top-header .topheader .navbar .nav-item .icon-input .expanded .fa-magnifying-glass {
+  color: #FFFFFF;
+}
 .other--page .main-menu .logo-color {
   display: block;
 }
@@ -408,7 +414,7 @@ body {
 .mobile-only {
   display: none;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .mobile-only {
     display: block;
   }
@@ -745,7 +751,7 @@ body {
   border-image-slice: 2 !important;
   border-bottom: 4px solid transparent !important;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .TestMoinals_Container .slide {
     width: 90%;
     border-radius: 24px;
@@ -825,7 +831,7 @@ body {
   top: 8px;
   right: -5px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_box .fa-arrow-right {
     right: 15px;
   }
@@ -848,7 +854,7 @@ body {
     margin-top: -48px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #slider-curve .slidercurve .curve-img {
     margin-top: -11px;
     z-index: 0;
@@ -895,7 +901,7 @@ body {
 
 #top-header .topheader .navbar {
   position: absolute;
-  z-index: 999;
+  z-index: 9999;
   width: 100%;
 }
 #top-header .topheader .navbar .nav-item {
@@ -976,7 +982,7 @@ footer #home-inviteContiner .InviteContiner {
   width: 81%;
   bottom: 86%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   footer #home-inviteContiner .InviteContiner {
     width: 90%;
     padding: 32px 24px;
@@ -985,7 +991,7 @@ footer #home-inviteContiner .InviteContiner {
     bottom: 93%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   footer #home-inviteContiner .InviteContiner p {
     font-size: 1.25rem;
     line-height: 28px;
@@ -1064,7 +1070,7 @@ footer #home-inviteContiner .InviteContiner {
   border-image-slice: 1;
   transition: all 0.5s !important;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .border-btn .anim-btn-border-1 {
     margin: 10px 0;
   }
@@ -1099,7 +1105,7 @@ footer #home-inviteContiner .InviteContiner {
   background-size: cover;
   height: 90vh !important;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #hero-home-slider .slick-slide .img--holder {
     height: 80vh !important;
   }
@@ -1112,7 +1118,7 @@ footer #home-inviteContiner .InviteContiner {
   z-index: 99;
   color: #fff;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #hero-home-slider .hero-slider .text--holder {
     bottom: 30%;
     width: 75%;
@@ -1129,7 +1135,7 @@ footer #home-inviteContiner .InviteContiner {
     line-height: 90px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #hero-home-slider .hero-slider .text--holder h1 {
     font-size: 36px;
     line-height: 41px;
@@ -1144,7 +1150,7 @@ footer #home-inviteContiner .InviteContiner {
     margin-top: 10px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #hero-home-slider .hero-slider .text--holder p {
     font-size: 14px;
     line-height: 20px;
@@ -1341,7 +1347,7 @@ footer #home-inviteContiner .InviteContiner {
     right: 16px !important;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .for-radius {
     top: -64px;
     right: 0px;
@@ -1641,6 +1647,17 @@ footer #home-inviteContiner .InviteContiner {
   color: #4B5563;
 }
 
+@media only screen and (max-width: 600px) {
+  .who_we_are_page #footer {
+    margin-top: 360px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .who_we_are_page #as-we-advance-section {
+    margin-bottom: 280px;
+  }
+}
+
 h2 {
   font-size: 3rem;
   font-weight: 600;
@@ -1651,7 +1668,7 @@ h2 {
   padding-top: 35px;
   padding-bottom: 35px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   h2 {
     font-size: 2.475rem;
     font-weight: 600;
@@ -1683,7 +1700,7 @@ h2 span {
   background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0%, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
   margin-bottom: 50px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .TestMoinals_Container-2 {
     width: 96%;
     margin: auto;
@@ -1707,7 +1724,7 @@ span {
 .MobileView_WhoWeAre {
   display: none;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .MobileView_WhoWeAre {
     display: block;
   }
@@ -1720,7 +1737,7 @@ span {
   width: 90%;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #banner-section .banner {
     margin-bottom: 40px;
   }
@@ -1733,7 +1750,7 @@ span {
   background-size: 100%;
   display: block;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #banner-section .banner .background-banner-img {
     display: flex;
     flex-direction: column;
@@ -1746,7 +1763,7 @@ span {
 #banner-section .banner .background-banner-img .content {
   left: 50%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #banner-section .banner .background-banner-img .content {
     top: 30%;
     left: 0;
@@ -1764,7 +1781,7 @@ span {
   color: #fff;
   font-size: 18px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #banner-section .banner .background-banner-img .content h5 {
     font-size: 14px;
   }
@@ -1773,7 +1790,7 @@ span {
   color: #fff;
   font-size: 18px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #banner-section .banner .background-banner-img .content h6 {
     font-size: 14px;
   }
@@ -1789,7 +1806,7 @@ span {
     font-size: 20px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #banner-section .animated-text {
     font-size: 18px;
   }
@@ -1811,7 +1828,7 @@ span {
   position: absolute;
   z-index: -1;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .Explore_Cusomer_Offer_SubParentDiv .horizontal_line {
     width: 90%;
   }
@@ -1831,7 +1848,7 @@ span {
   position: relative;
   z-index: 9;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .Explore_Cusomer_Offer_SubParentDiv h5 {
     font-size: 12px;
     font-weight: 700;
@@ -1842,7 +1859,7 @@ span {
 .content-heading-section {
   margin-bottom: 48px;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .content-heading-section {
     margin-bottom: 10px;
   }
@@ -1851,7 +1868,7 @@ span {
 .content-right-section {
   padding-left: 130px;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .content-right-section {
     padding-left: 15px;
   }
@@ -1866,7 +1883,7 @@ span {
   text-align: justify;
   margin-bottom: 0;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .content-right-section p {
     font-size: 1rem;
     font-weight: 500;
@@ -1882,7 +1899,7 @@ span {
 .refinery-forecourt--section {
   margin: 80px 0;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .refinery-forecourt--section {
     margin: 0;
     padding: 0px !important;
@@ -1901,7 +1918,7 @@ span {
   margin: 0;
   line-height: 115%;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .refinery-forecourt--section .Refinery_Container_SecondDiv h2 {
     font-size: 2.475rem;
     font-weight: 600;
@@ -1919,7 +1936,7 @@ span {
 .quality-fuels-and-security {
   margin: 120px 0;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .quality-fuels-and-security {
     margin: 0;
   }
@@ -1927,7 +1944,7 @@ span {
 .quality-fuels-and-security .content-image {
   width: 94%;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .quality-fuels-and-security .content-image {
     width: 100%;
     height: 275px;
@@ -1945,7 +1962,7 @@ span {
   align-items: flex-start;
   padding-top: 30px;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .quality-fuels-and-security .Explore_Cusomer_Offer_firstDiv {
     justify-content: center;
     align-items: center;
@@ -1956,7 +1973,7 @@ span {
   display: flex;
   align-items: center;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .quality-fuels-and-security .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv {
     padding: 15px 15px;
   }
@@ -1977,7 +1994,7 @@ span {
   margin-bottom: 35px;
   text-align: justify;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .quality-fuels-and-security p {
     font-size: 1rem;
     font-weight: 500;
@@ -1993,7 +2010,7 @@ span {
 .quality-fuels-and-security h2 {
   font-size: 40px;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .quality-fuels-and-security h2 {
     font-size: 32px;
     font-weight: 600;
@@ -2039,7 +2056,7 @@ span {
   margin-bottom: 35px;
   text-align: justify;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #added-value-across-section p {
     font-size: 1rem;
     font-weight: 500;
@@ -2055,7 +2072,7 @@ span {
 #added-value-across-section h2 {
   font-size: 40px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #added-value-across-section h2 {
     font-size: 32px;
     line-height: 41px;
@@ -2063,14 +2080,14 @@ span {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #footer {
     margin-top: 310px;
   }
 }
 #footer .InviteContinerr {
   height: 211px;
-  width: 90%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2086,7 +2103,7 @@ span {
   box-shadow: -1px 1px 1px -2px rgba(255, 255, 255, 0.35) inset;
   box-shadow: 0px 24px 30px 0px rgba(0, 0, 0, 0.05);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #footer .InviteContinerr {
     height: auto;
     width: 90%;
@@ -2117,7 +2134,7 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #footer .InviteContinerr p {
     font-size: 20px;
     line-height: 28px;
@@ -2127,7 +2144,7 @@ span {
   margin-top: 12rem;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .quality-fuels-and-security .desk-row-quality {
     flex-direction: column-reverse;
   }
@@ -2258,7 +2275,7 @@ span {
     margin-left: 0px !important;
   }
 }
-@media only screen and (min-width: 1360px) and (max-width: 1400px) and (max-width: 768px) {
+@media only screen and (min-width: 1360px) and (max-width: 1400px) and (max-width: 600px) {
   #added-value-across-section .supply-chain {
     font-size: 32px;
     line-height: 41px;
@@ -2293,7 +2310,7 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #dealeroffer-banner .dealerofferbanner {
     height: 500px;
     width: 96%;
@@ -2307,7 +2324,7 @@ span {
 #dealeroffer-banner .dealerofferbanner .row-height {
   height: 736px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #dealeroffer-banner .dealerofferbanner .row-height {
     height: 500px;
   }
@@ -2323,10 +2340,11 @@ span {
   /* height: 164px; */
   border-bottom-left-radius: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #dealeroffer-banner .dealerofferbanner .banner-bg {
     height: 180px;
     border-bottom-right-radius: 45px;
+    padding-top: 15px;
   }
 }
 #dealeroffer-banner .dealerofferbanner .banner-bg h2 {
@@ -2334,22 +2352,26 @@ span {
   font-weight: 400;
   font-size: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #dealeroffer-banner .dealerofferbanner .banner-bg h2 {
     padding-left: 15px;
-    font-size: 28px;
-    line-height: 35px;
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 #dealeroffer-banner .dealerofferbanner .banner-bg p {
   padding-left: 9%;
   font-size: 20px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #dealeroffer-banner .dealerofferbanner .banner-bg p {
     padding-left: 15px;
     font-size: 16px;
     margin-top: 10px;
+    margin-bottom: 0;
+    padding-bottom: 0;
   }
 }
 
@@ -2374,7 +2396,7 @@ span {
   justify-content: center;
   align-items: center;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   #dealer-offer .dealeroffer .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv {
     justify-content: left;
   }
@@ -2402,7 +2424,7 @@ span {
     width: 67%;
   }
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   #dealer-offer .dealeroffer .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv .Explore_Cusomer_Offer_horizontal_line {
     width: 20%;
   }
@@ -2411,7 +2433,7 @@ span {
   font-size: 60px;
   line-height: 1;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   #dealer-offer .dealeroffer .dealer_Container_SecondDiv h2 {
     font-size: 32px;
     line-height: 41px;
@@ -2474,7 +2496,7 @@ span {
   margin: auto;
   margin-top: 16px;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .TestMoinals_Container_dealer .NexTAndPrev_Button {
     display: block;
   }
@@ -2486,7 +2508,7 @@ span {
   letter-spacing: -0.02em;
   text-align: left;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .TestMoinals_Container_dealer .NexTAndPrev_Button h1 {
     font-size: 32px;
     line-height: 41px;
@@ -2502,7 +2524,7 @@ span {
   align-items: center;
   gap: 20px;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .TestMoinals_Container_dealer .NexTAndPrev_Button .NextAndPrevBtns {
     justify-content: left;
     margin-top: 20px;
@@ -2670,6 +2692,11 @@ span {
   padding: 0;
   color: #00432f;
 }
+@media only screen and (max-width: 600px) {
+  #dealer-offer-includes .offer-includes .accordion {
+    padding: 0 10px;
+  }
+}
 #dealer-offer-includes .offer-includes .accordion .transparent-box {
   background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
   width: 32px;
@@ -2740,6 +2767,12 @@ span {
 #dealer-offer-includes .offer-includes .accordion .accordion__content p {
   font-size: 18px;
 }
+@media only screen and (max-width: 600px) {
+  #dealer-offer-includes .offer-includes .accordion .accordion__content p {
+    font-size: 16px;
+    margin: 0;
+  }
+}
 #dealer-offer-includes .offer-includes .accordion input[type=checkbox]:checked ~ .accordion__content {
   max-height: 0;
   opacity: 0;
@@ -2754,7 +2787,7 @@ span {
   background: unset;
   border: none;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   #dealer-offer-includes .offer-includes .img-thumbnail {
     width: 36px;
     height: 36px;
@@ -2838,9 +2871,9 @@ span {
   font-size: 24px;
   color: #00432f;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .a-acc-heading {
-    font-size: 20px;
+    font-size: 16px;
   }
 }
 
@@ -2905,7 +2938,7 @@ span {
     height: 310px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #essar-banner .essarbanner {
     height: 150px;
   }
@@ -2991,7 +3024,7 @@ span {
 #newsroom-section .newsroom .newsroom_Container_SecondDiv h2 {
   font-size: 60px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #newsroom-section .newsroom .newsroom_Container_SecondDiv h2 {
     font-size: 32px;
     line-height: 41px;
@@ -2999,7 +3032,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .tabclass-mobile {
     display: flex;
   }
@@ -3021,9 +3054,10 @@ span {
   transition: 0.3s;
   border-radius: 40px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .tab button {
-    padding: 12px 24px;
+    padding: 12px 16px;
+    font-size: 0.8rem;
   }
 }
 .tab button:hover {
@@ -3031,6 +3065,9 @@ span {
 }
 .tab button .tab button.active {
   background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%) !important;
+}
+.tab button strong {
+  color: #000;
 }
 
 .tab button.active {
@@ -3043,10 +3080,21 @@ span {
   border-top: none;
 }
 
+@media only screen and (max-width: 600px) {
+  #newsroom {
+    margin-bottom: 280px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  #footer {
+    margin-top: 250px;
+  }
+}
 #footer .newsroom-para {
   width: 80% !important;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #footer .newsroom-para {
     width: 100% !important;
     font-size: 20px !important;
@@ -3090,7 +3138,7 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #speakus-page #speaktous-banner .speaktous {
     height: 100px;
   }
@@ -3098,7 +3146,7 @@ span {
 #speakus-page #speaktous-banner .speaktous .row-height {
   height: 400px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #speakus-page #speaktous-banner .speaktous .row-height {
     height: 100px;
   }
@@ -3140,7 +3188,7 @@ span {
   justify-content: center;
   align-items: center;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv {
     justify-content: flex-start;
   }
@@ -3157,7 +3205,7 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv p {
     font-size: 12px;
     line-height: 20px;
@@ -3169,7 +3217,7 @@ span {
   width: 76%;
   margin-left: 20px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv .lets_connect_horizontal_line {
     width: 50%;
   }
@@ -3177,7 +3225,7 @@ span {
 #speakus-page #lets-connect .letsconnect .lets_connect_SecondDiv h2 {
   font-size: 60px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #speakus-page #lets-connect .letsconnect .lets_connect_SecondDiv h2 {
     font-size: 32px;
     line-height: 41px;
@@ -3213,7 +3261,7 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #speakus-page #lets-connect .letsconnect .lets_connect_ThirdDiv .iconheading p {
     font-size: 14px;
   }
@@ -3224,7 +3272,7 @@ span {
   font-weight: 400;
   color: #1f2937;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #speakus-page #lets-connect .letsconnect .lets_connect_ThirdDiv .iconinformation p {
     font-size: 14px;
   }
@@ -3249,7 +3297,7 @@ span {
      padding-top: 10px;
   } */
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #speakus-page #lets-connect .letsconnect .lets_connect_form {
     width: 100%;
   }
@@ -3305,7 +3353,7 @@ span {
 #speakus-page #lets-connect .letsconnect .lets_connect_form textarea {
   padding-top: 12px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #speakus-page #footer {
     margin-top: 210px;
   }
@@ -3358,7 +3406,7 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #contract-manager-banner .dealerofferbanner {
     height: 500px;
     width: 96%;
@@ -3372,7 +3420,7 @@ span {
 #contractmanager-page #contract-manager-banner .dealerofferbanner .row-height {
   height: 720px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #contract-manager-banner .dealerofferbanner .row-height {
     height: 500px;
   }
@@ -3388,9 +3436,9 @@ span {
   height: 220px;
   border-bottom-left-radius: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg {
-    height: 150px;
+    height: 160px;
     border-bottom-right-radius: 45px;
   }
 }
@@ -3399,10 +3447,10 @@ span {
   font-weight: 400;
   font-size: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg h2 {
     padding-left: 10px;
-    font-size: 28px;
+    font-size: 24px;
     line-height: 30px;
     margin-bottom: 0;
     padding-bottom: 0;
@@ -3412,7 +3460,7 @@ span {
   padding-left: 9%;
   font-size: 20px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg p {
     padding-left: 15px;
     font-size: 16px;
@@ -3423,12 +3471,12 @@ span {
 #contractmanager-page #dealer-offer .cont-m-offer .Explore_Cusomer_Offer_horizontal_line {
   width: 69%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #dealer-offer .cont-m-offer .Explore_Cusomer_Offer_horizontal_line {
     width: 0%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #dealer-offer .cont-m-offer p {
     font-size: 1rem;
     font-weight: 500;
@@ -3441,12 +3489,12 @@ span {
     padding: 0px 10px 0 0px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #dealer-offer .cont-m-offer .Explore_Cusomer_Offer_SubParentDiv p {
     padding: 0px 10px 0 20px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #dealer-offer h2 {
     font-size: 32px;
     font-weight: 600;
@@ -3462,7 +3510,7 @@ span {
   border-radius: 0px 48px 48px 0px;
   width: 80%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #key-responsibilities .keyresp .key-img {
     width: 100%;
     margin: auto;
@@ -3471,7 +3519,7 @@ span {
 #contractmanager-page #key-responsibilities .keyresp h2 {
   font-size: 36px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #key-responsibilities .keyresp h2 {
     font-size: 28px;
     padding-bottom: 0px;
@@ -3483,7 +3531,7 @@ span {
   width: 30px;
   height: 32px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #key-responsibilities .keyresp .img-thumbnail {
     width: 30px;
     height: 32px;
@@ -3499,7 +3547,7 @@ span {
     width: 100%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #key-responsibilities .keyresp h5 {
     font-size: 16px;
   }
@@ -3513,17 +3561,19 @@ span {
     padding-top: 15px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #key-responsibilities .keyresp .NewClassKey {
     height: auto;
     /* padding-top: 15px; */
     padding: 20px 30px 0px 30px;
   }
 }
-#contractmanager-page #footer .InviteContinerr {
-  bottom: 90%;
-  display: unset;
-  height: 290px;
+@media only screen and (max-width: 600px) {
+  #contractmanager-page #footer .InviteContinerr {
+    bottom: 90%;
+    display: unset;
+    height: 290px;
+  }
 }
 #contractmanager-page #footer .InviteContinerr p {
   width: unset;
@@ -3546,7 +3596,7 @@ span {
   -o-object-fit: cover;
      object-fit: cover;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #key-carousel .keycarousel .slide-img {
     height: auto;
     margin-top: 20px;
@@ -3556,7 +3606,7 @@ span {
 #contractmanager-page #key-carousel .keycarousel h2 {
   font-size: 40px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #key-carousel .keycarousel h2 {
     font-size: 26px;
     margin-bottom: 0px;
@@ -3568,7 +3618,7 @@ span {
   background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
   border-radius: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel {
     height: auto;
     margin-top: 20px;
@@ -3577,17 +3627,17 @@ span {
 #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel .item {
   padding: 54px 48px 54px 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel .item {
-    padding: 20px;
-    height: 300px;
+    padding: 40px;
+    height: 200px;
   }
 }
 #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel .key-icon {
   width: 32px;
   height: 32px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel .key-icon {
     width: 20px;
     height: 20px;
@@ -3596,7 +3646,7 @@ span {
 #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel h4 {
   font-size: 40px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel h4 {
     font-size: 20px;
   }
@@ -3604,10 +3654,14 @@ span {
 #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel p {
   font-size: 18px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel p {
     font-size: 14px;
   }
+}
+#contractmanager-page #key-carousel .keycarousel .key-benefits-carousel .owl-dots {
+  text-align: left;
+  padding-left: 50px;
 }
 #contractmanager-page #key-carousel .keycarousel .owl-theme .owl-nav.disabled + .owl-dots {
   position: absolute;
@@ -3619,7 +3673,7 @@ span {
   width: 16px;
 }
 #contractmanager-page .InviteContinerr {
-  bottom: 6.5%;
+  /*  bottom: 6.5%; */
   display: flex;
   align-items: center;
   background: linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, 0.4) 0, rgba(95, 138, 199, 0.4) 17.53%, rgba(120, 162, 147, 0.4) 48.78%, rgba(153, 193, 82, 0.4) 82%, rgba(166, 206, 57, 0.4) 100%) !important;
@@ -3630,6 +3684,12 @@ span {
      border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
   border-image-slice: 2 !important;
   border-bottom: 4px solid transparent !important;
+}
+#contractmanager-page .InviteContinerr .col-wrapper {
+  width: 100%;
+}
+#contractmanager-page .InviteContinerr .col-wrapper .text-end {
+  text-align: end;
 }
 #contractmanager-page .InviteContinerr::after {
   background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%) !important;
@@ -3666,6 +3726,11 @@ span {
     width: 64%;
   }
 }
+@media only screen and (max-width: 600px) {
+  #contractmanager-page #footer {
+    margin-top: 310px;
+  }
+}
 
 .fs-16 {
   font-size: 16px;
@@ -3688,7 +3753,7 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #leasingoffer-page #leasing-offer-banner .leasingofferbanner {
     height: 500px;
     width: 96%;
@@ -3702,7 +3767,7 @@ span {
 #leasingoffer-page #leasing-offer-banner .leasingofferbanner .row-height {
   height: 720px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #leasingoffer-page #leasing-offer-banner .leasingofferbanner .row-height {
     height: 500px;
   }
@@ -3717,7 +3782,7 @@ span {
   height: 170px;
   border-bottom-left-radius: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg {
     height: 180px;
     border-bottom-right-radius: 45px;
@@ -3728,7 +3793,7 @@ span {
   font-weight: 400;
   font-size: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg h2 {
     padding-left: 15px;
     font-size: 28px;
@@ -3739,11 +3804,10 @@ span {
   padding-left: 9%;
   font-size: 20px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg p {
     padding-left: 15px;
     font-size: 16px;
-    padding-top: 10px;
   }
 }
 #leasingoffer-page #dealer-offer .Explore_Cusomer_Offer_SubParentDiv {
@@ -3756,7 +3820,7 @@ span {
 #leasingoffer-page #competetive-receive .competetivereceive .row-p-b {
   padding: 120px 0px 120px 165px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #leasingoffer-page #competetive-receive .competetivereceive .row-p-b {
     padding: 30px 20px 30px 20px;
   }
@@ -3838,13 +3902,13 @@ span {
   border-left: 4px solid #5f8ac7;
   border-bottom: 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #leasingoffer-page #competetive-receive .competetivereceive .tab.active {
     width: 100%;
     margin-bottom: 30px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #leasingoffer-page #competetive-receive .competetivereceive .tab.active img {
     border-radius: 24px;
     margin-bottom: 30px;
@@ -3858,11 +3922,16 @@ span {
   display: block;
   opacity: 1;
 }
+@media only screen and (max-width: 600px) {
+  #leasingoffer-page #footer {
+    margin-top: 340px;
+  }
+}
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .text-end {
     text-align: left !important;
-    margin-top: 20px;
+    margin-top: 10px;
   }
 }
 
@@ -4244,7 +4313,7 @@ span {
   border-image-slice: 1;
   transition: all 0.5s !important;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .border-btn .anim-btn-border-1 {
     margin: 10px 0;
   }
@@ -4321,7 +4390,7 @@ span {
   background-color: red !important;
 }
 
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   #join-network {
     margin-bottom: 60px;
   }
@@ -4337,7 +4406,7 @@ span {
   cursor: pointer;
   transition: background-color 0.3s ease, padding 0.3s ease;
 }
-@media only screen and (max-width: 786px) {
+@media only screen and (max-width: 600px) {
   .anim-btn {
     margin-bottom: 20px;
     margin-top: 20px;
@@ -4368,7 +4437,7 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #customer-offering-banner .dealerofferbanner {
     height: 550px;
     width: 96%;
@@ -4382,7 +4451,7 @@ span {
 #customer-offering-banner .dealerofferbanner .row-height {
   height: 720px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #customer-offering-banner .dealerofferbanner .row-height {
     height: 550px;
   }
@@ -4397,7 +4466,7 @@ span {
   /* height: 200px; */
   border-bottom-left-radius: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #customer-offering-banner .dealerofferbanner .banner-bg {
     height: 220px;
     border-bottom-right-radius: 45px;
@@ -4408,10 +4477,10 @@ span {
   padding-left: 9%;
   font-weight: 400;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #customer-offering-banner .dealerofferbanner .banner-bg h2 {
     padding-left: 10px;
-    font-size: 28px;
+    font-size: 23px;
     line-height: 30px;
     padding-bottom: 0;
   }
@@ -4420,7 +4489,7 @@ span {
   padding-left: 9%;
   font-size: 20px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #customer-offering-banner .dealerofferbanner .banner-bg p {
     padding-left: 15px;
     font-size: 16px;
@@ -4429,7 +4498,7 @@ span {
   }
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .customer-offering-page .dealeroffer .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv .Explore_Cusomer_Offer_horizontal_line {
     width: 10% !important;
   }
@@ -4450,6 +4519,11 @@ span {
 #enhancing-your-experience-section .enhancing-your-experience .row-p-b {
   padding: 50px 165px 120px 0px;
 }
+@media only screen and (max-width: 600px) {
+  #enhancing-your-experience-section .enhancing-your-experience .row-p-b {
+    padding: 0;
+  }
+}
 #enhancing-your-experience-section .enhancing-your-experience h4 {
   background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
   color: #fff;
@@ -4461,16 +4535,20 @@ span {
   line-height: 27px;
 }
 #enhancing-your-experience-section .enhancing-your-experience h1 {
-  font-size: 28px;
+  font-size: 22px;
+  margin: 15px 0 15px 15px;
   font-weight: 600;
 }
 #enhancing-your-experience-section .enhancing-your-experience h2 {
   font-size: 40px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #enhancing-your-experience-section .enhancing-your-experience h2 {
     font-size: 32px;
     line-height: 41px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    padding-top: 0;
   }
 }
 #enhancing-your-experience-section .enhancing-your-experience p {
@@ -4484,6 +4562,17 @@ span {
   animation-fill-mode: forwards;
   bottom: 0;
   transform: translate(0, 100%);
+}
+@media only screen and (max-width: 600px) {
+  #enhancing-your-experience-section .enhancing-your-experience .inner-para {
+    padding: 0 19px;
+    animation: none;
+    animation-delay: unset;
+    animation-delay: unset;
+    animation-fill-mode: none;
+    bottom: 0;
+    transform: none;
+  }
 }
 @keyframes showTopText {
   0% {
@@ -4539,7 +4628,7 @@ span {
   border-bottom: 1px solid #D1D5DB;
 }
 #enhancing-your-experience-section .enhancing-your-experience .tab .inner-para {
-  display: none;
+  display: block;
   /* Hide by default */
 }
 #enhancing-your-experience-section .enhancing-your-experience .tab .tab.active .inner-para {
@@ -4558,6 +4647,12 @@ span {
   transition-delay: 1s;
   transition: background-color 1s ease-in-out;
 }
+@media only screen and (max-width: 600px) {
+  #enhancing-your-experience-section .enhancing-your-experience .tab.active {
+    width: 100%;
+    margin-left: 0px !important;
+  }
+}
 #enhancing-your-experience-section .enhancing-your-experience .tabcontent {
   display: none;
 }
@@ -4572,12 +4667,17 @@ span {
 .box-width {
   width: 75%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .box-width {
     width: 100%;
   }
 }
 
+@media only screen and (max-width: 600px) {
+  #footer {
+    margin-top: 0px;
+  }
+}
 #footer #visit-us-today-section .visit-us-today {
   transform: translateY(100px);
   z-index: 999 !important;
@@ -4588,7 +4688,7 @@ span {
   background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
   border-radius: 40px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   #footer #visit-us-today-section .visit-us-today .background-color {
     height: 550px;
   }
@@ -4697,7 +4797,7 @@ span {
     padding-left: 10px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Refinery_Container {
     flex-direction: column;
     width: 96%;
@@ -4714,7 +4814,7 @@ span {
   justify-content: flex-start;
   align-items: flex-start;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Refinery_Container .Refinery_Container_firstDiv {
     width: 100%;
     height: auto;
@@ -4728,7 +4828,7 @@ span {
   flex: auto;
   gap: 24px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Refinery_Container .Refinery_Container_firstDiv .SubParent_div {
     margin-top: 10px;
     gap: 10px;
@@ -4751,7 +4851,7 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Refinery_Container .Refinery_Container_firstDiv .SubParent_div p {
     font-size: 0.75rem;
     font-weight: 600;
@@ -4763,7 +4863,7 @@ span {
   width: 50%;
   height: 430px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Refinery_Container .Refinery_Container_SecondDiv {
     width: 100%;
     height: auto;
@@ -4777,7 +4877,7 @@ span {
   text-align: left;
   margin-bottom: 30px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Refinery_Container .Refinery_Container_SecondDiv h2 {
     font-size: 2.475rem;
     padding-top: 20px;
@@ -4802,7 +4902,7 @@ span {
   color: #4B5563;
   margin-bottom: 30px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Refinery_Container .Refinery_Container_SecondDiv p {
     font-size: 1rem;
     font-weight: 500;
@@ -4848,7 +4948,7 @@ span {
   height: 440px;
   border-radius: 48px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Home_Slider .Home_slide img {
     width: 400px;
     height: 290px;
@@ -4876,7 +4976,7 @@ span {
   border-radius: 64px;
   background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer {
     height: auto;
     margin: 5px;
@@ -4892,7 +4992,7 @@ span {
   align-items: flex-start;
   padding-left: 20px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_Container_firstDiv {
     padding-left: 10px;
     padding-top: 30px;
@@ -4907,7 +5007,7 @@ span {
   padding: 0px 130px;
   margin-bottom: 36px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_Container_firstDiv .Loan_Agree_SubParent_div {
     display: flex;
     flex: auto;
@@ -4930,7 +5030,7 @@ span {
     margin-left: 10px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_Container_firstDiv .Loan_Agree_SubParent_div .Loan_Agree_horizontal_line {
     width: 30%;
     margin-left: 10px;
@@ -4945,7 +5045,7 @@ span {
   color: #ffffff;
   margin: auto 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_Container_firstDiv .Loan_Agree_SubParent_div p {
     font-size: 0.75rem;
     font-weight: 700;
@@ -4953,7 +5053,7 @@ span {
     letter-spacing: 1px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_Heading {
     margin-bottom: 40px;
   }
@@ -4967,7 +5067,7 @@ span {
   color: #FFFFFF;
   padding: 0px 130px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_Heading h1 {
     font-size: 1.875rem;
     font-weight: 600;
@@ -4980,7 +5080,7 @@ span {
   margin: auto;
   width: 82%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_DivSection {
     width: 100%;
     padding-top: 20px;
@@ -4999,7 +5099,7 @@ span {
   border-radius: 35px;
   overflow: hidden;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan_Agree_box {
     background-color: #f0f0f0;
     text-align: center;
@@ -5017,7 +5117,7 @@ span {
   justify-content: space-between;
   position: relative;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan_Agree_box .Loan_Agree_DivOne {
     display: flex;
     align-items: center;
@@ -5031,7 +5131,7 @@ span {
   color: #4b5563;
   width: 80%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan_Agree_box .Loan_Agree_DivOne .Loan_Agree_DivOne_Heading {
     text-align: left;
     color: #4b5563;
@@ -5047,7 +5147,7 @@ span {
   text-align: left;
   margin: 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan_Agree_box .Loan_Agree_DivOne .Loan_Agree_DivOne_Heading h2 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -5065,7 +5165,7 @@ span {
   letter-spacing: -0.01em;
   text-align: left;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan_Agree_box .Loan_Agree_DivOne .Loan_Agree_DivOne_Heading p {
     font-size: 1.125rem;
     font-weight: 500;
@@ -5082,7 +5182,7 @@ span {
   left: 50%;
   transform: translate(-50%, -50%);
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan_Agree_box .Loan_Agree_DivOne .svg {
     display: none;
     position: relative;
@@ -5099,7 +5199,7 @@ span {
   width: 100%;
   transition: transform 0.3s ease;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan_Agree_box .Loan_Agree_DivTwo {
     position: relative;
     width: 100%;
@@ -5115,7 +5215,7 @@ span {
   bottom: -14px;
   left: 0;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan_Agree_box .Loan_Agree_DivTwo img {
     width: 100%;
     position: relative;
@@ -5150,7 +5250,7 @@ span {
   align-items: center;
   padding: 110px 0px 120px 146px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .VisitUs_Today_Container {
     flex-direction: column;
     padding: 50px 0px 50px 0px;
@@ -5159,7 +5259,7 @@ span {
 .VisitUs_Today_Container .VisitUs_Today_DivOne {
   width: 30%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .VisitUs_Today_Container .VisitUs_Today_DivOne {
     width: 100%;
     padding: 10px 20px;
@@ -5184,7 +5284,7 @@ span {
   width: 40%;
   margin-left: 20px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .VisitUs_Today_Container .VisitUs_Today_DivOne .VisitUs_Today_firstDiv .VisitUs_Today_SubParent_div .VisitUs_Today_horizontal_line {
     width: 40%;
   }
@@ -5199,7 +5299,7 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .VisitUs_Today_Container .VisitUs_Today_DivOne .VisitUs_Today_firstDiv .VisitUs_Today_SubParent_div p {
     font-size: 0.75rem;
   }
@@ -5207,7 +5307,7 @@ span {
 .VisitUs_Today_Container .VisitUs_Today_DivOne .Refinery_Container_SecondDiv {
   width: 80%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .VisitUs_Today_Container .VisitUs_Today_DivOne .Refinery_Container_SecondDiv {
     width: 100%;
   }
@@ -5222,7 +5322,7 @@ span {
   padding-top: 35px;
   padding-bottom: 35px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .VisitUs_Today_Container .VisitUs_Today_DivOne .Refinery_Container_SecondDiv h2 {
     font-size: 1.875rem;
     font-weight: 600;
@@ -5245,7 +5345,7 @@ span {
   color: #4B5563;
   margin-bottom: 35px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .VisitUs_Today_Container .VisitUs_Today_DivOne .Refinery_Container_SecondDiv p {
     font-size: 1rem;
     font-weight: 500;
@@ -5258,7 +5358,7 @@ span {
   width: 60%;
   text-align: end;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .VisitUs_Today_Container .VisitUs_Today_DivTwo {
     width: 90%;
     height: 264px;
@@ -5267,7 +5367,7 @@ span {
     margin-top: 40px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .VisitUs_Today_Container .VisitUs_Today_DivTwo svg {
     border-radius: 32px;
   }
@@ -5275,7 +5375,7 @@ span {
 .VisitUs_Today_Container .VisitUs_Today_DivTwo img {
   width: 100%;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .VisitUs_Today_Container .VisitUs_Today_DivTwo img {
     width: 100%;
     border-radius: 25px;
@@ -5291,7 +5391,7 @@ span {
   margin-bottom: 50px;
   /* Styles for the carousel container */
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .TestMoinals_Container {
     padding: 48px 0px 0px 0px;
     margin-bottom: 0px;
@@ -5344,7 +5444,7 @@ span {
   margin: auto;
   margin-top: 18px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .TestMoinals_Container .NexTAndPrev_Button {
     display: block;
     margin-bottom: 20px;
@@ -5357,7 +5457,7 @@ span {
   letter-spacing: -0.02em;
   text-align: left;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .TestMoinals_Container .NexTAndPrev_Button h1 {
     font-size: 30px;
     line-height: 36px;
@@ -5374,7 +5474,7 @@ span {
   align-items: center;
   gap: 20px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .TestMoinals_Container .NexTAndPrev_Button .NextAndPrevBtns {
     justify-content: left;
     gap: 5px;
@@ -5393,7 +5493,7 @@ span {
   border: none;
   cursor: pointer;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .TestMoinals_Container .NexTAndPrev_Button .NextAndPrevBtns .PrevBtn {
     padding: 13.54px 20px 13.54px 20px;
   }
@@ -5424,7 +5524,7 @@ span {
   padding: 20px;
   border-radius: 25px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .TestMoinals_Container .carousel .slide {
     width: 90%;
     border-radius: 24px;
@@ -5458,7 +5558,7 @@ span {
   padding: 100px 0px 250px 0px;
   margin: auto;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .ExploreNews_Continer {
     padding: 48px 0px 250px 0px;
   }
@@ -5508,7 +5608,7 @@ span {
   align-items: center;
   margin: auto;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .ExploreNews_Continer .ExploreNews_Button {
     display: block;
   }
@@ -5520,7 +5620,7 @@ span {
   letter-spacing: -0.02em;
   text-align: left;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .ExploreNews_Continer .ExploreNews_Button h1 {
     font-size: 30px;
     line-height: 36px;
@@ -5569,7 +5669,7 @@ span {
   /* width: 350px; */
   position: relative;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .ExploreNews_Continer .ExploreNews_NewsSection .ExploreNews_BoxOne {
     margin-bottom: 20px;
   }
@@ -5686,26 +5786,26 @@ span {
   border-image-slice: 2 !important;
   border-bottom: 1px solid transparent !important;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .footer_Continer .footer {
     display: block;
     padding-bottom: 0px 30px 30px 30px;
     max-width: 100%;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .footer_Continer .footer .column.mobile-column {
     padding: 0 30px;
     width: 100%;
     text-align: center;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .footer_Continer .footer .column.mobile-column .row_Logo {
     margin-bottom: 20px;
   }
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .footer_Continer .footer .column.mobile-column p {
     text-align: center;
     font-size: 13px;
@@ -5802,7 +5902,7 @@ span {
   margin: auto;
   margin-bottom: 10px;
 }
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
   .footer_Continer .footer .column .row_QrLogo {
     position: absolute;
     right: 40px;

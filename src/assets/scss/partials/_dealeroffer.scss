@@ -9,7 +9,7 @@
     background-size: 100%;
     margin-left: 1%;
     border-radius: $border-radius-3;
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       // border: 1px solid black;
       height:500px;
       width: 96%;
@@ -22,7 +22,7 @@
 
     .row-height {
       height: 736px;
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 600px) {
         // border: 1px solid black;
         height:500px;
     };
@@ -37,7 +37,7 @@
       right: 0;
       /* height: 164px; */
       border-bottom-left-radius: $border-radius-3;
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 600px) {
         height: 180px;
         border-bottom-right-radius: 45px;
         padding-top: 15px;
@@ -47,11 +47,11 @@
         padding-left: 9%;
         font-weight: 400;
         font-size: $fs-48;
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
           // border: 1px solid black;
           padding-left: 15px;
-          font-size: 28px;
-          line-height: 35px;
+          font-size: 24px;
+          line-height: 30px;
           margin-bottom: 0;
           padding-bottom: 0;
           // margin: auto;
@@ -61,7 +61,7 @@
       p {
         padding-left: 9%;
         font-size: $fs-20;
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
           // border: 1px solid black;
           padding-left: 15px;
           font-size: 16px;
@@ -100,7 +100,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        @media only screen and (max-width: 786px) {
+        @media only screen and (max-width: 600px) {
           justify-content: left;
         }
 
@@ -125,7 +125,7 @@
           @media only screen and (min-width:1280px) and (max-width:1400px){
             width: 67%;
           }
-          @media only screen and (max-width: 786px) {
+          @media only screen and (max-width: 600px) {
             width: 20%;
           }
         }
@@ -136,7 +136,7 @@
       h2 {
         font-size: $fs-60;
         line-height: 1;
-        @media only screen and (max-width: 786px) {
+        @media only screen and (max-width: 600px) {
           font-size: 32px;
           line-height: 41px;
           margin-bottom: 0;
@@ -204,7 +204,7 @@
     width: 81%;
     margin: auto;
     margin-top: 16px;
-    @media only screen and (max-width: 786px) {
+    @media only screen and (max-width: 600px) {
       display: block;
     }
 
@@ -215,7 +215,7 @@
       letter-spacing: -0.02em;
       text-align: left;
 
-      @media only screen and (max-width: 786px) {
+      @media only screen and (max-width: 600px) {
         font-size: 32px;
         line-height: 41px;
       }
@@ -233,7 +233,7 @@
       justify-content: center;
       align-items: center;
       gap: 20px;
-      @media only screen and (max-width: 786px) {
+      @media only screen and (max-width: 600px) {
         justify-content: left;
         margin-top: 20px;
       }
@@ -446,6 +446,9 @@
       margin: 0;
       padding: 0;
       color: #00432f;
+      @media only screen and (max-width: 600px) {
+        padding: 0 10px;
+      }
 
       .transparent-box {
         background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
@@ -529,6 +532,10 @@
 
         p {
           font-size: $fs-18;
+          @media only screen and (max-width: 600px) {
+            font-size: $fs-16;
+            margin: 0;
+          }
         }
       }
 
@@ -550,7 +557,7 @@
     .img-thumbnail {
       background: unset;
       border: none;
-      @media only screen and (max-width: 786px) {
+      @media only screen and (max-width: 600px) {
         width: 36px;
         height: 36px;
       }
@@ -681,8 +688,8 @@
 .a-acc-heading {
   font-size: 24px;
   color: #00432f;
-  @media only screen and (max-width: 786px) {
-    font-size: 20px;
+  @media only screen and (max-width: 600px) {
+    font-size: 16px;
   }
 }
 .accordion-item, .accordion-header, .accordion { 

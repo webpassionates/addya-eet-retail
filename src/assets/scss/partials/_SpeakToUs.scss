@@ -8,7 +8,7 @@
       background-size: 100%;
       margin-left: 1%;
       border-radius: $border-radius-3;
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 600px) {
         // border: 1px solid black;
         height: 100px;
 
@@ -16,7 +16,7 @@
 
       .row-height {
         height: 400px;
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
           // border: 1px solid black;
           height: 100px;
         };
@@ -72,7 +72,7 @@
           display: flex;
           justify-content: center;
           align-items: center;
-          @media only screen and (max-width: 768px) {
+          @media only screen and (max-width: 600px) {
             justify-content: flex-start;
           };
 
@@ -87,7 +87,7 @@
             background: linear-gradient(90deg,#5f8ac7 -0.15%,#5f8ac7 14.85%,#78a293 42.85%,#99c152 81.85%,#a6ce39 99.85%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
               font-size: 12px;
               line-height: 20px;
             };
@@ -98,7 +98,7 @@
             height: 1.5px;
             width: 76%;
             margin-left: 20px;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
               width: 50%;
             };
           }
@@ -108,7 +108,7 @@
       .lets_connect_SecondDiv {
         h2 {
           font-size: $fs-60;
-          @media only screen and (max-width: 768px) {
+          @media only screen and (max-width: 600px) {
             font-size: 32px;
             line-height: 41px;
             margin-bottom: 10px;
@@ -154,7 +154,7 @@
 
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
               font-size: 14px;
             };
           }
@@ -166,7 +166,7 @@
             font-size: 18px;
             font-weight: 400;
             color: #1f2937;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
               font-size: 14px;
             };
           }
@@ -182,7 +182,7 @@
             #99c152 82%,
             #a6ce39 100%);
         border-radius: 15px;
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
           width: 100%;
         }
 
@@ -259,7 +259,7 @@
   }
 
   #footer {
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       margin-top: 210px;
     }
     

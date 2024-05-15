@@ -20,27 +20,27 @@
       border-image: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
       border-image-slice: 2 !important;
       border-bottom: 1px solid transparent !important;
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 600px) {
         display: block;
         padding-bottom: 0px 30px 30px 30px;
         max-width: 100%; 
       };
 
       .column.mobile-column {
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
           padding: 0 30px;
           width: 100%; 
           text-align: center;
         };
 
         .row_Logo {
-          @media only screen and (max-width: 768px) {
+          @media only screen and (max-width: 600px) {
             margin-bottom: 20px;
           }
         }
 
         p {
-          @media only screen and (max-width: 768px) {
+          @media only screen and (max-width: 600px) {
             text-align: center;
             font-size: 13px;
             line-height: 18px;
@@ -162,7 +162,7 @@
           margin: auto;
           margin-bottom: 10px;
 
-          @media only screen and (max-width: 768px) {
+          @media only screen and (max-width: 600px) {
             position: absolute;
             right: 40px;
             width: auto;

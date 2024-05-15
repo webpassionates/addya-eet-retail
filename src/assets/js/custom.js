@@ -23,7 +23,7 @@ function expandSearchInput() {
         searchInput.classList.add('expanded');
         speakToUsBtn.style.opacity = '0';
         speakToUsBtn.style.display = 'inline-block';
-        glass.style.color = "white";
+        /* glass.style.color = "white"; */
         // searchInput.style.background = '#858C91';
         // searchInput.style.outline = '2px black solid'
         // searchInput.style.borderRadius = "10px"

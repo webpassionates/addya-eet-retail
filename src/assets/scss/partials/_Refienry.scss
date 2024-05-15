@@ -13,7 +13,7 @@
       padding-bottom: 80px;
       padding-left: 10px;
     }
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
         // border: 1px solid black;
         flex-direction: column;
         width: 96%;
@@ -30,7 +30,7 @@
         flex-direction: row;
         justify-content: flex-start;
         align-items: flex-start;
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
             // border: 1px solid black;
             width: 100%;
             height: auto;
@@ -45,7 +45,7 @@
             margin-top: 48px;
             flex: auto;
             gap: 24px;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
                 // border: 1px solid black;
                 // justify-content: center;
                 margin-top: 10px;
@@ -71,7 +71,7 @@
                 background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
                 -webkit-background-clip: text;
                 -webkit-text-fill-color: transparent;
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     // border: 1px solid black;
                     font-size: 0.75rem;
                     font-weight: 600;
@@ -90,7 +90,7 @@
     .Refinery_Container_SecondDiv {
         width: 50%;
         height: 430px;
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
             // border: 1px solid black;
             width: 100%;
             height: auto;
@@ -104,7 +104,7 @@
             text-align: left;
             // margin: 0;
             margin-bottom: 30px;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
                 // border: 1px solid black;
                 font-size: 2.475rem;
                 padding-top: 20px;
@@ -130,7 +130,7 @@
             text-align: left;
             color: #4B5563;
             margin-bottom: 30px;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
                 // border: 1px solid black;
                 font-size: 1rem;
                 font-weight: 500;

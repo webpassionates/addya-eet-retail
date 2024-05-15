@@ -9,7 +9,7 @@ $(document).ready(function () {
             items: 1,
             slideSpeed: 2000,
             nav: false,
-            autoplay: false, 
+            autoplay: true, 
             dots: false,
             loop: true,
             responsiveRefreshRate: 200,

@@ -28,7 +28,7 @@ body {
 .mobile-only {
   display: none;
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     display: block;
   }
 }
@@ -610,7 +610,7 @@ body {
     border-image-slice: 2 !important;
     border-bottom: 4px solid transparent !important;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       width: 90%;
       border-radius: 24px;
       /* margin: 0 auto; */
@@ -769,7 +769,7 @@ body {
       top: 8px;
       right: -5px;
 
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 600px) {
         // border: 1px solid blue;
         right: 15px;
       }
@@ -798,7 +798,7 @@ body {
         margin-top: -48px;
       }
 
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 600px) {
         // margin-top: -14px;
         // z-index: 0;
         margin-top: -11px;
@@ -859,7 +859,7 @@ body {
     .navbar {
       // border: 1px solid red;
       position: absolute;
-      z-index: 999;
+      z-index: 9999;
       width: 100%;
 
       .nav-item {
@@ -938,7 +938,7 @@ body {
   // #media-section {
   //   display: none; /* Hide media section by default */
 
-  //   @media only screen and (max-width: 768px) {
+  //   @media only screen and (max-width: 600px) {
   //     .hamburger-btn {
   //       display: block;
   //       position: fixed;
@@ -1004,7 +1004,7 @@ footer {
       width: 81%;
       bottom: 86%;
 
-      @media only screen and (max-width: 768px) {
+      @media only screen and (max-width: 600px) {
         width: 90%;
         padding: 32px 24px;
         display: block;
@@ -1013,7 +1013,7 @@ footer {
       }
 
       p {
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
           font-size: 1.25rem;
           line-height: 28px;
           width: 100%;
@@ -1110,7 +1110,7 @@ footer {
     border-image-slice: 1;
     transition: all 0.5s !important;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       margin: 10px 0; 
     }
 
@@ -1156,7 +1156,7 @@ footer {
     background-size: cover;
     height: 90vh !important;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       height: 80vh !important;
     }
   }
@@ -1169,7 +1169,7 @@ footer {
     z-index: 99;
     color: #fff;
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       bottom: 30%;
       width: 75%;
       left: 6%;
@@ -1185,7 +1185,7 @@ footer {
       line-height: 90px;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       font-size: 36px;
       line-height: 41px;
     }
@@ -1199,7 +1199,7 @@ footer {
       margin-top: 10px;
     }
 
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
       font-size: 14px;
       line-height: 20px;
     }
@@ -1318,6 +1318,8 @@ footer {
   }
 }
 
+
+
 .icon-input i {
   font-size: 18px !important;
 }
@@ -1423,7 +1425,7 @@ footer {
     right: 16px !important;
   }
 
-  @media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 600px) {
     // top: -67px;
     // right: 0px;
     top: -64px;

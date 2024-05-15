@@ -6,7 +6,7 @@
     border-radius: 64px ;
     background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0%, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
     margin-bottom: 50px;
-    @media only screen and (max-width: 768px) {
+    @media only screen and (max-width: 600px) {
         padding: 48px 0px 0px 0px;
         margin-bottom: 0px;
     }
@@ -64,7 +64,7 @@
         width: 82%;
         margin: auto;
         margin-top: 18px;
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 600px) {
             display: block;
             margin-bottom: 20px;
           }
@@ -75,7 +75,7 @@
             line-height: 48px;
             letter-spacing: -0.02em;
             text-align: left;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
                 font-size: 30px;
                 line-height: 36px;
               }
@@ -92,7 +92,7 @@
             justify-content: center;
             align-items: center;
             gap: 20px;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
                 justify-content: left;
                 gap: 5px;
             }
@@ -110,7 +110,7 @@
                 border: none;
                 cursor: pointer;
 
-                @media only screen and (max-width: 768px) {
+                @media only screen and (max-width: 600px) {
                     padding: 13.54px 20px 13.54px 20px;
                 }
         
@@ -168,7 +168,7 @@
             // border-image: $border-image;
             // border-image-slice:  $border-image-slice;
             // border-bottom: $border-bottom;
-            @media only screen and (max-width: 768px) {
+            @media only screen and (max-width: 600px) {
                 width: 90%;
                 border-radius: 24px;
                 margin: 0 auto;
