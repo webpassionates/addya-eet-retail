@@ -122,3 +122,34 @@
     }
   }
 }
+
+.other--page {
+  #top-header {
+    .topheader {
+      .navbar {
+        position: fixed;
+        background-color:#ffffff;
+        top: 0;
+        left: 0;
+        width: 100%;
+
+        .nav-item {
+          a {
+            color: #4B5563 !important;
+          }
+        }
+      }
+    }
+  }
+  .main-menu{
+    .logo-color{
+      display: block;
+    }
+    .logo-white{
+      display: none;
+    }
+  }
+}
+.logo-color{
+  display: none;
+}
