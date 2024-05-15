@@ -1813,7 +1813,6 @@ span {
 }
 @media only screen and (max-width: 786px) {
   .quality-fuels-and-security p {
-    border: 1px solid;
     font-size: 14px;
     font-weight: 500;
     line-height: 20px;
@@ -3020,8 +3019,24 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #contract-manager-banner .dealerofferbanner {
+    height: 500px;
+    width: 96%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 48px;
+  }
+}
 #contractmanager-page #contract-manager-banner .dealerofferbanner .row-height {
   height: 720px;
+}
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #contract-manager-banner .dealerofferbanner .row-height {
+    height: 500px;
+  }
 }
 #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg {
   background-color: rgba(199, 199, 199, 0.2);
@@ -3034,30 +3049,83 @@ span {
   height: 220px;
   border-bottom-left-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg {
+    height: 180px;
+    border-bottom-right-radius: 45px;
+  }
+}
 #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg h2 {
   padding-left: 9%;
   font-weight: 400;
   font-size: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg h2 {
+    padding-left: 15px;
+    font-size: 32px;
+    line-height: 30px;
+  }
+}
 #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg p {
   padding-left: 9%;
   font-size: 20px;
 }
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg p {
+    padding-left: 15px;
+    font-size: 16px;
+  }
+}
 #contractmanager-page #dealer-offer .cont-m-offer .Explore_Cusomer_Offer_horizontal_line {
   width: 69%;
+}
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #dealer-offer .cont-m-offer .Explore_Cusomer_Offer_horizontal_line {
+    width: 15%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #dealer-offer .cont-m-offer p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #dealer-offer h2 {
+    font-size: 32px;
+    line-height: 40px;
+  }
 }
 #contractmanager-page #key-responsibilities .keyresp .key-img {
   border-radius: 0px 48px 48px 0px;
   width: 80%;
 }
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #key-responsibilities .keyresp .key-img {
+    width: 100%;
+    margin: auto;
+  }
+}
 #contractmanager-page #key-responsibilities .keyresp h2 {
   font-size: 36px;
+}
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #key-responsibilities .keyresp h2 {
+    font-size: 28px;
+  }
 }
 #contractmanager-page #key-responsibilities .keyresp .img-thumbnail {
   background: unset;
   border: none;
   width: 30px;
   height: 32px;
+}
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #key-responsibilities .keyresp .img-thumbnail {
+    width: 30px;
+    height: 32px;
+  }
 }
 #contractmanager-page #key-responsibilities .keyresp h5 {
   width: 92%;
@@ -3069,12 +3137,23 @@ span {
     width: 100%;
   }
 }
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #key-responsibilities .keyresp h5 {
+    font-size: 16px;
+  }
+}
 #contractmanager-page #key-responsibilities .keyresp .NewClassKey {
   height: 600px;
 }
 @media only screen and (min-width: 1280px) and (max-width: 1400px) {
   #contractmanager-page #key-responsibilities .keyresp .NewClassKey {
     height: 550px;
+    padding-top: 15px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #key-responsibilities .keyresp .NewClassKey {
+    height: auto;
     padding-top: 15px;
   }
 }
@@ -3101,26 +3180,65 @@ span {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #key-carousel .keycarousel .slide-img {
+    height: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+}
 #contractmanager-page #key-carousel .keycarousel h2 {
   font-size: 40px;
+}
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #key-carousel .keycarousel h2 {
+    font-size: 26px;
+  }
 }
 #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel {
   height: 500px;
   background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
   border-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel {
+    height: auto;
+    margin-top: 20px;
+  }
+}
 #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel .item {
   padding: 54px 48px 54px 48px;
+}
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel .item {
+    padding: 20px;
+  }
 }
 #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel .key-icon {
   width: 32px;
   height: 32px;
 }
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel .key-icon {
+    width: 20px;
+    height: 20px;
+  }
+}
 #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel h4 {
   font-size: 40px;
 }
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel h4 {
+    font-size: 20px;
+  }
+}
 #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel p {
   font-size: 18px;
+}
+@media only screen and (max-width: 768px) {
+  #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel p {
+    font-size: 14px;
+  }
 }
 #contractmanager-page #key-carousel .keycarousel .owl-theme .owl-nav.disabled + .owl-dots {
   position: absolute;
@@ -3437,6 +3555,73 @@ span {
     padding: 120px 0 120px 120px !important;
   }
 }
+.slider-navtab {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  transform: translate(0, 10%);
+  z-index: 999;
+}
+.slider-navtab .cust-slider-nav {
+  z-index: 9;
+}
+.slider-navtab .slick-list {
+  overflow: unset;
+}
+
+.slick-slide.slick-current .slider-tab {
+  background-color: #fff;
+  width: 110%;
+  position: relative;
+  background-color: #fff;
+  border-radius: 24px;
+  text-align: left;
+  z-index: 100;
+  border-left: 4px solid #5f8ac7;
+  border-bottom: 0;
+}
+.slick-slide.slick-current .slider-tab .inner-para {
+  display: block !important;
+}
+.slider-tab {
+  cursor: pointer;
+  background-color: transparent;
+  padding: 32px 100px 32px 32px;
+  transition: background-color 1s ease;
+  border-bottom: 1px solid #d1d5db;
+  width: 100%;
+}
+.slider-tab h1 {
+  font-size: 28px;
+  font-weight: 600;
+}
+.slider-tab h4 {
+  background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 18px;
+  line-height: 27px;
+}
+.slider-tab .inner-para {
+  padding-left: 55px;
+  font-size: 18px;
+  display: none;
+}
+.slider-tab.active {
+  background-color: #fff;
+  width: 110%;
+  position: relative;
+  background-color: #fff;
+  border-radius: 24px;
+  text-align: left;
+  z-index: 100;
+  border-left: 4px solid #5f8ac7;
+  border-bottom: 0;
+}
+
 .fs-16 {
   font-size: 16px;
 }
