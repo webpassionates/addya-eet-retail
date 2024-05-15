@@ -29,6 +29,28 @@ $(document).ready(function() {
     }
 });
 
+
+$('.mobile-menu').on('click',function(){
+  $(this).toggleClass('active');
+  $('.navbar-nav').toggleClass('active');
+  $('.navbar-toggler-icon').toggleClass('active');
+})
+
+
+document.addEventListener('DOMContentLoaded', function() {
+  var submenuToggles = document.querySelectorAll('#top-header .topheader .navbar .nav-item > a');
+  // console.log("submenuToggles : ", submenuToggles);
+  submenuToggles.forEach(function(toggle) {
+    toggle.addEventListener('click', function() {
+      var submenu = this.parentNode.querySelector('.dropdown-menu');
+      if (submenu.style.display === 'block') {
+        submenu.style.display = 'none';
+      } else {
+        submenu.style.display = 'block';
+      }
+    });
+  });
+});
 // HEader imaeg   chaneg  into 5sec
 
 // $(document).ready(function() {

@@ -964,7 +964,7 @@ footer #home-inviteContiner .InviteContiner {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  height: 100vh !important;
+  height: 90vh !important;
 }
 @media only screen and (max-width: 768px) {
   #hero-home-slider .slick-slide .img--holder {
@@ -2870,8 +2870,18 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #speakus-page #speaktous-banner .speaktous {
+    height: 100px;
+  }
+}
 #speakus-page #speaktous-banner .speaktous .row-height {
   height: 400px;
+}
+@media only screen and (max-width: 768px) {
+  #speakus-page #speaktous-banner .speaktous .row-height {
+    height: 100px;
+  }
 }
 #speakus-page #speaktous-banner .speaktous .banner-bg {
   background: rgb(129, 128, 130);
@@ -2910,6 +2920,11 @@ span {
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv {
+    justify-content: flex-start;
+  }
+}
 #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv p {
   font-family: Mulish;
   font-size: 14px;
@@ -2922,14 +2937,31 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
 #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv .lets_connect_horizontal_line {
   background-color: #d1d5db;
   height: 1.5px;
   width: 76%;
   margin-left: 20px;
 }
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv .lets_connect_horizontal_line {
+    width: 50%;
+  }
+}
 #speakus-page #lets-connect .letsconnect .lets_connect_SecondDiv h2 {
   font-size: 60px;
+}
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_SecondDiv h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
 }
 #speakus-page #lets-connect .letsconnect .lets_connect_ThirdDiv .iconcontainer {
   background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
@@ -2958,11 +2990,21 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_ThirdDiv .iconheading p {
+    font-size: 14px;
+  }
+}
 #speakus-page #lets-connect .letsconnect .lets_connect_ThirdDiv .iconinformation p {
   font-family: Mulish;
   font-size: 18px;
   font-weight: 400;
   color: #1f2937;
+}
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_ThirdDiv .iconinformation p {
+    font-size: 14px;
+  }
 }
 #speakus-page #lets-connect .letsconnect .lets_connect_form {
   width: 90%;

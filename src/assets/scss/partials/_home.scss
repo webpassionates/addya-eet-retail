@@ -27,9 +27,10 @@ body {
 
 .mobile-only {
   display: none;
+
   @media only screen and (max-width: 768px) {
     display: block;
-}
+  }
 }
 
 .container {
@@ -593,7 +594,7 @@ body {
 
 .VisitUs_Today_Container {
   .VisitUs_Today_DivOne {
-    width: 30% ;
+    width: 30%;
   }
 }
 
@@ -767,10 +768,13 @@ body {
       position: absolute;
       top: 8px;
       right: -5px;
+
       @media only screen and (max-width: 768px) {
         // border: 1px solid blue;
         right: 15px;
-    };
+      }
+
+      ;
     }
 
     &:hover .fa-arrow-right {
@@ -789,11 +793,14 @@ body {
       z-index: 999;
       position: absolute;
       right: 0;
-      @media only screen and (min-width:1280px) and (min-width:1400px){
+
+      @media only screen and (min-width:1280px) and (min-width:1400px) {
         margin-top: -48px;
       }
+
       @media only screen and (max-width: 768px) {
         margin-top: -14px;
+        z-index: 0;
       }
     }
   }
@@ -855,13 +862,39 @@ body {
       .nav-item {
         padding: 10px 15px;
 
+        @media screen and (max-width:991px) {
+          width: 100%;
+        }
+
         a {
           font-size: 18px;
+
+          &.dropdown-item {
+            @media screen and (max-width:991px) {
+              font-size: 16px;
+              font-weight: 500;
+              line-height: 24px;
+              letter-spacing: -0.16px;
+            }
+           
+          }
+          
+          @media screen and (max-width:991px) {
+            color: #1F2937 !important;
+            font-size: 20px;
+            font-weight: 700 !important;
+            letter-spacing: -0.4px;
+          }
 
           &:hover {
             background: linear-gradient(90deg, #5F8AC7 -.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            @media screen and (max-width:991px) {
+              background:none;
+              -webkit-background-clip:unset;
+              -webkit-text-fill-color:unset;
+            }
           }
         }
       }
@@ -883,6 +916,13 @@ body {
           border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
           border-image-slice: 2 !important;
           border-bottom: 4px solid transparent !important;
+
+          @media screen and (max-width:991px) {
+            background: none !important;
+            border-image: none !important;
+            border-bottom: 0 !important;
+            padding:0 !important;
+          }
         }
       }
     }
@@ -960,7 +1000,7 @@ footer {
       height: 211px;
       width: 81%;
       bottom: 86%;
-      
+
       @media only screen and (max-width: 768px) {
         width: 90%;
         padding: 32px 24px;
@@ -979,6 +1019,7 @@ footer {
     }
   }
 }
+
 .anim-btn {
   background: linear-gradient(92.86deg,
       #5f8ac7 0%,
@@ -1106,7 +1147,7 @@ footer {
     background-repeat: no-repeat;
     background-position: 50% 50%;
     background-size: cover;
-    height: 100vh !important;
+    height: 90vh !important;
 
     @media only screen and (max-width: 768px) {
       height: 80vh !important;
@@ -1120,6 +1161,7 @@ footer {
     left: 8%;
     z-index: 99;
     color: #fff;
+
     @media only screen and (max-width: 768px) {
       bottom: 30%;
       width: 75%;
@@ -1131,7 +1173,8 @@ footer {
     font-size: 72px;
     line-height: 75px;
     padding-left: 10px;
-    @media only screen and (min-width:1280px) and (max-width:1400px){
+
+    @media only screen and (min-width:1280px) and (max-width:1400px) {
       line-height: 90px;
     }
 
@@ -1145,7 +1188,7 @@ footer {
     font-size: 24px;
     padding-left: 10px;
 
-    @media only screen and (min-width:1280px) and (max-width:1400px){
+    @media only screen and (min-width:1280px) and (max-width:1400px) {
       margin-top: 10px;
     }
 
@@ -1153,7 +1196,7 @@ footer {
       font-size: 14px;
       line-height: 20px;
     }
-    
+
   }
 
   .office-photo {
@@ -1254,14 +1297,15 @@ footer {
   }
 
   .icon-input__icon {
-   color: #fff!important;
+    color: #fff !important;
     position: absolute;
     top: 52%;
     right: auto;
     left: 4px;
     transform: translateY(-50%);
     transition: left 0.3s ease-in-out;
-    .fa-magnifying-glass{
+
+    .fa-magnifying-glass {
       color: #fff;
     }
   }
@@ -1303,10 +1347,13 @@ footer {
 
 .speak-hover-btn {
   border-radius: 0 20px 0 20px;
-  background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%)!important;
+  background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%) !important;
   padding: 7px 10px;
-  @media only screen and (min-width:1280px) and (max-width:1400px){
+  &.header-menu{
+    padding: 11px 10px;
   }
+  @media only screen and (min-width:1280px) and (max-width:1400px) {}
+
   .text-color {
     padding: 16px 22px;
     font-size: 1rem;
@@ -1314,32 +1361,36 @@ footer {
     background: #F3F4F6;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    transition: all 0.5s ease!important;
-    @media only screen and (min-width:1280px) and (max-width:1400px){
+    transition: all 0.5s ease !important;
+
+    @media only screen and (min-width:1280px) and (max-width:1400px) {
       padding: 0px 10px;
       // border: 1px solid red;
     }
   }
-  transition: all 0.5s ease!important;
+
+  transition: all 0.5s ease !important;
 }
 
 
 .speak-hover-btn:hover {
-  background: #F3F4F6!important;
+  background: #F3F4F6 !important;
+
   .text-color {
     background: linear-gradient(92.86deg,
-    #5F8AC7 0,
-    #5F8AC7 17.53%,
-    #78A293 48.78%,
-    #99C152 82%,
-    #A6CE39 100%);
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-// transition: 0.5s !important;
-transition: all 0.5s ease!important;
+        #5F8AC7 0,
+        #5F8AC7 17.53%,
+        #78A293 48.78%,
+        #99C152 82%,
+        #A6CE39 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    // transition: 0.5s !important;
+    transition: all 0.5s ease !important;
   }
-  transition: all 0.5s ease!important;
- 
+
+  transition: all 0.5s ease !important;
+
 }
 
 .exp-home-news {
@@ -1355,21 +1406,24 @@ transition: all 0.5s ease!important;
 .visit-eet {
   font-size: $fs-16;
 }
+
 .for-radius {
   top: -101px;
   right: 16px;
 
-  @media only screen and (min-width:1280px) and (max-width:1400px){
+  @media only screen and (min-width:1280px) and (max-width:1400px) {
     top: -98px;
     right: 16px !important;
-  }  
+  }
+
   @media only screen and (max-width: 768px) {
-       top: -67px;
-        right: 0px;
+    top: -67px;
+    right: 0px;
   }
 
 
 }
+
 .for-radius-leasing {
   top: -100px;
   right: 17px;
@@ -1380,167 +1434,200 @@ transition: all 0.5s ease!important;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .buckinghamshireDiv {
+
+.buckinghamshireDiv {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .miltonKeynesDiv {
+
+.miltonKeynesDiv {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .northamptonshireDiv {
+
+.northamptonshireDiv {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .rutlandDiv {
+
+.rutlandDiv {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .huntingdonDiv {
+
+.huntingdonDiv {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .cambridgeshireDiv {
+
+.cambridgeshireDiv {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .lincolnshireDev {
+
+.lincolnshireDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .nottinghamshireDev {
+
+.nottinghamshireDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .somersetDev {
+
+.somersetDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .westMidlandsDev {
+
+.westMidlandsDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .warwickshireDev {
+
+.warwickshireDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .southYorkshireDev {
+
+.southYorkshireDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .greaterManchesterDev {
+
+.greaterManchesterDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .manchesterDev {
+
+.manchesterDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .staffordshireDev {
+
+.staffordshireDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .whitchurchDev {
+
+.whitchurchDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .shropshireDev {
+
+.shropshireDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .wolverhamptonDev {
+
+.wolverhamptonDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .leintwardineDev {
+
+.leintwardineDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .leintwardineDev {
+
+.leintwardineDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .herefordshireDev {
+
+.herefordshireDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .carmarthenshireDev {
+
+.carmarthenshireDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .cumbriaDev {
+
+.cumbriaDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .lancashireDev {
+
+.lancashireDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .prestonDev {
+
+.prestonDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .merseysideDev {
+
+.merseysideDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .liverpoolDev {
+
+.liverpoolDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .cheshireDev {
+
+.cheshireDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .flintshireDev {
+
+.flintshireDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .abergeleDev {
+
+.abergeleDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .angleseyDev {
+
+.angleseyDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .gwyneedDev {
+
+.gwyneedDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
 }
-  .pwllheliDev {
+
+.pwllheliDev {
   display: none;
   position: absolute;
   background-color: rgba(0, 0, 0, 0.796);
@@ -1677,17 +1764,18 @@ transition: all 0.5s ease!important;
   #top-header {
     .topheader {
       .navbar .nav-item {
-        padding:5px 5px;
+        padding: 5px 5px;
       }
     }
   }
 }
 
-.container-custom{
+.container-custom {
   max-width: 82%;
-  padding:0 15px;
-  @media only screen and (max-width:786px){
-    max-width:100%;
+  padding: 0 15px;
+
+  @media only screen and (max-width:786px) {
+    max-width: 100%;
   }
-  
+
 }

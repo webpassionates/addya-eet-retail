@@ -1,35 +1,124 @@
-
 .search-icon {
-    position: relative;
-  
-    img {
-      margin-right: 10px; // Adjust spacing between icon and input
+  position: relative;
+
+  img {
+    margin-right: 10px; // Adjust spacing between icon and input
+  }
+}
+
+.search-input {
+  display: none; // Hide input by default
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  transition: width 0.3s ease-in-out;
+}
+
+.search-icon:hover .search-input {
+  display: block; // Show input on hover
+  width: 150px; // Increase input width
+}
+
+.speak-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.mobile-menu {
+  &.active {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    z-index: 9;
+    background-color: #ffffff !important;
+    border: 0;
+  }
+
+}
+
+
+.main-menu {
+  @media screen and (max-width:991px) {
+
+    .navbar-collapse {
+      display: block !important;
     }
   }
-  
-  .search-input {
-    display: none; // Hide input by default
-    position: absolute;
-    right: 0;
-    top: 50%;
-    transform: translateY(-50%);
-    padding: 5px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    transition: width 0.3s ease-in-out;
+
+  .navbar-toggler {
+    border-radius: 48px;
+    background: rgb(17, 24, 39, 0.33);
+    width: 48px;
+    height: 48px;
+
+    .navbar-toggler-icon {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      &.active {
+        .bar {
+          margin: -1px 0;
+          background: #000000;
+
+          &:nth-child(1) {
+            transform: rotate(-45deg);
+          }
+
+          &:nth-child(2) {
+            display: none;
+          }
+
+          &:nth-child(3) {
+            transform: rotate(45deg);
+          }
+        }
+      }
+
+      .bar {
+        width: 75%;
+        height: 2px;
+        background: #ffffff;
+        display: block;
+        margin: 2px 0;
+        transition: transform 0.3s;
+      }
+    }
+
+    &:focus {
+      box-shadow: none;
+    }
   }
-  
-  .search-icon:hover .search-input {
-    display: block; // Show input on hover
-    width: 150px; // Increase input width
+
+  .navbar-nav {
+    .nav-link {
+      i {
+        margin-left: 10px;
+      }
+    }
+
+    @media screen and (max-width:991px) {
+      background: #ffffff;
+      width: 100%;
+      position: fixed;
+      height: 100%;
+      top: 0;
+      padding: 70px 40px 0 40px;
+      transform: translate(-117%, 0);
+      transition: transform 0.5s;
+
+      &.active {
+        transform: translate(-17%, 0);
+      }
+    }
   }
-  
-  .speak-button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    border-radius: 20px;
-    padding: 8px 15px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-  }
+}

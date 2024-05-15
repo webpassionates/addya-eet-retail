@@ -131,7 +131,10 @@
           margin-bottom: 10px;
 
           @media only screen and (max-width: 768px) {
-            text-align: right;
+            position: absolute;
+            right: 40px;
+            width: auto;
+            bottom: 15%;
           }
         }
       }

@@ -211,7 +211,10 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="mt-5">
-                                            <form action="submit-contact.php" class="lets_connect_form p-5" id="contactForm" method="post">
+                                            <form action="submit-contact.php" class="lets_connect_form p-5" id="contactForm" method="POST">
+                                                <p class="sucess-message" style="display: none;">Thanks for submiting you rdetails.</p>
+                                                <p class="empty-message" style="display: none;">Please fill all the fields.</p>
+                                                <p class="error-message" style="display: none;">There is technical error occured, Please try after sometime.</p>
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <label for="fname" class="pb-2">First name</label>
@@ -418,6 +421,19 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../dist/js/bundle.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+        var searchParams = new URLSearchParams(window.location.search);
+        let param = searchParams.get('success')
+        if(param == "yes"){
+            $('.sucess-message').show();
+        }
+        else if(param == "empty"){
+            $('.empty-message').show();
+        }
+        else if(param == "no"){
+            $('.error-message').show();
+        }
+    </script>
 </body>
 
 </html>
