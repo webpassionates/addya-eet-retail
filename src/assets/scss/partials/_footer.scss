@@ -22,8 +22,37 @@
       border-bottom: 1px solid transparent !important;
       @media only screen and (max-width: 768px) {
         display: block;
-        padding-bottom: 30px;
+        padding-bottom: 0px 30px 30px 30px;
+        max-width: 100%; 
       };
+
+      .column.mobile-column {
+        @media only screen and (max-width: 768px) {
+          padding: 0 30px;
+          width: 100%; 
+          text-align: center;
+        };
+
+        .row_Logo {
+          @media only screen and (max-width: 768px) {
+            margin-bottom: 20px;
+          }
+        }
+
+        p {
+          @media only screen and (max-width: 768px) {
+            text-align: center;
+            font-size: 12px;
+            line-height: 18px;
+          };
+
+        }
+  
+      }
+
+      column.mobile-only {
+        width: 100%;
+      }
   
       .column {
         flex: 1;
@@ -105,9 +134,12 @@
           }
         }
 
+        
+
         .footer-bootom-column {
           display: flex;
           width: 100%;
+          padding-left: 25px;
 
           .row_Social_logo {
             margin: 25px 0px;
