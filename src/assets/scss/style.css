@@ -964,7 +964,7 @@ footer #home-inviteContiner .InviteContiner {
   background-repeat: no-repeat;
   background-position: 50% 50%;
   background-size: cover;
-  height: 100vh !important;
+  height: 90vh !important;
 }
 @media only screen and (max-width: 768px) {
   #hero-home-slider .slick-slide .img--holder {
@@ -1874,7 +1874,7 @@ span {
 }
 #footer .InviteContinerr {
   height: 211px;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -1896,6 +1896,7 @@ span {
     width: 90%;
     bottom: 94%;
     padding: 32px 24px;
+    display: block;
   }
 }
 #footer .InviteContinerr::after {
@@ -2075,8 +2076,24 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #dealeroffer-banner .dealerofferbanner {
+    height: 500px;
+    width: 96%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 48px;
+  }
+}
 #dealeroffer-banner .dealerofferbanner .row-height {
   height: 736px;
+}
+@media only screen and (max-width: 768px) {
+  #dealeroffer-banner .dealerofferbanner .row-height {
+    height: 500px;
+  }
 }
 #dealeroffer-banner .dealerofferbanner .banner-bg {
   background: rgba(199, 199, 199, 0.2);
@@ -2089,14 +2106,34 @@ span {
   /* height: 164px; */
   border-bottom-left-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #dealeroffer-banner .dealerofferbanner .banner-bg {
+    height: 180px;
+    border-bottom-right-radius: 45px;
+  }
+}
 #dealeroffer-banner .dealerofferbanner .banner-bg h2 {
   padding-left: 9%;
   font-weight: 400;
   font-size: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #dealeroffer-banner .dealerofferbanner .banner-bg h2 {
+    padding-left: 15px;
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
 #dealeroffer-banner .dealerofferbanner .banner-bg p {
   padding-left: 9%;
   font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  #dealeroffer-banner .dealerofferbanner .banner-bg p {
+    padding-left: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
 }
 
 #dealer-offer-curve .dealeroffercurve .curve-img {
@@ -2649,6 +2686,11 @@ span {
     height: 310px;
   }
 }
+@media only screen and (max-width: 768px) {
+  #essar-banner .essarbanner {
+    height: 150px;
+  }
+}
 #essar-banner .essarbanner .row-height {
   height: 720px;
 }
@@ -2730,6 +2772,18 @@ span {
 #newsroom-section .newsroom .newsroom_Container_SecondDiv h2 {
   font-size: 60px;
 }
+@media only screen and (max-width: 768px) {
+  #newsroom-section .newsroom .newsroom_Container_SecondDiv h2 {
+    font-size: 32px;
+    line-height: 41px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .tabclass-mobile {
+    display: flex;
+  }
+}
 
 /* Style the tab */
 .tab {
@@ -2746,6 +2800,11 @@ span {
   /* margin-left: 28px; */
   transition: 0.3s;
   border-radius: 40px;
+}
+@media only screen and (max-width: 768px) {
+  .tab button {
+    padding: 12px 24px;
+  }
 }
 .tab button:hover {
   background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%) !important;
@@ -2766,6 +2825,14 @@ span {
 
 #footer .newsroom-para {
   width: 80% !important;
+}
+@media only screen and (max-width: 768px) {
+  #footer .newsroom-para {
+    width: 100% !important;
+    font-size: 20px !important;
+    line-height: 30px !important;
+    margin-bottom: 30px !important;
+  }
 }
 
 @media only screen and (min-width: 1800px) and (min-height: 1169px) {
@@ -2803,8 +2870,18 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #speakus-page #speaktous-banner .speaktous {
+    height: 100px;
+  }
+}
 #speakus-page #speaktous-banner .speaktous .row-height {
   height: 400px;
+}
+@media only screen and (max-width: 768px) {
+  #speakus-page #speaktous-banner .speaktous .row-height {
+    height: 100px;
+  }
 }
 #speakus-page #speaktous-banner .speaktous .banner-bg {
   background: rgb(129, 128, 130);
@@ -2843,6 +2920,11 @@ span {
   justify-content: center;
   align-items: center;
 }
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv {
+    justify-content: flex-start;
+  }
+}
 #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv p {
   font-family: Mulish;
   font-size: 14px;
@@ -2855,14 +2937,31 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
 #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv .lets_connect_horizontal_line {
   background-color: #d1d5db;
   height: 1.5px;
   width: 76%;
   margin-left: 20px;
 }
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_firstDiv .lets_connect_SubParentDiv .lets_connect_horizontal_line {
+    width: 50%;
+  }
+}
 #speakus-page #lets-connect .letsconnect .lets_connect_SecondDiv h2 {
   font-size: 60px;
+}
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_SecondDiv h2 {
+    font-size: 28px;
+    line-height: 30px;
+  }
 }
 #speakus-page #lets-connect .letsconnect .lets_connect_ThirdDiv .iconcontainer {
   background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
@@ -2891,11 +2990,21 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_ThirdDiv .iconheading p {
+    font-size: 14px;
+  }
+}
 #speakus-page #lets-connect .letsconnect .lets_connect_ThirdDiv .iconinformation p {
   font-family: Mulish;
   font-size: 18px;
   font-weight: 400;
   color: #1f2937;
+}
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_ThirdDiv .iconinformation p {
+    font-size: 14px;
+  }
 }
 #speakus-page #lets-connect .letsconnect .lets_connect_form {
   width: 90%;
@@ -2916,6 +3025,11 @@ span {
   textarea:-ms-input-placeholder {
      padding-top: 10px;
   } */
+}
+@media only screen and (max-width: 768px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_form {
+    width: 100%;
+  }
 }
 #speakus-page #lets-connect .letsconnect .lets_connect_form label {
   text-transform: uppercase;
@@ -3062,8 +3176,8 @@ span {
 }
 @media only screen and (max-width: 768px) {
   #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg h2 {
-    padding-left: 15px;
-    font-size: 32px;
+    padding-left: 10px;
+    font-size: 28px;
     line-height: 30px;
   }
 }
@@ -3075,6 +3189,7 @@ span {
   #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg p {
     padding-left: 15px;
     font-size: 16px;
+    padding-top: 10px;
   }
 }
 #contractmanager-page #dealer-offer .cont-m-offer .Explore_Cusomer_Offer_horizontal_line {
@@ -3319,8 +3434,24 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #leasingoffer-page #leasing-offer-banner .leasingofferbanner {
+    height: 500px;
+    width: 96%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 48px;
+  }
+}
 #leasingoffer-page #leasing-offer-banner .leasingofferbanner .row-height {
   height: 720px;
+}
+@media only screen and (max-width: 768px) {
+  #leasingoffer-page #leasing-offer-banner .leasingofferbanner .row-height {
+    height: 500px;
+  }
 }
 #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg {
   -webkit-backdrop-filter: blur(22px);
@@ -3332,14 +3463,34 @@ span {
   height: 170px;
   border-bottom-left-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg {
+    height: 180px;
+    border-bottom-right-radius: 45px;
+  }
+}
 #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg h2 {
   padding-left: 9%;
   font-weight: 400;
   font-size: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg h2 {
+    padding-left: 15px;
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
 #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg p {
   padding-left: 9%;
   font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg p {
+    padding-left: 15px;
+    font-size: 16px;
+    padding-top: 10px;
+  }
 }
 #leasingoffer-page #dealer-offer .Explore_Cusomer_Offer_SubParentDiv {
   justify-content: left !important;
@@ -3957,8 +4108,24 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #customer-offering-banner .dealerofferbanner {
+    height: 550px;
+    width: 96%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 48px;
+  }
+}
 #customer-offering-banner .dealerofferbanner .row-height {
   height: 720px;
+}
+@media only screen and (max-width: 768px) {
+  #customer-offering-banner .dealerofferbanner .row-height {
+    height: 550px;
+  }
 }
 #customer-offering-banner .dealerofferbanner .banner-bg {
   -webkit-backdrop-filter: blur(22px);
@@ -3970,13 +4137,35 @@ span {
   /* height: 200px; */
   border-bottom-left-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #customer-offering-banner .dealerofferbanner .banner-bg {
+    height: 220px;
+    border-bottom-right-radius: 45px;
+    padding-bottom: 20px;
+  }
+}
 #customer-offering-banner .dealerofferbanner .banner-bg h2 {
   padding-left: 9%;
   font-weight: 400;
 }
+@media only screen and (max-width: 768px) {
+  #customer-offering-banner .dealerofferbanner .banner-bg h2 {
+    padding-left: 10px;
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
 #customer-offering-banner .dealerofferbanner .banner-bg p {
   padding-left: 9%;
   font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  #customer-offering-banner .dealerofferbanner .banner-bg p {
+    padding-left: 15px;
+    font-size: 16px;
+    padding-top: 10px;
+    margin: auto;
+  }
 }
 
 #enhancing-your-experience-section .enhancing-your-experience {
@@ -5282,6 +5471,17 @@ span {
   line-height: 24px;
   letter-spacing: -0.01em;
 }
+.footer_Continer .footer .column .footer-bootom-column {
+  display: flex;
+  width: 100%;
+}
+.footer_Continer .footer .column .footer-bootom-column .row_Social_logo {
+  margin: 25px 0px;
+}
+.footer_Continer .footer .column .footer-bootom-column .row_Social_logo h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 .footer_Continer .footer .column .row_Social_logo {
   width: 100%; /* Adjusted to 100% */
   margin: auto;
@@ -5294,9 +5494,7 @@ span {
 }
 @media only screen and (max-width: 768px) {
   .footer_Continer .footer .column .row_QrLogo {
-    position: absolute;
-    left: 70%;
-    bottom: 15%;
+    text-align: right;
   }
 }
 .footer_Continer .footer .column:nth-child(4) {

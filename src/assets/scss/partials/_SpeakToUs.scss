@@ -8,9 +8,18 @@
       background-size: 100%;
       margin-left: 1%;
       border-radius: $border-radius-3;
+      @media only screen and (max-width: 768px) {
+        // border: 1px solid black;
+        height: 100px;
+
+    };
 
       .row-height {
         height: 400px;
+        @media only screen and (max-width: 768px) {
+          // border: 1px solid black;
+          height: 100px;
+        };
       }
 
       .banner-bg {
@@ -21,6 +30,7 @@
         right: 0;
         height: 164px;
         border-bottom-left-radius: $border-radius-3;
+
 
         h2 {
           padding-left: 12%;
@@ -42,6 +52,7 @@
         z-index: 999;
         position: absolute;
         right: 0px;
+        
       }
     }
   }
@@ -61,6 +72,9 @@
           display: flex;
           justify-content: center;
           align-items: center;
+          @media only screen and (max-width: 768px) {
+            justify-content: flex-start;
+          };
 
           p {
             font-family: Mulish;
@@ -70,14 +84,13 @@
             letter-spacing: 2px;
             margin: 0;
             text-align: left;
-            background: linear-gradient(90deg,
-                #5f8ac7 -0.15%,
-                #5f8ac7 14.85%,
-                #78a293 42.85%,
-                #99c152 81.85%,
-                #a6ce39 99.85%);
+            background: linear-gradient(90deg,#5f8ac7 -0.15%,#5f8ac7 14.85%,#78a293 42.85%,#99c152 81.85%,#a6ce39 99.85%);
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            @media only screen and (max-width: 768px) {
+              font-size: 12px;
+              line-height: 20px;
+            };
           }
 
           .lets_connect_horizontal_line {
@@ -85,6 +98,9 @@
             height: 1.5px;
             width: 76%;
             margin-left: 20px;
+            @media only screen and (max-width: 768px) {
+              width: 50%;
+            };
           }
         }
       }
@@ -92,6 +108,11 @@
       .lets_connect_SecondDiv {
         h2 {
           font-size: $fs-60;
+          @media only screen and (max-width: 768px) {
+            font-size: $fs-28;
+            line-height: 30px;
+            ;
+          };
         }
       }
 
@@ -107,6 +128,7 @@
           height: 32px;
           line-height: 2;
           border-radius: 32px;
+        
         }
 
         .iconheading {
@@ -129,6 +151,9 @@
 
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
+            @media only screen and (max-width: 768px) {
+              font-size: 14px;
+            };
           }
         }
 
@@ -138,6 +163,9 @@
             font-size: 18px;
             font-weight: 400;
             color: #1f2937;
+            @media only screen and (max-width: 768px) {
+              font-size: 14px;
+            };
           }
         }
       }
@@ -151,6 +179,9 @@
             #99c152 82%,
             #a6ce39 100%);
         border-radius: 15px;
+        @media only screen and (max-width: 768px) {
+          width: 100%;
+        }
 
         label {
           text-transform: uppercase;

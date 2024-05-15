@@ -73,8 +73,8 @@
                     font-size: $fs-48;
                     @media only screen and (max-width: 768px) {
                         // border: 1px solid black;
-                        padding-left: 15px;
-                        font-size: 32px;
+                        padding-left: 10px;
+                        font-size: 28px;
                         line-height: 30px;
                         // margin: auto;
                     };
@@ -87,6 +87,7 @@
                         // border: 1px solid black;
                         padding-left: 15px;
                         font-size: 16px;
+                        padding-top: 10px;
                     };
                 }
             }

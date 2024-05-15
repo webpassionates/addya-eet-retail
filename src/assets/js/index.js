@@ -39,3 +39,18 @@ document.addEventListener('DOMContentLoaded', function () {
     mediaSection.classList.toggle('open');
   });
 });
+
+
+
+
+// form validation  for speak to us
+
+// $(document).ready(function() {
+//   $('#contactForm').submit(function(event) {
+//       if (this.checkValidity() === false) {
+//           event.preventDefault();
+//           event.stopPropagation();
+//       }
+//       $(this).addClass('was-validated');
+//   });
+// });

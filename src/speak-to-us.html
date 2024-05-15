@@ -141,26 +141,26 @@
 
         <!-- From refinery to forecourt section Start -->
         <section id="lets-connect" class="pb-4">
-            <div class="letsconnect px-4">
+            <div class="letsconnect px-lg-4">
                 <div class="container-fluid">
                     <div class="row">
-                        <div class="col-lg-12 p-0 pt-5 mt-5">
+                        <div class="col-lg-12 p-0 pt-xxl-5 pt-sm-0 mt-xxl-5 mt-sm-0">
                             <div class="lets_connect_firstDiv">
                                 <div class="lets_connect_SubParentDiv ps-4">
-                                    <p class="ps-4">LET'S CONNECT</p>
+                                    <p class="ps-xxl-4 ps-sm-0">LET'S CONNECT</p>
                                     <div class="lets_connect_horizontal_line"></div>
                                 </div>
                             </div>
                         </div>
-                        <div class="row justify-content-center px-4">
-                            <div class="col-lg-12 px-5">
+                        <div class="row justify-content-center px-xxl-4 px-sm-0">
+                            <div class="col-lg-12 px-xxl-5 px-sm-0">
                                 <div class="row">
-                                    <div class="col-lg-6 ps-5">
+                                    <div class="col-lg-6 ps-xxl-5 ps-sm-0">
                                         <div class="lets_connect_SecondDiv pt-4 ps-2">
-                                            <h2 class="ps-5 fs-60">We would love to <br><span>hear from you</span></h2>
+                                            <h2 class="ps-xxl-5 px-sm-0 fs-60">We would love to <br><span>hear from you</span></h2>
                                         </div>
-                                        <div class="lets_connect_ThirdDiv ps-2">
-                                            <div class="ps-5 ms-1">
+                                        <div class="lets_connect_ThirdDiv ps-2 pt-4">
+                                            <div class="ps-xxl-5 ps-sm-0 ms-1 ">
                                                 <div class="d-flex">
                                                     <div class="iconcontainer text-center text-white">
                                                         <i class="fa-regular fa-envelope"></i>
@@ -211,34 +211,33 @@
                                     </div>
                                     <div class="col-lg-6">
                                         <div class="mt-5">
-                                            <form class="lets_connect_form p-5">
+                                            <form action="submit-contact.php" class="lets_connect_form p-5" id="contactForm" method="POST">
+                                                <p class="sucess-message" style="display: none;">Thanks for submiting you rdetails.</p>
+                                                <p class="empty-message" style="display: none;">Please fill all the fields.</p>
+                                                <p class="error-message" style="display: none;">There is technical error occured, Please try after sometime.</p>
                                                 <div class="row">
                                                     <div class="col-lg-6">
                                                         <label for="fname" class="pb-2">First name</label>
-                                                        <input type="text" id="fname" name="fname"
-                                                            class="py-1 for-width" placeholder="First name">
+                                                        <input type="text" id="fname" name="fname" class="py-1 for-width" placeholder="First name" required>
                                                     </div>
                                                     <div class="col-lg-6">
                                                         <label for="lname" class="pb-2">Last name</label>
-                                                        <input type="text" id="lname" name="lname"
-                                                            class="py-1 for-width" placeholder="Last name">
+                                                        <input type="text" id="lname" name="lname"class="py-1 for-width" placeholder="Last name" required>
                                                     </div>
                                                 </div>
                                                 <div class="my-3">
                                                     <label for="email" class="pb-2">Email</label>
                                                     <div>
-                                                        <input type="email" id="email" name="email"
-                                                            placeholder="you@company.com" class="w-100 py-1 for-width">
+                                                        <input type="email" id="email" name="email" placeholder="you@company.com" class="w-100 py-1 for-width" required>
                                                     </div>
                                                 </div>
                                                 <div>
                                                     <label for="lname" class="pb-2">Message</label>
                                                     <div>
-                                                        <textarea placeholder="Leave us a message..."></textarea>
-
+                                                        <textarea id="message" name="message" placeholder="Leave us a message..." required></textarea>
                                                     </div>
                                                 </div>
-                                                <button class="bg-transparent w-100 py-1 mt-4">Submit Message</button>
+                                                <button type="submit"  class="bg-transparent w-100 py-1 mt-4">Submit Message</button>
                                             </form>
                                         </div>
                                     </div>
@@ -334,71 +333,83 @@
 
                 <footer>
                     <div class="footer_Continer pt-5">
-                        <div class="footer">
-                          <div class="column">
-                            <div class="row_Logo">
-                              <img src="./assets/images/EET_Retail_Logo_T.png" alt="Logo">
-                            </div>
-                            <p class="row pe-5">EET Fuels is the trading name for Essar Oil (UK) Limited, a company registered in England and
-                              Wales with company registration number 07071400 and registered office at 5th Floor, the Administration
-                              Building, Stanlow Manufacturing Complex, Ellesmere Port, Cheshire, CH65 4HB. © Essar Oil (UK) Limited
-                              2024.
-                            </p>
-                            <div class="NavigateTo_EarthGlobe mt-4 pt-3">
-                              <img src="./assets/images/earth_globe_fooer.png" alt="Logo">
-                              <p class="mb-0">
-                                <a href="https://www.google.co.in/" class="text-white text-decoration-none visit-eet">
-                                  Visit EET Fuels Website
-                                </a>
+                        <div class="footer mt-5 mt-lg-0">
+                            <div class="column">
+                              <div class="row_Logo">
+                                <img src="./assets/images/EET_Retail_Logo_T.png" alt="Logo">
+                              </div>
+                              <p class="row pe-5">EET Fuels is the trading name for Essar Oil (UK) Limited, a company registered in England and
+                                Wales with company registration number 07071400 and registered office at 5th Floor, the Administration
+                                Building, Stanlow Manufacturing Complex, Ellesmere Port, Cheshire, CH65 4HB. © Essar Oil (UK) Limited
+                                2024.
                               </p>
-                              <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow_Logo">
+                              <div class="NavigateTo_EarthGlobe mt-4 pt-3">
+                                <img src="./assets/images/earth_globe_fooer.png" alt="Logo">
+                                <p class="mb-0">
+                                  <a href="https://www.google.co.in/" class="text-white text-decoration-none visit-eet">
+                                    Visit EET Fuels Website
+                                  </a>
+                                </p>
+                                <img src="./assets/images/earth_globe_arrow_footer.png" alt="Arrow_Logo">
+                              </div>
+                            </div>
+                            <div class="column d-lg-block d-none">
+                              <div class="row">
+                                <h3 class="text-start ps-5 pb-4 ms-4"><a href="who-we-are.html" class="text-white text-decoration-none">Who We Are</a></h3>
+                              </div>
+                              <div class="row">
+                                <h3 class="text-start ps-5 pb-2 ms-4"><a href="#" class="text-white text-decoration-none">Business Offers</a>
+                                </h3>
+                                <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="leasing-offer-1.html"
+                                    class="text-white text-decoration-none">Leasing Offer</a></h3>
+                                <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="contract-manager-offer.html"
+                                    class="text-white text-decoration-none">Contract Manager Offer</a></h3>
+                                <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="business-offerings-dealer-offer-1.html"
+                                    class="text-white text-decoration-none">Dealer Offer</a></h3>
+                              </div>
+                              <div class="row">
+                                <h3 class="text-start ps-5 pt-4 ms-4"><a href="customer-offering.html"
+                                    class="text-white text-decoration-none">Customer Offers</a></h3>
+                              </div>
+                            </div>
+                            <div class="column d-lg-block d-none">
+                              <div class="row">
+                                <h3 class="text-start ps-5 pb-4 ms-4"><a href="our-locations.html" class="text-white text-decoration-none">Our Locations</a></h3>
+                                <h3 class="text-start ps-5 pb-4 ms-4 pt-2"><a href="newsroom-1.html"
+                                    class="text-white text-decoration-none">News</a></h3>
+                                <h3 class="text-start ps-5 ms-4 pt-2"><a href="speak-to-us.html"
+                                    class="text-white text-decoration-none">Speak To Us</a></h3>
+                              </div>
+                            </div>
+                            <div class="column text-start d-none d-lg-block">
+                                <div class="row_LastColum">
+                                  <h3>Follow Us</h3>
+                                </div>
+                                <div class="row_Social_logo">
+                                  <img src="./assets/images/Linkdin_footer.png" alt="LinkedIn Logo">
+                                </div>
+                                <div class="row_QrLogo pt-4">
+                                  <img src="./assets/images/qr_code_footer.png" alt="QrCode Logo">
+                                </div>
+                              </div>
+                              <div class="column text-start mobile-only w-100">
+                                
+                                <div class="footer-bootom-column justify-content-between">
+                                  <div class="row_Social_logo">
+                                    <h3>Follow Us</h3>
+                                    <img src="./assets/images/Linkdin_footer.png" alt="LinkedIn Logo">
+                                  </div>
+                                  <div class="row_QrLogo pt-4">
+                                    <img src="./assets/images/qr_code_footer.png" alt="QrCode Logo">
+                                  </div>
+                                </div>
+                              </div>
+                          </div>
+                          <div class="row m-0">
+                            <div class="col-lg-12 text-center">
+                              <p class="pt-4 pb-3 footer-copyright">© Copyright 2024 EET Retail</p>
                             </div>
                           </div>
-                          <div class="column">
-                            <div class="row">
-                              <h3 class="text-start ps-5 pb-4 ms-4"><a href="who-we-are.html" class="text-white text-decoration-none">Who We Are</a></h3>
-                            </div>
-                            <div class="row">
-                              <h3 class="text-start ps-5 pb-2 ms-4"><a href="#" class="text-white text-decoration-none">Business Offers</a>
-                              </h3>
-                              <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="leasing-offer-1.html"
-                                  class="text-white text-decoration-none">Leasing Offer</a></h3>
-                              <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="contract-manager-offer.html"
-                                  class="text-white text-decoration-none">Contract Manager Offer</a></h3>
-                              <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="business-offerings-dealer-offer-1.html"
-                                  class="text-white text-decoration-none">Dealer Offer</a></h3>
-                            </div>
-                            <div class="row">
-                              <h3 class="text-start ps-5 pt-4 ms-4"><a href="customer-offering.html"
-                                  class="text-white text-decoration-none">Customer Offers</a></h3>
-                            </div>
-                          </div>
-                          <div class="column">
-                            <div class="row">
-                              <h3 class="text-start ps-5 pb-4 ms-4"><a href="our-locations.html" class="text-white text-decoration-none">Our Locations</a></h3>
-                              <h3 class="text-start ps-5 pb-4 ms-4 pt-2"><a href="newsroom-1.html"
-                                  class="text-white text-decoration-none">News</a></h3>
-                              <h3 class="text-start ps-5 ms-4 pt-2"><a href="speak-to-us.html"
-                                  class="text-white text-decoration-none">Speak To Us</a></h3>
-                            </div>
-                          </div>
-                          <div class="column text-start">
-                            <div class="row_LastColum">
-                              <h3>Follow Us</h3>
-                            </div>
-                            <div class="row_Social_logo">
-                              <img src="./assets/images/Linkdin_footer.png" alt="LinkedIn Logo">
-                            </div>
-                            <div class="row_QrLogo pt-4">
-                              <img src="./assets/images/qr_code_footer.png" alt="QrCode Logo">
-                            </div>
-                          </div>
-                        </div>
-                        <div class="row m-0">
-                          <div class="col-lg-12 text-center">
-                            <p class="pt-4 pb-3 footer-copyright">© Copyright 2024 EET Retail</p>
-                          </div>
-                        </div>
                       </div>
                 </footer>
             </div>
@@ -410,6 +421,19 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="../dist/js/bundle.min.js"></script>
     <script src="assets/js/custom.js"></script>
+    <script>
+        var searchParams = new URLSearchParams(window.location.search);
+        let param = searchParams.get('success')
+        if(param == "yes"){
+            $('.sucess-message').show();
+        }
+        else if(param == "empty"){
+            $('.empty-message').show();
+        }
+        else if(param == "no"){
+            $('.error-message').show();
+        }
+    </script>
 </body>
 
 </html>

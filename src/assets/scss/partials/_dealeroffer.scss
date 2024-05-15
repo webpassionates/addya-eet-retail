@@ -9,9 +9,23 @@
     background-size: 100%;
     margin-left: 1%;
     border-radius: $border-radius-3;
+    @media only screen and (max-width: 768px) {
+      // border: 1px solid black;
+      height:500px;
+      width: 96%;
+      margin: auto;
+      background-repeat: no-repeat;
+      background-size: cover;
+      margin-left: 10px;
+      border-radius: $border-radius-3;
+  };
 
     .row-height {
       height: 736px;
+      @media only screen and (max-width: 768px) {
+        // border: 1px solid black;
+        height:500px;
+    };
     }
 
     .banner-bg {
@@ -23,16 +37,33 @@
       right: 0;
       /* height: 164px; */
       border-bottom-left-radius: $border-radius-3;
+      @media only screen and (max-width: 768px) {
+        height: 180px;
+        border-bottom-right-radius: 45px;
+      };
 
       h2 {
         padding-left: 9%;
         font-weight: 400;
         font-size: $fs-48;
+        @media only screen and (max-width: 768px) {
+          // border: 1px solid black;
+          padding-left: 15px;
+          font-size: 28px;
+          line-height: 35px;
+          // margin: auto;
+        };
       }
 
       p {
         padding-left: 9%;
         font-size: $fs-20;
+        @media only screen and (max-width: 768px) {
+          // border: 1px solid black;
+          padding-left: 15px;
+          font-size: 16px;
+          margin-top: 10px;
+      };
       }
     }
   }
