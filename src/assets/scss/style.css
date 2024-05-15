@@ -2076,8 +2076,24 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #dealeroffer-banner .dealerofferbanner {
+    height: 500px;
+    width: 96%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 48px;
+  }
+}
 #dealeroffer-banner .dealerofferbanner .row-height {
   height: 736px;
+}
+@media only screen and (max-width: 768px) {
+  #dealeroffer-banner .dealerofferbanner .row-height {
+    height: 500px;
+  }
 }
 #dealeroffer-banner .dealerofferbanner .banner-bg {
   background: rgba(199, 199, 199, 0.2);
@@ -2090,14 +2106,34 @@ span {
   /* height: 164px; */
   border-bottom-left-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #dealeroffer-banner .dealerofferbanner .banner-bg {
+    height: 180px;
+    border-bottom-right-radius: 45px;
+  }
+}
 #dealeroffer-banner .dealerofferbanner .banner-bg h2 {
   padding-left: 9%;
   font-weight: 400;
   font-size: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #dealeroffer-banner .dealerofferbanner .banner-bg h2 {
+    padding-left: 15px;
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
 #dealeroffer-banner .dealerofferbanner .banner-bg p {
   padding-left: 9%;
   font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  #dealeroffer-banner .dealerofferbanner .banner-bg p {
+    padding-left: 15px;
+    font-size: 16px;
+    margin-top: 10px;
+  }
 }
 
 #dealer-offer-curve .dealeroffercurve .curve-img {
@@ -3093,8 +3129,8 @@ span {
 }
 @media only screen and (max-width: 768px) {
   #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg h2 {
-    padding-left: 15px;
-    font-size: 32px;
+    padding-left: 10px;
+    font-size: 28px;
     line-height: 30px;
   }
 }
@@ -3106,6 +3142,7 @@ span {
   #contractmanager-page #contract-manager-banner .dealerofferbanner .banner-bg p {
     padding-left: 15px;
     font-size: 16px;
+    padding-top: 10px;
   }
 }
 #contractmanager-page #dealer-offer .cont-m-offer .Explore_Cusomer_Offer_horizontal_line {
@@ -3350,8 +3387,24 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #leasingoffer-page #leasing-offer-banner .leasingofferbanner {
+    height: 500px;
+    width: 96%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 48px;
+  }
+}
 #leasingoffer-page #leasing-offer-banner .leasingofferbanner .row-height {
   height: 720px;
+}
+@media only screen and (max-width: 768px) {
+  #leasingoffer-page #leasing-offer-banner .leasingofferbanner .row-height {
+    height: 500px;
+  }
 }
 #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg {
   -webkit-backdrop-filter: blur(22px);
@@ -3363,14 +3416,34 @@ span {
   height: 170px;
   border-bottom-left-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg {
+    height: 180px;
+    border-bottom-right-radius: 45px;
+  }
+}
 #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg h2 {
   padding-left: 9%;
   font-weight: 400;
   font-size: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg h2 {
+    padding-left: 15px;
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
 #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg p {
   padding-left: 9%;
   font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg p {
+    padding-left: 15px;
+    font-size: 16px;
+    padding-top: 10px;
+  }
 }
 #leasingoffer-page #dealer-offer .Explore_Cusomer_Offer_SubParentDiv {
   justify-content: left !important;
@@ -3988,8 +4061,24 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #customer-offering-banner .dealerofferbanner {
+    height: 550px;
+    width: 96%;
+    margin: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 10px;
+    border-radius: 48px;
+  }
+}
 #customer-offering-banner .dealerofferbanner .row-height {
   height: 720px;
+}
+@media only screen and (max-width: 768px) {
+  #customer-offering-banner .dealerofferbanner .row-height {
+    height: 550px;
+  }
 }
 #customer-offering-banner .dealerofferbanner .banner-bg {
   -webkit-backdrop-filter: blur(22px);
@@ -4001,13 +4090,35 @@ span {
   /* height: 200px; */
   border-bottom-left-radius: 48px;
 }
+@media only screen and (max-width: 768px) {
+  #customer-offering-banner .dealerofferbanner .banner-bg {
+    height: 220px;
+    border-bottom-right-radius: 45px;
+    padding-bottom: 20px;
+  }
+}
 #customer-offering-banner .dealerofferbanner .banner-bg h2 {
   padding-left: 9%;
   font-weight: 400;
 }
+@media only screen and (max-width: 768px) {
+  #customer-offering-banner .dealerofferbanner .banner-bg h2 {
+    padding-left: 10px;
+    font-size: 28px;
+    line-height: 30px;
+  }
+}
 #customer-offering-banner .dealerofferbanner .banner-bg p {
   padding-left: 9%;
   font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  #customer-offering-banner .dealerofferbanner .banner-bg p {
+    padding-left: 15px;
+    font-size: 16px;
+    padding-top: 10px;
+    margin: auto;
+  }
 }
 
 #enhancing-your-experience-section .enhancing-your-experience {
@@ -5313,6 +5424,17 @@ span {
   line-height: 24px;
   letter-spacing: -0.01em;
 }
+.footer_Continer .footer .column .footer-bootom-column {
+  display: flex;
+  width: 100%;
+}
+.footer_Continer .footer .column .footer-bootom-column .row_Social_logo {
+  margin: 25px 0px;
+}
+.footer_Continer .footer .column .footer-bootom-column .row_Social_logo h3 {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
 .footer_Continer .footer .column .row_Social_logo {
   width: 100%; /* Adjusted to 100% */
   margin: auto;
@@ -5325,9 +5447,7 @@ span {
 }
 @media only screen and (max-width: 768px) {
   .footer_Continer .footer .column .row_QrLogo {
-    position: absolute;
-    left: 70%;
-    bottom: 15%;
+    text-align: right;
   }
 }
 .footer_Continer .footer .column:nth-child(4) {
