@@ -293,7 +293,7 @@
         .competetivereceive {
             .Explore_Cusomer_Offer_firstDiv {
                 .Explore_Cusomer_Offer_SubParentDiv {
-                    .Explore_Cusomer_Offer_horizontal_line{
+                    .Explore_Cusomer_Offer_horizontal_line {
                         width: 54% !important;
                     }
                 }
@@ -302,32 +302,120 @@
     }
 }
 
-@media only screen and (min-width : 1360px) and (max-width : 1400px){
-    #dealer-offer{
-        .exp-leas-offer{
-           .Explore_Cusomer_Offer_horizontal_line{
-            width: 74% !important;
-           } 
-           .Explore_Cusomer_Offer_SubParentDiv{
-            margin-left: 2rem !important;
-           }
-           .dealer_Container_SecondDiv{
-            margin-left: unset !important;
-           }
+@media only screen and (min-width : 1360px) and (max-width : 1400px) {
+    #dealer-offer {
+        .exp-leas-offer {
+            .Explore_Cusomer_Offer_horizontal_line {
+                width: 74% !important;
+            }
+
+            .Explore_Cusomer_Offer_SubParentDiv {
+                margin-left: 2rem !important;
+            }
+
+            .dealer_Container_SecondDiv {
+                margin-left: unset !important;
+            }
         }
     }
-    #competetive-receive{
-        .competetivereceive{
-            .Explore_Cusomer_Offer_firstDiv{
-                .Explore_Cusomer_Offer_SubParentDiv{
-                    .Explore_Cusomer_Offer_horizontal_line{
+
+    #competetive-receive {
+        .competetivereceive {
+            .Explore_Cusomer_Offer_firstDiv {
+                .Explore_Cusomer_Offer_SubParentDiv {
+                    .Explore_Cusomer_Offer_horizontal_line {
                         width: 48% !important;
                     }
-                } 
-            } 
-            .row-p-b{
+                }
+            }
+
+            .row-p-b {
                 padding: 120px 0 120px 120px !important;
             }
-        } 
-    } 
+        }
+    }
+}
+
+
+
+.content-feature-slider {}
+
+.slider-navtab {
+    // overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    transform: translate(0, 10%);
+    z-index:999;
+    .cust-slider-nav{
+        z-index:9;
+    }
+    .slick-list{
+        overflow: unset;
+    }
+}
+
+.slick-slide {
+    &.slick-current {
+        .slider-tab {
+            background-color: #fff;
+            width: 110%;
+            position: relative;
+            background-color: #fff;
+            border-radius: 24px;
+            text-align: left;
+            z-index: 100;
+            border-left: 4px solid #5f8ac7;
+            border-bottom: 0;
+            .inner-para{
+                display: block !important;
+            }
+        }
+
+    }
+
+    &.slick-active {}
+}
+
+.slider-tab {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 32px 100px 32px 32px;
+    transition: background-color 1s ease;
+    border-bottom: 1px solid #d1d5db;
+    width: 100%;
+    
+    h1 {
+        font-size: 28px;
+        font-weight: 600;
+    }
+
+    h4 {
+        background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
+        color: $white;
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        text-align: center;
+        font-size: $fs-18;
+        line-height: 27px;
+    }
+
+    .inner-para {
+        padding-left: 55px;
+        font-size: 18px;
+        display: none;
+    }
+
+    &.active {
+        background-color: #fff;
+        width: 110%;
+        position: relative;
+        background-color: #fff;
+        border-radius: 24px;
+        text-align: left;
+        z-index: 100;
+        border-left: 4px solid #5f8ac7;
+        border-bottom: 0;
+    }
 }
