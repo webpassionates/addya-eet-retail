@@ -47,8 +47,11 @@
 
 
 .main-menu {
-  .navbar-collapse {
-    display: block !important;
+  @media screen and (max-width:991px) {
+
+    .navbar-collapse {
+      display: block !important;
+    }
   }
 
   .navbar-toggler {
@@ -97,18 +100,19 @@
   }
 
   .navbar-nav {
-    .nav-link{
-      i{
-        margin-left:10px;
+    .nav-link {
+      i {
+        margin-left: 10px;
       }
     }
+
     @media screen and (max-width:991px) {
       background: #ffffff;
       width: 100%;
       position: fixed;
       height: 100%;
       top: 0;
-      padding:70px 40px 0 40px;
+      padding: 70px 40px 0 40px;
       transform: translate(-117%, 0);
       transition: transform 0.5s;
 
