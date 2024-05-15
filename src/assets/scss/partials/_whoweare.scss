@@ -288,9 +288,14 @@ span {
     margin-bottom: 0;
     @media only screen and (max-width: 786px) {
       // border: 1px solid red;
-      font-size: $fs-14;
-      font-weight: 500;
-      line-height: 20px;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: -.01em;
+        text-align: left;
+        color: #4b5563;
+        /* margin-bottom: 30px; */
+        margin-top: 15px;
     }
   
   }
@@ -413,12 +418,12 @@ span {
   }
 
   h2 {
-    font-size: $fs-40; 
+      font-size: $fs-40; 
       @media only screen and (max-width: 786px) {
         // border: 1px solid blue;
-        font-size: 2.475rem;
+        font-size: 32px;
         font-weight: 600;
-        line-height: 45px;
+        line-height: 41px;
         letter-spacing: -.02em;
         text-align: left;
         padding-top: 20px;
@@ -485,6 +490,11 @@ span {
 
   h2 {
     font-size: $fs-40;
+    @media only screen and (max-width: 768px) {
+      font-size: 32px;
+      line-height: 41px;
+      margin-bottom: 0px;
+    }
   }
 }
 
@@ -604,12 +614,21 @@ span {
   }
 }
 
+.quality-fuels-and-security {
+  .desk-row-quality {
+    @media only screen and (max-width: 768px) {
+      flex-direction: column-reverse;
+    }
+  }
+}
+
 //End
 
 #quality-fuels-and-security-section {
   .quality-fuels-and-security {
     .desk-row-quality {
       padding-left: 25px;
+      /* flex-direction: column-reverse; */
     }
   }
 }
@@ -870,6 +889,10 @@ span {
 
     .supply-chain {
       margin-left: 0px !important;
+      @media only screen and (max-width: 768px) {
+        font-size: 32px;
+        line-height: 41px;
+      }
     }
   }
 
