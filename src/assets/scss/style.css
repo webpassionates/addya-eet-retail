@@ -175,6 +175,11 @@ body {
   background-size: 100%;
   z-index: 2;
 }
+@media only screen and (max-width: 768px) {
+  .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_ThirdDiv .slider .slide::after {
+    background: none;
+  }
+}
 .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_ThirdDiv .slider .slide-content {
   width: 30%;
   position: absolute;
@@ -236,6 +241,9 @@ body {
     font-size: 1rem;
     line-height: 20px;
   }
+}
+.Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_ThirdDiv .slider .slide-content .convinaceButton {
+  margin-top: 15px;
 }
 
 @media only screen and (min-width: 1800px) and (min-height: 1169px) {
@@ -624,7 +632,7 @@ body {
 }
 
 .VisitUs_Today_Container .VisitUs_Today_DivOne {
-  width: 30% !important;
+  width: 30%;
 }
 
 .TestMoinals_Container .slide {
@@ -718,6 +726,11 @@ body {
   position: absolute;
   top: 8px;
   right: -5px;
+}
+@media only screen and (max-width: 768px) {
+  .Loan_Agree_Main_Continer .Loan_Agree_box .fa-arrow-right {
+    right: 15px;
+  }
 }
 .Loan_Agree_Main_Continer .Loan_Agree_box:hover .fa-arrow-right {
   display: inline-block;
@@ -3976,6 +3989,7 @@ span {
 @media only screen and (max-width: 768px) {
   .Loan_Agree_Main_Continer .Loan_Agree_Container_firstDiv {
     padding-left: 10px;
+    padding-top: 30px;
   }
 }
 .Loan_Agree_Main_Continer .Loan_Agree_Container_firstDiv .Loan_Agree_SubParent_div {
@@ -3995,7 +4009,7 @@ span {
     align-items: center;
     margin-top: 30px;
     padding: 0px 0px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 }
 .Loan_Agree_Main_Continer .Loan_Agree_Container_firstDiv .Loan_Agree_SubParent_div .Loan_Agree_horizontal_line {
@@ -4031,6 +4045,11 @@ span {
     font-weight: 700;
     line-height: 0px;
     letter-spacing: 1px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .Loan_Agree_Main_Continer .Loan_Agree_Heading {
+    margin-bottom: 40px;
   }
 }
 .Loan_Agree_Main_Continer .Loan_Agree_Heading h1 {
@@ -4078,13 +4097,12 @@ span {
   .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan_Agree_box {
     background-color: #f0f0f0;
     text-align: center;
-    padding: 0px;
+    padding: 34px 28px;
     position: relative;
     border-radius: 20px;
     overflow: hidden;
     width: 90%;
     margin: auto;
-    padding-top: 30px;
   }
 }
 .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan_Agree_box .Loan_Agree_DivOne {
@@ -4124,9 +4142,9 @@ span {
 }
 @media only screen and (max-width: 768px) {
   .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan_Agree_box .Loan_Agree_DivOne .Loan_Agree_DivOne_Heading h2 {
-    font-size: 1.489rem;
+    font-size: 1.5rem;
     font-weight: 700;
-    line-height: 0px;
+    line-height: 31px;
     letter-spacing: -0.02em;
     text-align: left;
     margin: auto;
@@ -4224,8 +4242,20 @@ span {
   align-items: center;
   padding: 110px 0px 120px 146px;
 }
+@media only screen and (max-width: 768px) {
+  .VisitUs_Today_Container {
+    flex-direction: column;
+    padding: 50px 0px 50px 0px;
+  }
+}
 .VisitUs_Today_Container .VisitUs_Today_DivOne {
   width: 30%;
+}
+@media only screen and (max-width: 768px) {
+  .VisitUs_Today_Container .VisitUs_Today_DivOne {
+    width: 100%;
+    padding: 10px 20px;
+  }
 }
 .VisitUs_Today_Container .VisitUs_Today_DivOne .VisitUs_Today_firstDiv {
   display: flex;
@@ -4246,6 +4276,11 @@ span {
   width: 40%;
   margin-left: 20px;
 }
+@media only screen and (max-width: 768px) {
+  .VisitUs_Today_Container .VisitUs_Today_DivOne .VisitUs_Today_firstDiv .VisitUs_Today_SubParent_div .VisitUs_Today_horizontal_line {
+    width: 40%;
+  }
+}
 .VisitUs_Today_Container .VisitUs_Today_DivOne .VisitUs_Today_firstDiv .VisitUs_Today_SubParent_div p {
   font-size: 0.875rem;
   font-weight: 700;
@@ -4256,8 +4291,18 @@ span {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+@media only screen and (max-width: 768px) {
+  .VisitUs_Today_Container .VisitUs_Today_DivOne .VisitUs_Today_firstDiv .VisitUs_Today_SubParent_div p {
+    font-size: 0.75rem;
+  }
+}
 .VisitUs_Today_Container .VisitUs_Today_DivOne .Refinery_Container_SecondDiv {
   width: 80%;
+}
+@media only screen and (max-width: 768px) {
+  .VisitUs_Today_Container .VisitUs_Today_DivOne .Refinery_Container_SecondDiv {
+    width: 100%;
+  }
 }
 .VisitUs_Today_Container .VisitUs_Today_DivOne .Refinery_Container_SecondDiv h2 {
   font-size: 3.75rem;
@@ -4268,6 +4313,15 @@ span {
   margin: 0 auto;
   padding-top: 35px;
   padding-bottom: 35px;
+}
+@media only screen and (max-width: 768px) {
+  .VisitUs_Today_Container .VisitUs_Today_DivOne .Refinery_Container_SecondDiv h2 {
+    font-size: 1.875rem;
+    font-weight: 600;
+    line-height: 34.5px;
+    padding-top: 0px;
+    padding-bottom: 15px;
+  }
 }
 .VisitUs_Today_Container .VisitUs_Today_DivOne .Refinery_Container_SecondDiv h2 span {
   background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
@@ -4283,12 +4337,41 @@ span {
   color: #4B5563;
   margin-bottom: 35px;
 }
+@media only screen and (max-width: 768px) {
+  .VisitUs_Today_Container .VisitUs_Today_DivOne .Refinery_Container_SecondDiv p {
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    margin-bottom: 0px;
+  }
+}
 .VisitUs_Today_Container .VisitUs_Today_DivTwo {
   width: 60%;
   text-align: end;
 }
+@media only screen and (max-width: 768px) {
+  .VisitUs_Today_Container .VisitUs_Today_DivTwo {
+    width: 90%;
+    height: 264px;
+    text-align: center;
+    border-radius: 32px;
+    margin-top: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .VisitUs_Today_Container .VisitUs_Today_DivTwo svg {
+    border-radius: 32px;
+  }
+}
 .VisitUs_Today_Container .VisitUs_Today_DivTwo img {
   width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .VisitUs_Today_Container .VisitUs_Today_DivTwo img {
+    width: 100%;
+    border-radius: 25px;
+  }
 }
 
 .TestMoinals_Container {
@@ -4679,6 +4762,12 @@ span {
   border-image-slice: 2 !important;
   border-bottom: 1px solid transparent !important;
 }
+@media only screen and (max-width: 768px) {
+  .footer_Continer .footer {
+    display: block;
+    padding-bottom: 30px;
+  }
+}
 .footer_Continer .footer .column {
   flex: 1;
   width: 80%; /* Adjusted to 80% */
@@ -4753,6 +4842,13 @@ span {
   width: 100%; /* Adjusted to 100% */
   margin: auto;
   margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .footer_Continer .footer .column .row_QrLogo {
+    position: absolute;
+    left: 70%;
+    bottom: 15%;
+  }
 }
 .footer_Continer .footer .column:nth-child(4) {
   display: flex;
