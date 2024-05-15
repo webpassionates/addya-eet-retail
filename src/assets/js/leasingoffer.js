@@ -1,5 +1,7 @@
 function changeTab(tabName) {
-    
+    if($(window).width() < 481){
+        return false;
+    }
     var tabContents = document.getElementsByClassName("tabcontent");
     for (var i = 0; i < tabContents.length; i++) {
         //tabContents[i].style.transition = "opacity 0.8s ease, transform 0.8s ease";

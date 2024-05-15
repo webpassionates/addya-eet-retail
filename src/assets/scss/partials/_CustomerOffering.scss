@@ -121,6 +121,12 @@
   }
 }
 
+#join-network {
+  @media only screen and (max-width: 786px) {
+    margin-bottom: 60px;
+  }
+}
+
 // ==== Gradient Background Button ===
 .anim-btn {
   background: linear-gradient(92.86deg,
@@ -136,6 +142,10 @@
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.3s ease, padding 0.3s ease;
+
+  @media only screen and (max-width: 786px) {
+    margin-bottom: 20px;
+  }
 
   &:hover {
     background-color: #0056b3;
@@ -281,7 +291,11 @@
     }
 
     h2 {
-      font-size: $fs-40 !important;
+      font-size: $fs-40;
+      @media only screen and (max-width: 768px) {
+        font-size: 32px;
+        line-height: 41px;
+      }
     }
 
     p {
@@ -415,7 +429,12 @@
   }
 }
 
-
+.box-width {
+  width: 75%;
+  @media only screen and (max-width: 768px) {
+    width: 100%;
+  }
+}
 
 #footer {
   #visit-us-today-section {
@@ -433,7 +452,9 @@
             #99C152 81.85%,
             #A6CE39 99.85%);
         border-radius: 40px;
-
+        @media only screen and (max-width: 768px) {
+          height: 550px;
+        }
         .row {
           height: 444px;
 
@@ -506,7 +527,7 @@
 
     .dealer_Container_SecondDiv {
       h2 {
-        padding-left: 8px !important;
+        padding-left: 26px !important;
       }
     }
 

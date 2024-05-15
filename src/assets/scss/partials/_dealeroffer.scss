@@ -64,6 +64,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        @media only screen and (max-width: 786px) {
+          justify-content: left;
+        }
 
         p {
           font-family: Mulish;
@@ -86,6 +89,9 @@
           @media only screen and (min-width:1280px) and (max-width:1400px){
             width: 67%;
           }
+          @media only screen and (max-width: 786px) {
+            width: 20%;
+          }
         }
       }
     }
@@ -94,6 +100,10 @@
       h2 {
         font-size: $fs-60;
         line-height: 1;
+        @media only screen and (max-width: 786px) {
+          font-size: 32px;
+          line-height: 41px;
+        }
       }
     }
 
@@ -156,7 +166,9 @@
     width: 81%;
     margin: auto;
     margin-top: 16px;
-
+    @media only screen and (max-width: 786px) {
+      display: block;
+    }
 
     h1 {
       font-size: 40px;
@@ -164,6 +176,11 @@
       line-height: 48px;
       letter-spacing: -0.02em;
       text-align: left;
+
+      @media only screen and (max-width: 786px) {
+        font-size: 32px;
+        line-height: 41px;
+      }
 
       span {
         background: unset !important;
@@ -178,7 +195,10 @@
       justify-content: center;
       align-items: center;
       gap: 20px;
-
+      @media only screen and (max-width: 786px) {
+        justify-content: left;
+        margin-top: 20px;
+      }
 
       .PrevBtn {
         position: relative;
@@ -492,6 +512,10 @@
     .img-thumbnail {
       background: unset;
       border: none;
+      @media only screen and (max-width: 786px) {
+        width: 36px;
+        height: 36px;
+      }
     }
 
     .dealer-icon {
@@ -619,6 +643,9 @@
 .a-acc-heading {
   font-size: 24px;
   color: #00432f;
+  @media only screen and (max-width: 786px) {
+    font-size: 20px;
+  }
 }
 .accordion-item, .accordion-header, .accordion { 
   --bs-accordion-bg : transparent;

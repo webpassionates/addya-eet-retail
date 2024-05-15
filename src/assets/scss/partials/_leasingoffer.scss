@@ -52,6 +52,9 @@
 
             .row-p-b {
                 padding: 120px 0px 120px 165px;
+                @media only screen and (max-width: 768px) {
+                    padding: 30px 20px 30px 20px;
+                }
             }
 
             h4 {
@@ -143,6 +146,18 @@
                     // border-left: 4px solid transparent;
                     border-left: 4px solid #5f8ac7;
                     border-bottom: 0;
+                    @media only screen and (max-width: 768px) {
+                        width: 100%;
+                        margin-bottom: 30px;
+                    }
+
+                    img{
+                        @media only screen and (max-width: 768px) {
+                            border-radius: 24px;
+                            margin-bottom: 30px;
+                        }
+                        
+                    }
                 }
             }
 
@@ -159,7 +174,12 @@
         }
     }
 }
-
+.text-end {
+    @media only screen and (max-width: 786px) {
+        text-align: left !important;
+        margin-top: 20px;
+    }
+}
 .InviteContinerr {
     // bottom: 80.5% !important;
     // display: flex;
@@ -172,7 +192,7 @@
     // border-image-slice: 2 !important;
     // border-bottom: 4px solid transparent !important;
     /* Use vendor prefixes for gradient and flexbox */
-    bottom: 80.5% !important;
+    bottom: 80.5%;
     display: -webkit-box;
     /* Safari, iOS Safari */
     display: -moz-box;
@@ -208,7 +228,7 @@
     background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%) !important;
 }
 
-#dealer-offer {
+/* #dealer-offer {
     .dealeroffer {
         .dealer_Container_SecondDiv {
             h2 {
@@ -216,7 +236,7 @@
             }
         }
     }
-}
+} */
 
 @media only screen and (min-width: 1800px) and (min-height: 1169px) {
     #dealer-offer {
@@ -284,7 +304,7 @@
             }
 
             .row-p-b {
-                padding: 120px 0 120px 160px !important;
+                padding: 120px 0 120px 160px;
             }
         }
     }

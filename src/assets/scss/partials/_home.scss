@@ -25,6 +25,12 @@ body {
   font-family: 'Mulish';
 }
 
+.mobile-only {
+  display: none;
+  @media only screen and (max-width: 768px) {
+    display: block;
+}
+}
 
 .container {
   // border: 1px solid red;
