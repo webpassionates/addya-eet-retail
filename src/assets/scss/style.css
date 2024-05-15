@@ -1874,7 +1874,7 @@ span {
 }
 #footer .InviteContinerr {
   height: 211px;
-  width: 100%;
+  width: 90%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2648,6 +2648,11 @@ span {
 @media only screen and (min-width: 1280px) and (max-width: 1400px) {
   #essar-banner .essarbanner {
     height: 310px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #essar-banner .essarbanner {
+    height: 150px;
   }
 }
 #essar-banner .essarbanner .row-height {
