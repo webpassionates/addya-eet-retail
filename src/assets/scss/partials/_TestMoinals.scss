@@ -6,6 +6,10 @@
     border-radius: 64px ;
     background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0%, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
     margin-bottom: 50px;
+    @media only screen and (max-width: 768px) {
+        padding: 90px 0px 0px 0px;
+        margin-bottom: 0px;
+    }
 
     .TestMoinals_firstDiv{
         width: 82%;
@@ -60,7 +64,10 @@
         width: 82%;
         margin: auto;
         margin-top: 18px;
-
+        @media only screen and (max-width: 768px) {
+            display: block;
+            margin-bottom: 20px;
+          }
     
         h1{
             font-size: 40px;
@@ -68,6 +75,10 @@
             line-height: 48px;
             letter-spacing: -0.02em;
             text-align: left;
+            @media only screen and (max-width: 768px) {
+                font-size: 30px;
+                line-height: 36px;
+              }
     
             span{
                 background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
@@ -81,7 +92,9 @@
             justify-content: center;
             align-items: center;
             gap: 20px;
-
+            @media only screen and (max-width: 768px) {
+                justify-content: left;
+            }
 
             .PrevBtn {
                 position: relative;
@@ -150,7 +163,12 @@
             // border-image: $border-image;
             // border-image-slice:  $border-image-slice;
             // border-bottom: $border-bottom;
-
+            @media only screen and (max-width: 768px) {
+                width: 90%;
+                border-radius: 24px;
+                margin: 0 auto;
+                padding: 20px 32px;
+              }
             
             
             p{
