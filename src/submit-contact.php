@@ -61,9 +61,12 @@
         $headers .= "From: EET Retail <retail@eetfuels.com>" . "\r\n";
     
         if(mail($to, $subject, $htmlmsg, $headers))
-            echo "Mail success";
+            header("Location: speak-to-us.html?success=yes");
         else
-            echo "mail failed";
+            header("Location: speak-to-us.html?success=no");
 
+    }
+    else{
+        header("Location: speak-to-us.html?success=empty");
     }
 ?>
