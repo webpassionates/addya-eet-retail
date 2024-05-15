@@ -369,7 +369,6 @@ span {
     margin-bottom: 35px;
     text-align: justify;
     @media only screen and (max-width: 786px) {
-      border: 1px solid; 
       font-size: 14px;
       font-weight: 500;
       line-height: 20px;
@@ -396,6 +395,7 @@ span {
   width: 99%;
   display: flex;
   align-items: center;
+
 
   .Explore_Cusomer_Offer_horizontal_line {
     background-color: #d1d5db;
