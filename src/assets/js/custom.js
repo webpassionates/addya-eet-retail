@@ -3,6 +3,19 @@
 //     // alert("Hello EET");
 //   });
 //header search input start//
+let topHeight = $('.main-menu').outerHeight();
+$(".dummy-header").css('height', topHeight);
+
+$(window).scroll(function () {
+    if ($(this).scrollTop() > 1) {
+      $('.is-frontpage').addClass('other--page');
+    }
+    else {
+      $('.is-frontpage').removeClass('other--page');
+    }
+  });
+
+
 searchIcon.addEventListener('mouseenter', expandSearchInput);
 searchInput.addEventListener('mouseenter', expandSearchInput);
 function expandSearchInput() {

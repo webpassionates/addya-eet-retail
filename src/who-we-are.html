@@ -29,39 +29,39 @@
 
 </head>
 
-<body>
+<body class="other--page">
 
-  <section id="top-common-header">
-    <div class="topheader pb-3">
+  <!--header start-->
+  
+  <div class="dummy-header"></div>
+  <section id="top-header">
+    <div class="topheader">
       <div class="container">
-        <nav class="navbar navbar-expand-lg pt-4">
+
+
+        <nav class="navbar main-menu navbar-expand-lg pt-4">
           <div class="container-fluid header-width">
-            <a class="navbar-brand" href="index.html"><img src="./assets/images/retail-logo.png"></a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+            <a class="navbar-brand" href="index.html"><img class="logo-white"
+                src="./assets/images/EET_Retail_Logo_T.png"> <img class="logo-color"
+                src="./assets/images/logo-colored.png"></a>
+            <button class="navbar-toggler mobile-menu" type="button" data-bs-toggle="collapse"
               data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
               aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+              <span class="navbar-toggler-icon">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+              </span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
                 <li class="nav-item">
-                  <a class="nav-link active fw-semibold" aria-current="page" href="who-we-are.html">Who We Are</a>
+                  <a class="nav-link active text-white fw-semibold" aria-current="page" href="who-we-are.html">Who
+                    WeAre</a>
                 </li>
-                <!-- <li class="nav-item dropdown">
-                  <a class="nav-link fw-semibold dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                    aria-expanded="false">
-                    Business Offers <i class="fa-solid fa-chevron-down"></i>
-                  </a>
-                  <ul class="dropdown-menu shadow px-2">
-                    <li><a class="dropdown-item pt-4 fw-bold" href="leasing-offer-1.html">Leasing Offer</a></li>
-                    <li><a class="dropdown-item pt-3 fw-bold" href="contract-manager-offer.html">Contract Manager
-                        Offer</a></li>
-                    <li><a class="dropdown-item pt-3 pb-4 fw-bold" href="business-offerings-dealer-offer-1.html">Dealer
-                        Offer</a></li>
-                  </ul>
-                </li> -->
                 <li class="nav-item dropdown" onmouseover="openDropdown()" onmouseout="closeDropdown()">
-                  <a class="nav-link fw-semibold dropdown-toggle" href="#" role="button" aria-expanded="false">
+                  <a class="nav-link text-white fw-semibold dropdown-toggle" href="#" role="button"
+                    aria-expanded="false">
                     Business Offers <i class="fa-solid fa-chevron-down"></i>
                   </a>
                   <ul class="dropdown-menu px-2" id="dropdownMenu">
@@ -73,28 +73,26 @@
                   </ul>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link fw-semibold active" aria-current="page" href="customer-offering.html">Customer
-                    Offers</a>
+                  <a class="nav-link text-white fw-semibold active" aria-current="page"
+                    href="customer-offering.html">Customer Offers</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link fw-semibold active" aria-current="page" href="our-locations.html">Our Locations</a>
+                  <a class="nav-link text-white fw-semibold active" aria-current="page" href="our-locations.html">Our
+                    Locations</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link fw-semibold active" aria-current="page" href="newsroom-1.html">News</a>
+                  <a class="nav-link text-white fw-semibold active" aria-current="page" href="newsroom-1.html">News</a>
                 </li>
-                <li class="me-5 ms-3 speak-hover-btn" id="speakToUsBtn">
-                  <a href="speak-to-us.html" class="">
-                    <div class="nav-btns"> <a href="speak-to-us.html"
-                        class="text-decoration-none text-white text-color">Speak
-                        to us
-                      </a>
-                    </div>
+                <li class="nav-item">
+                  <a href="speak-to-us.html" class="nav-link text-decoration-none speak-hover-btn header-menu"
+                    id="speakToUsBtn">
+                    <span class="text-color fw-semibold">Speak To Us</span>
                   </a>
                 </li>
                 <li class="nav-item position-relative">
                   <div class="icon-input">
                     <input id="searchInput" class="icon-input__text-field border-0" type="text" placeholder="Search ">
-                    <i id="searchIcon" class="icon-input__icon material-icons"><i
+                    <i id="searchIcon" class="icon-input__icon material-icons text-white"><i
                         class="fa-solid fa-magnifying-glass fs-4" id="glass"></i></i>
                   </div>
                 </li>
@@ -111,7 +109,7 @@
     <div class="banner">
       <div class="container-fluid">
         <div class="background-banner-img position-relative d-flex align-items-center">
-          <div  class="MobileView_WhoWeAre">
+          <div class="MobileView_WhoWeAre">
             <div class="MobileView_WhoWeAre_Img">
               <img src="./assets/images/about-us/cmo-image.png" alt="ceo image">
             </div>
@@ -174,7 +172,7 @@
   <!-- Quality fuels and security Section Start -->
   <section class="quality-fuels-and-security-section">
     <div class="quality-fuels-and-security pe-xl-5 pe-xxl-5  pe-sm-0">
-    <!-- <div class="quality-fuels-and-security pe-5"> -->
+      <!-- <div class="quality-fuels-and-security pe-5"> -->
       <div class="">
         <div class="row align-items-center">
           <div class="col-lg-5">
@@ -182,7 +180,7 @@
           </div>
           <div class="col-lg-6">
             <div class="ps-xl-5 ps-xxl-5  ps-sm-0">
-            <!-- <div class="ps-5"> -->
+              <!-- <div class="ps-5"> -->
               <div class="Explore_Cusomer_Offer_firstDiv">
                 <div class="Explore_Cusomer_Offer_SubParentDiv">
                   <div class="circle d-flex justify-content-center align-items-center">
@@ -259,7 +257,8 @@
                   A fresh new approach to fuel and convenience retailing — <span> "Driving Community Convenience"</span>
 
                 </h2>
-                <p class="ps-xxl-2 ps-sm-0 ms-xxl-5 ms-sm-0">We are accelerating our transformation towards a better tomorrow through our
+                <p class="ps-xxl-2 ps-sm-0 ms-xxl-5 ms-sm-0">We are accelerating our transformation towards a better
+                  tomorrow through our
                   Essar-branded
                   service
                   stations with a renewed purpose: 'Driving Community Convenience'. This initiative focuses on meeting
@@ -395,7 +394,8 @@
               <div class="row_Logo">
                 <img src="./assets/images/EET_Retail_Logo_T.png" alt="Logo">
               </div>
-              <p class="row pe-5">EET Fuels is the trading name for Essar Oil (UK) Limited, a company registered in England and
+              <p class="row pe-5">EET Fuels is the trading name for Essar Oil (UK) Limited, a company registered in
+                England and
                 Wales with company registration number 07071400 and registered office at 5th Floor, the Administration
                 Building, Stanlow Manufacturing Complex, Ellesmere Port, Cheshire, CH65 4HB. © Essar Oil (UK) Limited
                 2024.
@@ -412,10 +412,12 @@
             </div>
             <div class="column d-lg-block d-none">
               <div class="row">
-                <h3 class="text-start ps-5 pb-4 ms-4"><a href="who-we-are.html" class="text-white text-decoration-none">Who We Are</a></h3>
+                <h3 class="text-start ps-5 pb-4 ms-4"><a href="who-we-are.html"
+                    class="text-white text-decoration-none">Who We Are</a></h3>
               </div>
               <div class="row">
-                <h3 class="text-start ps-5 pb-2 ms-4"><a href="#" class="text-white text-decoration-none">Business Offers</a>
+                <h3 class="text-start ps-5 pb-2 ms-4"><a href="#" class="text-white text-decoration-none">Business
+                    Offers</a>
                 </h3>
                 <h3 class="text-start ps-5 ms-4 f-text-small pt-2"><a href="leasing-offer-1.html"
                     class="text-white text-decoration-none">Leasing Offer</a></h3>
@@ -431,7 +433,8 @@
             </div>
             <div class="column d-lg-block d-none">
               <div class="row">
-                <h3 class="text-start ps-5 pb-4 ms-4"><a href="our-locations.html" class="text-white text-decoration-none">Our Locations</a></h3>
+                <h3 class="text-start ps-5 pb-4 ms-4"><a href="our-locations.html"
+                    class="text-white text-decoration-none">Our Locations</a></h3>
                 <h3 class="text-start ps-5 pb-4 ms-4 pt-2"><a href="newsroom-1.html"
                     class="text-white text-decoration-none">News</a></h3>
                 <h3 class="text-start ps-5 ms-4 pt-2"><a href="speak-to-us.html"
@@ -450,7 +453,7 @@
               </div>
             </div>
             <div class="column text-start mobile-only w-100">
-              
+
               <div class="footer-bootom-column justify-content-between">
                 <div class="row_Social_logo">
                   <h3>Follow Us</h3>
@@ -467,7 +470,7 @@
               <p class="pt-4 pb-3 footer-copyright">© Copyright 2024 EET Retail</p>
             </div>
           </div>
-          </div>
+        </div>
       </footer>
     </div>
   </section>
