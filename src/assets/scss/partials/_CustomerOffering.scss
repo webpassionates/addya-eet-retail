@@ -312,7 +312,14 @@
         padding: 0;
       }
     }
-
+    .slider-navtab{
+      margin-left:-70px;
+    }
+    .slider-tab{
+      border-bottom:0;
+      padding: 32px 32px 42px 128px !important;
+      max-width:900px;
+    }
     h4 {
       background: linear-gradient(92.86deg,
           #5f8ac7 0,
@@ -330,8 +337,8 @@
     }
 
     h1 {
-      font-size: 22px;
-      margin: 15px 0 15px 15px;
+      font-size: 28px;
+      margin-bottom:15px;
       font-weight: 600;
     }
 
@@ -349,25 +356,13 @@
 
     p {
       font-size: $fs-18;
+      padding-left: 0;
     }
 
     .inner-para {
-      padding-left: $fs-25;
       //animation: slide-up 0.85s cubic-bezier(0.65, 0, 0.35, 1) 
-      animation: showTopText 1s;
-      animation-delay: 0.1s;
-      animation-delay: 600ms;
-      animation-fill-mode: forwards;
-      bottom: 0;
-      transform: translate(0, 100%);
       @media only screen and (max-width: 600px) {
         padding: 0 19px;
-        animation: none;
-        animation-delay:unset;
-        animation-delay: unset;
-        animation-fill-mode: none;
-        bottom: 0;
-        transform: none;
       }
 
       // After delay
