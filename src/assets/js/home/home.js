@@ -30,6 +30,9 @@ $(document).ready(function() {
 });
 
 
+
+
+
 document.addEventListener('DOMContentLoaded', function() {
   var submenuToggles = document.querySelectorAll('#top-header .topheader .navbar .nav-item > a');
   // console.log("submenuToggles : ", submenuToggles);
@@ -110,7 +113,7 @@ document.addEventListener('DOMContentLoaded', function() {
 
 
 $(document).ready(function(){
-  $('.slider').slick({
+  /* $('.slider').slick({
     arrows: false,
     dots: false,
     infinite: true,
@@ -119,17 +122,45 @@ $(document).ready(function(){
     cssEase: 'linear',
     autoplay: true,
     autoplaySpeed: 5000,
+  }); */
+
+  $('.slider').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+    arrows: false,
+    fade: true,
+    infinite: true,
+    autoplay: true,
+    autoplaySpeed: 3000,
+    //asNavFor: '.slider-nav',
+    accessibility: false,
+    nextArrow: '.slider-nav .next',
+    prevArrow: '.slider-nav .prev'
   });
 
+  /* $('.slider-nav').slick({
+    slidesToShow: 1,
+    slidesToScroll: 1,
+    dots: false,
+    arrows: false,
+    centerMode: true,
+    centerPadding: '15px',
+    focusOnSelect: true,
+    /* vertical: true,
+    verticalSwiping: true, /
+    asNavFor: '.slider',
+  }); */
+
   $('.prev').click(function(){
-    $('.slider').slick('slickPrev');
+    //$('.slider').slick('slickPrev');
     $('.prev').addClass('active');
     $('.next').removeClass('active');
     slideBgToLeft();
   });
 
   $('.next').click(function(){
-    $('.slider').slick('slickNext');
+    //$('.slider').slick('slickNext');
     $('.next').addClass('active');
     $('.prev').removeClass('active');
     slideBgToRight();
