@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Auto-playing Tabs</title>
+<style>
+    /* CSS for tab layout */
+    .tab {
+        display: none; /* Hide all tabs by default */
+        width: 100%;
+        height: 568px;
+        position: relative;
+        background-size: cover;
+        background-position: center;
+        overflow: hidden;
+        border-radius: 35px;
+        transition: background 1s ease-in-out;
+    }
+    
+    /* CSS for navigation */
+    .tabnav {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+    }
+    
+    .tabnav li {
+        width: 125px;
+        height: 50px;
+        border-radius: 50px;
+        font-size: 1rem;
+        font-weight: 700;
+        line-height: 24px;
+        letter-spacing: -0.01em;
+        text-align: center;
+        border: none;
+        outline: none;
+        color: rgba(75, 85, 99, 1);
+    }
+    
+    .tabnav li.active {
+        font-weight: bold;
+        background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0%, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
+    }
+
+    .slide-content {
+        position: absolute;
+        top: 55%;
+        height: 370px;
+        width: 30%;
+        left: 23.5%;
+        text-align: center;
+        color: white;
+        background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+            linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0%, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
+        backdrop-filter: blur(26px);
+        padding: 20px 45px;
+        border-radius: 35px;
+        text-align: left;
+        z-index: 100;
+        border-image: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+        border-image-slice: 2;
+        border-bottom: 4px solid transparent;
+        transition: transform 1s ease, opacity 1s ease;
+    }
+    .tab.active {
+        display: block;
+    }
+    .tab.active.tab1 {
+        background-image: url('./assets/images/essar.png'); 
+    }
+    .tab.active.tab2 {
+        background-image: url('./assets/images/conveniance.png'); 
+    }
+    .tab.active .EssarClass {
+        animation: slideInRight 1s forwards;
+        animation: slideInLeft 1s forwards;
+    }
+    .tab.active .ConvenienceClass {
+        animation: slideInLeft 1s forwards;
+        animation: slideInRight 1s forwards;
+    }
+
+    @keyframes slideInRight {
+        from {
+            transform: translateX(100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+
+    @keyframes slideInLeft {
+        from {
+            transform: translateX(-100%);
+            opacity: 0;
+        }
+        to {
+            transform: translateX(0);
+            opacity: 1;
+        }
+    }
+</style>
+</head>
+<body>
+
+<ul class="tabnav">
+    <li class="tablink active" onclick="openTab(event, 'tab1')">Essar 99</li>
+    <li class="tablink" onclick="openTab(event, 'tab2')">Convenience</li>
+</ul>
+
+<div id="tab1" class="tab active tab1">
+    <div class="slide-content EssarClass">
+        <h2 class="ps-2 pb-4">Essar 99</h2>
+        <p class="ps-2">Our new high-octane fuel is competitively priced and designed to meet your vehicle's
+          needs, ensuring
+          efficiency and reliability.</p>
+        <button class="anim-btn mt-5 ms-2">
+          <a class="text-decoration-none text-white">Find out more</a>
+          <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
+              fill="#FFFFFF" />
+          </svg>
+        </button>
+      </div>
+</div>
+<div id="tab2" class="tab tab2">
+    <div class="slide-content ConvenienceClass">
+        <h2 class="ps-2 pb-4 pt-2">Convenience</h2>
+        <p class="ps-2">Our renewed purpose: 'Driving Community Convenience focuses on meeting the needs of
+          local communities
+          by making interactions effortless for customers and streamline operations for our staff, turning our
+          sites into essential hubs for the people we serve.</p>
+        <button class="anim-btn ms-2 mt-lg-4 mt-md-2 mt-sm-1"> <a class="text-decoration-none text-white">Find out more</a>
+          <svg width="13" height="13" viewBox="0 0 13 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path
+              d="M11.8657 11.8557C11.5942 11.8557 11.3478 11.7457 11.1696 11.5675C10.9914 11.3893 10.8814 11.1429 10.8814 10.8715L10.8814 3.50328L2.2106 12.1741C1.82639 12.5583 1.20344 12.559 0.818528 12.1741C0.433622 11.7892 0.434318 11.1663 0.818529 10.782L9.48936 2.11121L2.12119 2.11121C1.5769 2.11121 1.13696 1.67128 1.13696 1.12698C1.13696 0.582679 1.5769 0.142742 2.12119 0.142742L11.8643 0.142742C11.9938 0.142742 12.1211 0.168416 12.2422 0.218531C12.4824 0.318064 12.6746 0.51028 12.7741 0.750412C12.8242 0.871522 12.8499 0.998874 12.8499 1.12834L12.8499 10.8714C12.8499 11.4157 12.41 11.8557 11.8657 11.8557Z"
+              fill="#FFFFFF" />
+          </svg>
+        </button>
+      </div>
+</div>
+
+<script>
+    // JavaScript for tab functionality
+    let currentTab = 0;
+    const tabs = document.querySelectorAll('.tab');
+    const tabLinks = document.querySelectorAll('.tablink');
+    
+    function showTab(tabIndex) {
+        tabs.forEach((tab, index) => {
+            if (index === tabIndex) {
+                tab.style.display = 'block';
+                tab.classList.add('active');
+            } else {
+                tab.classList.remove('active');
+                tab.style.display = 'none';
+            }
+        });
+        // Highlight the active tab link
+        tabLinks.forEach((link, index) => {
+            if (index === tabIndex) {
+                link.classList.add('active');
+            } else {
+                link.classList.remove('active');
+            }
+        });
+    }
+    
+    function openTab(event, tabName) {
+        const tab = document.getElementById(tabName);
+        if (!tab) return;
+        const index = Array.from(tabs).indexOf(tab);
+        if (index !== -1) {
+            currentTab = index;
+            showTab(currentTab);
+        }
+    }
+
+    // Auto-play functionality
+    function autoPlay() {
+        currentTab = (currentTab + 1) % tabs.length;
+        showTab(currentTab);
+    }
+
+    // Start auto-play
+    const autoplayInterval = setInterval(autoPlay, 8000); // Change 3000 to desired auto-play interval in milliseconds
+    
+    // Stop auto-play when the user interacts with tabs
+    tabLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            clearInterval(autoplayInterval);
+        });
+    });
+</script>
+
+</body>
+</html>
