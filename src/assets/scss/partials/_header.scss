@@ -113,11 +113,11 @@
       height: 100%;
       top: 0;
       padding: 70px 40px 0 40px;
-      transform: translate(-117%, 0);
+      transform: translate(-113%, 0);
       transition: transform 0.5s;
 
       &.active {
-        transform: translate(-17%, 0);
+        transform: translate(-11.5%, 0);
       }
     }
   }
