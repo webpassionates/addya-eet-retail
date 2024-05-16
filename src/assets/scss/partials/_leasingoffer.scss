@@ -27,13 +27,9 @@
 
             .row-height {
                 height: 720px;
-
                 @media only screen and (max-width: 600px) {
-                    // border: 1px solid black;
                     height: 500px;
-                }
-
-                ;
+                };
             }
 
             .banner-bg {
@@ -47,7 +43,8 @@
 
                 @media only screen and (max-width: 600px) {
                     // border: 1px solid black;
-                    height: 180px;
+                    height: auto;
+                    padding: 13px 10px;
                     border-bottom-right-radius: 45px;
                 }
 
@@ -57,30 +54,25 @@
                     padding-left: 9%;
                     font-weight: 400;
                     font-size: $fs-48;
-
                     @media only screen and (max-width: 600px) {
-                        // border: 1px solid black;
-                        padding-left: 15px;
-                        font-size: 28px;
+                        font-size: 24px;
                         line-height: 30px;
-                        // margin: auto;
-                    }
-
-                    ;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 10px;
+                    };
                 }
 
                 p {
                     padding-left: 9%;
                     font-size: 20px;
-
                     @media only screen and (max-width: 600px) {
                         // border: 1px solid black;
-                        padding-left: 15px;
                         font-size: 16px;
-
-                    }
-
-                    ;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 10px;
+                    };
                 }
             }
         }

@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 110px 0px 120px 146px;
+    padding: 140px 0px 120px 146px;
     @media only screen and (min-width:1280px) and (max-width:1400px){
         // border: 1px solid red;
     }
@@ -20,13 +20,13 @@
     .VisitUs_Today_DivOne{
         // border: 1px solid blue;
         width: 30%;
-        //margin: auto;
-        // padding-left: 80px;
-        // // height: 400px;
+         height: 500px;
+         padding-left: 25px;
         @media only screen and (max-width: 600px) {
             // border: 1px solid blue;
             width: 100%;
-            padding: 10px 20px;
+            height: auto;
+            padding: 20px 20px;
         };
 
         .VisitUs_Today_firstDiv{
@@ -79,10 +79,8 @@
            
         }
         .Refinery_Container_SecondDiv{
-            // border: 1px solid blue;
             width: 80%;
             @media only screen and (max-width: 600px) {
-                // border: 1px solid blue;
                 width: 100%;
             };
     
@@ -92,9 +90,9 @@
                 line-height: 69px;
                 letter-spacing: -0.02em;
                 text-align: left;
-                margin: 0 auto;
                 padding-top: 35px;
                 padding-bottom: 35px;
+                width: 80%;
                 @media only screen and (min-width:1280px) and (max-width:1400px){
                     // margin: 0 ;
                     // padding-top: 0px;

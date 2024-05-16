@@ -15,7 +15,11 @@
       height: 310px;
     }
     @media only screen and (max-width: 600px) {
-      height: 150px;
+      height: 157px;
+      background-size: cover;
+      background-position: center;
+      width: 90%;
+      margin: auto;
     }
 
 

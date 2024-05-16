@@ -43,9 +43,9 @@
                 border-bottom-left-radius: $border-radius-3;
                 @media only screen and (max-width: 600px) {
                     // border: 1px solid black;
-                    height: 160px;
-                    border-bottom-right-radius: 45px;
-                    
+                    height: auto;
+                    padding: 13px 10px;
+                   border-bottom-right-radius: 45px;
                 };
 
                 h2 {
@@ -54,11 +54,11 @@
                     font-size: $fs-48;
                     @media only screen and (max-width: 600px) {
                         // border: 1px solid black;
-                        padding-left: 10px;
                         font-size: 24px;
                         line-height: 30px;
-                        margin-bottom: 0;
-                        padding-bottom: 0;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 10px;
                     };
                 }
 
@@ -70,7 +70,9 @@
                         padding-left: 15px;
                         font-size: 16px;
                         padding-top: 10px;
-                        margin: auto;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 10px;
                     };
                 }
             }
@@ -78,6 +80,11 @@
     }
 
     #dealer-offer {
+        // border: 1px solid blue;
+        margin-top: 55px;
+        @media only screen and (max-width: 600px) {
+            margin-top: 0px;
+        };
         .cont-m-offer {
             .Explore_Cusomer_Offer_horizontal_line {
                 width: 69%;
@@ -123,6 +130,10 @@
                 padding: 0px 0px;
             };
         }
+
+        .contract_Class_Width{
+            width: 92%;
+        }
     }
 
     #key-responsibilities {
@@ -160,14 +171,14 @@
             }
 
             h5 {
-                width: 92%;
+                width: 84%;
                 color: $color-2;
                 font-size: $fs-20;
                 @media only screen and (min-width:1280px) and (max-width:1400px){
                     width: 100%;
                }
                @media only screen and (max-width: 600px) {
-                // border: 1px solid red;
+                width: 100%;
                 font-size: $fs-16;
                };  
             }
@@ -185,6 +196,12 @@
                 };  
             }
         }
+        .key_res_MB{
+            padding-bottom: 40px;
+            @media only screen and (max-width: 600px) {
+                padding-bottom: 0px;
+            }
+        }
     }
 
     #footer {
@@ -192,7 +209,7 @@
             @media only screen and (max-width: 600px) {
             bottom: 87%;
             display: unset;
-            height: 310px;
+            height: auto;
             }
             p {
                 width: unset;
