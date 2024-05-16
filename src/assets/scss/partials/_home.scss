@@ -857,20 +857,29 @@ body {
 #top-header {
   .topheader {
     .navbar {
-      // border: 1px solid red;
       position: absolute;
       z-index: 9999;
       width: 100%;
+      @media only screen and (min-width:1280px) and (max-width:1400px) {
+        width: 98%;
+        margin: auto;
+      }
 
       .nav-item {
         padding: 10px 15px;
-
         @media screen and (max-width:991px) {
           width: 100%;
+        }
+        @media only screen and (min-width:1280px) and (max-width:1400px) {
+          padding: 5px 5px;
         }
 
         a {
           font-size: 18px;
+          @media only screen and (min-width:1280px) and (max-width:1400px) {
+            font-size: 16px;
+          }
+  
 
           &.dropdown-item {
             @media screen and (max-width:991px) {
@@ -1295,6 +1304,13 @@ footer {
   right: -16px;
   transform: translateY(-50%);
   max-width: 200px;
+  @media only screen and (min-width:1280px) and (max-width:1400px) {
+    position: absolute;
+    top: 50%;
+    right: -40px;
+    transform: translateY(-50%);
+    max-width: 200px;
+  }
 
   ::placeholder {
     font-size: 18px;
@@ -1332,6 +1348,10 @@ footer {
 
 .icon-input i {
   font-size: 18px !important;
+  @media only screen and (min-width:1280px) and (max-width:1400px) {
+    font-size: 16px;
+  }
+
 }
 
 .icon-input:hover i {
@@ -1344,6 +1364,12 @@ footer {
   padding: 5px 0px 5px 35px;
   transition: width 0.3s ease-in-out;
   height: 60px !important;
+  @media only screen and (min-width:1280px) and (max-width:1400px) {
+    width: 0px;
+    padding: 15px, 20px, 15px, 20px;
+    transition: width 0.3s ease-in-out;
+    height: 56px !important;
+  }
 
   &::placeholder {
     font-weight: 700;
