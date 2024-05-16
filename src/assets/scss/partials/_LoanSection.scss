@@ -1,6 +1,7 @@
 .Loan_Agree_Main_Continer {
-  // border: 1px solid red;
-  height: 986px;
+  padding-top: 18px;
+  padding-bottom: 100px;
+  height: auto;
   margin: 15px;
   border-radius: 64px;
   background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
@@ -9,7 +10,8 @@
     height: auto;
     margin: 5px;
     border-radius: 32px;
-    padding: 48px, 0px, 48px, 0px;
+    padding-top: 10px;
+    padding-bottom: 35px;
  }
   .Loan_Agree_Container_firstDiv {
       // border: 1px solid red;
@@ -185,6 +187,7 @@
             letter-spacing: -0.02em;
             text-align: left;
             margin: 0;
+            padding: 0;
             @media only screen and (max-width: 600px) {
               // border: 1px solid red;
               font-size: 1.5rem;
@@ -192,8 +195,7 @@
               line-height: 31px;
               letter-spacing: -0.02em;
               text-align: left;
-              /* margin: auto; */
-              margin-bottom: 20px;
+              margin-bottom: 10px;
             };
           }
 
@@ -203,6 +205,8 @@
             line-height: 28px;
             letter-spacing: -0.01em;
             text-align: left;
+            padding-top: 15px;
+            width: 80%;
             @media only screen and (max-width: 600px) {
               // border: 1px solid red;
               font-size: 1.125rem;
@@ -210,7 +214,9 @@
               line-height: 28px;
               letter-spacing: -0.01em;
               text-align: left;
-              margin: auto;
+              padding-top: 2px;
+              width: 100%;
+              // margin: auto;
             };
           }
         }
