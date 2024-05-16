@@ -11,13 +11,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css"
         href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" />
-
     <link rel="stylesheet" href="../dist/css/style.min.css" />
-
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/2.2.2/flickity.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+
 </head>
 
 <body class="other--page">
@@ -27,71 +27,78 @@
     <div class="dummy-header"></div>
     <section id="top-header">
         <div class="topheader">
-          <div class="container">
-  
-            
-            <nav class="navbar main-menu navbar-expand-lg pt-4">
-              <div class="container-fluid header-width">
-                <a class="navbar-brand" href="index.html"><img class="logo-white"
-                    src="./assets/images/EET-Retail-Logo-white.svg"> <img class="logo-color"
-                    src="./assets/images/EET_Retail_Logo_color.svg"></a>
-                <button class="navbar-toggler mobile-menu" type="button" data-bs-toggle="collapse"
-                  data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                  aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon">
-                      <span class="bar"></span>
-                      <span class="bar"></span>
-                      <span class="bar"></span>
-                  </span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
-                    <li class="nav-item">
-                      <a class="nav-link active text-white fw-semibold" aria-current="page" href="who-we-are.html">Who WeAre</a>
-                    </li>
-                    <li class="nav-item dropdown" onmouseover="openDropdown()" onmouseout="closeDropdown()">
-                      <a class="nav-link text-white fw-semibold dropdown-toggle" href="#" role="button"
-                        aria-expanded="false">
-                        Business Offers <i class="fa-solid fa-chevron-down"></i>
-                      </a>
-                      <ul class="dropdown-menu px-2" id="dropdownMenu">
-                        <li><a class="dropdown-item pt-4 fw-bold" href="leasing-offer-1.html">Leasing Offer</a></li>
-                        <li><a class="dropdown-item pt-3 fw-bold" href="contract-manager-offer.html">Contract Manager
-                            Offer</a></li>
-                        <li><a class="dropdown-item pt-3 pb-4 fw-bold"
-                            href="business-offerings-dealer-offer-1.html">Dealer Offer</a></li>
-                      </ul>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white fw-semibold active" aria-current="page"
-                        href="customer-offering.html">Customer Offers</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white fw-semibold active" aria-current="page" href="#">Our Locations</a>
-                    </li>
-                    <li class="nav-item">
-                      <a class="nav-link text-white fw-semibold active" aria-current="page"
-                        href="newsroom-1.html">News</a>
-                    </li>
-                    <li class="nav-item">
-                      <a href="speak-to-us.html" class="nav-link text-decoration-none speak-hover-btn header-menu" id="speakToUsBtn">
-                        <span class="text-color fw-semibold">Speak To Us</span> 
-                      </a>
-                    </li>
-                    <li class="nav-item position-relative">
-                      <div class="icon-input">
-                        <input id="searchInput" class="icon-input__text-field border-0" type="text" placeholder="Search ">
-                        <i id="searchIcon" class="icon-input__icon material-icons text-white"><i
-                            class="fa-solid fa-magnifying-glass fs-4" id="glass"></i></i>
-                      </div>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </nav>
-          </div>
+            <div class="container">
+
+
+                <nav class="navbar main-menu navbar-expand-lg pt-4">
+                    <div class="container-fluid header-width">
+                        <a class="navbar-brand" href="index.html"><img class="logo-white"
+                                src="./assets/images/EET-Retail-Logo-white.svg"> <img class="logo-color"
+                                src="./assets/images/EET_Retail_Logo_color.svg"></a>
+                        <button class="navbar-toggler mobile-menu" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon">
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                                <span class="bar"></span>
+                            </span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 align-items-center">
+                                <li class="nav-item">
+                                    <a class="nav-link active text-white fw-semibold" aria-current="page"
+                                        href="who-we-are.html">Who WeAre</a>
+                                </li>
+                                <li class="nav-item dropdown" onmouseover="openDropdown()" onmouseout="closeDropdown()">
+                                    <a class="nav-link text-white fw-semibold dropdown-toggle" href="#" role="button"
+                                        aria-expanded="false">
+                                        Business Offers <i class="fa-solid fa-chevron-down"></i>
+                                    </a>
+                                    <ul class="dropdown-menu px-2" id="dropdownMenu">
+                                        <li><a class="dropdown-item pt-4 fw-bold" href="leasing-offer-1.html">Leasing
+                                                Offer</a></li>
+                                        <li><a class="dropdown-item pt-3 fw-bold"
+                                                href="contract-manager-offer.html">Contract Manager
+                                                Offer</a></li>
+                                        <li><a class="dropdown-item pt-3 pb-4 fw-bold"
+                                                href="business-offerings-dealer-offer-1.html">Dealer Offer</a></li>
+                                    </ul>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-semibold active" aria-current="page"
+                                        href="customer-offering.html">Customer Offers</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-semibold active" aria-current="page" href="our-locations.html">Our
+                                        Locations</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-semibold active" aria-current="page"
+                                        href="newsroom-1.html">News</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a href="speak-to-us.html"
+                                        class="nav-link text-decoration-none speak-hover-btn header-menu"
+                                        id="speakToUsBtn">
+                                        <span class="text-color fw-semibold">Speak To Us</span>
+                                    </a>
+                                </li>
+                                <li class="nav-item position-relative">
+                                    <div class="icon-input">
+                                        <input id="searchInput" class="icon-input__text-field border-0" type="text"
+                                            placeholder="Search ">
+                                        <i id="searchIcon" class="icon-input__icon material-icons text-white"><i
+                                                class="fa-solid fa-magnifying-glass fs-4" id="glass"></i></i>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
         </div>
-      </section>
+    </section>
     <!--header end-->
 
     <!--banner start-->
@@ -101,7 +108,8 @@
                 <div class="row row-height">
                     <div class="col-lg-12">
                         <div class="banner-bg py-xxl-3 py-sm-0 px-3 px-lg-0">
-                            <h2 class="text-white pb-xxl-2 pb-sm-0 pt-xxl-4 pt-sm-0">Driving community convenience with our Essar-<br>branded service stations</h2>
+                            <h2 class="text-white pb-xxl-2 pb-sm-0 pt-xxl-4 pt-sm-0">Driving community convenience with
+                                our Essar-<br>branded service stations</h2>
                             <p class="text-white">Discover our offers designed to fuel your journey</p>
                         </div>
                     </div>
@@ -146,13 +154,15 @@
                             <div class="row">
                                 <div class="col-lg-6 px-lg-5 pt-lg-4">
                                     <div class="dealer_Container_SecondDiv">
-                                        <h2 class="ps-lg-4 fs-60 fresh-approach">A <span> fresh new <br>approach to </span>fuel <br>   and
-                                            convenience <br>    retailing</h2>
+                                        <h2 class="ps-lg-4 fs-60 fresh-approach">A <span> fresh new <br>approach to
+                                            </span>fuel <br> and
+                                            convenience <br> retailing</h2>
                                     </div>
                                 </div>
                                 <div class="col-lg-6">
                                     <div class="mt-lg-5 pt-lg-0 pt-4">
-                                        <p class="p-lg-5">We are accelerating our transformation towards a better tomorrow
+                                        <p class="p-lg-5">We are accelerating our transformation towards a better
+                                            tomorrow
                                             through our Essar-branded service stations with a renewed purpose: ‘Driving
                                             Community Convenience’. This initiative focuses on meeting the needs of
                                             local communities, turning our sites into essential hubs for the people we
@@ -176,7 +186,8 @@
                         <div class="row">
                             <div class="col-lg-6 pe-5 ps-2 ps-lg-0 pt-lg-4">
                                 <div class="dealer_Container_SecondDiv">
-                                    <h2 class="fs-60">Enhancing your experience <br>with <span> quality and <br>convenience
+                                    <h2 class="fs-60">Enhancing your experience <br>with <span> quality and
+                                            <br>convenience
                                         </span></h2>
                                 </div>
                             </div>
@@ -191,51 +202,77 @@
                         </div>
                     </div>
                 </div>
-                <div class="row d-none d-lg-flex row-p-b align-items-center">
-                    <div class="col-lg-6 pe-0 ps-0">
-                        <!-- Content of the active tab goes here -->
-                        <div id="test1Content" class="tabcontent active">
-                            <img src="assets/images/customer-offering/img-1.png" class="img-fluid w-100" alt="image">
-                        </div>
-                        <div id="test2Content" class="tabcontent">
-                            <img src="assets/images/customer-offering/img-2.png" class="img-fluid w-100" alt="image">
-                        </div>
-                        <div id="test3Content" class="tabcontent">
-                            <img src="assets/images/customer-offering/img-3.png" class="img-fluid w-100" alt="image">
-                        </div>
-                    </div>
-                    <div class="col-lg-6">
-                        <div>
-                            <!--  -->
-                            <div class="tab py-5 active px-5 mt-4 for-border" id="test1Tab">
-                                <div class="d-flex px-5">
-                                    <!-- <h4>1</h4> -->
-                                    <h1 class="">Quality fuels at competitive prices</h1>
+                <div class="row row-p-b d-none d-lg-block align-items-center">
+                    <div class="col-lg-12 p-0">
+                        <div class="eighteen-div">
+                            <div class="content-feature-slider">
+                                <div class="d-flex content-feature-wrapper">
+
+                                    <div class="slider-imgtab col-xl-5">
+                                        <div class="cust-slider-img">
+                                            <div class="tab-image">
+                                                <img src="assets/images/customer-offering/img-1.png"
+                                                    class="img-fluid w-100" alt="image">
+                                            </div>
+                                            <div class="tab-image">
+                                                <img src="assets/images/customer-offering/img-2.png"
+                                                    class="img-fluid w-100" alt="image">
+                                            </div>
+                                            <div class="tab-image">
+                                                <img src="assets/images/customer-offering/img-3.png"
+                                                    class="img-fluid w-100" alt="image">
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                    <div class="slider-navtab">
+                                        <div class="cust-slider-nav">
+                                            <div>
+                                                <div class="slider-tab">
+                                                    <div class="d-flex">
+                                                        <h1 class="title">Quality fuels at competitive prices</h1>
+                                                    </div>
+                                                    <p class="inner-para">Our high-quality fuels are competitively
+                                                        priced and designed to
+                                                        meet your vehicle’s needs, ensuring efficiency and reliability.
+                                                    </p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="slider-tab">
+                                                    <div class="d-flex">
+                                                        <h1 class="">One-stop shop</h1>
+                                                    </div>
+                                                    <p class="inner-para">Our partnership with the UK’s top shop brands
+                                                        ensures you have
+                                                        access to a wide array of products and services, all chosen to
+                                                        make your shopping
+                                                        experience more efficient. From coffee and your favourite
+                                                        food-to-go products to car
+                                                        and personal care essentials, we have everything you need to
+                                                        ensure you have a
+                                                        pleasant stop.</p>
+                                                </div>
+                                            </div>
+                                            <div>
+                                                <div class="slider-tab">
+                                                    <div class="d-flex">
+                                                        <h1 class="">Outstanding service</h1>
+                                                    </div>
+                                                    <p class="inner-para">Our focus is on making each interaction
+                                                        seamless for our customers
+                                                        by ensuring they find everything they need in a convenient
+                                                        location. We also
+                                                        streamline operations through efficient processes and training
+                                                        to empower our teams
+                                                        with the tools needed to ensure you have an enjoyable shopping
+                                                        experience and choose
+                                                        to visit us again.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                                 </div>
-                                <p class="inner-para px-5">Our high-quality fuels are competitively priced and designed to
-                                    meet your vehicle’s needs, ensuring efficiency and reliability. </p>
-                            </div>
-                            <div class="tab py-5 px-5 for-border" id="test2Tab">
-                                <div class="d-flex px-5">
-                                    <!-- <h4>2</h4> -->
-                                    <h1 class="">One-stop shop</h1>
-                                </div>
-                                <p class="inner-para px-5">Our partnership with the UK’s top shop brands ensures you have
-                                    access to a wide array of products and services, all chosen to make your shopping
-                                    experience more efficient. From coffee and your favourite food-to-go products to car
-                                    and personal care essentials, we have everything you need to ensure you have a
-                                    pleasant stop.</p>
-                            </div>
-                            <div class="tab py-5 px-5 for-border" id="test3Tab">
-                                <div class="d-flex px-5">
-                                    <!-- <h4>3</h4> -->
-                                    <h1 class="">Outstanding service</h1>
-                                </div>
-                                <p class="inner-para px-5">Our focus is on making each interaction seamless for our customers
-                                    by ensuring they find everything they need in a convenient location. We also
-                                    streamline operations through efficient processes and training to empower our teams
-                                    with the tools needed to ensure you have an enjoyable shopping experience and choose
-                                    to visit us again.</p>
                             </div>
                         </div>
                     </div>
@@ -259,7 +296,8 @@
                             <!--  -->
                             <div class="tab active mt-4 mb-4 for-border" id="test1Tab">
                                 <div id="test1Content" class="tabcontent active">
-                                    <img src="assets/images/customer-offering/img-1.png" class="img-fluid rounded-5 w-100" alt="image">
+                                    <img src="assets/images/customer-offering/img-1.png"
+                                        class="img-fluid rounded-5 w-100" alt="image">
                                 </div>
                                 <div class="d-flex">
                                     <!-- <h4>1</h4> -->
@@ -270,7 +308,8 @@
                             </div>
                             <div class="tab active mb-4 for-border" id="test2Tab">
                                 <div id="test2Content" class="tabcontent active">
-                                    <img src="assets/images/customer-offering/img-2.png" class="img-fluid rounded-5 w-100" alt="image">
+                                    <img src="assets/images/customer-offering/img-2.png"
+                                        class="img-fluid rounded-5 w-100" alt="image">
                                 </div>
                                 <div class="d-flex">
                                     <!-- <h4>2</h4> -->
@@ -284,7 +323,8 @@
                             </div>
                             <div class="tab active mb-4 for-border" id="test3Tab">
                                 <div id="test3Content" class="tabcontent active">
-                                    <img src="assets/images/customer-offering/img-3.png" class="img-fluid rounded-5 w-100" alt="image">
+                                    <img src="assets/images/customer-offering/img-3.png"
+                                        class="img-fluid rounded-5 w-100" alt="image">
                                 </div>
                                 <div class="d-flex">
                                     <!-- <h4>3</h4> -->
@@ -318,7 +358,8 @@
                                 <div class="row align-items-center py-4">
                                     <div class="col-lg-6">
                                         <div class="pt-4 pb-3">
-                                            <img src="assets/images/customer-offering/customer-offer-map.png" alt="map" class="ImagFluid">
+                                            <img src="assets/images/customer-offering/customer-offer-map.png" alt="map"
+                                                class="ImagFluid">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 ps-lg-5 px-4 px-lg-0">
@@ -365,7 +406,7 @@
               <div class="footer mt-5 mt-lg-0">
                 <div class="column mobile-column">
                   <div class="row_Logo">
-                    <img src="./assets/images/EET-Retail-Logo-white.svg" alt="Logo">
+                    <img src="./assets/images/EET_Retail_Logo_T.png" alt="Logo">
                   </div>
                   <p class="row pe-lg-5">EET Fuels is the trading name for Essar Oil (UK) Limited, a company registered in England and
                     Wales with company registration number 07071400 and registered office at 5th Floor, the Administration
@@ -454,7 +495,7 @@
         crossorigin="anonymous"></script>
     <script src="../dist/js/bundle.min.js"></script>
     <script src="assets/js/custom.js"></script>
-
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
 </body>
 
 </html>
