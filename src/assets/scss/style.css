@@ -369,6 +369,9 @@ body {
 .other--page #top-header .topheader .navbar .nav-item .icon-input .expanded .fa-magnifying-glass {
   color: #FFFFFF;
 }
+.other--page #top-header .fa-magnifying-glass {
+  color: #4B5563 !important;
+}
 .other--page .main-menu .logo-color {
   display: block;
 }
@@ -2764,6 +2767,11 @@ span {
   line-height: 1.6;
   z-index: 2;
 }
+@media only screen and (max-width: 600px) {
+  #dealer-offer-includes .offer-includes .accordion .accordion__content .row {
+    flex-direction: column-reverse;
+  }
+}
 #dealer-offer-includes .offer-includes .accordion .accordion__content p {
   font-size: 18px;
 }
@@ -2771,6 +2779,7 @@ span {
   #dealer-offer-includes .offer-includes .accordion .accordion__content p {
     font-size: 16px;
     margin: 0;
+    padding-top: 20px;
   }
 }
 #dealer-offer-includes .offer-includes .accordion input[type=checkbox]:checked ~ .accordion__content {
@@ -2874,6 +2883,7 @@ span {
 @media only screen and (max-width: 600px) {
   .a-acc-heading {
     font-size: 16px;
+    margin-right: 2.6rem !important;
   }
 }
 
@@ -3572,7 +3582,7 @@ span {
   #contractmanager-page #footer .InviteContinerr {
     bottom: 90%;
     display: unset;
-    height: 290px;
+    height: 310px;
   }
 }
 #contractmanager-page #footer .InviteContinerr p {
@@ -4034,7 +4044,7 @@ span {
   flex-direction: column;
   justify-content: center;
   transform: translate(0, 10%);
-  z-index: 999;
+  z-index: 1;
 }
 .slider-navtab .cust-slider-nav {
   z-index: 9;
@@ -5808,7 +5818,7 @@ span {
 @media only screen and (max-width: 600px) {
   .footer_Continer .footer .column.mobile-column p {
     text-align: center;
-    font-size: 13px;
+    font-size: 12px;
     line-height: 18px;
   }
 }

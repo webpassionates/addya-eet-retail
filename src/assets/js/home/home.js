@@ -30,13 +30,6 @@ $(document).ready(function() {
 });
 
 
-$('.mobile-menu').on('click',function(){
-  $(this).toggleClass('active');
-  $('.navbar-nav').toggleClass('active');
-  $('.navbar-toggler-icon').toggleClass('active');
-})
-
-
 document.addEventListener('DOMContentLoaded', function() {
   var submenuToggles = document.querySelectorAll('#top-header .topheader .navbar .nav-item > a');
   // console.log("submenuToggles : ", submenuToggles);

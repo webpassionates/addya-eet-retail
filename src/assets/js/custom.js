@@ -1,10 +1,13 @@
-// $(document).ready(function() {
-//     // jQuery code here
-//     // alert("Hello EET");
-//   });
-//header search input start//
+
 let topHeight = $('.main-menu').outerHeight();
 $(".dummy-header").css('height', topHeight);
+
+$('.mobile-menu').on('click',function(){
+    $(this).toggleClass('active');
+    $('.navbar-nav').toggleClass('active');
+    $('.navbar-toggler-icon').toggleClass('active');
+  })
+  
 
 $(window).scroll(function () {
     if ($(this).scrollTop() > 1) {
