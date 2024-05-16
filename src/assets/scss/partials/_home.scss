@@ -1177,7 +1177,11 @@ footer {
     left: 8%;
     z-index: 99;
     color: #fff;
-
+    @media only screen and (min-width:1280px) and (max-width:1400px) {
+      bottom: 10%;
+      width: 75%;
+      left: 6%;
+    }
     @media only screen and (max-width: 600px) {
       bottom: 30%;
       width: 75%;
@@ -1196,7 +1200,7 @@ footer {
     padding-left: 10px;
 
     @media only screen and (min-width:1280px) and (max-width:1400px) {
-      line-height: 90px;
+      line-height: 75px;
     }
 
     @media only screen and (max-width: 600px) {
