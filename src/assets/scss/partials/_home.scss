@@ -1002,14 +1002,16 @@ footer {
       /* bottom: 6.5%; */
       height: 211px;
       width: 81%;
-      bottom: 86%;
+      // bottom: 86%;
+      bottom: 89%;
 
       @media only screen and (max-width: 600px) {
         width: 90%;
         padding: 32px 24px;
         display: block;
         height: 290px;
-        bottom: 93%;
+        // bottom: 93%;
+        bottom: 87%;
       }
 
       p {
