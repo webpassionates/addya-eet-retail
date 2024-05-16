@@ -38,9 +38,9 @@
       /* height: 164px; */
       border-bottom-left-radius: $border-radius-3;
       @media only screen and (max-width: 600px) {
-        height: 180px;
+        height: auto;
+        padding: 13px 10px;
         border-bottom-right-radius: 45px;
-        padding-top: 15px;
       };
 
       h2 {
@@ -49,11 +49,11 @@
         font-size: $fs-48;
         @media only screen and (max-width: 600px) {
           // border: 1px solid black;
-          padding-left: 15px;
           font-size: 24px;
           line-height: 30px;
-          margin-bottom: 0;
-          padding-bottom: 0;
+          margin: 0;
+          padding: 0;
+          padding-left: 10px;
           // margin: auto;
         };
       }
@@ -62,12 +62,11 @@
         padding-left: 9%;
         font-size: $fs-20;
         @media only screen and (max-width: 600px) {
-          // border: 1px solid black;
-          padding-left: 15px;
           font-size: 16px;
           margin-top: 10px;
-          margin-bottom: 0;
-          padding-bottom: 0;
+          margin: 0;
+          padding: 0;
+          padding-left: 10px;
       };
       }
     }

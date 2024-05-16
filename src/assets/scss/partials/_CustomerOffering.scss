@@ -1,17 +1,7 @@
-// ==== Gradient Border Button ===
-
-
-
-
 .border-btn {
   .anim-btn-border-1 {
     position: relative;
-    background: linear-gradient(92.86deg,
-        #5f8ac7 0,
-        #5f8ac7 17.53%,
-        #78a293 48.78%,
-        #99c152 82%,
-        #a6ce39 100%);
+    background: linear-gradient(92.86deg,#5f8ac7 0,#5f8ac7 17.53%,#78a293 48.78%,#99c152 82%,#a6ce39 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     padding: 14px 10px 14px 22px;
@@ -21,7 +11,6 @@
     font-weight: 600;
     border: none;
     border: 2px solid transparent;
-    // border-image: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
     border-image-slice: 1;
     transition: all 0.5s !important;
 
@@ -35,12 +24,7 @@
       inset: 0;
       border-radius: 0 20px 0 20px;
       padding: 2px;
-      background: linear-gradient(92.86deg,
-          #5f8ac7 0,
-          #5f8ac7 17.53%,
-          #78a293 48.78%,
-          #99c152 82%,
-          #a6ce39 100%);
+      background: linear-gradient(92.86deg,#5f8ac7 0,#5f8ac7 17.53%,#78a293 48.78%,#99c152 82%,#a6ce39 100%);
       -webkit-mask: linear-gradient(#fff 0 0) content-box,
         linear-gradient(#fff 0 0);
       -webkit-mask-composite: xor;
@@ -103,12 +87,7 @@
     }
 
     &:hover .text-color {
-      background: linear-gradient(92.86deg,
-          #5f8ac7 0,
-          #5f8ac7 17.53%,
-          #78a293 48.78%,
-          #99c152 82%,
-          #a6ce39 100%);
+      background: linear-gradient(92.86deg,#5f8ac7 0,#5f8ac7 17.53%,#78a293 48.78%,#99c152 82%,#a6ce39 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
     }
@@ -216,20 +195,22 @@
       border-bottom-left-radius: $border-radius-3;
       @media only screen and (max-width: 600px) {
         // border: 1px solid black;
-        height: 220px;
+        height: auto;
+        padding: 13px 10px;
         border-bottom-right-radius: 45px;
-        padding-bottom: 20px;
     };
 
       h2 {
         padding-left: 9%;
         font-weight: 400;
+        font-size: $fs-48;
         @media only screen and (max-width: 600px) {
           // border: 1px solid black;
-          padding-left: 10px;
-          font-size: 23px;
+          font-size: 24px;
           line-height: 30px;
-          padding-bottom: 0;
+          margin: 0;
+          padding: 0;
+          padding-left: 10px;
           // margin: auto;
       };
       }
@@ -238,11 +219,12 @@
         padding-left: 9%;
         font-size: 20px;
         @media only screen and (max-width: 600px) {
-          // border: 1px solid black;
-          padding-left: 15px;
           font-size: 16px;
+          margin-top: 10px;
+          margin: 0;
+          padding: 0;
+          padding-left: 10px;
           padding-top: 10px;
-          margin: auto;
       };
       }
     }
