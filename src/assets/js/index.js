@@ -8,12 +8,13 @@ $(document).ready(function () {
     dots: false,
     arrows: false,
     fade: true,
-    infinite: false,
-    autoplay: false,
+    infinite: true,
+    autoplay: true,
     autoplaySpeed: 3000,
-    // speed: 2000,
-    asNavFor: '.cust-slider-nav'
+    asNavFor: '.cust-slider-nav',
+    accessibility: false,
   });
+
   $('.cust-slider-nav').slick({
     slidesToShow: 3,
     slidesToScroll: 3,
