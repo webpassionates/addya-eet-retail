@@ -43,8 +43,10 @@
   overflow: hidden;
   width: 100%;
   height: auto;
-  // padding: 150px 0px 120px 0px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
+  @media only screen and (max-width: 600px) {
+    padding-bottom: 45px;
+  }
 
   .Home_Slider_Cntainer {
     // border: 1px solid red;

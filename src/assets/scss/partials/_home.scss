@@ -1090,18 +1090,15 @@ footer {
 }
 
 .border-btn {
+  margin-top: 20px;
+
   .anim-btn-border-1 {
     position: relative;
     cursor: pointer;
-    background: linear-gradient(92.86deg,
-        #5F8AC7 0,
-        #5F8AC7 17.53%,
-        #78A293 48.78%,
-        #99C152 82%,
-        #A6CE39 100%);
+    background: linear-gradient(92.86deg,#5F8AC7 0,#5F8AC7 17.53%,#78A293 48.78%,#99C152 82%,#A6CE39 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    padding: 16px 10px 16px 22px;
+    padding: 16px 22px 16px 22px;
     margin: 5px;
     display: inline-block;
     font-size: 1rem;
@@ -1166,7 +1163,8 @@ footer {
   .hero-slider .text--holder {
     position: absolute;
     width: 60%;
-    bottom: 20%;
+    // bottom: 20%;
+    bottom: 35%;
     left: 8%;
     z-index: 99;
     color: #fff;
@@ -1179,8 +1177,13 @@ footer {
   }
 
   .hero-slider .text--holder h1 {
+    // border: 1px solid red;
+    //styleName: Display/Large/Bold;
+    font-family: Mulish;
     font-size: 72px;
-    line-height: 75px;
+    line-height: 83px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
     padding-left: 10px;
 
     @media only screen and (min-width:1280px) and (max-width:1400px) {
@@ -1194,9 +1197,14 @@ footer {
   }
 
   .hero-slider .text--holder p {
+    font-family: Mulish;
     font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.02em;
     padding-left: 10px;
-
+    margin-top: 15px;
+  
     @media only screen and (min-width:1280px) and (max-width:1400px) {
       margin-top: 10px;
     }
@@ -1363,8 +1371,8 @@ footer {
   &.header-menu{
     padding: 11px 10px;
   }
+  
   @media only screen and (min-width:1280px) and (max-width:1400px) {}
-
   .text-color {
     padding: 16px 22px;
     font-size: 1rem;
