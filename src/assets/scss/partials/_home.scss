@@ -1485,6 +1485,29 @@ footer {
   font-size: $fs-16;
 }
 
+#slider-curve-customer-offer {
+
+  .for-radius {
+    top: -113px;
+    right: 13px;
+  
+    @media only screen and (min-width:1280px) and (max-width:1400px) {
+      top: -98px;
+      right: 16px !important;
+    }
+  
+    @media only screen and (max-width: 600px) {
+      // top: -67px;
+      // right: 0px;
+      top: -64px;
+      right: 0px;
+    }
+  
+  
+  }
+
+}
+
 .for-radius {
   top: -101px;
   right: 16px;
