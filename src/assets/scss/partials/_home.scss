@@ -1269,7 +1269,7 @@ footer {
   .office-photo {
     border-radius: 48px !important;
     @media only screen and (max-width: 600px) {
-      border-radius: 25px !important;
+      border-radius: 26px !important;
     }
   }
 
@@ -1940,7 +1940,8 @@ footer {
       background-size: 100%;
       background-size: contain;
       z-index: 2;
-      bottom: 0px;
+      // bottom: 0px;
+      bottom: -1px;
     }
   }
 }

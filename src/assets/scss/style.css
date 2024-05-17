@@ -1928,7 +1928,7 @@ h2 span {
 
 .circle {
   height: 30px;
-  width: 30px;
+  width: 34px;
   border-radius: 50%;
   background: linear-gradient(90deg, #5f8ac7 -0.15%, #5f8ac7 14.85%, #78a293 42.85%, #99c152 81.85%, #a6ce39 99.85%);
 }
@@ -2885,8 +2885,19 @@ span {
   border-image-slice: 2 !important;
   border-bottom: 4px solid transparent !important;
 }
+@media only screen and (max-width: 600px) {
+  .TestMoinals_Container_dealer .events-carousel .card {
+    height: auto;
+    padding: 20px;
+  }
+}
 .TestMoinals_Container_dealer .events-carousel .card p {
   font-size: 18px;
+}
+@media only screen and (max-width: 600px) {
+  .TestMoinals_Container_dealer .events-carousel .card p {
+    font-size: 16px;
+  }
 }
 .TestMoinals_Container_dealer .events-carousel .card .testimonial-logo {
   width: 30px;
@@ -3086,8 +3097,10 @@ span {
 }
 @media only screen and (max-width: 600px) {
   #dealer-offer-includes .offer-includes .img-thumbnail {
-    width: 36px;
-    height: 36px;
+    /* width: 36px;
+    height: 36px; */
+    width: unset;
+    height: -webkit-fill-available;
   }
 }
 #dealer-offer-includes .offer-includes .dealer-icon {
@@ -3864,8 +3877,10 @@ span {
 }
 @media only screen and (max-width: 600px) {
   #contractmanager-page #key-responsibilities .keyresp .img-thumbnail {
-    width: 30px;
-    height: 32px;
+    width: unset;
+    height: -webkit-fill-available;
+    /* width: 30px;
+    height: 32px; */
   }
 }
 #contractmanager-page #key-responsibilities .keyresp h5 {

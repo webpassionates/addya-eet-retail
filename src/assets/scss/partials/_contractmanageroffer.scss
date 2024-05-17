@@ -164,9 +164,11 @@
                 width: 30px;
                 height: 32px;
                 @media only screen and (max-width: 600px) {
+                    width: unset;
+        height: -webkit-fill-available;
                     // border: 1px solid red;
-                    width: 30px;
-                    height: 32px;
+                    /* width: 30px;
+                    height: 32px; */
                 };  
             }
 
