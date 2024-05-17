@@ -2,6 +2,7 @@
 // For Dealer Page Testomonials
 
 $(document).ready(function() {
+    
   var owl = $(".events-carousel");
 
   owl.owlCarousel({
