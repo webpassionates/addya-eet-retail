@@ -4,6 +4,9 @@ html {
 body {
     margin: 0;
   }
+  .icon-input {
+    display: none;
+  }
   @import 'partials/ExploreCusomerOffer';
   @import 'partials/header';
   @import 'partials/home';
