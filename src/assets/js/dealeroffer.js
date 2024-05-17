@@ -1,45 +1,41 @@
-$(document).ready(function() {
-    var owl = $(".events-carousel");
 
-    owl.owlCarousel({
-      stagePadding: 125,
+// For Dealer Page Testomonials
+
+$(document).ready(function() {
+  var owl = $(".events-carousel");
+
+  owl.owlCarousel({
       loop: true,
       margin: 10,
       autoplay: true,
       dots: false,
-      /* responsiveClass: true, */
       responsive: {
-        0: {
-          items: 1
-        },
-        480: {
-          items: 1
-        },
-        600: {
-          items: 2
-        },
-        1000: {
-          items: 1
-        }
+          0: {
+              items: 1,
+              stagePadding: 0 
+          },
+          480: {
+              items: 1,
+              stagePadding: 0
+          },
+          600: {
+              items: 1, 
+              stagePadding: 50 
+          },
+          1000: {
+              items: 1,
+              stagePadding: 125 
+          }
       }
-    });
-
-    // Next button click event
-    $(".next-btn").click(function() {
-      owl.trigger('next.owl.carousel');
-    });
-
-    // Prev button click event
-    $(".prev-btn").click(function() {
-      owl.trigger('prev.owl.carousel');
-    });
   });
-  
-//accordian start//
-$(document).ready(function(){
-  $('.accordion__item input[type="checkbox"]').on('change', function(){
-      // Close all other accordions
-      $('.accordion__item input[type="checkbox"]').not(this).prop('checked', true);
+
+  // Next button 
+  $(".next-btn").click(function() {
+      owl.trigger('next.owl.carousel');
+  });
+
+  // Prev button
+  $(".prev-btn").click(function() {
+      owl.trigger('prev.owl.carousel');
   });
 });
-//accordian end//
