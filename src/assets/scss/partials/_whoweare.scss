@@ -369,12 +369,13 @@ span {
   .content-image {
     width: 94%;
     @media only screen and (max-width: 600px) {
-      width: 100%;
-      height: 275px;
-      object-fit: fill;
-      padding: 0px 15px;
-      
-      border-radius: 36px;
+       width: 100%;
+        height: 275px;
+        object-fit: cover;
+        background-position: center;
+        padding: 0 15px;
+        border-radius: 36px;
+        object-position: center top;
     }
   }
   .Explore_Cusomer_Offer_firstDiv {

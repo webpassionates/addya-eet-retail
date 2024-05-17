@@ -214,6 +214,9 @@
             p {
                 width: unset;
                 font-size: $fs-32;
+                @media only screen and (max-width: 600px) {
+                    font-size: $fs-20;
+                }
             }
 
             h5 {
