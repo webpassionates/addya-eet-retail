@@ -130,7 +130,7 @@ $(document).ready(function(){
     dots: false,
     arrows: true,
     fade: true,
-    infinite: true,
+    infinite: false,
     autoplay: true,
     autoplaySpeed: 8000,
     //asNavFor: '.slider-nav',
