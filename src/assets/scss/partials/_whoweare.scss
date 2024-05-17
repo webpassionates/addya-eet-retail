@@ -170,6 +170,10 @@ span {
         );
       }
 
+      @media only screen and (min-width:1280px) and (max-width:1400px){
+        height: 80vh;
+    }
+
       .content {
         left: 50%;
         @media only screen and (max-width: 600px) {
@@ -316,7 +320,7 @@ span {
 }
 
 .refinery-forecourt--section {
-  margin: 110px 0;
+  /* margin: 110px 0; */
   @media only screen and (max-width: 600px) {
     margin: 0;
     padding: 0px !important;
@@ -883,7 +887,7 @@ span {
         bottom: 23%;
         @media only screen and (min-width: 1280px) and (max-width: 1400px) {
           right: 10%;
-          bottom: 10%;
+          bottom: 35%;
         }
       }
     }

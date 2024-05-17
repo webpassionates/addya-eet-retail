@@ -1944,6 +1944,11 @@ span {
     background: linear-gradient(92.86deg, #5f8ac7 0%, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
   }
 }
+@media only screen and (min-width: 1280px) and (max-width: 1400px) {
+  #banner-section .banner .background-banner-img {
+    height: 80vh;
+  }
+}
 #banner-section .banner .background-banner-img .content {
   left: 50%;
 }
@@ -2081,7 +2086,7 @@ span {
 }
 
 .refinery-forecourt--section {
-  margin: 110px 0;
+  /* margin: 110px 0; */
 }
 @media only screen and (max-width: 600px) {
   .refinery-forecourt--section {
@@ -2455,7 +2460,7 @@ span {
 @media only screen and (min-width: 1360px) and (max-width: 1400px) and (min-width: 1280px) and (max-width: 1400px) {
   #banner-section .banner .background-banner-img .content {
     right: 10%;
-    bottom: 10%;
+    bottom: 35%;
   }
 }
 @media only screen and (min-width: 1360px) and (max-width: 1400px) {
@@ -3926,7 +3931,12 @@ span {
 }
 #contractmanager-page #key-carousel .keycarousel .owl-theme .owl-dots {
   text-align: left;
-  padding-left: 50px;
+  padding-left: 60px;
+}
+@media only screen and (min-width: 1280px) and (max-width: 1400px) {
+  #contractmanager-page #key-carousel .keycarousel .owl-theme .owl-dots {
+    margin-top: -30px;
+  }
 }
 @media only screen and (max-width: 600px) {
   #contractmanager-page #key-carousel .keycarousel .owl-theme .owl-dots {
@@ -5648,6 +5658,11 @@ span {
 @media only screen and (max-width: 600px) {
   .VisitUs_Today_Container .VisitUs_Today_DivOne .VisitUs_Today_firstDiv .VisitUs_Today_SubParent_div .VisitUs_Today_horizontal_line {
     width: 40%;
+  }
+}
+@media only screen and (min-width: 1280px) and (max-width: 1400px) {
+  .VisitUs_Today_Container .VisitUs_Today_DivOne .VisitUs_Today_firstDiv .VisitUs_Today_SubParent_div .VisitUs_Today_horizontal_line {
+    width: 30%;
   }
 }
 .VisitUs_Today_Container .VisitUs_Today_DivOne .VisitUs_Today_firstDiv .VisitUs_Today_SubParent_div p {
