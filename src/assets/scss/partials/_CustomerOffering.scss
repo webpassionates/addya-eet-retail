@@ -173,7 +173,7 @@
       margin: auto;
       background-repeat: no-repeat;
       background-size: cover;
-      margin-left: 10px;
+      
       border-radius: $border-radius-3;
   };
 
@@ -310,6 +310,10 @@
         rgba(153, 193, 82, 0.2) 82%,
         rgba(166, 206, 57, 0.2) 100%);
     border-radius: $border-radius-5;
+    @media only screen and (max-width: 600px) {
+      border-radius: 36px;
+      padding-bottom: 20px;
+    }
 
     .row-p-b {
       padding: 50px 165px 120px 0px;
@@ -354,8 +358,8 @@
     h2 {
       font-size: $fs-40;
       @media only screen and (max-width: 600px) {
-        font-size: 32px;
-        line-height: 41px;
+        font-size: 1.5rem;
+        line-height: 30px;
         padding-bottom: 0;
         margin-bottom: 0;
         padding-top: 0;
@@ -530,8 +534,11 @@
             font-size: 2.5rem;
             font-weight: 700;
             @media only screen and (min-width: 1024px) and (max-width: 1440px) {
-              font-size: 1.5rem;
+              font-size: 1.875rem;
               line-height: normal;
+            }
+            @media only screen and (max-width: 600px) {
+              font-size: 1.5rem;
             }
           }
         }

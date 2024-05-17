@@ -93,12 +93,14 @@
         .competetivereceive {
             background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%);
             border-radius: $border-radius-5;
-
+            @media only screen and (max-width: 600px) {
+                border-radius: 36px;
+            }
             .row-p-b {
                 padding: 120px 0px 120px 165px;
 
                 @media only screen and (max-width: 600px) {
-                    padding: 30px 20px 30px 20px;
+                    padding: 0 0 30px 0;
                 }
             }
 
@@ -116,6 +118,10 @@
             h1 {
                 font-size: $fs-28;
                 font-weight: 600;
+                @media only screen and (max-width: 600px) {
+                    font-size: 1.5rem;
+                    margin-left: 10px;
+                }
             }
 
             p {
@@ -157,6 +163,9 @@
                         height: 1.5px;
                         width: 57%;
                         margin-left: 20px;
+                        @media only screen and (max-width: 600px) {
+                            width: 7%;
+                        }
                     }
                 }
             }
