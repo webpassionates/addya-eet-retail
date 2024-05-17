@@ -93,11 +93,11 @@
                 padding-top: 35px;
                 padding-bottom: 35px;
                 width: 80%;
-                @media only screen and (min-width:1280px) and (max-width:1400px){
-                    // margin: 0 ;
-                    // padding-top: 0px;
-                    // padding-bottom: 10px;
+                @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+                    font-size: 3rem;
+                    line-height: normal;
                 }
+
                 @media only screen and (max-width: 600px) {
                     // border: 1px solid blue;
                     font-size: 1.875rem;

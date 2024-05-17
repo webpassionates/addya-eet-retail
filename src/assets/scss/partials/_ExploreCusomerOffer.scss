@@ -102,6 +102,10 @@
                     letter-spacing: -0.02em;
                     text-align: left;
                 };
+                @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+                    font-size: 3rem;
+                    line-height: normal;
+                  }
 
                 span {
                     background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);

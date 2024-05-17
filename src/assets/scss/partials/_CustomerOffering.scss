@@ -212,7 +212,12 @@
           padding: 0;
           padding-left: 10px;
           // margin: auto;
-      };
+        };
+
+        @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+          font-size: 2.5rem;
+          line-height: normal;
+        }
       }
 
       p {
@@ -518,8 +523,12 @@
           height: 444px;
 
           h1 {
-            font-size: 40px;
+            font-size: 2.5rem;
             font-weight: 700;
+            @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+              font-size: 1.5rem;
+              line-height: normal;
+            }
           }
         }
       }

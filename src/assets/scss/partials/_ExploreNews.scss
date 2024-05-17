@@ -68,14 +68,18 @@
     
       h1{
         //styleName: Heading/H1/Semibold/Desktop;
-        font-size: 40px;
+        font-size: 2.5rem;
         font-weight: 600;
         line-height: 48px;
         letter-spacing: -0.02em;
         text-align: left;
         @media only screen and (max-width: 600px) {
-          font-size: 30px;
+          font-size: 1.875rem;
           line-height: 36px;
+        }
+        @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+          font-size: 1.25rem;
+          line-height: normal;
         }
 
         span{

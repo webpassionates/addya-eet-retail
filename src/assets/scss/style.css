@@ -94,6 +94,12 @@ body {
     text-align: left;
   }
 }
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_Heading .Explore_Cusomer_Offer_SecondDiv h2 {
+    font-size: 3rem;
+    line-height: normal;
+  }
+}
 .Explore_Cusomer_Offer_Containar .Explore_Cusomer_Offer_Heading .Explore_Cusomer_Offer_SecondDiv h2 span {
   background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
   -webkit-background-clip: text;
@@ -397,11 +403,11 @@ body {
     height: 100%;
     top: 0;
     padding: 70px 40px 0 40px;
-    transform: translate(-117%, 0);
+    transform: translate(-113%, 0);
     transition: transform 0.5s;
   }
   .main-menu .navbar-nav.active {
-    transform: translate(-17%, 0);
+    transform: translate(-11.5%, 0);
   }
 }
 
@@ -459,11 +465,16 @@ body {
   color: #4B5563;
 }
 
+html {
+  font-size: 1em;
+}
+
 body {
   font-size: 16px;
   margin: 0;
   padding: 0;
   font-family: "Mulish";
+  overflow-x: hidden;
 }
 
 .mobile-only {
@@ -537,6 +548,18 @@ body {
   color: rgb(255, 255, 255);
   margin: 0;
   padding-bottom: 15px;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .container .topSection .banner .content-box h1 {
+    font-size: 3.25rem;
+    line-height: normal;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container .topSection .banner .content-box h1 {
+    font-size: 1.875rem;
+    line-height: 36px;
+  }
 }
 .container .topSection .banner .content-box p {
   font-size: 1.5rem;
@@ -955,9 +978,10 @@ body {
 }
 
 #top-header .topheader .navbar {
-  position: absolute;
+  position: fixed;
   z-index: 9999;
   width: 100%;
+  left: 0;
 }
 @media only screen and (min-width: 1280px) and (max-width: 1400px) {
   #top-header .topheader .navbar {
@@ -1050,7 +1074,7 @@ footer {
 footer #home-inviteContiner .InviteContiner {
   /* bottom: 6.5%; */
   height: 211px;
-  width: 81%;
+  width: 82%;
   bottom: 89%;
 }
 @media only screen and (max-width: 600px) {
@@ -1199,6 +1223,13 @@ footer #home-inviteContiner .InviteContiner {
     left: 6%;
   }
 }
+@media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  #hero-home-slider .hero-slider .text--holder {
+    top: 50%;
+    transform: translate(0px, -50%);
+    bottom: auto;
+  }
+}
 @media only screen and (max-width: 600px) {
   #hero-home-slider .hero-slider .text--holder {
     bottom: 30%;
@@ -1208,7 +1239,7 @@ footer #home-inviteContiner .InviteContiner {
 }
 #hero-home-slider .hero-slider .text--holder h1 {
   font-family: Mulish;
-  font-size: 72px;
+  font-size: 4.5em;
   line-height: 83px;
   font-weight: 700;
   letter-spacing: -0.02em;
@@ -1219,9 +1250,15 @@ footer #home-inviteContiner .InviteContiner {
     line-height: 75px;
   }
 }
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  #hero-home-slider .hero-slider .text--holder h1 {
+    font-size: 3.25rem;
+    line-height: normal;
+  }
+}
 @media only screen and (max-width: 600px) {
   #hero-home-slider .hero-slider .text--holder h1 {
-    font-size: 36px;
+    font-size: 2.25rem;
     line-height: 41px;
   }
 }
@@ -1763,6 +1800,22 @@ footer #home-inviteContiner .InviteContiner {
   }
 }
 
+.home--baner {
+  position: relative;
+}
+.home--baner:after {
+  position: absolute;
+  background: url(../images/curved-border.svg);
+  content: "";
+  width: 100%;
+  height: 134px;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 100%;
+  z-index: 2;
+  bottom: 0;
+}
+
 .fs-16 {
   font-size: 16px;
 }
@@ -2059,6 +2112,12 @@ span {
 .refinery-forecourt--section h2 {
   font-size: 60px;
 }
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .refinery-forecourt--section h2 {
+    font-size: 3rem;
+    line-height: normal;
+  }
+}
 
 .quality-fuels-and-security {
   margin: 120px 0;
@@ -2214,7 +2273,7 @@ span {
 }
 #footer .InviteContinerr {
   height: 211px;
-  width: 80%;
+  width: 82%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -2492,6 +2551,12 @@ span {
     padding-left: 10px;
   }
 }
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  #dealeroffer-banner .dealerofferbanner .banner-bg h2 {
+    font-size: 2.5rem;
+    line-height: normal;
+  }
+}
 #dealeroffer-banner .dealerofferbanner .banner-bg p {
   padding-left: 9%;
   font-size: 20px;
@@ -2570,6 +2635,12 @@ span {
     line-height: 41px;
     margin-bottom: 0;
     padding-bottom: 0;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  #dealer-offer .dealeroffer .dealer_Container_SecondDiv h2 {
+    font-size: 3rem;
+    line-height: normal;
   }
 }
 #dealer-offer .dealeroffer p {
@@ -3174,6 +3245,12 @@ span {
     padding-bottom: 0;
   }
 }
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  #newsroom-section .newsroom .newsroom_Container_SecondDiv h2 {
+    font-size: 3rem;
+    line-height: normal;
+  }
+}
 
 @media only screen and (max-width: 600px) {
   .tabclass-mobile {
@@ -3379,6 +3456,12 @@ span {
     margin-bottom: 10px;
     padding-bottom: 0;
     padding-top: 0;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  #speakus-page #lets-connect .letsconnect .lets_connect_SecondDiv h2 {
+    font-size: 3rem;
+    line-height: normal;
   }
 }
 #speakus-page #lets-connect .letsconnect .lets_connect_ThirdDiv .iconcontainer {
@@ -3988,6 +4071,12 @@ span {
     margin: 0;
     padding: 0;
     padding-left: 10px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg h2 {
+    font-size: 2rem;
+    line-height: normal;
   }
 }
 #leasingoffer-page #leasing-offer-banner .leasingofferbanner .banner-bg p {
@@ -4707,6 +4796,12 @@ span {
     padding-left: 10px;
   }
 }
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  #customer-offering-banner .dealerofferbanner .banner-bg h2 {
+    font-size: 2.5rem;
+    line-height: normal;
+  }
+}
 #customer-offering-banner .dealerofferbanner .banner-bg p {
   padding-left: 9%;
   font-size: 20px;
@@ -4915,8 +5010,14 @@ span {
   height: 444px;
 }
 #footer #visit-us-today-section .visit-us-today .background-color .row h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 700;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  #footer #visit-us-today-section .visit-us-today .background-color .row h1 {
+    font-size: 1.5rem;
+    line-height: normal;
+  }
 }
 #footer #visit-us-today-section .visit-us-today .curve-img {
   z-index: 999;
@@ -5088,7 +5189,7 @@ span {
   }
 }
 .Refinery_Container .Refinery_Container_SecondDiv h2 {
-  font-size: 60px;
+  font-size: 3.75rem;
   font-weight: 600;
   line-height: 69px;
   letter-spacing: -0.02em;
@@ -5104,6 +5205,12 @@ span {
     letter-spacing: -0.02em;
     text-align: left;
     margin-bottom: 0px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .Refinery_Container .Refinery_Container_SecondDiv h2 {
+    font-size: 3rem;
+    line-height: normal;
   }
 }
 .Refinery_Container .Refinery_Container_SecondDiv h2 span {
@@ -5291,7 +5398,7 @@ span {
   letter-spacing: -0.02em;
   text-align: left;
   color: #FFFFFF;
-  padding: 0px 130px;
+  padding: 0px 120px;
 }
 @media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_Heading h1 {
@@ -5302,9 +5409,15 @@ span {
     padding: 0px;
   }
 }
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .Loan_Agree_Main_Continer .Loan_Agree_Heading h1 {
+    font-size: 2.75rem;
+    line-height: normal;
+  }
+}
 .Loan_Agree_Main_Continer .Loan_Agree_DivSection {
   margin: auto;
-  width: 82%;
+  width: 84%;
 }
 @media only screen and (max-width: 600px) {
   .Loan_Agree_Main_Continer .Loan_Agree_DivSection {
@@ -5553,6 +5666,12 @@ span {
   padding-top: 35px;
   padding-bottom: 35px;
   width: 80%;
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .VisitUs_Today_Container .VisitUs_Today_DivOne .Refinery_Container_SecondDiv h2 {
+    font-size: 3rem;
+    line-height: normal;
+  }
 }
 @media only screen and (max-width: 600px) {
   .VisitUs_Today_Container .VisitUs_Today_DivOne .Refinery_Container_SecondDiv h2 {
@@ -5845,7 +5964,7 @@ span {
   }
 }
 .ExploreNews_Continer .ExploreNews_Button h1 {
-  font-size: 40px;
+  font-size: 2.5rem;
   font-weight: 600;
   line-height: 48px;
   letter-spacing: -0.02em;
@@ -5853,8 +5972,14 @@ span {
 }
 @media only screen and (max-width: 600px) {
   .ExploreNews_Continer .ExploreNews_Button h1 {
-    font-size: 30px;
+    font-size: 1.875rem;
     line-height: 36px;
+  }
+}
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+  .ExploreNews_Continer .ExploreNews_Button h1 {
+    font-size: 1.25rem;
+    line-height: normal;
   }
 }
 .ExploreNews_Continer .ExploreNews_Button h1 span {
@@ -6015,7 +6140,7 @@ span {
   color: #ffffff;
 }
 .footer_Continer .footer {
-  max-width: 80%;
+  max-width: 83%;
   margin: auto;
   display: flex;
   flex-wrap: wrap;
