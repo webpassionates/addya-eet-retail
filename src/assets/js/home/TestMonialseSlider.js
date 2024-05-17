@@ -10,11 +10,12 @@ $(document).ready(function() {
       });
   
     // Add event listeners for previous and next buttons
-    $('.next-btn').click(function() {
+    $('.next_btn').click(function() {
+      //alert("Hello")
       $('.carousel').flickity('next');
     });
   
-    $('.prev-btn').click(function() {
+    $('.prev_btn').click(function() {
       $('.carousel').flickity('previous');
     });
   });
