@@ -2560,7 +2560,6 @@ span {
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 10px;
     border-radius: 48px;
   }
 }
@@ -2684,8 +2683,8 @@ span {
 }
 @media only screen and (max-width: 600px) {
   #dealer-offer .dealeroffer .dealer_Container_SecondDiv h2 {
-    font-size: 32px;
-    line-height: 41px;
+    font-size: 1.5rem;
+    line-height: 30px;
     margin-bottom: 0;
     padding-bottom: 0;
   }
@@ -2709,6 +2708,13 @@ span {
   background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%) !important;
   margin-bottom: 50px;
   /* Styles for the carousel container */
+}
+@media only screen and (max-width: 600px) {
+  .TestMoinals_Container_dealer {
+    margin-left: 4px;
+    border-radius: 36px;
+    padding: 30px 0px 30px 0px;
+  }
 }
 @media only screen and (min-width: 1280px) and (max-width: 1400px) {
   .TestMoinals_Container_dealer {
@@ -2906,6 +2912,11 @@ span {
   background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
   border-radius: 64px;
 }
+@media only screen and (max-width: 600px) {
+  #dealer-offer-includes .offer-includes {
+    border-radius: 36px;
+  }
+}
 #dealer-offer-includes .offer-includes .Explore_Cusomer_Offer_firstDiv {
   width: 100%;
   display: flex;
@@ -3011,6 +3022,14 @@ span {
 #dealer-offer-includes .offer-includes .accordion input[type=checkbox]:checked ~ .accordion__arrow::after {
   transform: translateX(-2px) rotate(-45deg);
 }
+#dealer-offer-includes .offer-includes .accordion .accordion-body {
+  padding: 20px 0;
+}
+@media only screen and (max-width: 600px) {
+  #dealer-offer-includes .offer-includes .accordion .accordion-body .left-content .row {
+    flex-direction: column-reverse;
+  }
+}
 #dealer-offer-includes .offer-includes .accordion .accordion__content {
   position: relative;
   margin: 0;
@@ -3019,11 +3038,6 @@ span {
   transition: all 0.35s ease-in-out;
   line-height: 1.6;
   z-index: 2;
-}
-@media only screen and (max-width: 600px) {
-  #dealer-offer-includes .offer-includes .accordion .accordion__content .row {
-    flex-direction: column-reverse;
-  }
 }
 #dealer-offer-includes .offer-includes .accordion .accordion__content p {
   font-size: 18px;
@@ -3696,7 +3710,6 @@ span {
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 10px;
     border-radius: 48px;
   }
 }
@@ -3790,9 +3803,9 @@ span {
 }
 @media only screen and (max-width: 600px) {
   #contractmanager-page #dealer-offer h2 {
-    font-size: 32px;
+    font-size: 1.5rem;
     font-weight: 600;
-    line-height: 41px;
+    line-height: 30px;
     letter-spacing: -0.02em;
     text-align: left;
     padding-top: 20px;
@@ -3901,6 +3914,11 @@ span {
   background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
   border-radius: 64px;
 }
+@media only screen and (max-width: 600px) {
+  #contractmanager-page #key-carousel .keycarousel {
+    border-radius: 36px;
+  }
+}
 #contractmanager-page #key-carousel .keycarousel .slide-img {
   height: 500px;
   border-radius: 48px;
@@ -3912,6 +3930,7 @@ span {
     height: auto;
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 24px;
   }
 }
 #contractmanager-page #key-carousel .keycarousel h2 {
@@ -3933,6 +3952,7 @@ span {
   #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel {
     height: auto;
     margin-top: 20px;
+    border-radius: 24px;
   }
 }
 #contractmanager-page #key-carousel .keycarousel .key-benefits-carousel .item {
@@ -4160,12 +4180,17 @@ span {
   background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
   border-radius: 64px;
 }
+@media only screen and (max-width: 600px) {
+  #leasingoffer-page #competetive-receive .competetivereceive {
+    border-radius: 36px;
+  }
+}
 #leasingoffer-page #competetive-receive .competetivereceive .row-p-b {
   padding: 120px 0px 120px 165px;
 }
 @media only screen and (max-width: 600px) {
   #leasingoffer-page #competetive-receive .competetivereceive .row-p-b {
-    padding: 30px 20px 30px 20px;
+    padding: 0 0 30px 0;
   }
 }
 #leasingoffer-page #competetive-receive .competetivereceive h4 {
@@ -4181,6 +4206,12 @@ span {
 #leasingoffer-page #competetive-receive .competetivereceive h1 {
   font-size: 28px;
   font-weight: 600;
+}
+@media only screen and (max-width: 600px) {
+  #leasingoffer-page #competetive-receive .competetivereceive h1 {
+    font-size: 1.5rem;
+    margin-left: 10px;
+  }
 }
 #leasingoffer-page #competetive-receive .competetivereceive p {
   font-size: 18px;
@@ -4218,6 +4249,11 @@ span {
   height: 1.5px;
   width: 57%;
   margin-left: 20px;
+}
+@media only screen and (max-width: 600px) {
+  #leasingoffer-page #competetive-receive .competetivereceive .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv .Explore_Cusomer_Offer_horizontal_line {
+    width: 7%;
+  }
 }
 #leasingoffer-page #competetive-receive .competetivereceive .tab {
   cursor: pointer;
@@ -4816,7 +4852,6 @@ span {
     margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-left: 10px;
     border-radius: 48px;
   }
 }
@@ -4898,6 +4933,12 @@ span {
     }
   } */
 }
+@media only screen and (max-width: 600px) {
+  #enhancing-your-experience-section .enhancing-your-experience {
+    border-radius: 36px;
+    padding-bottom: 20px;
+  }
+}
 #enhancing-your-experience-section .enhancing-your-experience .row-p-b {
   padding: 50px 165px 120px 0px;
 }
@@ -4938,8 +4979,8 @@ span {
 }
 @media only screen and (max-width: 600px) {
   #enhancing-your-experience-section .enhancing-your-experience h2 {
-    font-size: 32px;
-    line-height: 41px;
+    font-size: 1.5rem;
+    line-height: 30px;
     padding-bottom: 0;
     margin-bottom: 0;
     padding-top: 0;
@@ -5082,8 +5123,13 @@ span {
 }
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
   #footer #visit-us-today-section .visit-us-today .background-color .row h1 {
-    font-size: 1.5rem;
+    font-size: 1.875rem;
     line-height: normal;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #footer #visit-us-today-section .visit-us-today .background-color .row h1 {
+    font-size: 1.5rem;
   }
 }
 #footer #visit-us-today-section .visit-us-today .curve-img {
