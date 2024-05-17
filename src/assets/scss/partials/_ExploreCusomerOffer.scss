@@ -199,35 +199,37 @@
                 // width: 100%;
                 // height: 75vh;
                 overflow: hidden;
-                border-radius: 35px;
+                border-radius: 40px;
+                border: none;
 
 
-                &::before {
-                    position: absolute;
-                    content: "";
-                    width: 100%;
-                    height: 100%;
-                    // background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
-                    // opacity: 0;
-                    z-index: 2;
-                }
+                // &::before {
+                //     border: 1px solid red;
+                //     position: absolute;
+                //     content: "";
+                //     width: 100%;
+                //     height: 100%;
+                //     // background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+                //     // opacity: 0;
+                //     z-index: 2;
+                // }
 
-                &::after {
-                    position: absolute;
-                    bottom: -2px;
-                    right: 0;
-                    content: "";
-                    width: 100%;
-                    height: 100%;
-                    background: url(../images/hero-clip.svg);
-                    background-repeat: no-repeat;
-                    background-position: bottom center;
-                    background-size: 100%;
-                    z-index: 2;
-                    @media only screen and (max-width: 600px) {
-                        background: none;
-                    };
-                }
+                // &::after {
+                //     position: absolute;
+                //     bottom: -2px;
+                //     right: 0;
+                //     content: "";
+                //     width: 100%;
+                //     height: 100%;
+                //     background: url(../images/hero-clip.svg);
+                //     background-repeat: no-repeat;
+                //     background-position: bottom center;
+                //     background-size: 100%;
+                //     z-index: 2;
+                //     @media only screen and (max-width: 600px) {
+                //         background: none;
+                //     };
+                // }
 
 
                 &-content {
@@ -235,7 +237,8 @@
                     width: 30%;
                     position: absolute;
                     top: 55%;
-                    height: 370px;
+                    // height: 370px;
+                    height: auto;
                     // width: 503px;
                     left: 23.5%;
                     transform: translate(-50%, -50%);
