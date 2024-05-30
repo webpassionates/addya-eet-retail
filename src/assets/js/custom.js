@@ -1,5 +1,4 @@
-
-let topHeight = $('.main-menu').outerHeight();
+var topHeight = $('.main-menu').outerHeight();
 $(".dummy-header").css('height', topHeight);
 
 $('.mobile-menu').on('click',function(){

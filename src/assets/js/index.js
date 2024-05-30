@@ -31,7 +31,7 @@ $(document).ready(function () {
 });
 
 
-
+/* 
 document.addEventListener('DOMContentLoaded', function () {
   const hamburgerBtn = document.querySelector('.hamburger-btn');
   const mediaSection = document.getElementById('media-section');
@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', function () {
   hamburgerBtn.addEventListener('click', function () {
     mediaSection.classList.toggle('open');
   });
-});
+}); */
 
 
 

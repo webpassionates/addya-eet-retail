@@ -1,4 +1,4 @@
-function changeTab(tabName) {
+/* function changeTab(tabName) {
     if($(window).width() < 481){
         return false;
     }
@@ -46,9 +46,10 @@ function addClickEventListenersToTabs() {
             clearInterval(autoplayInterval); // Stop autoplay when a tab is clicked
         });
     });
-}
+} */
 // Automatically switch tabs on page load
-window.onload = function () {
+//window.onload = function () {
+/* window.addEventListener("load", (event) => {
     // Show inner-para text for the active tab by default
     var activeTab = document.querySelector('.tab.active');
     var activeTabName = activeTab.id.replace("Tab", "");
@@ -63,4 +64,4 @@ window.onload = function () {
     }, 6000); // Change tabs every 3 seconds
     // Call function to add click event listeners to all tabs
     addClickEventListenersToTabs();
-};
+}); */

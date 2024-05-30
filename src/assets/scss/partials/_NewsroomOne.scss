@@ -187,6 +187,9 @@
 .tabcontent {
   display: none;
   border-top: none;
+  &.active {
+    display: block;
+  }
 }
 
 #newsroom {

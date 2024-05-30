@@ -13,5 +13,5 @@ function openCity(evt, cityName) {
 }
 
 document.addEventListener('DOMContentLoaded', function () {
-    document.querySelector('.tab button.active').click();
+    //document.querySelector('.tab button.active').trigger('click');
 });

@@ -3400,6 +3400,9 @@ span {
   display: none;
   border-top: none;
 }
+.tabcontent.active {
+  display: block;
+}
 
 @media only screen and (max-width: 600px) {
   #newsroom {
