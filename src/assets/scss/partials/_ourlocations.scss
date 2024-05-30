@@ -40,11 +40,12 @@
         h2 {
           padding-left: 12%;
           font-weight: 400;
+          border: 1px solid red;
         }
 
         p {
           padding-left: 12%;
-          font-size: 20px;
+          font-size: 10px;
         }
       }
     }
@@ -132,8 +133,8 @@
           line-height: 65px;
           padding-left: 2.5rem !important;
           @media only screen and (max-width: 600px) {
-            font-size: 32px;
-            line-height: 41px;
+            font-size: 1.5rem;
+            line-height: 30px;
             padding-bottom: 0;
             padding-left: 1.5rem !important;
             margin-top: 25px;
@@ -157,6 +158,7 @@
           border: 1px solid #D1D5DB;
           height: 52px;
           outline: none;
+          padding-left: 15px;
           @media only screen and (max-width: 600px) {
             margin-top: 10px;
             height: 45px;
@@ -165,10 +167,8 @@
 
         input::placeholder {
           font-size: $fs-16;
-          padding-left: 10px;
           @media only screen and (max-width: 600px) {
             font-size: 14px;
-            padding-left: 0px;
         };
         }
 
@@ -220,92 +220,127 @@
     }
   }
 
-  #maps-section {
-    .mapssection {
+#maps-section {
+  .mapssection {
       h6 {
-        font-size: $fs-16;
-        // color: $color-4;
-        font-weight: 400px;
-        @media only screen and (max-width: 600px) {
-          font-size: 14px;
-        };
+          font-size: 16px;
+          font-weight: 400;
+          @media only screen and (max-width: 600px) {
+              font-size: 14px;
+          }
       }
 
       h5 {
-        font-size: 20px;
-        font-weight: 600px;
-        @media only screen and (max-width: 600px) {
-          font-size: 16px;
-        };
+          font-size: 20px;
+          font-weight: 600;
+          @media only screen and (max-width: 600px) {
+              font-size: 16px;
+          }
       }
 
       p {
-        font-size: 16px;
-        font-weight: 500px;
-        color: #4B5563;
-        @media only screen and (max-width: 600px) {
-          font-size: 14px;
-        };
+          font-size: 16px;
+          font-weight: 500;
+          color: #4B5563;
+          @media only screen and (max-width: 600px) {
+              font-size: 14px;
+          }
       }
 
       .for-scroll {
-        height: 560px;
-        overflow-y: scroll;
-        overflow-x: hidden;
-        @media only screen and (max-width: 600px) {
-          width: 90%;
-          margin: auto;
-          height: 271px;
-          padding-top: 15px;
-        };
+          height: 560px;
+          overflow-y: scroll;
+          overflow-x: hidden;
+          @media only screen and (max-width: 600px) {
+              width: 90%;
+              margin: auto;
+              height: 271px;
+              padding-top: 15px;
+          }
       }
 
       /* width */
       ::-webkit-scrollbar {
-        width: 8px;
+          width: 8px;
 
-        /* Track */
-        &-track {
-          border-radius: 10px;
-        }
-
-        /* Handle */
-        &-thumb {
-          background: $color-5;
-          border-radius: 10px;
-
-          /* Handle on hover */
-          &:hover {
-            background: #b30000;
+          /* Track */
+          &-track {
+              border-radius: 10px;
           }
-        }
+
+          /* Handle */
+          &-thumb {
+              background: #ccc;
+              border-radius: 10px;
+
+              /* Handle on hover */
+              &:hover {
+                  background: #b30000;
+              }
+          }
       }
       .pumps-location {
-        padding-left: 170px;
-        @media only screen and (max-width: 600px) {
-          padding-left: 0px;
-        };
+          padding-left: 170px;
+          @media only screen and (max-width: 600px) {
+              padding-left: 0px;
+          }
       }
 
-      .our-loction-Map{
-            .iframe_location{
-              // border: 1px solid blue;
+      .our-loction-Map {
+          .iframe_location {
               width: 100%;
               height: 100%;
               border-top-left-radius: 35px;
               border-bottom-left-radius: 35px;
               @media only screen and (max-width: 600px) {
-                width: 100%;
-                margin: auto;
-                height: 271px;
-                border-radius: 20px;
-                margin-top: 30px;
-              };
-            }
+                  width: 100%;
+                  margin: auto;
+                  height: 350px;
+                  border-radius: 20px;
+                  margin-top: 30px;
+              }
+          }
       }
+      .Loaction-info-div {
+          // border: 1px solid black;
+          width: 98%;
+          margin: auto;
+          border-top: 1px solid rgba(209, 213, 219, 1);
+          border-bottom: 1px solid rgba(209, 213, 219, 1);
+          cursor: pointer;
+          padding-right: 15px;
+          @media only screen and (max-width: 600px) {
+            display: flex;
+            flex-wrap: nowrap;
+            align-items: center;
+            padding-right: 15px;
 
-    }
+        }
+
+          &.active {
+              border-radius: 40px;
+              background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%) ;
+          }
+
+          .hideArrowButton {
+              display: none;
+          }
+      }
+      .Loaction-info-div.active .hideArrowButton {
+          display: block;
+          width: 52px;
+          height:52px;
+          // padding: 16px 17px 16px 17px;
+          border-radius: 0px 20px 0px 20px;
+          background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+          img{
+            rotate: 180deg;
+            margin-top: 20px;
+          }
+      }
   }
+}
+
 
   @media only screen and (min-width: 1800px) and (min-height: 1169px) {
     #location-section {

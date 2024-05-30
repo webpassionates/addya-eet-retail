@@ -15,3 +15,14 @@ function openCity(evt, cityName) {
 document.addEventListener('DOMContentLoaded', function () {
     //document.querySelector('.tab button.active').trigger('click');
 });
+
+
+
+// Our Location Page swanimation code 
+
+$(document).ready(function () {
+    $('.Loaction-info-div').on('click', function () {
+        $('.Loaction-info-div').removeClass('active');
+        $(this).addClass('active');
+    });
+});
