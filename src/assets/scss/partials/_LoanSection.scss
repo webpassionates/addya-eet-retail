@@ -134,6 +134,10 @@
   
     .Loan-agree-wrapper {
       gap: 36px;
+      a {
+        text-decoration: none;
+        color: unset;
+      }
 
     }
 

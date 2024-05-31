@@ -4564,8 +4564,22 @@ span {
   margin-left: 1%;
   border-radius: 48px;
 }
+@media only screen and (max-width: 600px) {
+  #location-page #location-banner .locationbanner {
+    height: 157px;
+    background-size: cover;
+    background-position: center;
+    width: 90%;
+    margin: auto;
+  }
+}
 #location-page #location-banner .locationbanner .row-height {
   height: 300px;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #location-banner .locationbanner .row-height {
+    height: 157px;
+  }
 }
 #location-page #location-banner .locationbanner .banner-bg {
   background: rgb(129, 128, 130);
@@ -4579,10 +4593,11 @@ span {
 #location-page #location-banner .locationbanner .banner-bg h2 {
   padding-left: 12%;
   font-weight: 400;
+  border: 1px solid red;
 }
 #location-page #location-banner .locationbanner .banner-bg p {
   padding-left: 12%;
-  font-size: 20px;
+  font-size: 10px;
 }
 #location-page #location-curve .locationcurve .curve-img {
   margin-top: -186px;
@@ -4604,6 +4619,12 @@ span {
   align-items: flex-start;
   padding-top: 30px;
 }
+@media only screen and (max-width: 600px) {
+  #location-page #location-section .location .Explore_Cusomer_Offer_firstDiv {
+    width: 90%;
+    margin: auto;
+  }
+}
 #location-page #location-section .location .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv {
   width: 100%;
   display: flex;
@@ -4623,41 +4644,88 @@ span {
   -webkit-text-fill-color: transparent;
   margin-left: -20px;
 }
+@media only screen and (max-width: 600px) {
+  #location-page #location-section .location .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv p {
+    font-size: 12px;
+    line-height: 15px;
+  }
+}
 #location-page #location-section .location .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv .Explore_Cusomer_Offer_horizontal_line {
   background-color: #d1d5db;
   height: 1.5px;
   width: 85%;
   margin-left: 20px;
 }
+@media only screen and (max-width: 600px) {
+  #location-page #location-section .location .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv .Explore_Cusomer_Offer_horizontal_line {
+    width: 50%;
+    margin-left: 10px;
+  }
+}
 #location-page #location-section .location .newsroom_Container_SecondDiv h2 {
   font-size: 60px;
   line-height: 65px;
   padding-left: 2.5rem !important;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #location-section .location .newsroom_Container_SecondDiv h2 {
+    font-size: 1.5rem;
+    line-height: 30px;
+    padding-bottom: 0;
+    padding-left: 1.5rem !important;
+    margin-top: 25px;
+  }
 }
 #location-page #location-section .location .site-locator {
   background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0%, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
   border-radius: 15px;
   height: 84px;
 }
+@media only screen and (max-width: 600px) {
+  #location-page #location-section .location .site-locator {
+    width: 90%;
+    margin: auto;
+    height: 180px;
+    margin-top: 15px;
+  }
+}
 #location-page #location-section .location .site-locator input {
   border-radius: 10px;
   border: 1px solid #D1D5DB;
   height: 52px;
   outline: none;
+  padding-left: 15px;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #location-section .location .site-locator input {
+    margin-top: 10px;
+    height: 45px;
+  }
 }
 #location-page #location-section .location .site-locator input::-moz-placeholder {
   font-size: 16px;
-  padding-left: 10px;
 }
 #location-page #location-section .location .site-locator input::placeholder {
   font-size: 16px;
-  padding-left: 10px;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #location-section .location .site-locator input::-moz-placeholder {
+    font-size: 14px;
+  }
+  #location-page #location-section .location .site-locator input::placeholder {
+    font-size: 14px;
+  }
 }
 #location-page #location-section .location .site-locator i {
   right: 23px;
   top: 11px;
   font-size: 13px;
   color: #4B5563;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #location-section .location .site-locator i {
+    top: 18px;
+  }
 }
 #location-page #location-section .location .site-locator button {
   background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
@@ -4668,6 +4736,11 @@ span {
   height: 50px;
   width: 149px;
   font-weight: 600;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #location-section .location .site-locator button {
+    margin-top: 15px;
+  }
 }
 #location-page #location-section .location .site-locator button h6 {
   color: #fff;
@@ -4690,21 +4763,44 @@ span {
 }
 #location-page #maps-section .mapssection h6 {
   font-size: 16px;
-  font-weight: 400px;
+  font-weight: 400;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #maps-section .mapssection h6 {
+    font-size: 14px;
+  }
 }
 #location-page #maps-section .mapssection h5 {
   font-size: 20px;
-  font-weight: 600px;
+  font-weight: 600;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #maps-section .mapssection h5 {
+    font-size: 16px;
+  }
 }
 #location-page #maps-section .mapssection p {
   font-size: 16px;
-  font-weight: 500px;
+  font-weight: 500;
   color: #4B5563;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #maps-section .mapssection p {
+    font-size: 14px;
+  }
 }
 #location-page #maps-section .mapssection .for-scroll {
   height: 560px;
   overflow-y: scroll;
   overflow-x: hidden;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #maps-section .mapssection .for-scroll {
+    width: 90%;
+    margin: auto;
+    height: 271px;
+    padding-top: 15px;
+  }
 }
 #location-page #maps-section .mapssection ::-webkit-scrollbar {
   width: 8px;
@@ -4715,12 +4811,69 @@ span {
   border-radius: 10px;
 }
 #location-page #maps-section .mapssection ::-webkit-scrollbar-thumb {
-  background: #E5E7EB;
+  background: #ccc;
   border-radius: 10px;
   /* Handle on hover */
 }
 #location-page #maps-section .mapssection ::-webkit-scrollbar-thumb:hover {
   background: #b30000;
+}
+#location-page #maps-section .mapssection .pumps-location {
+  padding-left: 170px;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #maps-section .mapssection .pumps-location {
+    padding-left: 0px;
+  }
+}
+#location-page #maps-section .mapssection .our-loction-Map .iframe_location {
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 35px;
+  border-bottom-left-radius: 35px;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #maps-section .mapssection .our-loction-Map .iframe_location {
+    width: 100%;
+    margin: auto;
+    height: 350px;
+    border-radius: 20px;
+    margin-top: 30px;
+  }
+}
+#location-page #maps-section .mapssection .Loaction-info-div {
+  width: 98%;
+  margin: auto;
+  border-top: 1px solid rgb(209, 213, 219);
+  border-bottom: 1px solid rgb(209, 213, 219);
+  cursor: pointer;
+  padding-right: 15px;
+}
+@media only screen and (max-width: 600px) {
+  #location-page #maps-section .mapssection .Loaction-info-div {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    padding-right: 15px;
+  }
+}
+#location-page #maps-section .mapssection .Loaction-info-div.active {
+  border-radius: 40px;
+  background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
+}
+#location-page #maps-section .mapssection .Loaction-info-div .hideArrowButton {
+  display: none;
+}
+#location-page #maps-section .mapssection .Loaction-info-div.active .hideArrowButton {
+  display: block;
+  width: 52px;
+  height: 52px;
+  border-radius: 0px 20px 0px 20px;
+  background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+}
+#location-page #maps-section .mapssection .Loaction-info-div.active .hideArrowButton img {
+  rotate: 180deg;
+  margin-top: 20px;
 }
 @media only screen and (min-width: 1800px) and (min-height: 1169px) {
   #location-page #location-section .location .Explore_Cusomer_Offer_firstDiv {
@@ -5590,6 +5743,10 @@ span {
 }
 .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan-agree-wrapper {
   gap: 36px;
+}
+.Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan-agree-wrapper a {
+  text-decoration: none;
+  color: unset;
 }
 .Loan_Agree_Main_Continer .Loan_Agree_DivSection .Loan_Agree_box {
   height: 550px;
