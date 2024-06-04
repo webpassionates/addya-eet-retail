@@ -5,7 +5,17 @@ body {
     margin: 0;
   }
   .icon-input {
-    display: none;
+    //display: none;
+  }
+
+  article {
+    .entry-title {
+      a {
+        color: #000;
+        text-decoration: none;
+        font-size: 32px;
+      }
+    }
   }
   @import 'partials/ExploreCusomerOffer';
   @import 'partials/header';
