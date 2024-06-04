@@ -17,6 +17,7 @@ body {
       }
     }
   }
+  @import 'partials/error';
   @import 'partials/ExploreCusomerOffer';
   @import 'partials/header';
   @import 'partials/home';
@@ -36,4 +37,4 @@ body {
   @import 'partials/TestMoinals';
   @import 'partials/ExploreNews';
   @import 'partials/InviteSection';
-@import 'partials/footer';
+  @import 'partials/footer';
