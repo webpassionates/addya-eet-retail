@@ -1,5 +1,10 @@
 @import "variable";
 
+.page-template-news-template {
+  #footer {
+    /* margin-top: 200px; */
+  }
+}
 // Banner Section Start
 #essar-banner {
   .essarbanner {
@@ -186,7 +191,7 @@
 /* Style the tab content */
 .tabcontent {
   display: none;
-  border-top: none;
+  
   &.active {
     display: block;
   }

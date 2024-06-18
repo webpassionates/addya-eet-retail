@@ -2,6 +2,7 @@ var topHeight = $('.main-menu').outerHeight();
 $(".dummy-header").css('height', topHeight);
 
 $('.mobile-menu').on('click',function(){
+    alert("Hello");
     $(this).toggleClass('active');
     $('.navbar-nav').toggleClass('active');
     $('.navbar-toggler-icon').toggleClass('active');

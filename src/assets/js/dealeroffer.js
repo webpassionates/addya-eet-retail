@@ -10,6 +10,7 @@ $(document).ready(function() {
       margin: 10,
       autoplay: true,
       dots: false,
+      autoplayTimeout:8000,
       responsive: {
           0: {
               items: 1,

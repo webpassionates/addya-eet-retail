@@ -343,7 +343,7 @@
   .events-carousel {
     .card {
       border-radius: $border-radius-6;
-      height: 280px;
+      height: 300px;
       background: linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%);
       border-left: 0 !important;
       border-right: 0 !important;
@@ -402,12 +402,23 @@
       // width: 547px;
       z-index: 999;
       border-radius: $border-radius-4;
+      background: -webkit-linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%) !important;
+      border-left: 0 !important;
+      border-right: 0 !important;
+      border-top: 0 !important;
+      border-image: -webkit-linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
+      border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
+      -webkit-border-image-slice: 2 !important;
+      border-image-slice: 2 !important;
+      border-bottom: 4px solid transparent !important;
+      
 
       h4 {
         background: linear-gradient(90deg, #5f8ac7 -.15%, #5f8ac7 14.85%, #78a293 42.85%, #99c152 81.85%, #a6ce39 99.85%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         font-size: 32px;
+        font-weight: 700 !important;
       }
 
       p {

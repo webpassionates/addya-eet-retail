@@ -544,7 +544,7 @@ span {
     padding: 25px 70px;
     background: #fff;
     position: absolute;
-    bottom: 89%;
+    bottom: 85%;
     left: 50%;
     transform: translateX(-50%);
     z-index: 1;
@@ -647,6 +647,18 @@ span {
     @media only screen and (max-width: 600px) {
       flex-direction: column-reverse;
       padding-bottom: 0;
+    }
+
+    .content-p-wrapper {
+      p {
+        margin-left:4.5rem;
+        @media only screen and (max-width: 600px) {
+          margin-left: 0.5rem;
+        }
+        @media only screen and (min-width:1280px) and (max-width:1400px){
+          margin-left:4.5rem;
+        }
+      }
     }
   }
 }

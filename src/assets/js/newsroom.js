@@ -22,7 +22,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 $(document).ready(function () {
     $('.Loaction-info-div').on('click', function () {
+        console.log($(this).data('mapurl'));
+        var mapurl = $(this).data('mapurl');
         $('.Loaction-info-div').removeClass('active');
         $(this).addClass('active');
+        $('.iframe_location').attr('src', mapurl);
     });
 });

@@ -4,7 +4,7 @@ $(document).ready(function() {
     wrapAround: true, 
     pageDots: false,
     contain: true,
-    autoPlay: true, 
+    autoPlay: 7500, 
     prevNextButtons: false 
   });
 
@@ -12,7 +12,7 @@ $(document).ready(function() {
     wrapAround: true, 
     pageDots: false,
     contain: true,
-    autoPlay: true, 
+    autoPlay: 7500, 
     prevNextButtons: false 
   });
 

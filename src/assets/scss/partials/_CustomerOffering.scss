@@ -584,6 +584,19 @@
   }
 }
 
+.page-template-customer-offer-template {
+  footer{
+    margin-top: 550px;
+    .visit-footer {
+      position: absolute;
+      z-index: 999;
+      bottom: 98%;
+      //transform: translateY(100px);
+    }
+  }
+  
+}
+
 @media only screen and (min-width: 1800px) and (min-height: 1169px) {
   #dealer-offer .dealeroffer .Explore_Cusomer_Offer_firstDiv .Explore_Cusomer_Offer_SubParentDiv {
     padding: 0px 40px 0 20px !important;

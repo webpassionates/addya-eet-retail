@@ -1,5 +1,15 @@
 @import "variable";
+.page-template-contract-manager-offer-template {
+    .InviteContinerr {
+        .col-wrapper{
+            width: 100%;
 
+            .text-end {
+                text-align: end;
+            }
+        }
+    }
+}
 #contractmanager-page {
 
     #contract-manager-banner {

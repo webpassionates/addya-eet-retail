@@ -10,7 +10,7 @@ $(document).ready(function () {
     fade: true,
     infinite: true,
     autoplay: true,
-    autoplaySpeed: 3000,
+    autoplaySpeed: 10000,
     asNavFor: '.cust-slider-nav',
     accessibility: false,
   });
