@@ -16,6 +16,11 @@
         flex-direction: column;
         padding: 50px 0px 50px 0px;
     };
+    @media only screen and (min-width:768px) and (max-width:1024px){
+        // border: 1px solid red;
+        padding: 80px 0 80px 60px;
+        gap: 15px;
+    }
 
     .VisitUs_Today_DivOne{
         // border: 1px solid blue;
@@ -28,6 +33,12 @@
             height: auto;
             padding: 20px 20px;
         };
+        @media only screen and (min-width:768px) and (max-width:1024px){
+            // border: 1px solid red;
+            width: 50%;
+            height: auto;
+            padding: 0;
+        }
 
         .VisitUs_Today_firstDiv{
             // border: 1px solid blue;
@@ -39,6 +50,12 @@
             @media only screen and (min-width:1280px) and (max-width:1400px){
                 // border: 1px solid red;
             }
+            @media only screen and (min-width:768px) and (max-width:1024px){
+                // border: 1px solid red;
+                margin: 0;
+                padding: 0;
+            }
+    
     
             .VisitUs_Today_SubParent_div{
                 width: 100%;
@@ -58,6 +75,10 @@
                     };
                     @media only screen and (min-width:1280px) and (max-width:1400px){
                         width:30%;
+                    }
+                    @media only screen and (min-width:768px) and (max-width:1024px){
+                        // border: 1px solid red;
+                        width: 30%;
                     }
                 }
     
@@ -100,6 +121,14 @@
                     font-size: 3rem;
                     line-height: normal;
                 }
+                @media only screen and (min-width:768px) and (max-width:1024px){
+                    // border: 1px solid red;
+                    font-size: 2.475rem;
+                    line-height: 40.5px;
+                    padding: 15px 0px;
+                    margin: 0;
+                    width: 100%;
+                }
 
                 @media only screen and (max-width: 600px) {
                     // border: 1px solid blue;
@@ -132,12 +161,20 @@
                @media only screen and (max-width: 600px) {
                 // border: 1px solid blue;
                 font-size: 1rem;
-               font-weight: 500;
-               line-height: 24px;
-               letter-spacing: -0.01em;
-               margin-bottom: 0px;
-
-            };
+                font-weight: 500;
+                line-height: 24px;
+                letter-spacing: -0.01em;
+                margin-bottom: 0px;
+              };
+              
+              @media only screen and (min-width:768px) and (max-width:1024px){
+                // border: 1px solid red;
+                font-size: 1.125rem;
+                line-height: 25px;
+                margin: 0;
+                padding: 0;
+                }
+    
             }
     
     
@@ -190,6 +227,11 @@
             border-radius: 32px;  
             margin-top: 40px;     
         };
+        @media only screen and (min-width:768px) and (max-width:1024px){
+            // border: 1px solid red;
+                width: 70%;
+                text-align: end;
+            }
 
         svg{
             @media only screen and (max-width: 600px) {

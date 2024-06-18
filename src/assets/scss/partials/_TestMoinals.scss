@@ -11,6 +11,10 @@
         margin-top: 15px;
         // margin-bottom: 0px;
     }
+    @media only screen and (min-width:768px) and (max-width:1024px){
+        // border: 1px solid red;
+        padding: 70px 0 70px 0;
+    }
 
     .TestMoinals_firstDiv{
         width: 82%;
@@ -19,6 +23,12 @@
         flex-direction: row; // Added
         justify-content: flex-start;
         align-items: flex-start;
+        @media only screen and (min-width:768px) and (max-width:1024px){
+            // border: 1px solid red;
+            width: 100%;
+            padding: 0px 44px;
+        }
+    
 
         .TestMoinals_SubParent_div{
             width: 100%;
@@ -65,11 +75,14 @@
         width: 82%;
         margin: auto;
         margin-top: 18px;
+        @media only screen and (min-width:768px) and (max-width:1024px){
+            // border: 1px solid red;
+            width: 92%;
+        }
         @media only screen and (max-width: 600px) {
             display: block;
             margin-bottom: 20px;
           }
-    
         h1{
             font-size: 40px;
             font-weight: 600;
@@ -175,6 +188,11 @@
                 margin: 0 auto;
                 padding: 20px 32px;
               }
+              @media only screen and (min-width:768px) and (max-width:1024px){
+                // border: 1px solid red;
+                width: calc( 800px - #{$slide-gap * 2}); 
+                align-items: center;
+            }
             
             
             p{

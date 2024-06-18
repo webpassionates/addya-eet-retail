@@ -10,6 +10,11 @@
       padding: 48px 0px 250px 0px;
       width: 100%;
     }
+    @media only screen and (min-width:768px) and (max-width:1024px){
+      // border: 1px solid red;
+      width: 100%;
+      padding: 20px 0px 180px 0px;
+    }
 
     .ExploreNews_firstDiv{
         /* width: 100%; */
@@ -24,6 +29,10 @@
             display: flex;
             justify-content: center;
             align-items: center;
+            @media only screen and (min-width:768px) and (max-width:1024px){
+              // border: 1px solid red;
+              padding: 0px 44px;
+            }
 
             .ExploreNews_horizontal_line{
                 background-color: rgba(209, 213, 219, 1);
@@ -34,6 +43,10 @@
                   margin-left: 10px;
                   display: flex;
                   flex: auto;
+              }
+              @media only screen and (min-width:768px) and (max-width:1024px){
+                // border: 1px solid red;
+                width:  90%;
               }
             }
 
@@ -65,6 +78,10 @@
         // padding: 0 166px;
         @media only screen and (max-width: 600px) {
           display: block;
+        }
+        @media only screen and (min-width:768px) and (max-width:1024px){
+          // border: 1px solid red;
+          padding: 0px 44px;
         }
     
       h1{
@@ -144,13 +161,18 @@
         // margin-top: 25px;
         // position: relative; // Add position relative to the parent
         // width: 87%;
+        @media only screen and (min-width:768px) and (max-width:1024px){
+          // border: 1px solid red;
+          padding: 0px 44px;
+          gap: 15px;
+        }
         .ExploreNews_BoxOne {
-            // /* border: 1px solid red; */
             /* width: 350px; */
             position: relative; 
             @media only screen and (max-width: 600px) {
               margin-bottom: 40px; 
             }
+
     
             img {
                 width: 100%;
@@ -177,6 +199,15 @@
                   padding-top: 10px;
                   padding-left: 8px;
                   margin-bottom: 15px;
+                }
+                @media only screen and (min-width:768px) and (max-width:1024px){
+                  // border: 1px solid red;
+                  font-size: 16px;
+                  line-height: 20px;
+                  padding: 0;
+                  padding-left: 5px;
+                  padding-top: 5px;
+                  margin: auto;
                 }
             }
     
