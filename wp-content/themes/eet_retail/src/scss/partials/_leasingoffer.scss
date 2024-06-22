@@ -1,0 +1,545 @@
+@import "variable";
+
+#leasingoffer-page {
+
+    #leasing-offer-banner {
+        .leasingofferbanner {
+            background: url('../images/leasing-offer/banner.png');
+            height: 720px;
+            width: 98%;
+            background-repeat: no-repeat !important;
+            background-size: 100% !important;
+            margin-left: 1%;
+            border-radius: $border-radius-3;
+
+            @media only screen and (max-width: 600px) {
+                // border: 1px solid black;
+                height: 500px;
+                width: 96%;
+                margin: auto;
+                background-repeat: no-repeat !important;
+                background-size: cover !important;
+                
+                border-radius: $border-radius-3;
+            }
+
+            ;
+
+            .row-height {
+                height: 720px;
+                @media only screen and (max-width: 600px) {
+                    height: 500px;
+                };
+            }
+
+            .banner-bg {
+                backdrop-filter: blur(22px);
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                right: 0;
+                height: 170px;
+                border-bottom-left-radius: $border-radius-3;
+
+                @media only screen and (max-width: 600px) {
+                    // border: 1px solid black;
+                    height: auto;
+                    padding: 13px 10px;
+                    border-bottom-right-radius: 45px;
+                }
+
+                ;
+
+                h2 {
+                    padding-left: 9%;
+                    font-weight: 400;
+                    font-size: $fs-48;
+                    @media only screen and (max-width: 600px) {
+                        font-size: 24px;
+                        line-height: 30px;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 10px;
+                    };
+
+                    @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+                        font-size: 2rem;
+                        line-height: normal;
+                    }
+                }
+
+                p {
+                    padding-left: 9%;
+                    font-size: 20px;
+                    @media only screen and (max-width: 600px) {
+                        // border: 1px solid black;
+                        font-size: 16px;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 10px;
+                    };
+                }
+            }
+        }
+    }
+
+    #dealer-offer {
+        .Explore_Cusomer_Offer_SubParentDiv {
+            justify-content: left !important;
+        }
+    }
+
+    #competetive-receive {
+        .competetivereceive {
+            background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%);
+            border-radius: $border-radius-5;
+            @media only screen and (max-width: 600px) {
+                border-radius: 36px;
+            }
+            .row-p-b {
+                padding: 120px 0px 120px 165px;
+
+                @media only screen and (max-width: 600px) {
+                    padding: 0 0 30px 0;
+                }
+            }
+
+            h4 {
+                background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
+                color: $white;
+                width: 30px;
+                height: 30px;
+                border-radius: 30px;
+                text-align: center;
+                font-size: $fs-18;
+                line-height: 27px;
+            }
+
+            h1 {
+                font-size: $fs-28;
+                font-weight: 600;
+                @media only screen and (max-width: 600px) {
+                    font-size: 1.5rem;
+                    margin-left: 10px;
+                }
+            }
+
+            p {
+                font-size: $fs-18;
+            }
+
+            .inner-para {
+                padding-left: $fs-55;
+            }
+
+            .Explore_Cusomer_Offer_firstDiv {
+                width: 100%;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: flex-start;
+                padding-top: 30px;
+
+                .Explore_Cusomer_Offer_SubParentDiv {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+
+                    p {
+                        font-family: Mulish;
+                        font-size: 14px;
+                        font-weight: 700;
+                        line-height: 20px;
+                        letter-spacing: 2px;
+                        margin: 0;
+                        text-align: left;
+                        background: linear-gradient(90deg, #5f8ac7 -.15%, #5f8ac7 14.85%, #78a293 42.85%, #99c152 81.85%, #a6ce39 99.85%);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+
+                    .Explore_Cusomer_Offer_horizontal_line {
+                        background-color: #d1d5db;
+                        height: 1.5px;
+                        width: 57%;
+                        margin-left: 20px;
+                        @media only screen and (max-width: 600px) {
+                            width: 7%;
+                        }
+                    }
+                }
+            }
+
+            .tab {
+                cursor: pointer;
+                background-color: transparent;
+                padding: 10px;
+                transition: background-color 0.3s ease;
+                border-bottom: 1px solid $color-3;
+
+                .inner-para {
+                    display: none;
+                    /* Hide by default */
+                }
+
+                .tab.active .inner-para {
+                    display: block;
+                    /* Show when parent tab is active */
+                }
+                
+                &.active {
+                    background-color: $white;
+                    width: 110%;
+                    position: relative;
+                    background-color: $white;
+                    border-radius: 24px;
+                    text-align: left;
+                    z-index: 100;
+                    // border-image: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
+                    // border-image-slice: 2;
+                    // border-left: 4px solid transparent;
+                    border-left: 4px solid #5f8ac7;
+                    border-bottom: 0;
+
+                    @media only screen and (max-width: 600px) {
+                        width: 100%;
+                        margin-bottom: 30px;
+                    }
+
+                    img {
+                        @media only screen and (max-width: 600px) {
+                            border-radius: 24px;
+                            margin-bottom: 30px;
+                        }
+
+                    }
+                }
+            }
+
+            // Style for tab content
+            .tabcontent {
+                display: none;
+                transition: opacity 0.3s ease;
+
+                &.active {
+                    display: block;
+                    opacity: 1;
+                }
+            }
+        }
+    }
+
+    #footer {
+        @media only screen and (max-width: 600px) {
+            margin-top: 340px;
+        }
+    }
+}
+
+.text-end {
+    @media only screen and (max-width: 600px) {
+        text-align: left !important;
+        margin-top: 10px;
+    }
+}
+
+.InviteContinerr {
+    // bottom: 80.5% !important;
+    // display: flex;
+    // align-items: center;
+    // background: linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%) !important;
+    // border-left: 0 !important;
+    // border-right: 0 !important;
+    // border-top: 0 !important;
+    // border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
+    // border-image-slice: 2 !important;
+    // border-bottom: 4px solid transparent !important;
+    /* Use vendor prefixes for gradient and flexbox */
+    bottom: 80.5%;
+    display: -webkit-box;
+    /* Safari, iOS Safari */
+    display: -moz-box;
+    /* Firefox (old) */
+    display: -ms-flexbox;
+    /* IE 10 */
+    display: -webkit-flex;
+    /* Chrome, Safari, Android, iOS Safari */
+    display: flex;
+    /* Standard */
+    -webkit-box-align: center;
+    /* Safari, iOS Safari */
+    -moz-box-align: center;
+    /* Firefox (old) */
+    -ms-flex-align: center;
+    /* IE 10 */
+    -webkit-align-items: center;
+    /* Chrome, Safari, Android, iOS Safari */
+    align-items: center;
+    /* Standard */
+    background: -webkit-linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%) !important;
+    border-left: 0 !important;
+    border-right: 0 !important;
+    border-top: 0 !important;
+    border-image: -webkit-linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
+    border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
+    -webkit-border-image-slice: 2 !important;
+    border-image-slice: 2 !important;
+    border-bottom: 4px solid transparent !important;
+}
+
+.InviteContinerr::after {
+    background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%) !important;
+}
+
+/* #dealer-offer {
+    .dealeroffer {
+        .dealer_Container_SecondDiv {
+            h2 {
+                line-height: 69px;
+            }
+        }
+    }
+} */
+
+@media only screen and (min-width: 1800px) and (min-height: 1169px) {
+    #dealer-offer {
+        .dealeroffer {
+            .Explore_Cusomer_Offer_firstDiv {
+                padding-left: 13px;
+            }
+
+            h2 {
+                padding-left: 25px !important;
+            }
+        }
+    }
+
+    #competetive-receive {
+        .competetivereceive {
+            .eighteen-div {
+                padding-left: 30px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width : 1440px) and (max-width : 1900px) {
+    #from-refinery-to-forecourt-section {
+        .from-refinery-to-forecourt {
+            .Explore_Cusomer_Offer_SubParentDiv {
+                .Explore_Cusomer_Offer_horizontal_line {
+                    width: 73%;
+                }
+            }
+
+            .Refinery_Container_SecondDiv {
+                h2 {
+                    padding-left: 0px !important;
+                }
+            }
+        }
+    }
+
+    #dealer-offer {
+        .dealeroffer {
+            .Explore_Cusomer_Offer_firstDiv {
+                .Explore_Cusomer_Offer_SubParentDiv {
+                    margin-left: 1.9rem !important;
+                }
+            }
+
+            .dealer_Container_SecondDiv {
+                margin-left: unset !important;
+            }
+
+            .lease-col {
+                padding-left: 5px;
+            }
+        }
+    }
+
+    #competetive-receive {
+        .competetivereceive {
+            .eighteen-div {
+                margin-left: 0rem !important;
+                padding-left: 0rem !important;
+            }
+
+            .row-p-b {
+                padding: 120px 0 120px 160px;
+            }
+        }
+    }
+
+    #competetive-receive {
+        .competetivereceive {
+            .Explore_Cusomer_Offer_firstDiv {
+                .Explore_Cusomer_Offer_SubParentDiv {
+                    .Explore_Cusomer_Offer_horizontal_line {
+                        width: 54% !important;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width : 1360px) and (max-width : 1400px) {
+    #dealer-offer {
+        .exp-leas-offer {
+            .Explore_Cusomer_Offer_horizontal_line {
+                width: 74% !important;
+            }
+
+            .Explore_Cusomer_Offer_SubParentDiv {
+                margin-left: 2rem !important;
+            }
+
+            .dealer_Container_SecondDiv {
+                margin-left: unset !important;
+            }
+        }
+    }
+
+    #competetive-receive {
+        .competetivereceive {
+            .Explore_Cusomer_Offer_firstDiv {
+                .Explore_Cusomer_Offer_SubParentDiv {
+                    .Explore_Cusomer_Offer_horizontal_line {
+                        width: 48% !important;
+                    }
+                }
+            }
+
+            .row-p-b {
+                padding: 120px 0 120px 120px !important;
+            }
+        }
+    }
+}
+
+
+
+.content-feature-slider {}
+
+.slider-navtab {
+    // overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    transform: translate(0, 10%);
+    z-index: 1;
+
+    .cust-slider-nav {
+        z-index: 9;
+
+        .slick-track {
+            transform: translate3d(0px, 0px, 0px) !important;
+        }
+    }
+
+    .slick-list {
+        overflow: unset;
+    }
+}
+
+.slick-slide {
+    &.slick-current {
+        .slider-tab {
+            background-color: #fff;
+            width: 110%;
+            position: relative;
+            background-color: #fff;
+            border-radius: 24px;
+            text-align: left;
+            z-index: 100;
+            border-left: 4px solid #5f8ac7;
+            border-bottom: 0;
+            animation: topBottom 1s ease 0s 1 normal forwards;
+            h1 {
+                &.title {
+                    animation: bottomTop 1.3s ease-in 0s 1 normal forwards;
+                }
+            }
+
+            .inner-para {
+                display: block !important;
+                animation: bottomTop 1.5s ease-in 0s 1 normal forwards;
+            }
+        }
+
+    }
+
+    &.slick-active {}
+}
+
+.slider-tab {
+    cursor: pointer;
+    background-color: transparent;
+    padding: 32px 100px 32px 32px;
+    transition: background-color 1s all;
+    border-bottom: 1px solid #d1d5db;
+    width: 100%;
+
+    h1 {
+        font-size: 28px;
+        font-weight: 600;
+        padding-left: 7px;
+        // @media only screen and (max-width: 600px) {
+        //     font-size: 20px;
+        // }
+    }
+
+    h4 {
+        background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
+        color: $white;
+        width: 30px;
+        height: 30px;
+        border-radius: 30px;
+        text-align: center;
+        font-size: $fs-18;
+        line-height: 27px;
+    }
+
+    .inner-para {
+        padding-left: 55px;
+        font-size: 18px;
+        display: none;
+    }
+
+    &.active {
+        background-color: #fff;
+        width: 110%;
+        position: relative;
+        background-color: #fff;
+        border-radius: 24px;
+        text-align: left;
+        z-index: 100;
+        border-left: 4px solid #5f8ac7;
+        border-bottom: 0;
+    }
+}
+@keyframes bottomTop {
+	0% {
+		opacity: 0;
+		transform: translateY(50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+@keyframes topBottom {
+	0% {
+		opacity: 0;
+		transform: translateY(-50px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}

@@ -1,0 +1,205 @@
+.TestMoinals_Container{
+    // border: 1px solid red;
+    width: 100%;
+    height: auto;
+    padding: 120px 0 100px 0;
+    border-radius: 64px ;
+    background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0%, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
+    // margin-bottom: 50px;
+    @media only screen and (max-width: 600px) {
+        padding: 48px 0px 0px 0px;
+        margin-top: 15px;
+        // margin-bottom: 0px;
+    }
+
+    .TestMoinals_firstDiv{
+        width: 82%;
+        margin: auto;
+        display: flex;
+        flex-direction: row; // Added
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        .TestMoinals_SubParent_div{
+            width: 100%;
+            // border: 1px solid red;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .TestMoinals_horizontal_line{
+                background-color: rgba(209, 213, 219, 1);
+                height: 1.5px;
+                width: 100%;
+                margin-left: 20px;
+                
+                @media only screen and (min-width:1280px) and (max-width:1400px){
+                    margin-left: 10px;
+                    display: flex;
+                    flex: auto;
+                }
+            }
+
+            p{
+                // font-family: Mulish;
+                font-size: 0.875rem;
+                font-weight: 700;
+                line-height: 20px;
+                letter-spacing: 2px;
+                text-align: left;
+                background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                text-transform: uppercase;
+                margin: auto;
+            }
+    
+        }
+    }
+     
+    .NexTAndPrev_Button{
+        // border: 1px solid red;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 82%;
+        margin: auto;
+        margin-top: 18px;
+        @media only screen and (max-width: 600px) {
+            display: block;
+            margin-bottom: 20px;
+          }
+    
+        h1{
+            font-size: 40px;
+            font-weight: 600;
+            line-height: 48px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            @media only screen and (max-width: 600px) {
+                font-size: 1.5rem;
+                line-height: 36px;
+              }
+    
+            span{
+                background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+          }
+        .NextAndPrevBtns{
+            // border: 1px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            @media only screen and (max-width: 600px) {
+                justify-content: left;
+                gap: 5px;
+            }
+
+            .PrevBtn {
+                position: relative;
+                background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                padding: 16px 22.5px 16px 22.5px;
+                margin: 5px;
+                display: inline-block;
+                font-size: 1rem;
+                font-weight: 600;
+                border: none;
+                cursor: pointer;
+
+                @media only screen and (max-width: 600px) {
+                    padding: 13.54px 20px 13.54px 20px;
+                }
+        
+                &::before {
+                    content: "";
+                    position: absolute;
+                    inset: 0;
+                    border-radius: 0 20px 0 20px;
+                    padding: 2px; /* control the border thickness */
+                    background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+                    -webkit-mask: 
+                      linear-gradient(#fff 0 0) content-box, 
+                      linear-gradient(#fff 0 0);
+                    -webkit-mask-composite: xor;
+                            mask-composite: exclude;
+                    pointer-events: none;
+                    
+                  }
+              }
+        }
+        
+    }
+
+
+        /* Styles for the carousel container */
+    .carousel {
+        width: 100%; /* Ensure full width */
+        height: auto;
+        padding-top: 3%;
+        // $carousel-background: #f2f2f2;
+        $slide-background: #ffffff;
+        $slide-border: 1px solid #dddddd;
+        $slide-gap: 20px;
+        $slide-height: 322px;
+        $slide-padding: 20px; 
+        $slide-border-radius: 25px;
+        // $border-image: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+        // $border-image-slice: 2;
+        // $border-bottom: 4px solid transparent;
+
+
+        // .carousel {
+        //     background-color: $carousel-background;
+        //     // Add any other styles you need
+        //   }
+
+        .slide {
+            background-color: $slide-background;
+            border: $slide-border;
+            width: calc(1110px - #{$slide-gap * 2}); 
+            height: $slide-height;
+            margin: 0 $slide-gap; 
+            padding: $slide-padding; 
+            border-radius: $slide-border-radius;  
+            // border-image: $border-image;
+            // border-image-slice:  $border-image-slice;
+            // border-bottom: $border-bottom;
+            @media only screen and (max-width: 600px) {
+                width: 90%;
+                border-radius: 24px;
+                margin: 0 auto;
+                padding: 20px 32px;
+              }
+            
+            
+            p{
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                letter-spacing: -0.01em;
+                text-align: left;
+            }
+
+            .TestMoinals_Slide_Headig{
+                // border: 1px solid red;
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                margin-top: 100px;
+            
+            }
+        }
+    }
+    
+    .flickity-prev-next-button.previous {
+        display: none;
+    }
+    .flickity-prev-next-button.next {
+        display: none;
+    }
+}

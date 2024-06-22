@@ -1,0 +1,68 @@
+html {
+  font-size: 16px;
+}
+body {
+    margin: 0;
+  }
+  .icon-input {
+    //display: none;
+  }
+
+  article {
+    .entry-title {
+      a {
+        color: #000;
+        text-decoration: none;
+        font-size: 32px;
+      }
+    }
+  }
+
+  .who-we-are-empty-div {
+    height: 50px;
+    @media only screen and (max-width: 600px) {
+      height: 270px;
+    }
+  }
+  
+  .empty-div-leasing-offer {
+    height: 200px;
+    @media only screen and (max-width: 600px) {
+      height: 270px;
+    }
+  }
+  
+  .empty-div-contract-manager {
+    height: 200px;
+    @media only screen and (max-width: 600px) {
+      height: 290px;
+    }
+  }
+  
+  .empty-div-speak-to-us {
+    height: 100px;
+    @media only screen and (max-width: 600px) {
+      height: 190px;
+    }
+  }
+  @import 'partials/ExploreCusomerOffer';
+  @import 'partials/header';
+  @import 'partials/home';
+  @import 'partials/whoweare';
+  @import 'partials/dealeroffer';
+  @import 'partials/NewsroomOne';
+  @import 'partials/SpeakToUs';
+  @import 'partials/contractmanageroffer';
+  @import 'partials/leasingoffer';
+  @import 'partials/ourlocations';
+  @import 'partials/CustomerOffering';
+  @import 'partials/variable';
+  @import 'partials/Refienry';
+  @import 'partials/SliderSection';
+  @import 'partials/LoanSection';
+  @import 'partials/VisitUsToday';
+  @import 'partials/TestMoinals';
+  @import 'partials/ExploreNews';
+  @import 'partials/InviteSection';
+@import 'partials/footer';
+@import 'partials/error';

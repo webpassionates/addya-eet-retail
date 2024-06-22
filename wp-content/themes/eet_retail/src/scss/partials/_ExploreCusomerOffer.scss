@@ -1,0 +1,416 @@
+.Explore_Cusomer_Offer_Containar {
+    width: 98.5%;
+    height: auto;
+    margin: auto;
+    @media only screen and (max-width: 600px) {
+        // border: 1px solid red;
+        width: 90%;
+        height: auto;
+        margin: auto;
+    };
+
+    .Explore_Cusomer_Offer_Heading {
+        // border: 1px solid blue;
+        /* padding: 0 130px; */
+        width: 82%;
+        margin: auto;
+        @media only screen and (max-width: 600px) {
+            // border: 1px solid black;
+            width: 100%;
+        };
+
+
+        .Explore_Cusomer_Offer_firstDiv {
+            // border: 1px solid red;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-start;
+            align-items: flex-start;
+            // padding-top: 30px;
+            @media only screen and (max-width: 600px) {
+                // border: 1px solid black;
+            };
+    
+
+
+            .Explore_Cusomer_Offer_SubParentDiv {
+                // width: 100%;
+                // border: 1px solid red;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                // margin-top: 60px;
+                @media only screen and (max-width: 600px) {
+                    // border: 1px solid black;
+                };
+
+                .Explore_Cusomer_Offer_horizontal_line {
+                    background-color: #D1D5DB;
+                    height: 1.5px;
+                    margin-left: 20px;
+                    display: flex;
+                    flex: auto;
+                    @media only screen and (min-width:1280px) and (max-width:1400px){
+                        margin-left: 10px;
+                    }
+                    @media only screen and (max-width: 600px) {
+                        // border: 1px solid blue;
+                        width: 20%;
+                        margin-left: 10px;
+                    };
+                    
+                    @media only screen and (max-width: 400px) {
+                        // border: 1px solid blue;
+                        width: 10%;
+                        margin-left: 10px;
+                    };
+                }
+
+                p {
+                    // font-family: Mulish;
+                    font-size: 0.875rem;
+                    font-weight: 700;
+                    line-height: 20px;
+                    letter-spacing: 2px;
+                    text-align: left;
+                    background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                    @media only screen and (max-width: 600px) {
+                        // border: 1px solid blue;
+                        font-size: 0.75rem;
+                        line-height: 18px;
+                    };
+                }
+
+            }
+
+
+
+        }
+
+        .Explore_Cusomer_Offer_SecondDiv {
+            // border: 1px solid blue;
+            width: 100%;
+
+            h2 {
+                font-size: 3.75rem;
+                font-weight: 600;
+                line-height: 69px;
+                letter-spacing: -0.02em;
+                text-align: left;
+                @media only screen and (max-width: 600px) {
+                    // border: 1px solid blue;
+                    font-size: 1.875rem;
+                    font-weight: 600;
+                    line-height: 34.5px;
+                    letter-spacing: -0.02em;
+                    text-align: left;
+                };
+                @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+                    font-size: 3rem;
+                    line-height: normal;
+                  }
+
+                span {
+                    background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+
+            p {
+                font-size: 18px;
+                font-weight: 500;
+                line-height: 28px;
+                letter-spacing: -0.01em;
+                text-align: left;
+                color: #4B5563;
+            }
+        }
+
+        .Explore_Cusomer_Offer_Button {
+            // border: 1px solid blue;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            gap: 20px;
+
+            button {
+                width: 125px;
+                height: 50px;
+                border-radius: 50px;
+                background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0%, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
+                font-size: 1rem;
+                font-weight: 700;
+                line-height: 24px;
+                letter-spacing: -0.01em;
+                text-align: center;
+                border: none;
+                outline: none;
+                color: rgba(75, 85, 99, 1);
+                @media only screen and (max-width: 600px) {
+                    // border: 1px solid blue;
+                    font-size: 0.875rem;
+                    line-height: 20px;
+                };
+            }
+        }
+
+
+    }
+
+    // slider            
+    .Explore_Cusomer_Offer_ThirdDiv {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+
+        .slider {
+            // border: 1px solid black;
+            width: 100%;
+            margin: 0 auto;
+            border-radius: 35px;
+
+            .slick-slide {
+                // border: 1px solid;
+                height: 568px;
+                border-radius: 35px;
+            }
+
+            .essar-slide {
+                background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0%, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%),
+   url('../images/essar.png') no-repeat 100%;
+   background-size: cover;
+            }
+            .convenience-slide {
+                background: linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0%, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%),
+   url('../images/conveniance.png') no-repeat 100%;
+   background-size: cover;
+            }
+            .slide {
+                // border: 1px solid red;
+                width: 100%;
+                height: 568px;
+                position: relative;
+                background-position: center;
+                // width: 100%;
+                // height: 75vh;
+                overflow: hidden;
+                border-radius: 40px;
+                border: none;
+
+
+                // &::before {
+                //     border: 1px solid red;
+                //     position: absolute;
+                //     content: "";
+                //     width: 100%;
+                //     height: 100%;
+                //     // background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+                //     // opacity: 0;
+                //     z-index: 2;
+                // }
+
+                // &::after {
+                //     position: absolute;
+                //     bottom: -2px;
+                //     right: 0;
+                //     content: "";
+                //     width: 100%;
+                //     height: 100%;
+                //     background: url(../images/hero-clip.svg);
+                //     background-repeat: no-repeat;
+                //     background-position: bottom center;
+                //     background-size: 100%;
+                //     z-index: 2;
+                //     @media only screen and (max-width: 600px) {
+                //         background: none;
+                //     };
+                // }
+
+
+                &-content {
+                    // border: 1px solid blue;
+                    width: 30%;
+                    position: absolute;
+                    top: 55%;
+                    // height: 370px;
+                    height: auto;
+                    // width: 503px;
+                    left: 23.5%;
+                    transform: translate(-50%, -50%);
+                    text-align: center;
+                    color: white;
+                    background: linear-gradient(0deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)),
+                        linear-gradient(92.86deg, rgba(95, 138, 199, 0.2) 0%, rgba(95, 138, 199, 0.2) 17.53%, rgba(120, 162, 147, 0.2) 48.78%, rgba(153, 193, 82, 0.2) 82%, rgba(166, 206, 57, 0.2) 100%);
+                    backdrop-filter: blur(26px);
+                    padding: 20px 45px;
+                    border-radius: 35px;
+                    text-align: left;
+                    // background-color: white;
+                    z-index: 100;
+                    border-image: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+                    border-image-slice: 2;
+                    border-bottom: 4px solid transparent;
+                    transition: transform 1s ease, opacity 1s ease;
+
+                    @media only screen and (max-width: 600px) {
+                        // border: 1px solid blue;
+                        width: 90%;
+                        height: auto;
+                        position: absolute;
+                        top: 64%;
+                        left: 50%;
+                    };
+                    
+                    @media only screen and (max-width: 400px) {
+                        // border: 1px solid blue;
+                        width: 90%;
+                        height: auto;
+                        position: absolute;
+                        top: 64%;
+                        left: 40%;
+                    };
+                
+                    
+
+                    h2 {
+                        font-size: 2.5rem;
+                        font-weight: 600;
+                        line-height: 48px;
+                        letter-spacing: -0.02em;
+                        text-align: left;
+                        margin: 0;
+                        @media only screen and (max-width: 600px) {
+                            // border: 1px solid blue;
+                            font-size: 1.75rem;
+                            line-height: 36px;
+                        };
+                    }
+
+                    p {
+                        font-size: 1.125rem;
+                        font-weight: 500;
+                        line-height: 28px;
+                        letter-spacing: -0.01em;
+                        text-align: left;
+                        margin: 0;
+                        @media only screen and (min-width:1280px) and (max-width:1400px){
+                            // border: 1px solid red;
+                            line-height: 22px;
+                        }
+                        @media only screen and (max-width: 600px) {
+                            // border: 1px solid blue;
+                            font-size: 1rem;
+                            line-height: 20px;
+                        };
+                    }
+
+                    .convinaceButton{
+                        margin-top: 15px;
+                    }
+
+                    // button{
+                    //     font-size: 16px;
+                    //     font-weight: 600;
+                    //     line-height: 24px;
+                    //     letter-spacing: -0.02em;
+                    //     text-align: left;
+                    //     background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+                    //     padding: 16px 22.5px 16px 22.5px;
+                    //     gap: 6px;
+                    //     border-radius: 0px 20px 0px 20px;
+                    //     color: #F3F4F6;
+                    //     outline: none;
+                    //     border: none;
+                    //     margin-top: 25px;
+                    //     display: flex;
+                    //     align-items: center;
+                    //     gap: 20px;
+
+                    //     svg {
+                    //         display: none; 
+                    //       }
+
+                    //       &:hover { 
+                    //         svg {
+                    //           display: block; 
+                    //           padding-top: 2px;
+                    //         }
+                    //       }
+                    // }
+                }
+                
+
+            }
+        }
+
+    }
+}
+
+.test{
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 80%;
+    left: 0;
+    bottom: 0;
+    background: linear-gradient(0deg, rgba(17, 24, 39, 0.8) 0%, rgba(17, 24, 39, 0) 100%);
+
+}
+.slick-active {
+    .EssarClass{
+        animation: slideInRight 1s forwards;
+        top: 25% !important;
+        left: 13% !important;
+        //animation: slideInLeft 1s forwards;
+        @media only screen and (max-width: 600px) {
+            top: 15% !important;
+            left: 5% !important;
+            padding: 20px !important;
+        }
+    }
+
+    .ConvenienceClass {
+        top: 15% !important;
+        left: 7% !important;
+        animation: slideInLeft 1s forwards;
+        @media only screen and (max-width: 600px) {
+            top: 15% !important;
+            left: 5% !important;
+            padding: 20px !important;
+        }
+    }
+}
+@keyframes slideInRight {
+    from {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes slideInLeft {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@media only screen and (min-width: 1800px) and (min-height: 1169px) {
+    .Explore_Cusomer_Offer_Containar {
+        .Explore_Cusomer_Offer_Heading {
+            padding-left: 11%;
+        }
+    }
+}

@@ -1,0 +1,949 @@
+@import "variable";
+
+.who_we_are_page {
+  #footer {
+    @media only screen and (max-width: 600px) {
+      margin-top: 360px;
+    }
+  }
+
+  #as-we-advance-section {
+    @media only screen and (max-width: 600px) {
+      margin-bottom: 280px;
+    }
+  }
+}
+
+// Custom Classes
+h2 {
+  // border: 1px solid red;
+  font-size: 3rem;
+  font-weight: 600;
+  line-height: 55px;
+  letter-spacing: -0.02em;
+  text-align: left;
+  // margin: 0 auto;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  @media only screen and (max-width: 600px) {
+    // border: 1px solid blue;
+    font-size: 2.475rem;
+        font-weight: 600;
+        line-height: 45px;
+        letter-spacing: -.02em;
+        text-align: left;
+        padding-top: 20px;
+        margin-bottom: 20px;
+  }
+ 
+
+  span {
+    background: linear-gradient(
+      90deg,
+      #5f8ac7 -0.15%,
+      #5f8ac7 14.85%,
+      #78a293 42.85%,
+      #99c152 81.85%,
+      #a6ce39 99.85%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+
+// p {
+//   font-size: 1.125rem;
+//   font-weight: 500;
+//   line-height: 28px;
+//   letter-spacing: -0.01em;
+//   text-align: left;
+//   color: #4b5563;
+//   margin-bottom: 35px;
+//   text-align: justify;
+// }
+
+.circle {
+  height: 30px;
+  width: 34px;
+  border-radius: 50%;
+  background: linear-gradient(
+    90deg,
+    #5f8ac7 -0.15%,
+    #5f8ac7 14.85%,
+    #78a293 42.85%,
+    #99c152 81.85%,
+    #a6ce39 99.85%
+  );
+
+  //   -webkit-background-clip: text;
+  //   -webkit-text-fill-color: transparent;
+}
+
+.TestMoinals_Container-2 {
+  // border: 1px solid red;
+  width: 100%;
+  height: auto;
+  padding: 100px 0px 100px 0px;
+  border-radius: 64px;
+  background: linear-gradient(
+    92.86deg,
+    rgba(95, 138, 199, 0.2) 0%,
+    rgba(95, 138, 199, 0.2) 17.53%,
+    rgba(120, 162, 147, 0.2) 48.78%,
+    rgba(153, 193, 82, 0.2) 82%,
+    rgba(166, 206, 57, 0.2) 100%
+  );
+  margin-bottom: 50px;
+  @media only screen and (max-width: 600px) {
+    width: 96%;
+    margin: auto;
+    padding: 30px 15px 30px 15px;
+    border-radius: 40px;
+    // margin-right: 10px;
+    margin-bottom: 10px;
+  }
+}
+
+span {
+  background: linear-gradient(
+    90deg,
+    #5f8ac7 -0.15%,
+    #5f8ac7 14.85%,
+    #78a293 42.85%,
+    #99c152 81.85%,
+    #a6ce39 99.85%
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+// End
+.WhoWeAre_Refinery{
+  // border: 1px solid red;
+  margin-bottom: 30px;
+  margin-top: 10px;
+}
+// Banner Section Start
+.MobileView_WhoWeAre {
+  
+  display: none;
+  @media only screen and (max-width: 600px) {
+    display: block;
+  }
+  .MobileView_WhoWeAre_Img {
+    text-align:center;
+    padding-top: 30px;
+
+    img {
+      width: 90%;
+    }
+  }
+}
+
+#banner-section {
+  .banner {
+    // border: 2px solid red;
+    @media only screen and (max-width: 600px) {
+      margin-bottom: 40px;
+    }
+    .background-banner-img {
+      background: url("../images/about-us/who-we-are-bg.png");
+      height: 87vh;
+      width: 100%;
+      background-repeat: no-repeat;
+      background-size: 100%;
+      display: block;
+      
+      @media only screen and (max-width: 600px) {
+        display: flex;
+        flex-direction: column-reverse;
+        width: 100%;
+        height:auto;
+        // border: 1px solid blue;
+        border-radius: 20px;
+        background: linear-gradient(
+          92.86deg,
+          #5f8ac7 0%,
+          #5f8ac7 17.53%,
+          #78a293 48.78%,
+          #99c152 82%,
+          #a6ce39 100%
+        );
+      }
+
+      @media only screen and (min-width:1280px) and (max-width:1400px){
+        height: 80vh;
+    }
+
+      .content {
+        left: 50%;
+        @media only screen and (max-width: 600px) {
+          top: 30%;
+          left: 0;
+        }
+        @media only screen and (max-width: 567px) {
+          top:0;
+          padding:20px;
+          position: relative !important;
+        }
+
+        h5 {
+          font-weight: 800;
+          color: $white;
+          font-size: $fs-18;
+          @media only screen and (max-width: 600px) {
+            // border: 1px solid red;
+            font-size: $fs-14;
+          }
+        }
+
+        h6 {
+          color: $white;
+          font-size: $fs-18;
+          @media only screen and (max-width: 600px) {
+            font-size: $fs-14;
+          }
+        }
+      }
+    }
+  }
+
+  .animated-text {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.2s ease-out, transform 0.5s ease-out;
+    @media only screen and (min-width: 1280px) and (max-width: 1400px) {
+      padding-top: 5px;
+      // border: 1px solid red;
+      font-size: 20px;  
+    }
+    @media only screen and (max-width: 600px) {
+      // border: 1px solid red;
+      font-size: 16px;
+    }
+    @media only screen and (max-width: 400px) {
+      font-size: 14px;
+    }
+  }
+}
+
+// End
+.white-box {
+  background: #ffffff;
+}
+
+// From refinery to forecourt section Start
+
+.Explore_Cusomer_Offer_SubParentDiv {
+  width: 100%;
+  // border: 1px solid red;
+  display: flex;
+  // justify-content: center;
+  align-items: center;
+  // margin-top: 60px;
+
+  .horizontal_line {
+    background-color: #d1d5db;
+    height: 1.5px;
+    width: 100%;
+    position: absolute;
+    z-index: -1;
+    @media only screen and (max-width: 600px) {
+      width: 90%;
+    }
+  
+  }
+
+  h5 {
+    font-family: Mulish;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 2px;
+    position: relative;
+    padding-right: 24px;
+    margin-bottom: 0;
+    background: linear-gradient(
+      90deg,
+      #5f8ac7 -0.15%,
+      #5f8ac7 14.85%,
+      #78a293 42.85%,
+      #99c152 81.85%,
+      #a6ce39 99.85%
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    position: relative;
+    z-index: 9;
+    @media only screen and (max-width: 600px) {
+      font-size: 12px;
+      font-weight: 700;
+      line-height: 20px;
+    }
+  }
+}
+
+.content-heading-section {
+  margin-bottom: 48px;
+  @media only screen and (max-width: 600px) {
+    // border: 1px solid red;
+    margin-bottom: 10px;
+  }
+}
+
+.content-right-section {
+  padding-left: 130px;
+
+  @media only screen and (max-width: 600px) {
+    // border: 1px solid red;
+    padding-left: 15px;
+  }
+
+  p {
+    font-size: $fs-18;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #4b5563;
+    text-align: justify;
+    margin-bottom: 0;
+    @media only screen and (max-width: 600px) {
+      // border: 1px solid red;
+        font-size: 1rem;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: -.01em;
+        text-align: left;
+        color: #4b5563;
+        /* margin-bottom: 30px; */
+        margin-top: 15px;
+    }
+  
+  }
+}
+
+.refinery-forecourt--section {
+  /* margin: 110px 0; */
+  @media only screen and (max-width: 600px) {
+    margin: 0;
+    padding: 0px !important;
+  }
+
+  .Explore_Cusomer_Offer_firstDiv {
+    // border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+
+  .Refinery_Container_SecondDiv {
+    h2 {
+      padding: 0;
+      margin: 0;
+      line-height: 115%;
+      @media only screen and (max-width: 600px) {
+        // border: 1px solid blue;
+        font-size: 2.475rem;
+        font-weight: 600;
+        line-height: 45px;
+        letter-spacing: -.02em;
+        text-align: left;
+        padding-top: 20px;
+        margin-bottom: 20px;      }
+    }
+  }
+
+  h2 {
+    font-size: $fs-60;
+    @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+      font-size: 3rem;
+      line-height: normal;
+    }
+  }
+}
+
+// End
+
+// Quality fuels and security Section Start
+.quality-fuels-and-security {
+  margin: 120px 0;
+  @media only screen and (max-width: 600px) {
+    margin: 0;
+  }
+  .content-image {
+    width: 94%;
+    @media only screen and (max-width: 600px) {
+       width: 100%;
+        height: 275px;
+        object-fit: cover;
+        background-position: center;
+        padding: 0 15px;
+        border-radius: 36px;
+        object-position: center top;
+    }
+  }
+  .Explore_Cusomer_Offer_firstDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 30px; 
+    @media only screen and (max-width: 600px) {
+      justify-content:center;
+      align-items: center;
+
+    }
+
+    
+
+    .Explore_Cusomer_Offer_SubParentDiv {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      @media only screen and (max-width: 600px) {
+        padding: 15px 15px;
+        // border: 1px solid red;
+    }
+
+      .Explore_Cusomer_Offer_horizontal_line {
+        background-color: #d1d5db;
+        height: 1.5px;
+        width: 100%;
+        margin-left: 20px;
+        @media only screen and (max-width: 600px) {
+            // border: 1px solid; 
+        }
+      }
+    }
+  }
+
+  p {
+    font-size: $fs-18;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #4b5563;
+    margin-bottom: 35px;
+    text-align: justify;
+    @media only screen and (max-width: 600px) {
+      font-size: 1rem;
+        font-weight: 500;
+        line-height: 25px;
+        letter-spacing: -.01em;
+        text-align: left;
+        color: #4b5563;
+        margin-bottom: 30px;
+        margin-top: 15px;
+        padding: 0px 15px;
+  }
+  }
+
+  h2 {
+      font-size: $fs-40; 
+      @media only screen and (max-width: 600px) {
+        // border: 1px solid blue;
+        font-size: 1.5rem;
+        font-weight: 600;
+        line-height: 30px;
+        letter-spacing: -.02em;
+        text-align: left;
+        padding-top: 20px;
+        margin-bottom: 20px;
+        padding: 0px 15px;
+      }
+    
+  }
+}
+
+// End
+
+// Added value across Start
+
+.Explore_Cusomer_Offer_SubParentDiv {
+  width: 99%;
+  display: flex;
+  align-items: center;
+
+
+  .Explore_Cusomer_Offer_horizontal_line {
+    background-color: #d1d5db;
+    height: 1.5px;
+    width: 100%;
+    margin-left: 20px;
+  }
+}
+
+#added-value-across-section {
+  .desk-row {
+    padding-left: 25px;
+  }
+
+  .Explore_Cusomer_Offer_firstDiv {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-top: 30px;
+  }
+
+  p {
+    font-size: $fs-18;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: -0.01em;
+    text-align: left;
+    color: #4b5563;
+    margin-bottom: 35px;
+    text-align: justify;
+    @media only screen and (max-width: 600px) {
+      font-size: 1rem;
+      font-weight: 500;
+      line-height: 25px;
+      letter-spacing: -.01em;
+      text-align: left;
+      color: #4b5563;
+      margin-bottom: 30px;
+      margin-top: 0px;
+      padding: 0px 0px;
+    }
+  }
+
+  h2 {
+    font-size: $fs-40;
+    @media only screen and (max-width: 600px) {
+      font-size: 1.5rem;
+      line-height: 30px;
+      margin-bottom: 0px;
+    }
+  }
+}
+
+// End
+
+// Footer Section Start
+#footer {
+  @media only screen and (max-width: 600px) {
+    // border: 1px solid red;
+    margin-top: 310px;
+  }
+  .InviteContinerr {
+    height: 211px;
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    border-radius: 25px;
+    padding: 25px 70px;
+    background: #fff;
+    position: absolute;
+    bottom: 85%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+    box-shadow: -1px 1px 1px -2px rgba(255, 255, 255, 0.35) inset;
+    box-shadow: 0px 24px 30px 0px rgba(0, 0, 0, 0.05);
+    @media only screen and (max-width: 600px) {
+      // border: 1px solid red;
+      height: auto;
+      width: 90%;
+      bottom: 87%;
+      padding: 19px 20px;
+      display: block;
+    }
+    &::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 103%;
+      background: linear-gradient(
+        92.86deg,
+        rgba(95, 138, 199, 0.5) 0%,
+        rgba(95, 138, 199, 0.5) 17.53%,
+        rgba(120, 162, 147, 0.5) 48.78%,
+        rgba(153, 193, 82, 0.5) 82%,
+        rgba(166, 206, 57, 0.5) 100%
+      );
+      border-radius: 25px;
+      z-index: -1;
+    }
+
+    p {
+      width: 65%;
+      font-size: $fs-28;
+      font-weight: 700;
+      line-height: 36px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      background: linear-gradient(
+        90deg,
+        #5f8ac7 -0.15%,
+        #5f8ac7 14.85%,
+        #78a293 42.85%,
+        #99c152 81.85%,
+        #a6ce39 99.85%
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      @media only screen and (max-width: 600px) {
+        font-size: 1.25rem;
+          line-height: 28px;
+          width: 100% !important;
+      }
+    }
+
+    // button {
+    //   font-size: 1rem;
+    //   font-weight: 600;
+    //   line-height: 24px;
+    //   letter-spacing: -0.02em;
+    //   text-align: left;
+    //   background: linear-gradient(
+    //     92.86deg,
+    //     #5F8AC7 0%,
+    //     #5F8AC7 17.53%,
+    //     #78A293 48.78%,
+    //     #99C152 82%,
+    //     #A6CE39 100%
+    //   );
+    //   padding: 16px 22.5px 16px 22.5px;
+    //   gap: 6px;
+    //   border-radius: 0px 20px 0px 20px;
+    //   color: #F3F4F6;
+    //   outline: none;
+    //   border: none;
+    //   margin-top: 25px;
+    //   display: flex;
+    //   align-items: center;
+    //   gap: 20px;
+    //   svg {
+    //     display: none;
+    //   }
+    //   &:hover {
+    //     svg {
+    //       display: block;
+    //       padding-top: 2px;
+    //     }
+    //   }
+    // }
+  }
+
+  footer {
+    margin-top: 12rem;
+  }
+}
+
+.quality-fuels-and-security {
+  .desk-row-quality {
+    padding-bottom: 35px;
+    @media only screen and (max-width: 600px) {
+      flex-direction: column-reverse;
+      padding-bottom: 0;
+    }
+  }
+}
+
+//End
+
+#quality-fuels-and-security-section {
+  .quality-fuels-and-security {
+    .desk-row-quality {
+      padding-left: 25px;
+      /* flex-direction: column-reverse; */
+    }
+  }
+}
+
+#top-common-header {
+  .topheader {
+    .navbar {
+      // position: absolute;
+      // z-index: 999;
+      // width: 100%;
+
+      .nav-item {
+        padding: 10px 15px;
+
+        a {
+          font-size: 18px;
+          color: $color-1;
+
+          &:hover {
+            background: linear-gradient(
+              90deg,
+              #5f8ac7 -0.15%,
+              #5f8ac7 14.85%,
+              #78a293 42.85%,
+              #99c152 81.85%,
+              #a6ce39 99.85%
+            );
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+          }
+        }
+      }
+
+      .btn-primary {
+        background: linear-gradient(
+          92.86deg,
+          #5f8ac7 0,
+          #5f8ac7 17.53%,
+          #78a293 48.78%,
+          #99c152 82%,
+          #a6ce39 100%
+        );
+        padding: 16px 22.5px 16px 22.5px;
+        border-radius: 0 20px 0 20px;
+        border: none;
+      }
+
+      .navbar-nav {
+        .dropdown-menu {
+          border-radius: 20px;
+          background: linear-gradient(0deg, #fff, #fff),
+            linear-gradient(
+              92.86deg,
+              rgba(95, 138, 199, 0.4) 0,
+              rgba(95, 138, 199, 0.4) 17.53%,
+              rgba(120, 162, 147, 0.4) 48.78%,
+              rgba(153, 193, 82, 0.4) 82%,
+              rgba(166, 206, 57, 0.4) 100%
+            );
+          border-left: 0 !important;
+          border-right: 0 !important;
+          border-top: 0 !important;
+          border-image: linear-gradient(
+            92.86deg,
+            #5f8ac7 0,
+            #5f8ac7 17.53%,
+            #78a293 48.78%,
+            #99c152 82%,
+            #a6ce39 100%
+          ) !important;
+          border-image-slice: 2 !important;
+          border-bottom: 4px solid transparent !important;
+        }
+      }
+    }
+
+    .header-width {
+      width: 83% !important;
+    }
+  }
+
+  .icon-input {
+    .icon-input__icon {
+      .fa-magnifying-glass {
+        color: #000;
+      }
+    }
+  }
+}
+
+#footer {
+  .whoweare-para {
+    width: 80% !important;
+  }
+}
+
+@media only screen and (min-width: 1800px) and (min-height: 1169px) {
+  .refinery-forecourt--section {
+    .Explore_Cusomer_Offer_firstDiv {
+      padding-left: 37px !important;
+
+      .Explore_Cusomer_Offer_horizontal_line {
+        width: 82% !important;
+      }
+    }
+  }
+
+  .refinery-forecourt--section {
+    h2 {
+      padding-left: 13px;
+    }
+  }
+
+  #added-value-across-section {
+    .Explore_Cusomer_Offer_firstDiv {
+      padding-left: 44px !important;
+    }
+
+    h2 {
+      padding-left: 40px !important;
+    }
+  }
+
+  .quality-fuels-and-security {
+    .Explore_Cusomer_Offer_firstDiv {
+      // padding-left: 87px !important;
+    }
+  }
+
+  .quality-fuels-and-security-section {
+    @media only screen and (max-width: 600px) {
+      margin-bottom: 220px;
+    }
+    .quality-fuels-and-security {
+      .content {
+        // padding-left: 84px !important;
+      }
+
+      img {
+        width: 90%;
+      }
+    }
+
+    
+  }
+}
+
+@media only screen and (min-width: 1440px) and (max-width: 1900px) {
+  #added-value-across-section {
+    .added-value-across {
+      .TestMoinals_Container-2 {
+        .Explore_Cusomer_Offer_SubParentDiv {
+          padding-left: 0.5rem !important;
+        }
+      }
+
+      h2 {
+        margin-left: 7px !important;
+      }
+    }
+  }
+
+  .quality-fuels-and-security-section {
+    .quality-fuels-and-security {
+      .Explore_Cusomer_Offer_firstDiv {
+        .Explore_Cusomer_Offer_SubParentDiv {
+          padding-left: 1rem !important;
+        }
+      }
+
+      h2 {
+        margin-left: unset !important;
+        padding-left: 1rem !important;
+      }
+
+      .content {
+        p {
+          margin-left: 0.5rem !important;
+        }
+      }
+    }
+  }
+
+  #banner-section {
+    .banner {
+      .background-banner-img {
+        .content {
+          right: 10%;
+          bottom: 36% !important;
+        }
+      }
+    }
+  }
+
+  #top-common-header {
+    .topheader {
+      .navbar {
+        .nav-item {
+          font-size: 18px !important;
+          padding: 5px 5px;
+        }
+      }
+    }
+  }
+
+  #banner-section {
+    .banner {
+      .background-banner-img {
+        .content {
+          right: 10%;
+          bottom: 30%;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1360px) and (max-width: 1400px) {
+  #top-common-header {
+    .topheader {
+      .navbar {
+        .nav-item {
+          font-size: 18px !important;
+          padding: 5px 5px;
+        }
+      }
+    }
+  }
+
+  #banner-section {
+    .banner {
+      .background-banner-img .content {
+        right: 10%;
+        bottom: 23%;
+        @media only screen and (min-width: 1280px) and (max-width: 1400px) {
+          right: 10%;
+          bottom: 35%;
+        }
+      }
+    }
+  }
+
+  .refinery-forecourt--section {
+    .Explore_Cusomer_Offer_firstDiv {
+      .Explore_Cusomer_Offer_SubParentDiv {
+        .Explore_Cusomer_Offer_horizontal_line {
+          width: 72% !important;
+        }
+      }
+    }
+
+    h2 {
+      padding-left: 0rem !important;
+    }
+  }
+
+  #added-value-across-section {
+    .added-value-across {
+      .Explore_Cusomer_Offer_firstDiv {
+        padding-left: unset !important;
+      }
+    }
+
+    .supply-chain {
+      margin-left: 0px !important;
+      @media only screen and (max-width: 600px) {
+        font-size: 32px;
+        line-height: 41px;
+      }
+    }
+  }
+  
+
+  .quality-fuels-and-security-section {
+    
+    .quality-fuels-and-security {
+      .Explore_Cusomer_Offer_firstDiv {
+        .Explore_Cusomer_Offer_SubParentDiv {
+          padding-left: 0.5rem !important;
+        }
+      }
+
+      .content {
+        padding-left: 0.5rem !important;
+      }
+    }
+  }
+}

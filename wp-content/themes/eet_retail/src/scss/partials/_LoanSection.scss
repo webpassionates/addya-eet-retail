@@ -1,0 +1,340 @@
+.Loan_Agree_Main_Continer {
+  padding-top: 18px;
+  padding-bottom: 100px;
+  height: auto;
+  margin: 15px;
+  border-radius: 64px;
+  background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+  @media only screen and (max-width: 600px) {
+    // border: 1px solid black;
+    height: auto;
+    margin: 5px;
+    border-radius: 32px;
+    padding-top: 10px;
+    padding-bottom: 35px;
+ }
+  .Loan_Agree_Container_firstDiv {
+      // border: 1px solid red;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-left: 20px;
+    @media only screen and (max-width: 600px) {
+      // border: 1px solid red;
+      // display: flex;
+      // flex-direction: row;
+      // justify-content: flex-start;
+      // align-items: flex-start;
+      padding-left: 10px;
+      padding-top: 30px;
+   }
+
+    .Loan_Agree_SubParent_div {
+      // border: 1px solid red;
+      display: flex;
+      flex: auto;
+      justify-content: flex-start;
+      align-items: center;
+      margin-top: 100px;
+      padding: 0px 130px;
+      margin-bottom: 36px;
+      @media only screen and (max-width: 600px) {
+        display: flex;
+        flex: auto;
+        justify-content: flex-start;
+        align-items: center;
+        margin-top: 30px;
+        padding: 0px 0px;
+        margin-bottom: 30px;
+      }
+
+      .Loan_Agree_horizontal_line {
+        background-color: #D1D5DB;
+        height: 1.5px;
+        width: 78%;
+        margin-left: 20px;
+        @media only screen and (min-width:1280px) and (max-width:1400px){
+          width: 73%;
+          margin-left: 10px;
+        }
+        @media only screen and (max-width: 600px) {
+          width: 30%;
+          margin-left: 10px;
+        }
+        
+        @media only screen and (max-width: 400px) {
+          width: 15%;
+          margin-left: 10px;
+        }
+      };
+
+      p {
+        font-size: 0.875rem;
+        font-weight: 700;
+        line-height: 20px;
+        letter-spacing: 2px;
+        text-align: left;
+        color: #ffffff;
+        margin: auto 0;
+        @media only screen and (max-width: 600px) {
+          font-size: 0.75rem;
+          font-weight: 700;
+          line-height: 0px;
+          letter-spacing: 1px;
+        }
+      };
+
+    };
+
+
+
+  };
+
+  .Loan_Agree_Heading {
+    // border: 1px solid red;
+    @media only screen and (max-width: 600px) {
+      margin-bottom: 40px;
+    };
+    
+    h1 {
+      font-size: 3.75rem;
+      font-weight: 600;
+      line-height: 69px;
+      letter-spacing: -0.02em;
+      text-align: left;
+      color: #FFFFFF;
+      padding: 0px 120px;
+      @media only screen and (max-width: 600px) {
+        font-size: 1.875rem;
+        font-weight: 600;
+        line-height: 34.5px;
+        letter-spacing: -0.02em;
+        padding: 0px;
+      };
+      @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+        font-size: 2.75rem;
+        line-height: normal;
+      }
+    };
+  };
+
+  .Loan_Agree_DivSection {
+    // width: 86% !important;
+    margin: auto;
+    width: 84%;
+    @media only screen and (max-width: 600px) {
+      // border: 1px solid red;
+      width: 100%;
+      padding-top: 20px;
+      padding-bottom: 25px;
+    };
+
+  
+    .Loan-agree-wrapper {
+      gap: 36px;
+      a {
+        text-decoration: none;
+        color: unset;
+      }
+
+    }
+
+    .Loan_Agree_box {
+      // width: 450px; 
+      height: 550px;
+      background-color: #f0f0f0;
+      text-align: center;
+      padding: 30px;
+      position: relative;
+      border-radius: 35px;
+      overflow: hidden;
+      @media only screen and (max-width: 600px) {
+        // border: 1px solid red;
+        // height: 550px;
+        background-color: #f0f0f0;
+        text-align: center;
+        padding: 0px;
+        position: relative;
+        border-radius: 20px;
+        overflow: hidden;
+        width: 90%;
+        margin: auto;
+        // padding-top: 30px;
+      };
+      
+
+      .Loan_Agree_DivOne {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        @media only screen and (max-width: 600px) {
+          // border: 1px solid red;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          position: relative;
+          padding: 10px ;
+        };
+        
+
+        .Loan_Agree_DivOne_Heading {
+          text-align: left;
+          color: #4b5563;
+          width: 80%;
+          @media only screen and (max-width: 600px) {
+            // border: 1px solid red;
+            text-align: left;
+            color: #4b5563;
+            width: 90%;
+            padding:20px;
+          };
+          
+
+          h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            line-height: 35px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            margin: 0;
+            padding: 0;
+            @media only screen and (max-width: 600px) {
+              // border: 1px solid red;
+              font-size: 1.5rem;
+              font-weight: 700;
+              line-height: 31px;
+              letter-spacing: -0.02em;
+              text-align: left;
+              margin-bottom: 10px;
+            };
+          }
+
+          p {
+            font-size: 1.125rem;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            padding-top: 15px;
+            width: 80%;
+            @media only screen and (max-width: 600px) {
+              // border: 1px solid red;
+              font-size: 1.125rem;
+              font-weight: 500;
+              line-height: 28px;
+              letter-spacing: -0.01em;
+              text-align: left;
+              padding-top: 2px;
+              width: 100%;
+              // margin: auto;
+            };
+          }
+        }
+
+        .svg {
+          display: none;
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          @media only screen and (max-width: 600px) {
+            // border: 1px solid red;
+            display: none;
+            position: relative;
+
+            // position: absolute;
+            // top: 50%;
+            // left: 50%;
+            transform: translate(-50%, -50%);
+          };
+        }
+
+        &:hover {
+          .svg {
+            display: block;
+
+          }
+        }
+      }
+
+      .Loan_Agree_DivTwo {
+        // border: 1px solid red;
+        position: absolute;
+        bottom: -4px;
+        left: 0;
+        width: 100%;
+        transition: transform 0.3s ease;
+        @media only screen and (max-width: 600px) {
+          // border: 1px solid red;
+          // position: absolute;
+          // bottom: -4px;
+          // left: 0;
+          position: relative;
+          width: 100%;
+          transition: transform 0.3s ease;
+          transform: translate(0,5);
+        };
+
+
+        img {
+          width: 100%;
+          border-radius: 30px;
+          transition: transform 0.3s ease;
+          position: absolute;
+          bottom: -14px;
+          left: 0;
+          @media only screen and (max-width: 600px) {
+            // border: 1px solid red;
+            width: 100%;
+            position: relative;
+
+            // position: absolute;
+            // bottom: -14px;
+            // left: 0;
+          };
+      
+        }
+      }
+
+      &:hover {
+        .Loan_Agree_DivTwo img {
+          // transform: scale(1.05);
+          transform: translateY(-15px);
+        }
+      }
+    }
+  }
+
+
+}
+
+@media only screen and (min-width: 1800px) and (min-height: 1169px) {
+  .Loan_Agree_Main_Continer {
+    .Loan_Agree_Heading {
+      padding-left: 11% !important;
+    }
+  }
+
+  .Loan_Agree_Main_Continer {
+    .Loan_Agree_DivSection {
+      width: 87%;
+
+      .Loan_Agree_box {
+        width: 400px;
+      }
+    }
+
+    .Loan_Agree_horizontal_line {
+      width: 63% !important;
+    }
+  }
+}
+
+@media only screen and (min-width : 1366px) and (max-width : 1440px) {
+  .Loan_Agree_horizontal_line{
+    width: 61% !important;
+  }
+}

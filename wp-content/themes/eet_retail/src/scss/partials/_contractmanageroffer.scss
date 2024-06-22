@@ -1,0 +1,471 @@
+@import "variable";
+.page-template-contract-manager-offer-template {
+    .InviteContinerr {
+        .col-wrapper{
+            width: 100%;
+
+            .text-end {
+                text-align: end;
+            }
+        }
+    }
+}
+#contractmanager-page {
+
+    #contract-manager-banner {
+        .dealerofferbanner {
+            background: url('../images/contract-manager/banner.png');
+            height: 720px;
+            width: 98%;
+            background-repeat: no-repeat !important;
+            background-size: cover !important;
+            margin-left: 1%;
+            border-radius: $border-radius-3;
+            @media only screen and (max-width: 600px) {
+                // border: 1px solid black;
+                height:500px;
+                width: 96%;
+                margin: auto;
+                background-repeat: no-repeat !important;
+                background-size: cover !important;
+                
+                border-radius: $border-radius-3;
+            };
+        
+
+            .row-height {
+                height: 720px;
+                @media only screen and (max-width: 600px) {
+                    // border: 1px solid black;
+                    height:500px;
+                };
+            }
+
+            .banner-bg {
+                background-color: rgba(199, 199, 199, 0.2);
+                backdrop-filter: blur(22px);
+                -webkit-backdrop-filter: blur(22px);
+                position: absolute;
+                bottom: 0;
+                width: 100%;
+                right: 0;
+                height: 220px;
+                border-bottom-left-radius: $border-radius-3;
+                @media only screen and (max-width: 600px) {
+                    // border: 1px solid black;
+                    height: auto;
+                    padding: 13px 10px;
+                   border-bottom-right-radius: 45px;
+                };
+
+                h2 {
+                    padding-left: 9%;
+                    font-weight: 400;
+                    font-size: $fs-48;
+                    @media only screen and (max-width: 600px) {
+                        // border: 1px solid black;
+                        font-size: 24px;
+                        line-height: 30px;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 10px;
+                    };
+                }
+
+                p {
+                    padding-left: 9%;
+                    font-size: 20px;
+                    @media only screen and (max-width: 600px) {
+                        // border: 1px solid black;
+                        padding-left: 15px;
+                        font-size: 16px;
+                        padding-top: 10px;
+                        margin: 0;
+                        padding: 0;
+                        padding-left: 10px;
+                    };
+                }
+            }
+        }
+    }
+
+    #dealer-offer {
+        // border: 1px solid blue;
+        margin-top: 55px;
+        @media only screen and (max-width: 600px) {
+            margin-top: 0px;
+        };
+        .cont-m-offer {
+            .Explore_Cusomer_Offer_horizontal_line {
+                width: 69%;
+                @media only screen and (max-width: 600px) {
+                    width: 0%;
+                };
+
+            }
+             p {
+                @media only screen and (max-width: 600px) {
+                    // font-size: 12px;
+                    // line-height: 15px;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    line-height: 25px;
+                    letter-spacing: -.01em;
+                    text-align: left;
+                    color: #4b5563;
+                    margin-bottom: 30px;
+                    margin-top: 15px;
+                    padding: 0px 10px 0 0px;
+                };
+            }   
+            
+            .Explore_Cusomer_Offer_SubParentDiv {
+                p {
+                    @media only screen and (max-width: 600px) {
+                        padding: 0px 10px 0 20px;
+                    }
+                }
+            }
+        }
+        h2 {
+            // border: 1px solid red;
+            @media only screen and (max-width: 600px) {
+                font-size: 1.5rem;
+                font-weight: 600;
+                line-height: 30px;
+                letter-spacing: -.02em;
+                text-align: left;
+                padding-top: 20px;
+                margin-bottom: 20px;
+                padding: 0px 0px;
+            };
+        }
+
+        .contract_Class_Width{
+            width: 92%;
+        }
+    }
+
+    #key-responsibilities {
+        .keyresp {
+            // border: 1px solid red;
+            .key-img {
+                border-radius: $border-radius-8;
+                width:80%;
+                @media only screen and (max-width: 600px) {
+                    width:100%;
+                    margin: auto;
+                };
+                
+            }
+
+            h2 {
+                font-size: $fs-36; 
+                @media only screen and (max-width: 600px) {
+                    // border: 1px solid red;
+                    font-size: $fs-28; 
+                    padding-bottom: 0px;
+                };      
+            }
+
+            .img-thumbnail {
+                background: unset;
+                border: none;
+                width: 30px;
+                height: 32px;
+                @media only screen and (max-width: 600px) {
+                    width: unset;
+        height: -webkit-fill-available;
+                    // border: 1px solid red;
+                    /* width: 30px;
+                    height: 32px; */
+                };  
+            }
+
+            h5 {
+                width: 84%;
+                color: $color-2;
+                font-size: $fs-20;
+                @media only screen and (min-width:1280px) and (max-width:1400px){
+                    width: 100%;
+               }
+               @media only screen and (max-width: 600px) {
+                width: 100%;
+                font-size: $fs-16;
+               };  
+            }
+            .NewClassKey{
+                height:600px;
+                @media only screen and (min-width:1280px) and (max-width:1400px){
+                    height:550px;
+                    padding-top: 15px;
+                }
+                @media only screen and (max-width: 600px) {
+                    // border: 1px solid red;
+                    height:auto;
+                    /* padding-top: 15px; */
+                    padding: 20px 30px 0px 30px;
+                };  
+            }
+        }
+        .key_res_MB{
+            padding-bottom: 40px;
+            @media only screen and (max-width: 600px) {
+                padding-bottom: 0px;
+            }
+        }
+    }
+
+    #footer {
+        .InviteContinerr {
+            @media only screen and (max-width: 600px) {
+            bottom: 87%;
+            display: unset;
+            height: auto;
+            }
+            p {
+                width: unset;
+                font-size: $fs-32;
+                @media only screen and (max-width: 600px) {
+                    font-size: $fs-20;
+                }
+            }
+
+            h5 {
+                font-size: 18px;
+                color: $color-1;
+            }
+
+            .text-center {
+                text-align: left !important;
+            }
+        }
+    }
+
+    #key-carousel {
+        .keycarousel {
+            background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%);
+            border-radius: $border-radius-5;
+
+            @media only screen and (max-width: 600px) {
+                border-radius: 36px;
+            }
+
+
+            .slide-img {
+                height: 500px;
+                border-radius: $border-radius-3;
+                object-fit:cover;
+                @media only screen and (max-width: 600px) {
+                    // border: 1px solid red;
+                    // height: 400px;
+                    height: auto;
+                    margin-top: 20px;
+                    margin-bottom: 20px;
+                    border-radius: 24px;
+                }; 
+            }
+
+            h2 {
+                font-size: $fs-40;
+                @media only screen and (max-width: 600px) {
+                    // border: 1px solid red;
+                    font-size: 26px;
+                    margin-bottom: 0px;
+                    padding-bottom: 0;
+                }; 
+            }
+
+            .key-benefits-carousel {
+                height: 500px;
+                background: linear-gradient(92.86deg, #5f8ac7 0, #5f8ac7 17.53%, #78a293 48.78%, #99c152 82%, #a6ce39 100%);
+                border-radius: $border-radius-3;
+                @media only screen and (max-width: 600px) {
+                    // border: 1px solid red;
+                    height: auto;
+                    margin-top: 20px;
+                    border-radius: 24px;
+                }; 
+
+                .item {
+                    padding: 54px 48px 54px 48px;
+                    @media only screen and (max-width: 600px) {
+                        // border: 1px solid red;
+                        // padding: 54px 48px 54px 48px;
+                        padding: 40px;
+                        height: 200px;
+                        
+                    }; 
+                }
+
+                .key-icon {
+                    width: 32px;
+                    height: 32px;
+                    @media only screen and (max-width: 600px) {
+                            // border: 1px solid red;
+                        width: 20px;
+                        height: 20px;
+
+                    }; 
+                }
+
+                h4 {
+                    font-size: $fs-40;
+                    @media only screen and (max-width: 600px) {
+                        // border: 1px solid red;
+                        font-size: $fs-20;
+                    }; 
+                }
+
+                p {
+                    font-size: $fs-18;
+                    @media only screen and (max-width: 600px) {
+                        // border: 1px solid red;
+                        font-size: $fs-14;
+                    }; 
+                }
+
+                // .owl-dots {
+                //     text-align: left;
+                //     padding-left: 50px;
+                // }
+            }
+            .owl-theme {
+                .owl-dots {
+                    text-align: left;
+                    padding-left: 60px;
+                    @media only screen and (min-width: 1280px) and (max-width: 1400px) {
+                        margin-top: -30px;
+                      }
+                    @media only screen and (max-width: 600px) {
+                        // border: 1px solid red;
+                        padding-left: 40px;
+                        padding-bottom: 15px;
+
+                    }; 
+            
+                    .owl-dot {
+                        width: 8px;
+                        height: 8px;
+                        background-color: #ccc; 
+                        border-radius: 4px;
+                        margin-right: 10px;
+                        transition: background-color 0.3s ease;
+            
+                        &:last-child {
+                            margin-right: 0;
+                        }
+            
+                        &.active {
+                            width: 16px; 
+                            height: 8px; 
+                            background-color: #fff; 
+                            border-radius: 4px
+                        }
+            
+                        span {
+                            display: none; 
+                        }
+                    }
+                }
+            }
+            
+
+            
+        }
+    }
+
+    .InviteContinerr {
+       /*  bottom: 6.5%; */
+        display: flex;
+        align-items: center;
+        background: linear-gradient(0deg, #fff, #fff), linear-gradient(92.86deg, rgba(95, 138, 199, .4) 0, rgba(95, 138, 199, .4) 17.53%, rgba(120, 162, 147, .4) 48.78%, rgba(153, 193, 82, .4) 82%, rgba(166, 206, 57, .4) 100%) !important;
+        border-left: 0 !important;
+        border-right: 0 !important;
+        border-top: 0 !important;
+        border-image: linear-gradient(92.86deg, #5F8AC7 0, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%) !important;
+        border-image-slice: 2 !important;
+        border-bottom: 4px solid transparent !important;
+
+        .col-wrapper{
+            width: 100%;
+
+            .text-end {
+                text-align: end;
+            }
+        }
+    }
+
+    .InviteContinerr::after {
+        background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%) !important;
+    }
+
+    @media only screen and (min-width: 1800px) and (min-height: 1169px) {
+        #dealer-offer {
+            .dealeroffer {
+                .Explore_Cusomer_Offer_firstDiv {
+                    padding-left: unset !important;
+                }
+            }
+        }
+
+        #key-responsibilities {
+            .keyresp {
+                .key-img {
+                    // border: 1px solid black;
+                    width: 90% !important;
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width : 1440px) and (max-width : 1900px) {
+        #dealer-offer {
+            .dealeroffer {
+                .exp-dealer {
+                    width: 95%;
+                }
+
+                .partner-col {
+                    padding-left: 0;
+                }
+            }
+        }
+
+        #key-carousel {
+            .keycarousel {
+                h2 {
+                    padding-left: 0 !important;
+                }
+            }
+        }
+
+        #dealer-offer {
+            .cont-m-offer {
+                .Explore_Cusomer_Offer_horizontal_line {
+                    width: 69%;
+                }
+            }
+        }
+    }
+
+    @media only screen and (min-width: 1300px) and (max-width: 1400px) {
+        #dealer-offer {
+            .cont-m-offer {
+                .Explore_Cusomer_Offer_horizontal_line {
+                    width: 69%;
+                    @media only screen and (min-width:1280px) and (max-width:1400px){
+                        width: 64%;
+                    }
+                }
+            }
+        }
+    }
+
+    #footer {
+        @media only screen and (max-width: 600px) {
+          margin-top: 310px;
+        }
+      }
+
+}

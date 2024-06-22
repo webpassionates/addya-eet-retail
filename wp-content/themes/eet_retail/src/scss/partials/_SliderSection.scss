@@ -1,0 +1,95 @@
+// .Home_Slider {
+//     overflow: hidden;
+//     width: 100%;
+//     height: auto;
+//     // padding: 150px 0px 120px 0px;
+//     padding-bottom: 150px;
+  
+//     .Home_Slider_Cntainer {
+//       border: 1px solid red;
+//       display: flex;
+//       width: calc((100% / 2.5) * 2.1); 
+//       animation: scroll 30s linear infinite;
+//     }
+  
+//     .Home_slide {
+//       flex: 0 0 auto;
+//       height: 100%;
+//       min-width: calc(100% / 2.5);
+//       overflow: hidden;
+  
+//       img {
+//         display: block;
+//         object-fit: cover;
+//         width: 600px;
+//         height: 440px;
+//         border-radius: 48px
+
+//       }
+//     }
+  
+//     @keyframes scroll {
+//       0% {
+//         transform: translateX(0%);
+//       }
+//       100% {
+//         transform: translateX(-100%);
+//       }
+//     }
+//   }
+  
+
+.Home_Slider {
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  padding-bottom: 100px;
+  @media only screen and (max-width: 600px) {
+    padding-bottom: 45px;
+  }
+
+  .Home_Slider_Cntainer {
+    // border: 1px solid red;
+    display: flex;
+    width: calc((100% / 2.5) * 2.1); 
+    animation: scroll 10s linear infinite;
+  }
+
+  .Home_slide {
+    flex: 0 0 auto;
+    height: 100%;
+    min-width: calc(100% / 2.5);
+    overflow: hidden;
+
+    img {
+      display: block;
+      object-fit: cover;
+      width: 600px;
+      height: 440px;
+      border-radius: 48px;
+      @media only screen and (max-width: 600px) {
+        // border: 1px solid black;
+        width: 400px;
+        height: 290px;
+      }
+
+    }
+  }
+
+  @keyframes scroll {
+    0% {
+      transform: translateX(0%);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+} 
+.Explore_Cusomer_Offer_Button{
+  button{
+    background:unset !important;
+  }
+  button.active{
+    background: linear-gradient(92.86deg, rgba(95, 138, 199, .2) 0, rgba(95, 138, 199, .2) 17.53%, rgba(120, 162, 147, .2) 48.78%, rgba(153, 193, 82, .2) 82%, rgba(166, 206, 57, .2) 100%) !important; 
+  }
+} 

@@ -1,0 +1,214 @@
+.Refinery_Container {
+    // border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 144px;
+    padding-top: 110px;
+    padding-bottom: 110px;
+    width: 82%;
+    margin: 0 auto;
+    @media only screen and (min-width:1280px) and (max-width:1400px){
+      padding-top: 80px;
+      padding-bottom: 80px;
+      padding-left: 10px;
+    }
+    @media only screen and (max-width: 600px) {
+        // border: 1px solid black;
+        flex-direction: column;
+        width: 96%;
+        gap: 10px;
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+
+    .Refinery_Container_firstDiv {
+        width: 460px;
+        height: 430px;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: flex-start;
+        @media only screen and (max-width: 600px) {
+            // border: 1px solid black;
+            width: 100%;
+            height: auto;
+        }
+
+        
+        .SubParent_div {
+            // border: 1px solid red;
+            display: flex;
+            justify-content: flex-start;
+            align-items: center;
+            margin-top: 48px;
+            flex: auto;
+            gap: 24px;
+            @media only screen and (max-width: 600px) {
+                // border: 1px solid black;
+                // justify-content: center;
+                margin-top: 10px;
+                gap: 10px;
+            }
+
+            .Refinery_horizontal_line {
+                background-color: #D1D5DB;
+                height: 1.5px;
+                display: flex;
+                align-items: center;
+                @media only screen and (max-width: 400px) {
+                    width: 40%;
+                }
+                
+            }
+
+            p {
+                margin: 0;
+                font-size: 0.875rem;
+                font-weight: 700;
+                // line-height: 20px;
+                letter-spacing: 2px;
+                text-align: left;
+                background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                @media only screen and (max-width: 600px) {
+                    // border: 1px solid black;
+                    font-size: 0.75rem;
+                    font-weight: 600;
+                    letter-spacing: 1px;
+                    text-align: left;
+                }
+    
+            }
+
+        }
+
+
+
+    }
+
+    .Refinery_Container_SecondDiv {
+        width: 50%;
+        height: 430px;
+        @media only screen and (max-width: 600px) {
+            // border: 1px solid black;
+            width: 100%;
+            height: auto;
+        }
+
+        h2 {
+            font-size: 3.75rem;
+            font-weight: 600;
+            line-height: 69px;
+            letter-spacing: -0.02em;
+            text-align: left;
+            // margin: 0;
+            margin-bottom: 30px;
+            @media only screen and (max-width: 600px) {
+                // border: 1px solid black;
+                font-size: 2.475rem;
+                padding-top: 20px;
+                font-weight: 600;
+                line-height: 45px;
+                letter-spacing: -.02em;
+                text-align: left;
+                margin-bottom: 0px;
+            }
+
+            @media only screen and (min-width: 1024px) and (max-width: 1440px) {
+                font-size: 3rem;
+                line-height: normal;
+              }
+
+            span {
+                background: linear-gradient(90deg, #5F8AC7 -0.15%, #5F8AC7 14.85%, #78A293 42.85%, #99C152 81.85%, #A6CE39 99.85%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+            }
+        }
+
+        p {
+            font-size: 1.125rem;
+            font-weight: 500;
+            line-height: 28px;
+            letter-spacing: -0.01em;
+            text-align: left;
+            color: #4B5563;
+            margin-bottom: 30px;
+            @media only screen and (max-width: 600px) {
+                // border: 1px solid black;
+                font-size: 1rem;
+                font-weight: 500;
+                line-height: 25px;
+                letter-spacing: -.01em;
+                text-align: left;
+                color: #4b5563;
+                margin-bottom: 30px;
+                margin-top: 15px;
+            
+            }
+
+        }
+
+        // button{
+        //     font-size: 1rem;
+        //     font-weight: 600;
+        //     line-height: 24px;
+        //     letter-spacing: -0.02em;
+        //     text-align: left;
+        //     background: linear-gradient(92.86deg, #5F8AC7 0%, #5F8AC7 17.53%, #78A293 48.78%, #99C152 82%, #A6CE39 100%);
+        //     padding: 16px 22.5px 16px 22.5px;
+        //     gap: 6px;
+        //     border-radius: 0px 20px 0px 20px;
+        //     color: #F3F4F6;
+        //     outline: none;
+        //     border: none;
+        //     margin-top: 25px;
+        //     display: flex;
+        //     align-items: center;
+        //     gap: 20px;
+
+
+        //     svg {
+        //         display: none; 
+        //       }
+
+        //       &:hover { 
+        //         svg {
+        //           display: block; 
+        //           padding-top: 2px;
+        //         }
+        //       }
+        // }
+
+
+
+
+    }
+}
+
+@media only screen and (min-width: 1800px) and (min-height: 1169px) {
+    #Refinery_Container {
+        padding-left: 9%;
+
+        .Refinery_Container_firstDiv {
+            .SubParent_div {
+                .Refinery_horizontal_line {
+                    width: 68% !important;
+                }
+            }
+        }
+    }
+}
+
+// @media only screen and (min-width : 1366px) and (max-width : 1440px) {
+//     .Refinery_Container {
+//         .Refinery_Container_firstDiv {
+//             .SubParent_div {
+//                 .Refinery_horizontal_line
+//             }
+//         }
+//     }
+// }
